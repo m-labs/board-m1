@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:47:40 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -52,6 +52,38 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 9550 4500 0    60   ~ 0
+FLASH_D15
+Text Label 9550 4400 0    60   ~ 0
+FLASH_D14
+Text Label 9550 4300 0    60   ~ 0
+FLASH_D13
+Text Label 9550 4200 0    60   ~ 0
+FLASH_D12
+Text Label 9550 4100 0    60   ~ 0
+FLASH_D11
+Text Label 9550 4000 0    60   ~ 0
+FLASH_D10
+Text Label 9550 3900 0    60   ~ 0
+FLASH_D9
+Text Label 9550 3800 0    60   ~ 0
+FLASH_D8
+Text Label 9550 3700 0    60   ~ 0
+FLASH_D7
+Text Label 9550 3600 0    60   ~ 0
+FLASH_D6
+Text Label 9550 3500 0    60   ~ 0
+FLASH_D5
+Text Label 9550 3400 0    60   ~ 0
+FLASH_D4
+Text Label 9550 3300 0    60   ~ 0
+FLASH_D3
+Text Label 9550 3200 0    60   ~ 0
+FLASH_D2
+Text Label 9550 3100 0    60   ~ 0
+FLASH_D1
+Text Label 9550 3000 0    60   ~ 0
+FLASH_D0
 Text Label 6850 5000 0    60   ~ 0
 FLASH_A23
 Wire Bus Line
