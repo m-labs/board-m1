@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:08:59 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:12:19 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -53,37 +53,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Bus Line
-	9500 4250 9500 4150
-Wire Bus Line
-	9500 4150 9500 4050
-Wire Bus Line
-	9500 4050 9500 3950
-Wire Bus Line
-	9500 3950 9500 3850
-Wire Bus Line
-	9500 3850 9500 3750
-Wire Bus Line
-	9500 3750 9500 3650
-Wire Bus Line
-	9500 3650 9500 3550
-Wire Bus Line
-	9500 3550 9500 3450
-Wire Bus Line
-	9500 3450 9500 3350
-Wire Bus Line
-	9500 3350 9500 3250
-Wire Bus Line
-	9500 3250 9500 3150
-Wire Bus Line
-	9500 3150 9500 3050
-Wire Bus Line
-	9500 3050 9500 2950
-Wire Bus Line
-	9500 2950 9500 2850
-Wire Bus Line
-	9500 2850 9500 2750
-Wire Bus Line
-	9500 2750 9500 1750
+	10300 2100 9500 2100
 Wire Wire Line
 	8850 3950 9400 3950
 Wire Wire Line
@@ -145,9 +115,7 @@ Wire Wire Line
 Wire Wire Line
 	6750 5100 6400 5100
 Wire Wire Line
-	6400 5100 6400 5000
-Wire Wire Line
-	6400 5000 6400 4900
+	6400 5100 6400 4900
 Wire Wire Line
 	6400 4900 6750 4900
 Wire Wire Line
@@ -176,55 +144,9 @@ Wire Wire Line
 Wire Wire Line
 	6750 4350 6200 4350
 Wire Bus Line
-	6100 2100 6100 2350
+	6100 2100 6100 4650
 Wire Bus Line
-	6100 2350 6100 2450
-Wire Bus Line
-	6100 2450 6100 2550
-Wire Bus Line
-	6100 2550 6100 2650
-Wire Bus Line
-	6100 2650 6100 2750
-Wire Bus Line
-	6100 2750 6100 2850
-Wire Bus Line
-	6100 2850 6100 2950
-Wire Bus Line
-	6100 2950 6100 3050
-Wire Bus Line
-	6100 3050 6100 3150
-Wire Bus Line
-	6100 3150 6100 3250
-Wire Bus Line
-	6100 3250 6100 3350
-Wire Bus Line
-	6100 3350 6100 3450
-Wire Bus Line
-	6100 3450 6100 3550
-Wire Bus Line
-	6100 3550 6100 3650
-Wire Bus Line
-	6100 3650 6100 3750
-Wire Bus Line
-	6100 3750 6100 3850
-Wire Bus Line
-	6100 3850 6100 3950
-Wire Bus Line
-	6100 3950 6100 4050
-Wire Bus Line
-	6100 4050 6100 4150
-Wire Bus Line
-	6100 4150 6100 4250
-Wire Bus Line
-	6100 4250 6100 4350
-Wire Bus Line
-	6100 4350 6100 4450
-Wire Bus Line
-	6100 4450 6100 4550
-Wire Bus Line
-	6100 4550 6100 4650
-Wire Bus Line
-	9500 1750 10700 1750
+	9500 2100 9500 4250
 Entry Wire Line
 	9500 2750 9400 2850
 Entry Wire Line
@@ -257,10 +179,10 @@ Entry Wire Line
 	9500 4150 9400 4250
 Entry Wire Line
 	9500 4250 9400 4350
-Text Label 9878 1750 0    60   ~ 0
-FLASH D [15..0]
+Text Label 9528 2100 0    60   ~ 0
+FLASH_D[15..0]
 Text Label 5400 2100 0    60   ~ 0
-FLASH A [23..0]
+FLASH_A[23..0]
 Entry Wire Line
 	6100 4650 6200 4750
 Entry Wire Line
