@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:12:19 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:26:58 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card

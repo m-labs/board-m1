@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:12:19 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:26:58 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -52,101 +52,123 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 5300 2100 0    60   Input ~ 0
+FLASH_A[23..0]
+Text GLabel 5700 5250 0    60   Input ~ 0
+FLASH_CE_N
+Wire Wire Line
+	5700 5250 6750 5250
 Wire Bus Line
-	10300 2100 9500 2100
-Wire Wire Line
-	8850 3950 9400 3950
-Wire Wire Line
-	9400 4150 8850 4150
-Wire Wire Line
-	8850 4350 9400 4350
-Wire Wire Line
-	8850 3650 9400 3650
-Wire Wire Line
-	8850 3450 9400 3450
-Wire Wire Line
-	8850 3250 9400 3250
-Wire Wire Line
-	8850 3050 9400 3050
-Wire Wire Line
-	8850 2850 9400 2850
-Wire Wire Line
-	8850 2950 9400 2950
-Wire Wire Line
-	8850 3150 9400 3150
-Wire Wire Line
-	8850 3350 9400 3350
-Wire Wire Line
-	8850 3550 9400 3550
-Wire Wire Line
-	8850 3750 9400 3750
-Wire Wire Line
-	8850 4250 9400 4250
-Wire Wire Line
-	8850 4050 9400 4050
-Wire Wire Line
-	8850 3850 9400 3850
+	9500 4250 9500 2100
 Wire Bus Line
-	5300 2100 6100 2100
+	6100 4650 6100 2100
 Wire Wire Line
-	6750 4250 6200 4250
-Wire Wire Line
-	6750 4450 6200 4450
-Wire Wire Line
-	6750 4650 6200 4650
-Wire Wire Line
-	6750 4150 6200 4150
-Wire Wire Line
-	6750 3950 6200 3950
-Wire Wire Line
-	6750 3750 6200 3750
-Wire Wire Line
-	6750 3550 6200 3550
-Wire Wire Line
-	6750 3350 6200 3350
-Wire Wire Line
-	6750 3150 6200 3150
-Wire Wire Line
-	6750 2950 6200 2950
-Wire Wire Line
-	6750 2750 6200 2750
-Wire Wire Line
-	6750 2550 6200 2550
-Wire Wire Line
-	6750 5100 6400 5100
-Wire Wire Line
-	6400 5100 6400 4900
-Wire Wire Line
-	6400 4900 6750 4900
-Wire Wire Line
-	6750 5000 6400 5000
-Connection ~ 6400 5000
-Wire Wire Line
-	6750 2650 6200 2650
-Wire Wire Line
-	6750 2850 6200 2850
-Wire Wire Line
-	6750 3050 6200 3050
-Wire Wire Line
-	6750 3250 6200 3250
-Wire Wire Line
-	6750 3450 6200 3450
-Wire Wire Line
-	6750 3650 6200 3650
-Wire Wire Line
-	6750 3850 6200 3850
-Wire Wire Line
-	6750 4050 6200 4050
-Wire Wire Line
-	6750 4750 6200 4750
+	6750 4350 6200 4350
 Wire Wire Line
 	6200 4550 6750 4550
 Wire Wire Line
-	6750 4350 6200 4350
+	6750 4750 6200 4750
+Wire Wire Line
+	6750 4050 6200 4050
+Wire Wire Line
+	6750 3850 6200 3850
+Wire Wire Line
+	6750 3650 6200 3650
+Wire Wire Line
+	6750 3450 6200 3450
+Wire Wire Line
+	6750 3250 6200 3250
+Wire Wire Line
+	6750 3050 6200 3050
+Wire Wire Line
+	6750 2850 6200 2850
+Wire Wire Line
+	6750 2650 6200 2650
+Connection ~ 6400 5000
+Wire Wire Line
+	6750 5000 6400 5000
+Wire Wire Line
+	6750 4900 6400 4900
+Wire Wire Line
+	6400 4900 6400 5100
+Wire Wire Line
+	6400 5100 6750 5100
+Wire Wire Line
+	6750 2550 6200 2550
+Wire Wire Line
+	6750 2750 6200 2750
+Wire Wire Line
+	6750 2950 6200 2950
+Wire Wire Line
+	6750 3150 6200 3150
+Wire Wire Line
+	6750 3350 6200 3350
+Wire Wire Line
+	6750 3550 6200 3550
+Wire Wire Line
+	6750 3750 6200 3750
+Wire Wire Line
+	6750 3950 6200 3950
+Wire Wire Line
+	6750 4150 6200 4150
+Wire Wire Line
+	6750 4650 6200 4650
+Wire Wire Line
+	6750 4450 6200 4450
+Wire Wire Line
+	6750 4250 6200 4250
 Wire Bus Line
-	6100 2100 6100 4650
+	6100 2100 5300 2100
+Wire Wire Line
+	8850 3850 9400 3850
+Wire Wire Line
+	8850 4050 9400 4050
+Wire Wire Line
+	8850 4250 9400 4250
+Wire Wire Line
+	8850 3750 9400 3750
+Wire Wire Line
+	8850 3550 9400 3550
+Wire Wire Line
+	8850 3350 9400 3350
+Wire Wire Line
+	8850 3150 9400 3150
+Wire Wire Line
+	8850 2950 9400 2950
+Wire Wire Line
+	8850 2850 9400 2850
+Wire Wire Line
+	8850 3050 9400 3050
+Wire Wire Line
+	8850 3250 9400 3250
+Wire Wire Line
+	8850 3450 9400 3450
+Wire Wire Line
+	8850 3650 9400 3650
+Wire Wire Line
+	8850 4350 9400 4350
+Wire Wire Line
+	9400 4150 8850 4150
+Wire Wire Line
+	8850 3950 9400 3950
 Wire Bus Line
-	9500 2100 9500 4250
+	9500 2100 10300 2100
+Wire Wire Line
+	8850 5050 10050 5050
+Wire Wire Line
+	8850 5150 10050 5150
+Wire Wire Line
+	8850 5350 10050 5350
+Wire Wire Line
+	8850 5250 10050 5250
+Text GLabel 10050 5350 2    60   Input ~ 0
+FLASH_STS_N
+Text GLabel 10050 5250 2    60   Input ~ 0
+FLASH_OE_N
+Text GLabel 10050 5050 2    60   Input ~ 0
+FLASH_RESET_N
+Text GLabel 10050 5150 2    60   Input ~ 0
+FLASH_WE_N
 Entry Wire Line
 	9500 2750 9400 2850
 Entry Wire Line
