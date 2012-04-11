@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:57:52 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 09:07:04 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -37,6 +37,7 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
 LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
@@ -52,6 +53,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 9800 5300
+Wire Wire Line
+	9800 5100 9800 5300
+Wire Wire Line
+	9500 5500 10950 5500
+Wire Wire Line
+	9500 5300 10950 5300
 Connection ~ 7050 6050
 Wire Wire Line
 	7050 6150 7050 5600
@@ -69,8 +77,6 @@ Wire Wire Line
 Connection ~ 7050 5950
 Wire Bus Line
 	6750 4900 6750 2250
-Wire Wire Line
-	6350 5500 7400 5500
 Wire Bus Line
 	10150 4400 10150 2250
 Wire Wire Line
@@ -165,17 +171,42 @@ Wire Wire Line
 Wire Bus Line
 	10150 2250 10950 2250
 Wire Wire Line
-	9500 5300 10700 5300
-Wire Wire Line
-	9500 5400 10700 5400
-Wire Wire Line
-	9500 5600 10700 5600
-Wire Wire Line
-	9500 5500 10700 5500
-Wire Wire Line
 	7400 5000 6850 5000
 Connection ~ 7050 5850
 Connection ~ 7050 5700
+Wire Wire Line
+	7400 5500 5850 5500
+Wire Wire Line
+	9500 5400 10950 5400
+Wire Wire Line
+	9500 5600 10950 5600
+$Comp
+L TESTPOINT TP37
+U 1 1 4F8581C0
+P 9800 5050
+F 0 "TP37" H 9800 5050 30  0000 C CNN
+F 1 "TESTPOINT" H 9800 5050 60  0001 C CNN
+	1    9800 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F857DF9
+P 7400 2600
+F 0 "#PWR?" H 7400 2600 30  0001 C CNN
+F 1 "GND" H 7400 2530 30  0001 C CNN
+	1    7400 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F857DC0
+P 7050 6150
+F 0 "#PWR?" H 7050 6150 30  0001 C CNN
+F 1 "GND" H 7050 6080 30  0001 C CNN
+	1    7050 6150
+	1    0    0    -1  
+$EndComp
 Text GLabel 10950 2250 2    60   Input ~ 0
 FLASH_D[15..0]
 Text Label 9550 4500 0    60   ~ 0
@@ -262,15 +293,15 @@ Text Label 6850 2700 0    60   ~ 0
 FLASH_A0
 Text GLabel 5950 2250 0    60   Input ~ 0
 FLASH_A[23..0]
-Text GLabel 6350 5500 0    60   Input ~ 0
+Text GLabel 5850 5500 0    60   Input ~ 0
 FLASH_CE_N
-Text GLabel 10700 5600 2    60   Input ~ 0
+Text GLabel 10950 5600 2    60   Input ~ 0
 FLASH_STS_N
-Text GLabel 10700 5500 2    60   Input ~ 0
+Text GLabel 10950 5500 2    60   Input ~ 0
 FLASH_OE_N
-Text GLabel 10700 5300 2    60   Input ~ 0
+Text GLabel 10950 5300 2    60   Input ~ 0
 FLASH_RESET_N
-Text GLabel 10700 5400 2    60   Input ~ 0
+Text GLabel 10950 5400 2    60   Input ~ 0
 FLASH_WE_N
 Entry Wire Line
 	10150 2900 10050 3000
