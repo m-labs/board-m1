@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:26:58 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:33:45 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -52,6 +52,52 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 6200 4750 0    60   ~ 0
+FLASH_A22
+Text Label 6200 4650 0    60   ~ 0
+FLASH_A21
+Text Label 6200 4550 0    60   ~ 0
+FLASH_A20
+Text Label 6200 4450 0    60   ~ 0
+FLASH_A19
+Text Label 6200 4350 0    60   ~ 0
+FLASH_A18
+Text Label 6200 4250 0    60   ~ 0
+FLASH_A17
+Text Label 6200 4150 0    60   ~ 0
+FLASH_A16
+Text Label 6200 4050 0    60   ~ 0
+FLASH_A15
+Text Label 6200 3950 0    60   ~ 0
+FLASH_A14
+Text Label 6200 3850 0    60   ~ 0
+FLASH_A13
+Text Label 6200 3750 0    60   ~ 0
+FLASH_A12
+Text Label 6200 3650 0    60   ~ 0
+FLASH_A11
+Text Label 6200 3550 0    60   ~ 0
+FLASH_A10
+Text Label 6200 3450 0    60   ~ 0
+FLASH_A9
+Text Label 6200 3350 0    60   ~ 0
+FLASH_A8
+Text Label 6200 3250 0    60   ~ 0
+FLASH_A7
+Text Label 6200 3150 0    60   ~ 0
+FLASH_A6
+Text Label 6200 3050 0    60   ~ 0
+FLASH_A5
+Text Label 6200 2950 0    60   ~ 0
+FLASH_A4
+Text Label 6200 2850 0    60   ~ 0
+FLASH_A3
+Text Label 6200 2750 0    60   ~ 0
+FLASH_A2
+Text Label 6200 2650 0    60   ~ 0
+FLASH_A1
+Text Label 6200 2550 0    60   ~ 0
+FLASH_A0
 Text GLabel 5300 2100 0    60   Input ~ 0
 FLASH_A[23..0]
 Text GLabel 5700 5250 0    60   Input ~ 0
