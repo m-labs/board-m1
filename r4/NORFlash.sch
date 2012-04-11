@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 05:31:22 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 05:57:37 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -43,7 +43,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 8 15
 Title "Milkymist One - NOR Flash Sheet"
-Date "9 apr 2012"
+Date "11 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -51,11 +51,149 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Bus Line
+	5300 2100 6100 2100
+Wire Wire Line
+	6750 4250 6200 4250
+Wire Wire Line
+	6750 4450 6200 4450
+Wire Wire Line
+	6750 4650 6200 4650
+Wire Wire Line
+	6750 4150 6200 4150
+Wire Wire Line
+	6750 3950 6200 3950
+Wire Wire Line
+	6750 3750 6200 3750
+Wire Wire Line
+	6750 3550 6200 3550
+Wire Wire Line
+	6750 3350 6200 3350
+Wire Wire Line
+	6750 3150 6200 3150
+Wire Wire Line
+	6750 2950 6200 2950
+Wire Wire Line
+	6750 2750 6200 2750
+Wire Wire Line
+	6750 2550 6200 2550
+Wire Wire Line
+	6750 5100 6400 5100
+Wire Wire Line
+	6400 5100 6400 4900
+Wire Wire Line
+	6400 4900 6750 4900
+Wire Wire Line
+	6750 5000 6400 5000
+Connection ~ 6400 5000
+Wire Wire Line
+	6750 2450 6200 2450
+Wire Wire Line
+	6750 2650 6200 2650
+Wire Wire Line
+	6750 2850 6200 2850
+Wire Wire Line
+	6750 3050 6200 3050
+Wire Wire Line
+	6750 3250 6200 3250
+Wire Wire Line
+	6750 3450 6200 3450
+Wire Wire Line
+	6750 3650 6200 3650
+Wire Wire Line
+	6750 3850 6200 3850
+Wire Wire Line
+	6750 4050 6200 4050
+Wire Wire Line
+	6750 4750 6200 4750
+Wire Wire Line
+	6200 4550 6750 4550
+Wire Wire Line
+	6750 4350 6200 4350
+Wire Bus Line
+	6100 2100 6100 4650
+Text Label 5400 2100 0    60   ~ 0
+FLASH A [23..0]
+Entry Wire Line
+	6100 4650 6200 4750
+Entry Wire Line
+	6100 4550 6200 4650
+Entry Wire Line
+	6100 4450 6200 4550
+Entry Wire Line
+	6100 4350 6200 4450
+Entry Wire Line
+	6100 4250 6200 4350
+Entry Wire Line
+	6100 4150 6200 4250
+Entry Wire Line
+	6100 4050 6200 4150
+Entry Wire Line
+	6100 3950 6200 4050
+Entry Wire Line
+	6100 3850 6200 3950
+Entry Wire Line
+	6100 3750 6200 3850
+Entry Wire Line
+	6100 3650 6200 3750
+Entry Wire Line
+	6100 3550 6200 3650
+Entry Wire Line
+	6100 3450 6200 3550
+Entry Wire Line
+	6100 3350 6200 3450
+Entry Wire Line
+	6100 3250 6200 3350
+Entry Wire Line
+	6100 3150 6200 3250
+Entry Wire Line
+	6100 3050 6200 3150
+Entry Wire Line
+	6100 2950 6200 3050
+Entry Wire Line
+	6100 2850 6200 2950
+Entry Wire Line
+	6100 2750 6200 2850
+Entry Wire Line
+	6100 2650 6200 2750
+Entry Wire Line
+	6100 2550 6200 2650
+Entry Wire Line
+	6100 2450 6200 2550
+Entry Wire Line
+	6100 2350 6200 2450
 $Comp
-L JS28F256J3F105 U?
+L +3.3V #PWR
+U 1 1 4F855361
+P 8850 5450
+F 0 "#PWR" H 8850 5410 30  0001 C CNN
+F 1 "+3.3V" H 8850 5560 30  0000 C CNN
+	1    8850 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4F855356
+P 8850 4950
+F 0 "#PWR?" H 8850 4910 30  0001 C CNN
+F 1 "+3.3V" H 8850 5060 30  0000 C CNN
+	1    8850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 4F855317
+P 6400 4900
+F 0 "#PWR?" H 6400 4860 30  0001 C CNN
+F 1 "+3.3V" H 6400 5010 30  0000 C CNN
+	1    6400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L JS28F256J3F105 U9
 U 1 1 4F854F58
 P 7800 4150
-F 0 "U?" H 7100 6000 60  0000 C CNN
+F 0 "U9" H 7100 6000 60  0000 C CNN
 F 1 "JS28F256J3F105" H 8200 6000 60  0000 C CNN
 	1    7800 4150
 	1    0    0    -1  

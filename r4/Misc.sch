@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 05:31:22 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 05:57:37 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -43,7 +43,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 10 15
 Title "Milkymist One - Misc. Sheet"
-Date "9 apr 2012"
+Date "11 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
