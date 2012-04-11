@@ -27,7 +27,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../../kicad-libs/components
+LibDir=../../kicad-libs/components;../../../kicad-libs/components
 NetFmt=1
 HPGLSpd=20
 HPGLDm=15
