@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 05:57:37 PM CST
+EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:08:59 PM CST
 LIBS:power
 LIBS:js28f256j3f105
 LIBS:8_10-card
@@ -37,7 +37,8 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
-EELAYER 24  0
+LIBS:m1-cache
+EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
