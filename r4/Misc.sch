@@ -59,7 +59,6 @@ Text Label 10300 6300 0    60   ~ 0
 Placement (TP32, TP38-TP41) at the bottom of PCB.
 Text Label 10300 6200 0    60   ~ 0
 2. Placement LEDs above on bottom side of PCB and under corresponding connector.
-
 Text Label 10300 6100 0    60   ~ 0
 1. D18 ~ D41 is p/n: APA1606SURCK Hyper Red color.
 Connection ~ 13700 3400
