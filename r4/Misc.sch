@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Apr 2012 05:37:53 PM CST
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 05:54:24 PM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -59,94 +59,105 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	10450 7400 10350 7400
+Connection ~ 10650 8150
+Wire Wire Line
+	10650 7600 10650 8150
+Wire Wire Line
+	11250 8750 11250 8650
+Wire Wire Line
+	11250 8150 10350 8150
+Wire Wire Line
+	10350 8150 10350 8200
+Connection ~ 12800 3400
+Wire Wire Line
+	13050 3250 13050 3400
+Wire Wire Line
+	13050 3400 12800 3400
+Wire Wire Line
+	10550 5100 10550 5850
+Wire Wire Line
+	10300 5650 13300 5650
+Wire Wire Line
+	10300 3950 13300 3950
+Wire Wire Line
+	11850 3250 11850 5400
+Wire Wire Line
+	13700 3250 13700 5400
+Connection ~ 11450 5650
+Wire Wire Line
+	11450 5650 11450 5100
+Connection ~ 12400 4800
+Wire Wire Line
+	12400 4250 12400 4800
+Connection ~ 10550 4800
+Connection ~ 11450 3950
+Wire Wire Line
+	11450 3950 11450 3400
+Wire Wire Line
+	13300 5650 13300 5100
+Wire Wire Line
+	13300 3950 13300 3400
+Wire Wire Line
+	13300 4250 13300 4800
+Connection ~ 10550 3950
+Wire Wire Line
+	12400 3400 12400 3950
+Connection ~ 12400 3950
+Wire Wire Line
+	11450 4250 11450 4800
+Connection ~ 11450 4800
+Connection ~ 10550 5650
+Wire Wire Line
+	12400 5100 12400 5650
+Connection ~ 12400 5650
+Wire Wire Line
+	12800 3250 12800 5400
+Wire Wire Line
+	10950 3250 10950 5400
+Wire Wire Line
+	13300 4800 10300 4800
+Wire Wire Line
+	10550 3400 10550 4150
+Wire Wire Line
+	10550 4150 10300 4150
+Wire Wire Line
+	10300 5000 10550 5000
+Wire Wire Line
+	10550 5850 10300 5850
+Wire Wire Line
+	10550 5000 10550 4250
+Wire Wire Line
+	13700 3400 13950 3400
+Wire Wire Line
+	13950 3400 13950 3250
+Connection ~ 13700 3400
+Wire Wire Line
+	11250 8650 10350 8650
+Wire Wire Line
+	10350 8650 10350 8600
+Wire Wire Line
+	11050 7400 11400 7400
+Connection ~ 11250 7400
+Wire Wire Line
+	10850 7600 10850 8150
+Connection ~ 10850 8150
+$Comp
+L FSMRA2JH SW2
+U 1 1 4F8BEC07
+P 10750 7400
+F 0 "SW2" H 10566 7700 50  0000 C CNN
+F 1 "FSMRA2JH" H 10680 7632 50  0000 C CNN
+	1    10750 7400
+	1    0    0    -1  
+$EndComp
 Text Label 11550 8650 0    60   ~ 0
 button is all we need, and removed them.
 Text Label 11550 8550 0    60   ~ 0
 and SW3 (and BTN1/3), but we found that one
 Text Label 11550 8450 0    60   ~ 0
 About the numbering: there used to be also SW1
-Connection ~ 10850 8150
-Wire Wire Line
-	10850 7600 10850 8150
-Connection ~ 11250 7400
-Wire Wire Line
-	11050 7400 11400 7400
-Wire Wire Line
-	10350 8600 10350 8650
-Wire Wire Line
-	10350 8650 11250 8650
-Connection ~ 13700 3400
-Wire Wire Line
-	13950 3250 13950 3400
-Wire Wire Line
-	13950 3400 13700 3400
-Wire Wire Line
-	10550 4250 10550 5000
-Wire Wire Line
-	10300 5850 10550 5850
-Wire Wire Line
-	10550 5000 10300 5000
-Wire Wire Line
-	10300 4150 10550 4150
-Wire Wire Line
-	10550 4150 10550 3400
-Wire Wire Line
-	10300 4800 13300 4800
-Wire Wire Line
-	10950 3250 10950 5400
-Wire Wire Line
-	12800 3250 12800 5400
-Connection ~ 12400 5650
-Wire Wire Line
-	12400 5100 12400 5650
-Connection ~ 10550 5650
-Connection ~ 11450 4800
-Wire Wire Line
-	11450 4250 11450 4800
-Connection ~ 12400 3950
-Wire Wire Line
-	12400 3400 12400 3950
-Connection ~ 10550 3950
-Wire Wire Line
-	13300 4800 13300 4250
-Wire Wire Line
-	13300 3400 13300 3950
-Wire Wire Line
-	13300 5100 13300 5650
-Wire Wire Line
-	11450 3950 11450 3400
-Connection ~ 11450 3950
-Connection ~ 10550 4800
-Wire Wire Line
-	12400 4250 12400 4800
-Connection ~ 12400 4800
-Wire Wire Line
-	11450 5650 11450 5100
-Connection ~ 11450 5650
-Wire Wire Line
-	13700 3250 13700 5400
-Wire Wire Line
-	11850 3250 11850 5400
-Wire Wire Line
-	13300 3950 10300 3950
-Wire Wire Line
-	13300 5650 10300 5650
-Wire Wire Line
-	10550 5850 10550 5100
-Wire Wire Line
-	12800 3400 13050 3400
-Wire Wire Line
-	13050 3400 13050 3250
-Connection ~ 12800 3400
-Wire Wire Line
-	10350 8200 10350 8150
-Wire Wire Line
-	10350 8150 11250 8150
-Wire Wire Line
-	11250 8650 11250 8750
-Wire Wire Line
-	10650 7600 10650 8150
-Connection ~ 10650 8150
 Text GLabel 11400 7400 2    60   Input ~ 0
 BTN2
 $Comp
@@ -197,19 +208,10 @@ $EndComp
 $Comp
 L 3V3 #PWR?
 U 1 1 4F8BE708
-P 10450 7400
-F 0 "#PWR?" H 10450 7360 30  0001 C CNN
-F 1 "3V3" H 10450 7510 60  0000 C CNN
-	1    10450 7400
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_PUSH SW2
-U 1 1 4F8BE699
-P 10750 7400
-F 0 "SW2" H 10900 7510 50  0000 C CNN
-F 1 "FSMRA2JH" H 10750 7320 50  0000 C CNN
-	1    10750 7400
+P 10350 7400
+F 0 "#PWR?" H 10350 7360 30  0001 C CNN
+F 1 "3V3" H 10350 7510 60  0000 C CNN
+	1    10350 7400
 	1    0    0    -1  
 $EndComp
 Text Label 10300 6300 0    60   ~ 0
