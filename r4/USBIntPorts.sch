@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Apr 2012 12:18:25 CST
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 13:55:41 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -41,6 +41,7 @@ LIBS:c
 LIBS:led
 LIBS:r
 LIBS:pwr
+LIBS:con
 LIBS:m1-cache
 EELAYER 24  0
 EELAYER END
