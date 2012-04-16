@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 16:41:41 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -37,14 +36,21 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
 LIBS:m1-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-encoding utf-8
 Sheet 2 15
 Title "Milkymist One - Video-In Sheet"
-Date "11 apr 2012"
+Date "16 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -52,4 +58,718 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Label 4950 7450 0    60   ~ 0
+XTAL
+Text Label 6350 7450 2    60   ~ 0
+XTAL1
+Connection ~ 6000 7450
+Wire Wire Line
+	6350 7450 5950 7450
+Connection ~ 5300 7900
+Wire Wire Line
+	5300 7450 5300 8000
+Wire Wire Line
+	5300 7900 5400 7900
+Connection ~ 5300 8500
+Wire Wire Line
+	5300 8600 5300 8400
+Wire Wire Line
+	1950 7000 1950 6900
+Wire Wire Line
+	1550 6400 1550 6500
+Wire Wire Line
+	2350 6500 2350 6400
+Wire Wire Line
+	2350 6400 1150 6400
+Wire Wire Line
+	1150 6500 1150 6300
+Wire Wire Line
+	1150 6900 1150 7100
+Connection ~ 1150 6400
+Wire Wire Line
+	1950 6400 1950 6500
+Wire Wire Line
+	1550 7000 1550 6900
+Connection ~ 1150 7000
+Wire Wire Line
+	2350 6900 2350 7000
+Wire Wire Line
+	2350 7000 1150 7000
+Connection ~ 1550 6400
+Connection ~ 1950 6400
+Connection ~ 1950 7000
+Connection ~ 1550 7000
+Connection ~ 1550 8100
+Connection ~ 1950 8100
+Connection ~ 1950 7500
+Connection ~ 1550 7500
+Wire Wire Line
+	1150 8100 2350 8100
+Wire Wire Line
+	2350 8100 2350 8000
+Connection ~ 1150 8100
+Wire Wire Line
+	1550 8100 1550 8000
+Wire Wire Line
+	1950 7500 1950 7600
+Connection ~ 1150 7500
+Wire Wire Line
+	1150 8200 1150 8000
+Wire Wire Line
+	1150 7400 1150 7600
+Connection ~ 3450 9250
+Wire Wire Line
+	3450 9150 3450 9350
+Wire Wire Line
+	3900 8750 3900 8650
+Wire Wire Line
+	3900 8650 3450 8650
+Wire Wire Line
+	3450 8650 3450 8750
+Wire Wire Line
+	3900 9150 3900 9250
+Wire Wire Line
+	3900 9250 3450 9250
+Wire Wire Line
+	1350 8650 1150 8650
+Wire Wire Line
+	1150 8550 1150 8750
+Wire Wire Line
+	1150 9150 1150 9350
+Connection ~ 1150 8650
+Wire Wire Line
+	2200 8650 2200 8750
+Connection ~ 2200 8650
+Wire Wire Line
+	2050 8650 2800 8650
+Wire Wire Line
+	2200 9350 2200 9150
+Wire Wire Line
+	2200 10500 2200 10300
+Wire Wire Line
+	3450 10400 3900 10400
+Wire Wire Line
+	3900 10400 3900 10300
+Wire Wire Line
+	2050 9800 2800 9800
+Connection ~ 2200 9800
+Wire Wire Line
+	2200 9900 2200 9800
+Wire Wire Line
+	2000 10850 2000 10700
+Wire Wire Line
+	2000 10700 1150 10700
+Connection ~ 12500 3200
+Wire Wire Line
+	12500 3200 12500 3100
+Wire Wire Line
+	12900 2700 12900 2600
+Wire Wire Line
+	12900 2600 11600 2600
+Connection ~ 12500 2100
+Wire Wire Line
+	12900 2100 12900 2000
+Connection ~ 12900 1500
+Wire Wire Line
+	12900 1500 12900 1600
+Wire Wire Line
+	13600 3200 12050 3200
+Wire Wire Line
+	12050 3200 12050 3100
+Connection ~ 11050 2600
+Wire Wire Line
+	11050 2750 11050 2100
+Connection ~ 12050 2100
+Connection ~ 12050 2600
+Wire Wire Line
+	12050 2700 12050 2000
+Connection ~ 1150 9800
+Wire Wire Line
+	1150 10300 1150 10500
+Wire Wire Line
+	1150 9700 1150 9900
+Wire Wire Line
+	1150 10700 1150 10850
+Wire Wire Line
+	11050 2100 11200 2100
+Wire Wire Line
+	11200 2600 11050 2600
+Wire Wire Line
+	12050 1600 12050 1500
+Wire Wire Line
+	12050 1500 13600 1500
+Wire Wire Line
+	12500 1500 12500 1600
+Connection ~ 12500 1500
+Wire Wire Line
+	12500 2100 12500 2000
+Wire Wire Line
+	13600 2100 11600 2100
+Connection ~ 12900 2100
+Wire Wire Line
+	12500 2600 12500 2700
+Connection ~ 12500 2600
+Wire Wire Line
+	12900 3200 12900 3100
+Connection ~ 12900 3200
+Wire Wire Line
+	1350 9800 1150 9800
+Wire Wire Line
+	3450 9900 3450 9800
+Wire Wire Line
+	3450 9800 3900 9800
+Wire Wire Line
+	3900 9800 3900 9900
+Wire Wire Line
+	3450 10300 3450 10500
+Connection ~ 3450 10400
+Wire Wire Line
+	1150 7500 2350 7500
+Wire Wire Line
+	2350 7500 2350 7600
+Wire Wire Line
+	1550 7500 1550 7600
+Wire Wire Line
+	1950 8000 1950 8100
+Wire Wire Line
+	6000 8400 6000 8500
+Wire Wire Line
+	6000 8500 5300 8500
+Wire Wire Line
+	6000 7900 5900 7900
+Wire Wire Line
+	6000 7450 6000 8000
+Connection ~ 6000 7900
+Wire Wire Line
+	4950 7450 5350 7450
+Connection ~ 5300 7450
+$Comp
+L CRYSTAL Y2
+U 1 1 4F8BD9C3
+P 5650 7450
+F 0 "Y2" H 5650 7600 60  0000 C CNN
+F 1 "CRYSTAL" H 5650 7300 60  0001 C CNN
+F 3 "http://downloads.qi-hardware.com/hardware/milkymist_one/datasheet/VideoIn/Qi%20R49SSA-028636-F20-YYY-YQA.pdf" H 5650 7450 60  0001 C CNN
+F 4 "R49SSA-028636-F20-YYY-YQA" H 5650 7450 60  0001 C CNN "P/N"
+	1    5650 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8BD624
+P 5300 8600
+F 0 "#PWR?" H 5300 8600 30  0001 C CNN
+F 1 "GND" H 5300 8530 30  0001 C CNN
+	1    5300 8600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C226
+U 1 1 4F8BD5DA
+P 6000 8200
+F 0 "C226" H 6050 8300 50  0000 L CNN
+F 1 "33pF" H 6050 8100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_8.pdf" H 6000 8200 60  0001 C CNN
+F 4 "CC0402JRNPO9BN330" H 6000 8200 60  0001 C CNN "P/N"
+	1    6000 8200
+	1    0    0    -1  
+$EndComp
+Text Notes 1100 11100 0    60   ~ 0
+Place this connection between two planes under U21 chip.
+$Comp
+L 1V8 #PWR?
+U 1 1 4F8BD4C3
+P 1150 6300
+F 0 "#PWR?" H 1150 6260 30  0001 C CNN
+F 1 "1V8" H 1150 6410 60  0000 C CNN
+	1    1150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8BD4A8
+P 1150 7100
+F 0 "#PWR?" H 1150 7100 30  0001 C CNN
+F 1 "GND" H 1150 7030 30  0001 C CNN
+	1    1150 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C208
+U 1 1 4F8BD4A7
+P 1150 6700
+F 0 "C208" H 1200 6800 50  0000 L CNN
+F 1 "100nF" H 1200 6600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1150 6700 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1150 6700 60  0001 C CNN "P/N"
+	1    1150 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C209
+U 1 1 4F8BD4A6
+P 1550 6700
+F 0 "C209" H 1600 6800 50  0000 L CNN
+F 1 "100nF" H 1600 6600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1550 6700 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1550 6700 60  0001 C CNN "P/N"
+	1    1550 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C210
+U 1 1 4F8BD4A5
+P 1950 6700
+F 0 "C210" H 2000 6800 50  0000 L CNN
+F 1 "10nF" H 2000 6600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 1950 6700 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 1950 6700 60  0001 C CNN "P/N"
+	1    1950 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C211
+U 1 1 4F8BD4A4
+P 2350 6700
+F 0 "C211" H 2400 6800 50  0000 L CNN
+F 1 "10nF" H 2400 6600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2350 6700 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2350 6700 60  0001 C CNN "P/N"
+	1    2350 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 1350 7100 0    60   ~ 0
+DVDD decoupling
+Text Notes 1350 8200 0    60   ~ 0
+DVDDIO decoupling
+$Comp
+L C C219
+U 1 1 4F8BD3F1
+P 2350 7800
+F 0 "C219" H 2400 7900 50  0000 L CNN
+F 1 "10nF" H 2400 7700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2350 7800 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2350 7800 60  0001 C CNN "P/N"
+	1    2350 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C218
+U 1 1 4F8BD3E3
+P 1950 7800
+F 0 "C218" H 2000 7900 50  0000 L CNN
+F 1 "10nF" H 2000 7700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 1950 7800 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 1950 7800 60  0001 C CNN "P/N"
+	1    1950 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C217
+U 1 1 4F8BD3DA
+P 1550 7800
+F 0 "C217" H 1600 7900 50  0000 L CNN
+F 1 "100nF" H 1600 7700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1550 7800 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1550 7800 60  0001 C CNN "P/N"
+	1    1550 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C216
+U 1 1 4F8BD3CB
+P 1150 7800
+F 0 "C216" H 1200 7900 50  0000 L CNN
+F 1 "100nF" H 1200 7700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1150 7800 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1150 7800 60  0001 C CNN "P/N"
+	1    1150 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8BD3BF
+P 1150 8200
+F 0 "#PWR?" H 1150 8200 30  0001 C CNN
+F 1 "GND" H 1150 8130 30  0001 C CNN
+	1    1150 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8BD3BE
+P 1150 7400
+F 0 "#PWR?" H 1150 7360 30  0001 C CNN
+F 1 "3V3" H 1150 7510 60  0000 C CNN
+	1    1150 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C220
+U 1 1 4F8BD371
+P 3450 8950
+F 0 "C220" H 3500 9050 50  0000 L CNN
+F 1 "100nF" H 3500 8850 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3450 8950 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3450 8950 60  0001 C CNN "P/N"
+	1    3450 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C221
+U 1 1 4F8BD370
+P 3900 8950
+F 0 "C221" H 3950 9050 50  0000 L CNN
+F 1 "10nF" H 3950 8850 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3900 8950 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3900 8950 60  0001 C CNN "P/N"
+	1    3900 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BD36F
+P 3450 9350
+F 0 "#PWR?" H 3450 9350 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 3450 9250 40  0000 C CNN
+	1    3450 9350
+	1    0    0    -1  
+$EndComp
+Text Label 3450 8650 0    60   ~ 0
+VIDEOIN_A3V3
+Text Notes 3550 9350 0    60   ~ 0
+AVDD decoupling
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8BD32D
+P 1150 8550
+F 0 "#PWR?" H 1150 8510 30  0001 C CNN
+F 1 "3V3" H 1150 8660 60  0000 C CNN
+	1    1150 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8BD323
+P 1150 9350
+F 0 "#PWR?" H 1150 9350 30  0001 C CNN
+F 1 "GND" H 1150 9280 30  0001 C CNN
+	1    1150 9350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C222
+U 1 1 4F8BD321
+P 1150 8950
+F 0 "C222" H 1200 9050 50  0000 L CNN
+F 1 "10uF" H 1200 8850 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1150 8950 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 1150 8950 60  0001 C CNN "P/N"
+	1    1150 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C223
+U 1 1 4F8BD320
+P 2200 8950
+F 0 "C223" H 2250 9050 50  0000 L CNN
+F 1 "10uF" H 2250 8850 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2200 8950 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 2200 8950 60  0001 C CNN "P/N"
+	1    2200 8950
+	1    0    0    -1  
+$EndComp
+$Comp
+L FILTER L17
+U 1 1 4F8BD31F
+P 1700 8650
+F 0 "L17" H 1700 8800 60  0000 C CNN
+F 1 "CB100505T-601Y" H 1700 8550 60  0000 C CNN
+F 3 "http://downloads.qi-hardware.com/hardware/milkymist_one/datasheet/Audio/CB100505T-601Y.pdf" H 1700 8650 60  0001 C CNN
+F 4 "CB100505T-601Y" H 1700 8650 60  0001 C CNN "P/N"
+F 5 "300mA" H 2000 8800 60  0000 C CNN "Rated Current(Max.)"
+	1    1700 8650
+	1    0    0    -1  
+$EndComp
+Text Label 2800 8650 2    60   ~ 0
+VIDEOIN_A3V3
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BD31E
+P 2200 9350
+F 0 "#PWR?" H 2200 9350 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 2200 9250 40  0000 C CNN
+	1    2200 9350
+	1    0    0    -1  
+$EndComp
+Text Notes 3550 10500 0    60   ~ 0
+PVDD decoupling
+Text Label 3450 9800 0    60   ~ 0
+VIDEOIN_A1V8
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BCF52
+P 2200 10500
+F 0 "#PWR?" H 2200 10500 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 2200 10400 40  0000 C CNN
+	1    2200 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BCF3C
+P 3450 10500
+F 0 "#PWR?" H 3450 10500 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 3450 10400 40  0000 C CNN
+	1    3450 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C229
+U 1 1 4F8BCECF
+P 3900 10100
+F 0 "C229" H 3950 10200 50  0000 L CNN
+F 1 "10nF" H 3950 10000 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3900 10100 60  0001 C CNN
+F 4 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3900 10100 60  0001 C CNN "P/N"
+	1    3900 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C228
+U 1 1 4F8BCEAC
+P 3450 10100
+F 0 "C228" H 3500 10200 50  0000 L CNN
+F 1 "100nF" H 3500 10000 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3450 10100 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3450 10100 60  0001 C CNN "P/N"
+	1    3450 10100
+	1    0    0    -1  
+$EndComp
+Text Label 2800 9800 2    60   ~ 0
+VIDEOIN_A1V8
+$Comp
+L FILTER L18
+U 1 1 4F8BCCA8
+P 1700 9800
+F 0 "L18" H 1700 9950 60  0000 C CNN
+F 1 "CB100505T-601Y" H 1700 9700 60  0000 C CNN
+F 3 "http://downloads.qi-hardware.com/hardware/milkymist_one/datasheet/Audio/CB100505T-601Y.pdf" H 1700 9800 60  0001 C CNN
+F 4 "CB100505T-601Y" H 1700 9800 60  0001 C CNN "P/N"
+F 5 "300mA" H 2000 9950 60  0000 C CNN "Rated Current(Max.)"
+	1    1700 9800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C231
+U 1 1 4F8BC71B
+P 2200 10100
+F 0 "C231" H 2250 10200 50  0000 L CNN
+F 1 "10uF" H 2250 10000 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2200 10100 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 2200 10100 60  0001 C CNN "P/N"
+	1    2200 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C230
+U 1 1 4F8BC6DF
+P 1150 10100
+F 0 "C230" H 1200 10200 50  0000 L CNN
+F 1 "10uF" H 1200 10000 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1150 10100 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 1150 10100 60  0001 C CNN "P/N"
+	1    1150 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1V8 #PWR?
+U 1 1 4F8BC6CC
+P 1150 9700
+F 0 "#PWR?" H 1150 9660 30  0001 C CNN
+F 1 "1V8" H 1150 9810 60  0000 C CNN
+	1    1150 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BC684
+P 2000 10850
+F 0 "#PWR?" H 2000 10850 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 2000 10750 40  0000 C CNN
+	1    2000 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VIDEOIN_AGND #PWR?
+U 1 1 4F8BC623
+P 11050 2750
+F 0 "#PWR?" H 11050 2750 40  0001 C CNN
+F 1 "VIDEOIN_AGND" H 11050 2650 40  0000 C CNN
+	1    11050 2750
+	1    0    0    -1  
+$EndComp
+Text Label 13600 3200 2    60   ~ 0
+CAPC2
+Text Label 13600 1500 2    60   ~ 0
+CAPY1
+Text Label 13600 2100 2    60   ~ 0
+CAPY2
+$Comp
+L C C200
+U 1 1 4F8BC1C5
+P 12900 2900
+F 0 "C200" H 12950 3000 50  0000 L CNN
+F 1 "100pF" H 12950 2800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 12900 2900 60  0001 C CNN
+F 4 "CC0402KRX7R9BB101" H 12900 2900 60  0001 C CNN "P/N"
+	1    12900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C193
+U 1 1 4F8BC17C
+P 12900 1800
+F 0 "C193" H 12950 1900 50  0000 L CNN
+F 1 "100pF" H 12950 1700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 12900 1800 60  0001 C CNN
+F 4 "CC0402KRX7R9BB101" H 12900 1800 60  0001 C CNN "P/N"
+	1    12900 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C199
+U 1 1 4F8BC170
+P 12500 2900
+F 0 "C199" H 12550 3000 50  0000 L CNN
+F 1 "100nF" H 12550 2800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12500 2900 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 12500 2900 60  0001 C CNN "P/N"
+	1    12500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C192
+U 1 1 4F8BC145
+P 12500 1800
+F 0 "C192" H 12550 1900 50  0000 L CNN
+F 1 "100nF" H 12550 1700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12500 1800 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 12500 1800 60  0001 C CNN "P/N"
+	1    12500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C196
+U 1 1 4F8BC0FC
+P 11400 2600
+F 0 "C196" V 11200 2600 50  0000 L CNN
+F 1 "100nF" V 11550 2600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 11400 2600 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 11400 2600 60  0001 C CNN "P/N"
+	1    11400 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L C C194
+U 1 1 4F8BC097
+P 11400 2100
+F 0 "C194" V 11200 2100 50  0000 L CNN
+F 1 "100nF" V 11550 2100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 11400 2100 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 11400 2100 60  0001 C CNN "P/N"
+	1    11400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L C_P C198
+U 1 1 4F8BC06D
+P 12050 2900
+F 0 "C198" H 12100 3000 50  0000 L CNN
+F 1 "10uF" H 12100 2800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12050 2900 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 12050 2900 60  0001 C CNN "P/N"
+	1    12050 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADV7181C U?
+U 1 1 4F8BBFDD
+P 8950 5350
+F 0 "U?" H 7800 6250 60  0000 C CNN
+F 1 "ADV7181C" H 8950 5350 60  0000 C CNN
+	1    8950 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C191
+U 1 1 4F8B9979
+P 12050 1800
+F 0 "C191" H 12100 1900 50  0000 L CNN
+F 1 "10uF" H 12100 1700 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12050 1800 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 12050 1800 60  0001 C CNN "P/N"
+	1    12050 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP11
+U 1 1 4F8B9347
+P 5350 9450
+F 0 "TP11" H 5350 9650 60  0000 C CNN
+F 1 "TESTPOINT" H 5350 9450 60  0001 C CNN
+	1    5350 9450
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F87F674
+P 1150 10850
+F 0 "#PWR?" H 1150 10850 30  0001 C CNN
+F 1 "GND" H 1150 10780 30  0001 C CNN
+	1    1150 10850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C225
+U 1 1 4F87F300
+P 5300 8200
+F 0 "C225" H 5350 8300 50  0000 L CNN
+F 1 "33pF" H 5350 8100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_8.pdf" H 5300 8200 60  0001 C CNN
+F 4 "CC0402JRNPO9BN330" H 5300 8200 60  0001 C CNN "P/N"
+	1    5300 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F87F29A
+P 1150 10500
+F 0 "#PWR?" H 1150 10500 30  0001 C CNN
+F 1 "GND" H 1150 10430 30  0001 C CNN
+	1    1150 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R154
+U 1 1 4F87EC18
+P 5650 7900
+F 0 "R154" V 5570 7900 50  0000 C CNN
+F 1 "1M" V 5740 7900 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5650 7900 60  0001 C CNN
+F 4 "RC0402FR-071ML" V 5650 7900 60  0001 C CNN "P/N"
+	1    5650 7900
+	0    1    1    0   
+$EndComp
+$Comp
+L EZJ-Z0V80010 V5
+U 1 1 4F87EB53
+P 4950 9500
+F 0 "V5" H 4850 9500 50  0000 C CNN
+F 1 "	V9MLA0402LNH" V 5050 9500 50  0000 C CNN
+F 3 "http://www.littelfuse.com/data/en/Data_Sheets/Littelfuse_MLV_MLA.pdf" H 4950 9500 60  0001 C CNN
+F 4 "V9MLA0402LNH" V 4950 9500 60  0001 C CNN "P/N"
+	1    4950 9500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

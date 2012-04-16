@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2012 12:00:27 CST
+update=Mon 16 Apr 2012 16:35:04 CST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -101,3 +101,6 @@ LibName39=c
 LibName40=led
 LibName41=r
 LibName42=pwr
+LibName43=con
+LibName44=filter
+LibName45=crystal
