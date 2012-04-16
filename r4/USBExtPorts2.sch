@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Fri 13 Apr 2012 20:30:19 CST
-LIBS:power
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 12:14:33 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -38,15 +37,17 @@ LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
 LIBS:testpoint
-LIBS:common
-LIBS:device
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
 LIBS:m1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
 Sheet 4 15
 Title "Milkymist One - External USB ports C/D Sheet"
-Date "13 apr 2012"
+Date "16 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -54,6 +55,78 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C85
+P 12350 2650
+F 0 "#PWR?" H 12350 2610 30  0001 C CNN
+F 1 "3V3" H 12350 2760 60  0000 C CNN
+	1    12350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C77
+P 6150 6900
+F 0 "#PWR?" H 6150 6860 30  0001 C CNN
+F 1 "3V3" H 6150 7010 60  0000 C CNN
+	1    6150 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C6C
+P 4650 6900
+F 0 "#PWR?" H 4650 6860 30  0001 C CNN
+F 1 "3V3" H 4650 7010 60  0000 C CNN
+	1    4650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C60
+P 6550 5850
+F 0 "#PWR?" H 6550 5810 30  0001 C CNN
+F 1 "3V3" H 6550 5960 60  0000 C CNN
+	1    6550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C57
+P 6550 2600
+F 0 "#PWR?" H 6550 2560 30  0001 C CNN
+F 1 "3V3" H 6550 2710 60  0000 C CNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C53
+P 6150 3650
+F 0 "#PWR?" H 6150 3610 30  0001 C CNN
+F 1 "3V3" H 6150 3760 60  0000 C CNN
+	1    6150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8B9C1E
+P 4650 3650
+F 0 "#PWR?" H 4650 3610 30  0001 C CNN
+F 1 "3V3" H 4650 3760 60  0000 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L USBEXT5V #PWR?
+U 1 1 4F8B9BE4
+P 10450 3050
+F 0 "#PWR?" H 10450 3010 30  0001 C CNN
+F 1 "USBEXT5V" H 10450 3160 60  0000 C CNN
+	1    10450 3050
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	4800 4100 4000 4100
 Text GLabel 12400 7050 2    50   UnSpc ~ 0
@@ -463,7 +536,7 @@ F 1 "GND" H 11500 5330 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C267
+L C_P C267
 U 1 1 4F87FE2E
 P 11500 5050
 F 0 "C267" H 11550 5150 50  0000 L CNN
@@ -474,7 +547,7 @@ F 4 "T520B157M006ATE070" H 11500 5050 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C269
+L C_P C269
 U 1 1 4F87FCF4
 P 11500 6200
 F 0 "C269" H 11550 6300 50  0000 L CNN
@@ -526,15 +599,6 @@ F 1 "67298-4090" H 11450 6800 60  0001 C CNN
 F 3 "http://www.molex.com/pdm_docs/sd/672984090_sd.pdf" H 11500 7250 60  0001 C CNN
 F 4 "67298-4090" H 11500 7250 60  0001 C CNN "P/N"
 	1    11500 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F87FADE
-P 12350 2650
-F 0 "#PWR?" H 12350 2610 30  0001 C CNN
-F 1 "+3.3V" H 12350 2760 30  0000 C CNN
-	1    12350 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -644,15 +708,6 @@ F 4 "V0402MHS03" V 7000 7900 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
-U 1 1 4F87F5B2
-P 4650 6900
-F 0 "#PWR?" H 4650 6860 30  0001 C CNN
-F 1 "+3.3V" H 4650 7010 30  0000 C CNN
-	1    4650 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R190
 U 1 1 4F87F5B1
 P 6550 7250
@@ -694,15 +749,6 @@ USBD_VP
 Text GLabel 3850 7550 0    50   BiDi ~ 0
 USBD_VM
 $Comp
-L +3.3V #PWR?
-U 1 1 4F87F5AA
-P 6150 6900
-F 0 "#PWR?" H 6150 6860 30  0001 C CNN
-F 1 "+3.3V" H 6150 7010 30  0000 C CNN
-	1    6150 6900
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R191
 U 1 1 4F87F5A9
 P 6550 7500
@@ -740,15 +786,6 @@ P 6550 6650
 F 0 "#PWR?" H 6550 6650 30  0001 C CNN
 F 1 "GND" H 6550 6580 30  0001 C CNN
 	1    6550 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F87F5A5
-P 6550 5850
-F 0 "#PWR?" H 6550 5810 30  0001 C CNN
-F 1 "+3.3V" H 6550 5960 30  0000 C CNN
-	1    6550 5850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -858,15 +895,6 @@ F 4 "C1005X5R0J105KT" H 6950 3000 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
-U 1 1 4F87F2A9
-P 6550 2600
-F 0 "#PWR?" H 6550 2560 30  0001 C CNN
-F 1 "+3.3V" H 6550 2710 30  0000 C CNN
-	1    6550 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR?
 U 1 1 4F87F29A
 P 6550 3400
@@ -905,15 +933,6 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 6550 42
 F 4 "RC0402FR-0724RL" V 6550 4250 60  0001 C CNN "P/N"
 	1    6550 4250
 	0    1    1    0   
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F87F0ED
-P 6150 3650
-F 0 "#PWR?" H 6150 3610 30  0001 C CNN
-F 1 "+3.3V" H 6150 3760 30  0000 C CNN
-	1    6150 3650
-	1    0    0    -1  
 $EndComp
 Text GLabel 3850 4300 0    50   BiDi ~ 0
 USBC_VM
@@ -955,15 +974,6 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 6550 40
 F 4 "RC0402FR-0724RL" V 6550 4000 60  0001 C CNN "P/N"
 	1    6550 4000
 	0    1    1    0   
-$EndComp
-$Comp
-L +3.3V #PWR?
-U 1 1 4F87EBD1
-P 4650 3650
-F 0 "#PWR?" H 4650 3610 30  0001 C CNN
-F 1 "+3.3V" H 4650 3760 30  0000 C CNN
-	1    4650 3650
-	1    0    0    -1  
 $EndComp
 $Comp
 L EZJ-Z0V80010 V8
