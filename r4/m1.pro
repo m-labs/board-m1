@@ -1,4 +1,4 @@
-update=Wed 11 Apr 2012 09:36:00 PM CST
+update=Mon 16 Apr 2012 09:09:08 AM CST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -96,4 +96,6 @@ LibName36=wolfson
 LibName37=xc6slx45-2fgg484c
 LibName38=xlr-3
 LibName39=testpoint
-LibName40=common
+LibName40=c
+LibName41=led
+LibName42=r
