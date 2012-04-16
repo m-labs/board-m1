@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Apr 2012 05:11:23 PM CST
+EESchema Schematic File Version 2  date Mon 16 Apr 2012 05:37:53 PM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -41,6 +41,10 @@ LIBS:c
 LIBS:led
 LIBS:r
 LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
@@ -55,12 +59,22 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 10300 6300 0    60   ~ 0
-Placement (TP32, TP38-TP41) at the bottom of PCB.
-Text Label 10300 6200 0    60   ~ 0
-2. Placement LEDs above on bottom side of PCB and under corresponding connector.
-Text Label 10300 6100 0    60   ~ 0
-1. D18 ~ D41 is p/n: APA1606SURCK Hyper Red color.
+Text Label 11550 8650 0    60   ~ 0
+button is all we need, and removed them.
+Text Label 11550 8550 0    60   ~ 0
+and SW3 (and BTN1/3), but we found that one
+Text Label 11550 8450 0    60   ~ 0
+About the numbering: there used to be also SW1
+Connection ~ 10850 8150
+Wire Wire Line
+	10850 7600 10850 8150
+Connection ~ 11250 7400
+Wire Wire Line
+	11050 7400 11400 7400
+Wire Wire Line
+	10350 8600 10350 8650
+Wire Wire Line
+	10350 8650 11250 8650
 Connection ~ 13700 3400
 Wire Wire Line
 	13950 3250 13950 3400
@@ -124,6 +138,86 @@ Wire Wire Line
 Wire Wire Line
 	13050 3400 13050 3250
 Connection ~ 12800 3400
+Wire Wire Line
+	10350 8200 10350 8150
+Wire Wire Line
+	10350 8150 11250 8150
+Wire Wire Line
+	11250 8650 11250 8750
+Wire Wire Line
+	10650 7600 10650 8150
+Connection ~ 10650 8150
+Text GLabel 11400 7400 2    60   Input ~ 0
+BTN2
+$Comp
+L GND #PWR?
+U 1 1 4F8BE756
+P 11250 8750
+F 0 "#PWR?" H 11250 8750 30  0001 C CNN
+F 1 "GND" H 11250 8680 30  0001 C CNN
+	1    11250 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R47
+U 1 1 4F8BE74F
+P 11250 8400
+F 0 "R47" V 11330 8400 50  0000 C CNN
+F 1 "1M" V 11250 8400 50  0000 C CNN
+	1    11250 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C121
+U 1 1 4F8BE72B
+P 10350 8400
+F 0 "C121" H 10400 8500 50  0000 L CNN
+F 1 "4.7nF" H 10400 8300 50  0000 L CNN
+	1    10350 8400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8BE722
+P 11250 7900
+F 0 "#PWR?" H 11250 7900 30  0001 C CNN
+F 1 "GND" H 11250 7830 30  0001 C CNN
+	1    11250 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R45
+U 1 1 4F8BE714
+P 11250 7650
+F 0 "R45" V 11330 7650 50  0000 C CNN
+F 1 "10K" V 11250 7650 50  0000 C CNN
+	1    11250 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8BE708
+P 10450 7400
+F 0 "#PWR?" H 10450 7360 30  0001 C CNN
+F 1 "3V3" H 10450 7510 60  0000 C CNN
+	1    10450 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW2
+U 1 1 4F8BE699
+P 10750 7400
+F 0 "SW2" H 10900 7510 50  0000 C CNN
+F 1 "FSMRA2JH" H 10750 7320 50  0000 C CNN
+	1    10750 7400
+	1    0    0    -1  
+$EndComp
+Text Label 10300 6300 0    60   ~ 0
+Placement (TP32, TP38-TP41) at the bottom of PCB.
+Text Label 10300 6200 0    60   ~ 0
+2. Placement LEDs above on bottom side of PCB and under corresponding connector.
+Text Label 10300 6100 0    60   ~ 0
+1. D18 ~ D41 is p/n: APA1606SURCK Hyper Red color.
 $Comp
 L TESTPOINT TP38
 U 1 1 4F8BE0A9
