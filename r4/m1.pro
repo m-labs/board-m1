@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2012 05:56:07 PM CST
+update=Mon 16 Apr 2012 21:37:48 CST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -56,6 +56,8 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+PrintMonochrome=1
+ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=js28f256j3f105
 LibName2=8_10-card
@@ -102,3 +104,4 @@ LibName42=con
 LibName43=filter
 LibName44=crystal
 LibName45=switch
+LibName46=bnc
