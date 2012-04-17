@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Tue 17 Apr 2012 11:55:12 AM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -37,14 +35,23 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
-LIBS:m1-cache
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 11 15
 Title "Milkymist One - FPGA Decoupling Cap. Sheet"
-Date "11 apr 2012"
+Date "17 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -52,4 +59,810 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L 1V2 #PWR?
+U 1 1 4F8CE98A
+P 2550 2500
+F 0 "#PWR?" H 2550 2460 30  0001 C CNN
+F 1 "1V2" H 2550 2610 60  0000 C CNN
+	1    2550 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 2500 2550 2650
+$Comp
+L 2V5 #PWR?
+U 1 1 4F8CE970
+P 2550 3900
+F 0 "#PWR?" H 2550 3860 30  0001 C CNN
+F 1 "2V5" H 2550 4010 60  0000 C CNN
+	1    2550 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3900 2550 4050
+Wire Wire Line
+	2600 5100 2600 5250
+Wire Wire Line
+	9500 6900 9500 6750
+Wire Wire Line
+	6500 5800 6500 5650
+Wire Wire Line
+	2650 6900 2650 6750
+Wire Wire Line
+	2600 5800 2600 5650
+Wire Wire Line
+	2550 4600 2550 4450
+Wire Wire Line
+	2550 3200 2550 3050
+Wire Wire Line
+	14200 6350 9500 6350
+Wire Wire Line
+	10800 5250 6500 5250
+Wire Wire Line
+	8100 6350 2650 6350
+Wire Wire Line
+	2600 5250 5050 5250
+Wire Wire Line
+	2550 4050 8450 4050
+Wire Wire Line
+	2550 2650 11850 2650
+Wire Wire Line
+	2550 3050 11800 3050
+Wire Wire Line
+	2550 4450 8450 4450
+Wire Wire Line
+	2600 5650 5050 5650
+Wire Wire Line
+	2650 6750 8100 6750
+Wire Wire Line
+	8100 6350 8100 6700
+Wire Wire Line
+	6500 5650 10800 5650
+Wire Wire Line
+	9500 6750 14200 6750
+Wire Wire Line
+	6500 5250 6500 5100
+Wire Wire Line
+	2650 6350 2650 6200
+Wire Wire Line
+	9500 6350 9500 6200
+$Comp
+L 2V5 #PWR?
+U 1 1 4F8CE95B
+P 2600 5100
+F 0 "#PWR?" H 2600 5060 30  0001 C CNN
+F 1 "2V5" H 2600 5210 60  0000 C CNN
+	1    2600 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8CE94C
+P 9500 6200
+F 0 "#PWR?" H 9500 6160 30  0001 C CNN
+F 1 "3V3" H 9500 6310 60  0000 C CNN
+	1    9500 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8CE946
+P 2650 6200
+F 0 "#PWR?" H 2650 6160 30  0001 C CNN
+F 1 "3V3" H 2650 6310 60  0000 C CNN
+	1    2650 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8CE936
+P 6500 5100
+F 0 "#PWR?" H 6500 5060 30  0001 C CNN
+F 1 "3V3" H 6500 5210 60  0000 C CNN
+	1    6500 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE928
+P 9500 6900
+F 0 "#PWR?" H 9500 6900 30  0001 C CNN
+F 1 "GND" H 9500 6830 30  0001 C CNN
+	1    9500 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE921
+P 6500 5800
+F 0 "#PWR?" H 6500 5800 30  0001 C CNN
+F 1 "GND" H 6500 5730 30  0001 C CNN
+	1    6500 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE91A
+P 2650 6900
+F 0 "#PWR?" H 2650 6900 30  0001 C CNN
+F 1 "GND" H 2650 6830 30  0001 C CNN
+	1    2650 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE914
+P 2600 5800
+F 0 "#PWR?" H 2600 5800 30  0001 C CNN
+F 1 "GND" H 2600 5730 30  0001 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE90C
+P 2550 4600
+F 0 "#PWR?" H 2550 4600 30  0001 C CNN
+F 1 "GND" H 2550 4530 30  0001 C CNN
+	1    2550 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8CE8FB
+P 2550 3200
+F 0 "#PWR?" H 2550 3200 30  0001 C CNN
+F 1 "GND" H 2550 3130 30  0001 C CNN
+	1    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE808
+P 13200 6550
+F 0 "C?" H 13250 6650 50  0000 L CNN
+F 1 "C" H 13250 6450 50  0000 L CNN
+	1    13200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE807
+P 14200 6550
+F 0 "C?" H 14250 6650 50  0000 L CNN
+F 1 "C" H 14250 6450 50  0000 L CNN
+	1    14200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE806
+P 13700 6550
+F 0 "C?" H 13750 6650 50  0000 L CNN
+F 1 "C" H 13750 6450 50  0000 L CNN
+	1    13700 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE789
+P 2650 6550
+F 0 "C?" H 2700 6650 50  0000 L CNN
+F 1 "C" H 2700 6450 50  0000 L CNN
+	1    2650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE788
+P 3150 6550
+F 0 "C?" H 3200 6650 50  0000 L CNN
+F 1 "C" H 3200 6450 50  0000 L CNN
+	1    3150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE787
+P 4150 6550
+F 0 "C?" H 4200 6650 50  0000 L CNN
+F 1 "C" H 4200 6450 50  0000 L CNN
+	1    4150 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE786
+P 3650 6550
+F 0 "C?" H 3700 6650 50  0000 L CNN
+F 1 "C" H 3700 6450 50  0000 L CNN
+	1    3650 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE785
+P 5600 6550
+F 0 "C?" H 5650 6650 50  0000 L CNN
+F 1 "C" H 5650 6450 50  0000 L CNN
+	1    5600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE784
+P 6100 6550
+F 0 "C?" H 6150 6650 50  0000 L CNN
+F 1 "C" H 6150 6450 50  0000 L CNN
+	1    6100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE783
+P 5100 6550
+F 0 "C?" H 5150 6650 50  0000 L CNN
+F 1 "C" H 5150 6450 50  0000 L CNN
+	1    5100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE782
+P 4600 6550
+F 0 "C?" H 4650 6650 50  0000 L CNN
+F 1 "C" H 4650 6450 50  0000 L CNN
+	1    4600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE781
+P 9500 6550
+F 0 "C?" H 9550 6650 50  0000 L CNN
+F 1 "C" H 9550 6450 50  0000 L CNN
+	1    9500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE780
+P 10000 6550
+F 0 "C?" H 10050 6650 50  0000 L CNN
+F 1 "C" H 10050 6450 50  0000 L CNN
+	1    10000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77F
+P 11000 6550
+F 0 "C?" H 11050 6650 50  0000 L CNN
+F 1 "C" H 11050 6450 50  0000 L CNN
+	1    11000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77E
+P 10500 6550
+F 0 "C?" H 10550 6650 50  0000 L CNN
+F 1 "C" H 10550 6450 50  0000 L CNN
+	1    10500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77D
+P 7600 6550
+F 0 "C?" H 7650 6650 50  0000 L CNN
+F 1 "C" H 7650 6450 50  0000 L CNN
+	1    7600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77C
+P 8100 6550
+F 0 "C?" H 8150 6650 50  0000 L CNN
+F 1 "C" H 8150 6450 50  0000 L CNN
+	1    8100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77B
+P 7100 6550
+F 0 "C?" H 7150 6650 50  0000 L CNN
+F 1 "C" H 7150 6450 50  0000 L CNN
+	1    7100 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE77A
+P 6600 6550
+F 0 "C?" H 6650 6650 50  0000 L CNN
+F 1 "C" H 6650 6450 50  0000 L CNN
+	1    6600 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE779
+P 12300 6550
+F 0 "C?" H 12350 6650 50  0000 L CNN
+F 1 "C" H 12350 6450 50  0000 L CNN
+	1    12300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE778
+P 12800 6550
+F 0 "C?" H 12850 6650 50  0000 L CNN
+F 1 "C" H 12850 6450 50  0000 L CNN
+	1    12800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE777
+P 11800 6550
+F 0 "C?" H 11850 6650 50  0000 L CNN
+F 1 "C" H 11850 6450 50  0000 L CNN
+	1    11800 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE776
+P 11350 6550
+F 0 "C?" H 11400 6650 50  0000 L CNN
+F 1 "C" H 11400 6450 50  0000 L CNN
+	1    11350 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE775
+P 9300 5450
+F 0 "C?" H 9350 5550 50  0000 L CNN
+F 1 "C" H 9350 5350 50  0000 L CNN
+	1    9300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE774
+P 9800 5450
+F 0 "C?" H 9850 5550 50  0000 L CNN
+F 1 "C" H 9850 5350 50  0000 L CNN
+	1    9800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE773
+P 10800 5450
+F 0 "C?" H 10850 5550 50  0000 L CNN
+F 1 "C" H 10850 5350 50  0000 L CNN
+	1    10800 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE772
+P 10300 5450
+F 0 "C?" H 10350 5550 50  0000 L CNN
+F 1 "C" H 10350 5350 50  0000 L CNN
+	1    10300 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76F
+P 7000 5450
+F 0 "C?" H 7050 5550 50  0000 L CNN
+F 1 "C" H 7050 5350 50  0000 L CNN
+	1    7000 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76E
+P 6500 5450
+F 0 "C?" H 6550 5550 50  0000 L CNN
+F 1 "C" H 6550 5350 50  0000 L CNN
+	1    6500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76D
+P 8450 5450
+F 0 "C?" H 8500 5550 50  0000 L CNN
+F 1 "C" H 8500 5350 50  0000 L CNN
+	1    8450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76C
+P 8950 5450
+F 0 "C?" H 9000 5550 50  0000 L CNN
+F 1 "C" H 9000 5350 50  0000 L CNN
+	1    8950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76B
+P 7950 5450
+F 0 "C?" H 8000 5550 50  0000 L CNN
+F 1 "C" H 8000 5350 50  0000 L CNN
+	1    7950 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE76A
+P 7450 5450
+F 0 "C?" H 7500 5550 50  0000 L CNN
+F 1 "C" H 7500 5350 50  0000 L CNN
+	1    7450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE769
+P 4550 5450
+F 0 "C?" H 4600 5550 50  0000 L CNN
+F 1 "C" H 4600 5350 50  0000 L CNN
+	1    4550 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE768
+P 5050 5450
+F 0 "C?" H 5100 5550 50  0000 L CNN
+F 1 "C" H 5100 5350 50  0000 L CNN
+	1    5050 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE765
+P 3600 5450
+F 0 "C?" H 3650 5550 50  0000 L CNN
+F 1 "C" H 3650 5350 50  0000 L CNN
+	1    3600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE764
+P 4100 5450
+F 0 "C?" H 4150 5550 50  0000 L CNN
+F 1 "C" H 4150 5350 50  0000 L CNN
+	1    4100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE763
+P 3100 5450
+F 0 "C?" H 3150 5550 50  0000 L CNN
+F 1 "C" H 3150 5350 50  0000 L CNN
+	1    3100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE762
+P 2600 5450
+F 0 "C?" H 2650 5550 50  0000 L CNN
+F 1 "C" H 2650 5350 50  0000 L CNN
+	1    2600 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE761
+P 2550 4250
+F 0 "C?" H 2600 4350 50  0000 L CNN
+F 1 "C" H 2600 4150 50  0000 L CNN
+	1    2550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE760
+P 3050 4250
+F 0 "C?" H 3100 4350 50  0000 L CNN
+F 1 "C" H 3100 4150 50  0000 L CNN
+	1    3050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75F
+P 4050 4250
+F 0 "C?" H 4100 4350 50  0000 L CNN
+F 1 "C" H 4100 4150 50  0000 L CNN
+	1    4050 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75E
+P 3550 4250
+F 0 "C?" H 3600 4350 50  0000 L CNN
+F 1 "C" H 3600 4150 50  0000 L CNN
+	1    3550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75D
+P 5500 4250
+F 0 "C?" H 5550 4350 50  0000 L CNN
+F 1 "C" H 5550 4150 50  0000 L CNN
+	1    5500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75C
+P 6000 4250
+F 0 "C?" H 6050 4350 50  0000 L CNN
+F 1 "C" H 6050 4150 50  0000 L CNN
+	1    6000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75B
+P 5000 4250
+F 0 "C?" H 5050 4350 50  0000 L CNN
+F 1 "C" H 5050 4150 50  0000 L CNN
+	1    5000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE75A
+P 4500 4250
+F 0 "C?" H 4550 4350 50  0000 L CNN
+F 1 "C" H 4550 4150 50  0000 L CNN
+	1    4500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE759
+P 8450 4250
+F 0 "C?" H 8500 4350 50  0000 L CNN
+F 1 "C" H 8500 4150 50  0000 L CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE755
+P 7500 4250
+F 0 "C?" H 7550 4350 50  0000 L CNN
+F 1 "C" H 7550 4150 50  0000 L CNN
+	1    7500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE754
+P 8000 4250
+F 0 "C?" H 8050 4350 50  0000 L CNN
+F 1 "C" H 8050 4150 50  0000 L CNN
+	1    8000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE753
+P 7000 4250
+F 0 "C?" H 7050 4350 50  0000 L CNN
+F 1 "C" H 7050 4150 50  0000 L CNN
+	1    7000 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE752
+P 6500 4250
+F 0 "C?" H 6550 4350 50  0000 L CNN
+F 1 "C" H 6550 4150 50  0000 L CNN
+	1    6500 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6FF
+P 10300 2850
+F 0 "C?" H 10350 2950 50  0000 L CNN
+F 1 "C" H 10350 2750 50  0000 L CNN
+	1    10300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6FE
+P 10800 2850
+F 0 "C?" H 10850 2950 50  0000 L CNN
+F 1 "C" H 10850 2750 50  0000 L CNN
+	1    10800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6FD
+P 11800 2850
+F 0 "C?" H 11850 2950 50  0000 L CNN
+F 1 "C" H 11850 2750 50  0000 L CNN
+	1    11800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6FC
+P 11300 2850
+F 0 "C?" H 11350 2950 50  0000 L CNN
+F 1 "C" H 11350 2750 50  0000 L CNN
+	1    11300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6F0
+P 6500 2850
+F 0 "C?" H 6550 2950 50  0000 L CNN
+F 1 "C" H 6550 2750 50  0000 L CNN
+	1    6500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6EF
+P 7000 2850
+F 0 "C?" H 7050 2950 50  0000 L CNN
+F 1 "C" H 7050 2750 50  0000 L CNN
+	1    7000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6EE
+P 8000 2850
+F 0 "C?" H 8050 2950 50  0000 L CNN
+F 1 "C" H 8050 2750 50  0000 L CNN
+	1    8000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6ED
+P 7500 2850
+F 0 "C?" H 7550 2950 50  0000 L CNN
+F 1 "C" H 7550 2750 50  0000 L CNN
+	1    7500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6EC
+P 9450 2850
+F 0 "C?" H 9500 2950 50  0000 L CNN
+F 1 "C" H 9500 2750 50  0000 L CNN
+	1    9450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6EB
+P 9950 2850
+F 0 "C?" H 10000 2950 50  0000 L CNN
+F 1 "C" H 10000 2750 50  0000 L CNN
+	1    9950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6EA
+P 8950 2850
+F 0 "C?" H 9000 2950 50  0000 L CNN
+F 1 "C" H 9000 2750 50  0000 L CNN
+	1    8950 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6E9
+P 8450 2850
+F 0 "C?" H 8500 2950 50  0000 L CNN
+F 1 "C" H 8500 2750 50  0000 L CNN
+	1    8450 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6E1
+P 4500 2850
+F 0 "C?" H 4550 2950 50  0000 L CNN
+F 1 "C" H 4550 2750 50  0000 L CNN
+	1    4500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6E0
+P 5000 2850
+F 0 "C?" H 5050 2950 50  0000 L CNN
+F 1 "C" H 5050 2750 50  0000 L CNN
+	1    5000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6DF
+P 6000 2850
+F 0 "C?" H 6050 2950 50  0000 L CNN
+F 1 "C" H 6050 2750 50  0000 L CNN
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6DE
+P 5500 2850
+F 0 "C?" H 5550 2950 50  0000 L CNN
+F 1 "C" H 5550 2750 50  0000 L CNN
+	1    5500 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6C6
+P 3550 2850
+F 0 "C?" H 3600 2950 50  0000 L CNN
+F 1 "C" H 3600 2750 50  0000 L CNN
+	1    3550 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6C5
+P 4050 2850
+F 0 "C?" H 4100 2950 50  0000 L CNN
+F 1 "C" H 4100 2750 50  0000 L CNN
+	1    4050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6BC
+P 3050 2850
+F 0 "C?" H 3100 2950 50  0000 L CNN
+F 1 "C" H 3100 2750 50  0000 L CNN
+	1    3050 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8CE6A8
+P 2550 2850
+F 0 "C?" H 2600 2950 50  0000 L CNN
+F 1 "C" H 2600 2750 50  0000 L CNN
+	1    2550 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
