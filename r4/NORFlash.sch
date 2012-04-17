@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Fri 13 Apr 2012 14:49:32 CST
-LIBS:power
+EESchema Schematic File Version 2  date Tue 17 Apr 2012 17:30:55 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -38,14 +36,24 @@ LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
 LIBS:testpoint
-LIBS:common
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
 LIBS:m1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
 Sheet 8 15
 Title "Milkymist One - NOR Flash Sheet"
-Date "13 apr 2012"
+Date "17 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -351,11 +359,11 @@ F 5 "DNP" H 10470 5440 50  0000 C CNN "Smt"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L 3V3 #PWR?
 U 1 1 4F858B3C
 P 7600 8550
 F 0 "#PWR?" H 7600 8510 30  0001 C CNN
-F 1 "+3.3V" H 7600 8660 30  0000 C CNN
+F 1 "3V3" H 7600 8660 30  0000 C CNN
 	1    7600 8550
 	1    0    0    -1  
 $EndComp
@@ -402,11 +410,11 @@ $EndComp
 Text Label 9650 5750 1    60   ~ 0
 1
 $Comp
-L +3.3V #PWR?
+L 3V3 #PWR?
 U 1 1 4F858999
 P 10100 5150
 F 0 "#PWR?" H 10100 5110 30  0001 C CNN
-F 1 "+3.3V" H 10100 5260 30  0000 C CNN
+F 1 "3V3" H 10100 5260 30  0000 C CNN
 	1    10100 5150
 	1    0    0    -1  
 $EndComp
@@ -628,29 +636,29 @@ Entry Wire Line
 Entry Wire Line
 	6600 3150 6700 3250
 $Comp
-L +3.3V #PWR
+L 3V3 #PWR
 U 1 1 4F855361
 P 9350 6250
 F 0 "#PWR" H 9350 6210 30  0001 C CNN
-F 1 "+3.3V" H 9350 6360 30  0000 C CNN
+F 1 "3V3" H 9350 6360 30  0000 C CNN
 	1    9350 6250
 	1    0    0    1   
 $EndComp
 $Comp
-L +3.3V #PWR?
+L 3V3 #PWR?
 U 1 1 4F855356
 P 9350 5750
 F 0 "#PWR?" H 9350 5710 30  0001 C CNN
-F 1 "+3.3V" H 9350 5860 30  0000 C CNN
+F 1 "3V3" H 9350 5860 30  0000 C CNN
 	1    9350 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L 3V3 #PWR?
 U 1 1 4F855317
 P 6900 5700
 F 0 "#PWR?" H 6900 5660 30  0001 C CNN
-F 1 "+3.3V" H 6900 5810 30  0000 C CNN
+F 1 "3V3" H 6900 5810 30  0000 C CNN
 	1    6900 5700
 	1    0    0    -1  
 $EndComp
