@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 16 Apr 2012 05:54:24 PM CST
+EESchema Schematic File Version 2  date Tue 17 Apr 2012 10:45:24 PM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -17,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -45,13 +44,14 @@ LIBS:con
 LIBS:filter
 LIBS:crystal
 LIBS:switch
+LIBS:rca
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11700
 encoding utf-8
 Sheet 10 15
 Title "Milkymist One - Misc. Sheet"
-Date "16 apr 2012"
+Date "17 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -59,90 +59,404 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 11600 8450 0    60   ~ 0
+About the numbering: there used to be also SW1\nand SW3 (and BTN1/3), but we found that one\nbutton is all we need, and removed them.\n
+Text Notes 6450 5400 0    60   ~ 0
+LED_PWR: pulldown -> D1 OFF\nLED_PWR: PWM -> D1 Variable Luminance\nLED_PWR: pullup -> D1 ON\n
+Text Notes 10150 6150 0    60   ~ 0
+1. D18 ~ D41 is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n
+Text Notes 2500 4150 0    60   ~ 0
+D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
+Text GLabel 1125 6325 1    60   Input ~ 0
+LED1
+$Comp
+L R R?
+U 1 1 4F8D80FB
+P 2200 6300
+F 0 "R?" V 2280 6300 50  0000 C CNN
+F 1 "R" V 2200 6300 50  0000 C CNN
+	1    2200 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8D80F4
+P 1300 7200
+F 0 "#PWR?" H 1300 7200 30  0001 C CNN
+F 1 "GND" H 1300 7130 30  0001 C CNN
+	1    1300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D2
+U 1 1 4F8D80E5
+P 1300 7000
+F 0 "D2" H 1300 7100 50  0000 C CNN
+F 1 "LED" H 1300 6900 50  0000 C CNN
+	1    1300 7000
+	0    -1   1    0   
+$EndComp
+$Comp
+L R R42
+U 1 1 4F8D80DD
+P 1300 6550
+F 0 "R42" V 1380 6550 50  0000 C CNN
+F 1 "560" V 1300 6550 50  0000 C CNN
+	1    1300 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8D80AC
+P 6950 8300
+F 0 "#PWR?" H 6950 8260 30  0001 C CNN
+F 1 "3V3" H 6950 8410 60  0000 C CNN
+	1    6950 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8D80A8
+P 6950 8700
+F 0 "#PWR?" H 6950 8700 30  0001 C CNN
+F 1 "GND" H 6950 8630 30  0001 C CNN
+	1    6950 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C232
+U 1 1 4F8D80A2
+P 6950 8500
+F 0 "C232" H 7000 8600 50  0000 L CNN
+F 1 "100nF" H 7000 8400 50  0000 L CNN
+	1    6950 8500
+	1    0    0    -1  
+$EndComp
+Connection ~ 5000 8850
+Connection ~ 5000 8550
+Connection ~ 5400 8250
+Connection ~ 5600 8150
+Connection ~ 5200 8750
 Wire Wire Line
-	10450 7400 10350 7400
-Connection ~ 10650 8150
+	5200 8750 5200 9150
 Wire Wire Line
-	10650 7600 10650 8150
+	5600 8000 5600 8150
+Connection ~ 5200 8350
 Wire Wire Line
-	11250 8750 11250 8650
+	5200 8000 5200 8350
 Wire Wire Line
-	11250 8150 10350 8150
+	5600 9000 5600 8650
 Wire Wire Line
-	10350 8150 10350 8200
-Connection ~ 12800 3400
+	5600 8650 5850 8650
 Wire Wire Line
-	13050 3250 13050 3400
+	5850 8750 4900 8750
 Wire Wire Line
-	13050 3400 12800 3400
+	5850 8550 4900 8550
 Wire Wire Line
-	10550 5100 10550 5850
+	5850 8350 4900 8350
 Wire Wire Line
-	10300 5650 13300 5650
+	5850 8150 4900 8150
 Wire Wire Line
-	10300 3950 13300 3950
+	7050 2650 7450 2650
 Wire Wire Line
-	11850 3250 11850 5400
+	7050 2450 7450 2450
+Connection ~ 3450 2850
 Wire Wire Line
-	13700 3250 13700 5400
-Connection ~ 11450 5650
+	3450 2800 3450 2900
 Wire Wire Line
-	11450 5650 11450 5100
-Connection ~ 12400 4800
+	4600 2400 3450 2400
 Wire Wire Line
-	12400 4250 12400 4800
-Connection ~ 10550 4800
-Connection ~ 11450 3950
+	4600 2550 4400 2550
+Connection ~ 10850 8150
 Wire Wire Line
-	11450 3950 11450 3400
+	10850 8150 10850 7600
+Connection ~ 11250 7400
 Wire Wire Line
-	13300 5650 13300 5100
+	11400 7400 11050 7400
 Wire Wire Line
-	13300 3950 13300 3400
+	10350 8600 10350 8650
 Wire Wire Line
-	13300 4250 13300 4800
-Connection ~ 10550 3950
+	10350 8650 11250 8650
+Connection ~ 13700 3400
 Wire Wire Line
-	12400 3400 12400 3950
-Connection ~ 12400 3950
+	13950 3250 13950 3400
 Wire Wire Line
-	11450 4250 11450 4800
-Connection ~ 11450 4800
-Connection ~ 10550 5650
+	13950 3400 13700 3400
 Wire Wire Line
-	12400 5100 12400 5650
-Connection ~ 12400 5650
+	10550 4250 10550 5000
 Wire Wire Line
-	12800 3250 12800 5400
+	10300 5850 10550 5850
+Wire Wire Line
+	10550 5000 10300 5000
+Wire Wire Line
+	10300 4150 10550 4150
+Wire Wire Line
+	10550 4150 10550 3400
+Wire Wire Line
+	10300 4800 13300 4800
 Wire Wire Line
 	10950 3250 10950 5400
 Wire Wire Line
-	13300 4800 10300 4800
+	12800 5400 12800 3250
+Connection ~ 12400 5650
 Wire Wire Line
-	10550 3400 10550 4150
+	12400 5100 12400 5650
+Connection ~ 10550 5650
+Connection ~ 11450 4800
 Wire Wire Line
-	10550 4150 10300 4150
+	11450 4250 11450 4800
+Connection ~ 12400 3950
 Wire Wire Line
-	10300 5000 10550 5000
+	12400 3400 12400 3950
+Connection ~ 10550 3950
 Wire Wire Line
-	10550 5850 10300 5850
+	13300 4800 13300 4250
 Wire Wire Line
-	10550 5000 10550 4250
+	13300 3400 13300 3950
 Wire Wire Line
-	13700 3400 13950 3400
+	13300 5100 13300 5650
 Wire Wire Line
-	13950 3400 13950 3250
-Connection ~ 13700 3400
+	11450 3950 11450 3400
+Connection ~ 11450 3950
+Connection ~ 10550 4800
 Wire Wire Line
-	11250 8650 10350 8650
+	12400 4250 12400 4800
+Connection ~ 12400 4800
 Wire Wire Line
-	10350 8650 10350 8600
+	11450 5650 11450 5100
+Connection ~ 11450 5650
 Wire Wire Line
-	11050 7400 11400 7400
-Connection ~ 11250 7400
+	13700 5400 13700 3250
 Wire Wire Line
-	10850 7600 10850 8150
-Connection ~ 10850 8150
+	11850 3250 11850 5400
+Wire Wire Line
+	13300 3950 10300 3950
+Wire Wire Line
+	13300 5650 10300 5650
+Wire Wire Line
+	10550 5850 10550 5100
+Wire Wire Line
+	12800 3400 13050 3400
+Wire Wire Line
+	13050 3400 13050 3250
+Connection ~ 12800 3400
+Wire Wire Line
+	10350 8200 10350 8150
+Wire Wire Line
+	10350 8150 11250 8150
+Wire Wire Line
+	11250 8650 11250 8750
+Wire Wire Line
+	10650 7600 10650 8150
+Connection ~ 10650 8150
+Wire Wire Line
+	10450 7400 10350 7400
+Wire Wire Line
+	4600 2700 4400 2700
+Wire Wire Line
+	3450 2850 4600 2850
+Wire Wire Line
+	6250 2350 6250 3100
+Connection ~ 6250 2350
+Connection ~ 6250 2450
+Connection ~ 6250 2550
+Connection ~ 6250 2650
+Connection ~ 6250 2750
+Connection ~ 6250 2850
+Connection ~ 6250 2950
+Wire Wire Line
+	7050 2550 7450 2550
+Wire Wire Line
+	7050 2750 7450 2750
+Wire Wire Line
+	5850 8250 4900 8250
+Wire Wire Line
+	5850 8450 5650 8450
+Wire Wire Line
+	5850 8850 4900 8850
+Wire Wire Line
+	5000 8000 5000 8550
+Wire Wire Line
+	5400 8000 5400 8250
+Wire Wire Line
+	5000 8850 5000 9150
+$Comp
+L TESTPOINT TP21
+U 1 1 4F8D8025
+P 5000 9200
+F 0 "TP21" H 5000 9200 60  0000 C CNN
+F 1 "TESTPOINT" H 5000 9200 60  0001 C CNN
+	1    5000 9200
+	1    0    0    1   
+$EndComp
+$Comp
+L TESTPOINT TP20
+U 1 1 4F8D8024
+P 5200 9200
+F 0 "TP20" H 5200 9200 60  0000 C CNN
+F 1 "TESTPOINT" H 5200 9200 60  0001 C CNN
+	1    5200 9200
+	1    0    0    1   
+$EndComp
+$Comp
+L TESTPOINT TP17
+U 1 1 4F8D800D
+P 5400 7950
+F 0 "TP17" H 5400 7950 60  0000 C CNN
+F 1 "TESTPOINT" H 5400 7950 60  0001 C CNN
+	1    5400 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP16
+U 1 1 4F8D800C
+P 5600 7950
+F 0 "TP16" H 5600 7950 60  0000 C CNN
+F 1 "TESTPOINT" H 5600 7950 60  0001 C CNN
+	1    5600 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP18
+U 1 1 4F8D8007
+P 5200 7950
+F 0 "TP18" H 5200 7950 60  0000 C CNN
+F 1 "TESTPOINT" H 5200 7950 60  0001 C CNN
+	1    5200 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP19
+U 1 1 4F8D7FFB
+P 5000 7950
+F 0 "TP19" H 5000 7950 60  0000 C CNN
+F 1 "TESTPOINT" H 5000 7950 60  0001 C CNN
+	1    5000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8D7FE3
+P 5650 8450
+F 0 "#PWR?" H 5650 8410 30  0001 C CNN
+F 1 "3V3" H 5650 8560 60  0000 C CNN
+	1    5650 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8D7FDC
+P 5600 9000
+F 0 "#PWR?" H 5600 9000 30  0001 C CNN
+F 1 "GND" H 5600 8930 30  0001 C CNN
+	1    5600 9000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4900 8850 0    60   Input ~ 0
+SD_DAT1
+Text GLabel 4900 8750 0    60   Input ~ 0
+SD_DAT0
+Text GLabel 4900 8550 0    60   Input ~ 0
+SD_CLK
+Text GLabel 4900 8350 0    60   Input ~ 0
+SD_CMD
+Text GLabel 4900 8250 0    60   Input ~ 0
+SD_DAT3
+Text GLabel 4900 8150 0    60   Input ~ 0
+SD_DAT2
+Text GLabel 7450 2650 2    60   Input ~ 0
+TDO
+Text GLabel 7450 2750 2    60   Input ~ 0
+TDI
+Text GLabel 7450 2550 2    60   Input ~ 0
+TCK
+Text GLabel 7450 2450 2    60   Input ~ 0
+TMS
+$Comp
+L 2V5 #PWR?
+U 1 1 4F8D7E9D
+P 7050 2350
+F 0 "#PWR?" H 7050 2310 30  0001 C CNN
+F 1 "2V5" H 7050 2460 60  0000 C CNN
+	1    7050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8D7E92
+P 6250 3100
+F 0 "#PWR?" H 6250 3100 30  0001 C CNN
+F 1 "GND" H 6250 3030 30  0001 C CNN
+	1    6250 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8D7B53
+P 3450 2900
+F 0 "#PWR?" H 3450 2900 30  0001 C CNN
+F 1 "GND" H 3450 2830 30  0001 C CNN
+	1    3450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4 J5
+U 1 1 4F8D7AB8
+P 5000 2700
+F 0 "J5" V 4950 2750 50  0000 C CNN
+F 1 "Header4" V 5050 2750 50  0000 C CNN
+	1    5000 2700
+	1    0    0    -1  
+$EndComp
+Text GLabel 4400 2700 0    60   Input ~ 0
+UART_RX
+Text GLabel 4400 2550 0    60   Input ~ 0
+UART_TX
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8D7A25
+P 2950 2400
+F 0 "#PWR?" H 2950 2360 30  0001 C CNN
+F 1 "3V3" H 2950 2510 60  0000 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R40
+U 1 1 4F8D79F9
+P 3200 2400
+F 0 "R40" V 3280 2400 50  0000 C CNN
+F 1 "47" V 3200 2400 50  0000 C CNN
+	1    3200 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C121
+U 1 1 4F8D79C0
+P 3450 2600
+F 0 "C121" H 3500 2700 50  0000 L CNN
+F 1 "1uF" H 3500 2500 50  0000 L CNN
+	1    3450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MEMCARD8 J19
+U 1 1 4F8D762E
+P 6200 8550
+F 0 "J19" V 6450 8550 60  0000 C CNN
+F 1 "500901-0801" V 6550 8550 60  0000 C CNN
+	1    6200 8550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_7X2 J6
+U 1 1 4F8D75FD
+P 6650 2650
+F 0 "J6" H 6650 3050 60  0000 C CNN
+F 1 "87832-1420" V 6650 2650 60  0000 C CNN
+	1    6650 2650
+	1    0    0    -1  
+$EndComp
 $Comp
 L FSMRA2JH SW2
 U 1 1 4F8BEC07
@@ -152,12 +466,6 @@ F 1 "FSMRA2JH" H 10680 7632 50  0000 C CNN
 	1    10750 7400
 	1    0    0    -1  
 $EndComp
-Text Label 11550 8650 0    60   ~ 0
-button is all we need, and removed them.
-Text Label 11550 8550 0    60   ~ 0
-and SW3 (and BTN1/3), but we found that one
-Text Label 11550 8450 0    60   ~ 0
-About the numbering: there used to be also SW1
 Text GLabel 11400 7400 2    60   Input ~ 0
 BTN2
 $Comp
@@ -214,12 +522,6 @@ F 1 "3V3" H 10350 7510 60  0000 C CNN
 	1    10350 7400
 	1    0    0    -1  
 $EndComp
-Text Label 10300 6300 0    60   ~ 0
-Placement (TP32, TP38-TP41) at the bottom of PCB.
-Text Label 10300 6200 0    60   ~ 0
-2. Placement LEDs above on bottom side of PCB and under corresponding connector.
-Text Label 10300 6100 0    60   ~ 0
-1. D18 ~ D41 is p/n: APA1606SURCK Hyper Red color.
 $Comp
 L TESTPOINT TP38
 U 1 1 4F8BE0A9
