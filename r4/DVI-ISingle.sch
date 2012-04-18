@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Wed 18 Apr 2012 18:53:01 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -37,14 +35,25 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
 LIBS:m1-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-encoding utf-8
 Sheet 14 15
 Title "Milkymist One - DVI-I Single Channel Sheet"
-Date "11 apr 2012"
+Date "18 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -52,4 +61,1425 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text Notes 10550 6750 0    50   ~ 0
+DVI-I CON
+Text Notes 11750 3150 0    50   ~ 0
+EZJ-Z0V80010 : Vdc 10V, 0.8 pF@1 MHz
+Text Notes 11200 4350 0    50   ~ 0
+Place those EZJ-Z0V80010 varistors V[12..19] close to J17's related pins.
+$Comp
+L GND #PWR?
+U 1 1 4F8E9C32
+P 12400 4100
+F 0 "#PWR?" H 12400 4100 30  0001 C CNN
+F 1 "GND" H 12400 4030 30  0001 C CNN
+	1    12400 4100
+	0    1    1    0   
+$EndComp
+Connection ~ 12550 4100
+Wire Wire Line
+	12400 4100 12950 4100
+Connection ~ 12550 3500
+Connection ~ 12550 3900
+Wire Wire Line
+	12950 3700 12200 3700
+Wire Wire Line
+	12950 3300 12200 3300
+Wire Wire Line
+	13250 3700 13450 3700
+Wire Wire Line
+	13250 3900 13450 3900
+Wire Wire Line
+	13250 3500 13450 3500
+Wire Wire Line
+	13250 3300 13450 3300
+Wire Wire Line
+	11900 3700 11700 3700
+Wire Wire Line
+	11900 3900 11700 3900
+Wire Wire Line
+	11900 3500 11700 3500
+Wire Wire Line
+	12250 8200 12250 8450
+Wire Wire Line
+	12250 7600 12150 7600
+Wire Wire Line
+	11950 8000 11550 8000
+Wire Wire Line
+	11550 8000 11550 7350
+Connection ~ 11350 9050
+Wire Wire Line
+	11350 7350 11350 9550
+Connection ~ 9900 9050
+Wire Wire Line
+	9900 9550 9900 8650
+Wire Wire Line
+	11650 8650 11650 8750
+Wire Wire Line
+	11250 9050 11350 9050
+Connection ~ 9600 8650
+Wire Wire Line
+	9600 8600 9600 8750
+Wire Wire Line
+	9600 9250 9600 9350
+Wire Wire Line
+	9600 9350 10250 9350
+Wire Wire Line
+	9900 8650 9600 8650
+Wire Wire Line
+	10250 9050 9900 9050
+Wire Wire Line
+	12650 7950 13000 7950
+Wire Wire Line
+	13000 7950 13000 7800
+Wire Wire Line
+	12650 7350 12650 6700
+Wire Wire Line
+	12650 6700 11800 6700
+Wire Wire Line
+	11350 5400 11350 6100
+Wire Wire Line
+	11250 5400 11250 6100
+Wire Wire Line
+	11150 5400 11150 6100
+Wire Wire Line
+	11050 5400 11050 6100
+Wire Wire Line
+	10650 5850 10650 6100
+Wire Wire Line
+	10750 5850 10750 6100
+Wire Wire Line
+	10550 6100 10550 5950
+Wire Wire Line
+	11450 6100 11450 5950
+Wire Wire Line
+	10250 6100 10250 5950
+Wire Wire Line
+	10950 7350 10950 7600
+Wire Wire Line
+	10850 7350 10850 7600
+Wire Wire Line
+	10250 7350 10250 7500
+Wire Wire Line
+	5300 9050 4950 9050
+Wire Wire Line
+	6000 8450 5850 8450
+Wire Wire Line
+	6650 8350 6650 8850
+Wire Wire Line
+	6650 8850 6550 8850
+Wire Wire Line
+	6400 8450 6650 8450
+Connection ~ 6650 8450
+Wire Wire Line
+	5300 9250 5200 9250
+Wire Wire Line
+	5200 9250 5200 9450
+Wire Wire Line
+	6550 9250 7250 9250
+Wire Wire Line
+	3600 9250 4300 9250
+Wire Wire Line
+	2250 9450 2250 9250
+Wire Wire Line
+	2250 9250 2350 9250
+Connection ~ 3700 8450
+Wire Wire Line
+	3450 8450 3700 8450
+Wire Wire Line
+	3600 8850 3700 8850
+Connection ~ 3500 7200
+Wire Wire Line
+	3500 7050 3500 7200
+Connection ~ 3100 6450
+Wire Wire Line
+	3100 6350 3100 6900
+Wire Wire Line
+	2700 7050 2700 7200
+Wire Bus Line
+	2700 2000 3450 2000
+Wire Bus Line
+	3450 2000 3450 2750
+Wire Bus Line
+	2700 2900 3450 2900
+Wire Bus Line
+	3450 2900 3450 3650
+Wire Wire Line
+	4250 2450 3550 2450
+Wire Wire Line
+	4250 2350 3550 2350
+Wire Wire Line
+	4250 2150 3550 2150
+Wire Wire Line
+	4250 2250 3550 2250
+Wire Wire Line
+	4250 2650 3550 2650
+Wire Wire Line
+	4250 2550 3550 2550
+Wire Wire Line
+	4250 2750 3550 2750
+Wire Wire Line
+	4250 2850 3550 2850
+Wire Wire Line
+	4250 3750 3550 3750
+Wire Wire Line
+	4250 3650 3550 3650
+Wire Wire Line
+	4250 3450 3550 3450
+Wire Wire Line
+	4250 3550 3550 3550
+Wire Wire Line
+	4250 3150 3550 3150
+Wire Wire Line
+	4250 3050 3550 3050
+Wire Wire Line
+	4250 3250 3550 3250
+Wire Wire Line
+	4250 3350 3550 3350
+Wire Wire Line
+	4250 4250 3550 4250
+Wire Wire Line
+	4250 4150 3550 4150
+Wire Wire Line
+	4250 3950 3550 3950
+Wire Wire Line
+	4250 4050 3550 4050
+Wire Wire Line
+	4250 4450 3550 4450
+Wire Wire Line
+	4250 4350 3550 4350
+Wire Wire Line
+	4250 4550 3550 4550
+Wire Wire Line
+	4250 4650 3550 4650
+Wire Wire Line
+	4250 5100 3200 5100
+Wire Wire Line
+	4250 5000 4000 5000
+Connection ~ 10500 2000
+Connection ~ 10900 2000
+Wire Wire Line
+	11850 2000 8500 2000
+Connection ~ 9300 2000
+Wire Wire Line
+	9300 2000 9300 1850
+Connection ~ 10100 2000
+Wire Wire Line
+	10100 2000 10100 1850
+Connection ~ 8500 1300
+Wire Wire Line
+	8500 1300 8500 1450
+Connection ~ 9300 1300
+Wire Wire Line
+	9300 1300 9300 1450
+Connection ~ 10100 1300
+Wire Wire Line
+	10100 1300 10100 1450
+Wire Wire Line
+	11850 1200 11850 1300
+Wire Wire Line
+	11850 1300 11700 1300
+Connection ~ 10900 1300
+Wire Wire Line
+	10900 1300 10900 1450
+Connection ~ 7450 2850
+Wire Wire Line
+	7450 2850 7800 2850
+Wire Wire Line
+	7800 2850 7800 2750
+Wire Wire Line
+	7800 2100 7800 2350
+Connection ~ 7450 2100
+Wire Wire Line
+	7450 2300 7450 2100
+Wire Wire Line
+	6800 2450 6800 2600
+Wire Wire Line
+	7200 2800 7200 2100
+Wire Wire Line
+	7200 2800 6350 2800
+Wire Wire Line
+	6500 2150 6350 2150
+Wire Wire Line
+	6350 2350 6500 2350
+Wire Wire Line
+	6550 3000 6350 3000
+Connection ~ 7650 3300
+Wire Wire Line
+	7650 3650 7650 3300
+Connection ~ 6850 3500
+Wire Wire Line
+	6850 3650 6850 3500
+Wire Wire Line
+	7650 4150 7650 4250
+Wire Wire Line
+	7650 4250 6850 4250
+Wire Wire Line
+	6850 4250 6850 4150
+Wire Wire Line
+	8250 3400 6350 3400
+Connection ~ 6500 3900
+Wire Wire Line
+	6500 3900 6350 3900
+Connection ~ 6500 4350
+Wire Wire Line
+	6500 4350 6350 4350
+Connection ~ 6500 4550
+Wire Wire Line
+	6500 4550 6350 4550
+Connection ~ 6500 4750
+Wire Wire Line
+	6500 4750 6350 4750
+Connection ~ 6500 4950
+Wire Wire Line
+	6500 4950 6350 4950
+Wire Wire Line
+	6500 5300 6500 3800
+Wire Wire Line
+	6500 3800 6350 3800
+Wire Wire Line
+	6500 5050 6350 5050
+Connection ~ 6500 5050
+Wire Wire Line
+	6500 4850 6350 4850
+Connection ~ 6500 4850
+Wire Wire Line
+	6500 4650 6350 4650
+Connection ~ 6500 4650
+Wire Wire Line
+	6500 4450 6350 4450
+Connection ~ 6500 4450
+Wire Wire Line
+	6500 4000 6350 4000
+Connection ~ 6500 4000
+Wire Wire Line
+	8250 3500 6350 3500
+Wire Wire Line
+	8250 3300 6350 3300
+Connection ~ 7250 4250
+Wire Wire Line
+	7250 3650 7250 3400
+Connection ~ 7250 3400
+Wire Wire Line
+	7250 4150 7250 4350
+Wire Wire Line
+	7050 3000 7200 3000
+Wire Wire Line
+	6350 2250 6500 2250
+Connection ~ 6500 2250
+Wire Wire Line
+	6800 2600 6350 2600
+Wire Wire Line
+	6800 2050 6800 1300
+Connection ~ 6800 1300
+Wire Wire Line
+	6500 2350 6500 1300
+Connection ~ 6500 2150
+Wire Wire Line
+	7650 1300 7650 1500
+Wire Wire Line
+	7450 2700 7450 2900
+Wire Wire Line
+	7650 2100 7650 2000
+Connection ~ 7650 2100
+Wire Wire Line
+	7200 2100 7900 2100
+Connection ~ 7800 2100
+Wire Wire Line
+	10900 2000 10900 1850
+Wire Wire Line
+	11850 2000 11850 2100
+Wire Wire Line
+	10500 1300 10500 1450
+Connection ~ 10500 1300
+Wire Wire Line
+	9700 1300 9700 1450
+Connection ~ 9700 1300
+Wire Wire Line
+	8900 1300 8900 1450
+Connection ~ 8900 1300
+Wire Wire Line
+	8500 2000 8500 1850
+Wire Wire Line
+	10500 2000 10500 1850
+Wire Wire Line
+	9700 2000 9700 1850
+Connection ~ 9700 2000
+Wire Wire Line
+	8900 1850 8900 2000
+Connection ~ 8900 2000
+Wire Wire Line
+	6500 1300 11000 1300
+Connection ~ 7650 1300
+Wire Wire Line
+	4250 4900 4000 4900
+Wire Wire Line
+	3200 5200 4250 5200
+Wire Bus Line
+	3450 4550 3450 3800
+Wire Bus Line
+	3450 3800 2700 3800
+Wire Wire Line
+	3100 6450 2700 6450
+Wire Wire Line
+	2700 6450 2700 6550
+Wire Wire Line
+	2400 7200 2900 7200
+Connection ~ 2700 7200
+Wire Wire Line
+	3300 7200 4100 7200
+Wire Wire Line
+	3500 6350 3500 6550
+Wire Wire Line
+	5900 6350 5900 6550
+Wire Wire Line
+	5700 7200 6500 7200
+Connection ~ 5100 7200
+Wire Wire Line
+	4800 7200 5300 7200
+Wire Wire Line
+	5100 6550 5100 6450
+Wire Wire Line
+	5100 6450 5500 6450
+Wire Wire Line
+	5100 7050 5100 7200
+Wire Wire Line
+	5500 6350 5500 6900
+Connection ~ 5500 6450
+Wire Wire Line
+	5900 7050 5900 7200
+Connection ~ 5900 7200
+Wire Wire Line
+	3700 8850 3700 8350
+Wire Wire Line
+	3050 8450 2900 8450
+Wire Wire Line
+	2350 9050 2000 9050
+Wire Wire Line
+	10050 7350 10050 7600
+Wire Wire Line
+	10150 7350 10150 7600
+Wire Wire Line
+	10550 7350 10550 8050
+Wire Wire Line
+	10650 7350 10650 8050
+Wire Wire Line
+	10750 7350 10750 8050
+Wire Wire Line
+	11050 7350 11050 7500
+Wire Wire Line
+	11450 7350 11450 7500
+Wire Wire Line
+	10150 5850 10150 6100
+Wire Wire Line
+	10050 5850 10050 6100
+Wire Wire Line
+	9800 6700 9250 6700
+Wire Wire Line
+	12650 7250 13000 7250
+Connection ~ 12650 7250
+Wire Wire Line
+	13000 7250 13000 7400
+Wire Wire Line
+	12650 8050 12650 7850
+Connection ~ 12650 7950
+Wire Wire Line
+	10250 9200 10100 9200
+Wire Wire Line
+	10100 9200 10100 9550
+Wire Wire Line
+	11250 9350 11650 9350
+Wire Wire Line
+	11650 9350 11650 9250
+Wire Wire Line
+	9900 9950 9900 10050
+Wire Wire Line
+	11350 9950 11350 10050
+Wire Wire Line
+	11650 7600 11550 7600
+Connection ~ 11550 7600
+Wire Wire Line
+	12250 7800 12250 7500
+Connection ~ 12250 7600
+Wire Wire Line
+	11900 3300 11700 3300
+Wire Wire Line
+	13950 4100 13250 4100
+Wire Wire Line
+	12200 3500 12950 3500
+Wire Wire Line
+	12200 3900 12950 3900
+Connection ~ 12550 3700
+Wire Wire Line
+	12550 4100 12550 3300
+Connection ~ 12550 3300
+Text Label 11550 7850 1    50   ~ 0
+HPD
+Text Label 13950 4100 2    50   ~ 0
+HPD
+$Comp
+L EZJ-Z0V80010 V31
+U 1 1 4F8E9BC7
+P 13100 4100
+F 0 "V31" V 13064 3948 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 13200 4100 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 13100 4100 60  0001 C CNN
+	1    13100 4100
+	0    1    1    0   
+$EndComp
+Text GLabel 13450 3700 2    50   Input ~ 0
+DVI-I_B_P
+$Comp
+L EZJ-Z0V80010 V17
+U 1 1 4F8E9B9B
+P 13100 3700
+F 0 "V17" V 13064 3548 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 13200 3700 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 13100 3700 60  0001 C CNN
+	1    13100 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L EZJ-Z0V80010 V19
+U 1 1 4F8E9B9A
+P 13100 3900
+F 0 "V19" V 13064 3748 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 13200 3900 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 13100 3900 60  0001 C CNN
+	1    13100 3900
+	0    1    1    0   
+$EndComp
+Text GLabel 13450 3900 2    50   Input ~ 0
+DVI-I_CLK_P
+Text GLabel 13450 3500 2    50   Input ~ 0
+DVI-I_G_P
+$Comp
+L EZJ-Z0V80010 V15
+U 1 1 4F8E9B95
+P 13100 3500
+F 0 "V15" V 13064 3348 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 13200 3500 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 13100 3500 60  0001 C CNN
+	1    13100 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L EZJ-Z0V80010 V13
+U 1 1 4F8E9B76
+P 13100 3300
+F 0 "V13" V 13064 3148 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 13200 3300 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 13100 3300 60  0001 C CNN
+	1    13100 3300
+	0    1    1    0   
+$EndComp
+Text GLabel 13450 3300 2    50   Input ~ 0
+DVI-I_R_P
+$Comp
+L EZJ-Z0V80010 V16
+U 1 1 4F8E9B44
+P 12050 3700
+F 0 "V16" V 12014 3548 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 12150 3700 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 12050 3700 60  0001 C CNN
+	1    12050 3700
+	0    1    1    0   
+$EndComp
+Text GLabel 11700 3700 0    50   Input ~ 0
+DVI-I_B_N
+Text GLabel 11700 3900 0    50   Input ~ 0
+DVI-I_CLK_N
+$Comp
+L EZJ-Z0V80010 V18
+U 1 1 4F8E9B43
+P 12050 3900
+F 0 "V18" V 12014 3748 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 12150 3900 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 12050 3900 60  0001 C CNN
+	1    12050 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L EZJ-Z0V80010 V14
+U 1 1 4F8E9B3B
+P 12050 3500
+F 0 "V14" V 12014 3348 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 12150 3500 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 12050 3500 60  0001 C CNN
+	1    12050 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 11700 3500 0    50   Input ~ 0
+DVI-I_G_N
+Text GLabel 11700 3300 0    50   Input ~ 0
+DVI-I_R_N
+Text GLabel 12250 8450 3    50   Output ~ 0
+DVI-I_HPD
+$Comp
+L GND #PWR?
+U 1 1 4F8E9902
+P 12250 7500
+F 0 "#PWR?" H 12250 7500 30  0001 C CNN
+F 1 "GND" H 12250 7430 30  0001 C CNN
+	1    12250 7500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R232
+U 1 1 4F8E98B6
+P 11900 7600
+F 0 "R232" V 12000 7650 50  0000 C CNN
+F 1 "10K" V 11800 7650 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11900 7600 60  0001 C CNN
+F 4 "RC0402FR-0710KL" V 11900 7600 60  0001 C CNN "P/N"
+	1    11900 7600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 2N7002MTF Q4
+U 1 1 4F8E9871
+P 12150 8000
+F 0 "Q4" H 12050 8150 60  0000 R CNN
+F 1 "2N7002MTF" V 12400 8050 60  0000 R CNN
+F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 12150 8000 60  0001 C CNN
+	1    12150 8000
+	1    0    0    1   
+$EndComp
+$Comp
+L C C188
+U 1 1 4F8E9830
+P 11350 9750
+F 0 "C188" H 11400 9850 50  0000 L CNN
+F 1 "10uF" H 11400 9650 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 11350 9750 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 11350 9750 60  0001 C CNN "P/N"
+	1    11350 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C288
+U 1 1 4F8E97F2
+P 9900 9750
+F 0 "C288" H 9950 9850 50  0000 L CNN
+F 1 "10uF" H 9950 9650 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9900 9750 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 9900 9750 60  0001 C CNN "P/N"
+	1    9900 9750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E97CD
+P 11350 10050
+F 0 "#PWR?" H 11350 10050 30  0001 C CNN
+F 1 "GND" H 11350 9980 30  0001 C CNN
+	1    11350 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E979E
+P 9900 10050
+F 0 "#PWR?" H 9900 10050 30  0001 C CNN
+F 1 "GND" H 9900 9980 30  0001 C CNN
+	1    9900 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR?
+U 1 1 4F8E9726
+P 11650 8650
+F 0 "#PWR?" H 11650 8610 30  0001 C CNN
+F 1 "5V" H 11650 8760 60  0000 C CNN
+	1    11650 8650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R143
+U 1 1 4F8E9713
+P 11650 9000
+F 0 "R143" H 11800 9100 50  0000 C CNN
+F 1 "10K" H 11750 9000 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11650 9000 60  0001 C CNN
+F 4 "RC0402FR-0710KL" V 11650 9000 60  0001 C CNN "P/N"
+	1    11650 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E96C1
+P 10100 9550
+F 0 "#PWR?" H 10100 9550 30  0001 C CNN
+F 1 "GND" H 10100 9480 30  0001 C CNN
+	1    10100 9550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R235
+U 1 1 4F8E9659
+P 9600 9000
+F 0 "R235" H 9750 9100 50  0000 C CNN
+F 1 "10K" H 9700 9000 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9600 9000 60  0001 C CNN
+F 4 "RC0402FR-0710KL" V 9600 9000 60  0001 C CNN "P/N"
+	1    9600 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR?
+U 1 1 4F8E9648
+P 9600 8600
+F 0 "#PWR?" H 9600 8560 30  0001 C CNN
+F 1 "5V" H 9600 8710 60  0000 C CNN
+	1    9600 8600
+	1    0    0    -1  
+$EndComp
+Text Label 12650 6700 3    50   ~ 0
+DVI-I_SHIELD
+$Comp
+L GND #PWR?
+U 1 1 4F8E9581
+P 12650 8050
+F 0 "#PWR?" H 12650 8050 30  0001 C CNN
+F 1 "GND" H 12650 7980 30  0001 C CNN
+	1    12650 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C135
+U 1 1 4F8E953B
+P 13000 7600
+F 0 "C135" H 13050 7700 50  0000 L CNN
+F 1 "4.7nF" H 13050 7500 50  0000 L CNN
+F 3 "http://www.chipcera.com.cn/download/%E4%B8%AD%E5%8E%8B%E5%93%813.pdf" H 13000 7600 60  0001 C CNN
+F 4 "CC1206X7R9K472RL" H 13000 7600 60  0001 C CNN "P/N"
+	1    13000 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R156
+U 1 1 4F8E94F8
+P 12650 7600
+F 0 "R156" H 12800 7700 50  0000 C CNN
+F 1 "1M" H 12800 7600 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC1206_51_RoHS_L_4.pdf" H 12650 7600 60  0001 C CNN
+F 4 "RC1206JR-071ML" V 12650 7600 60  0001 C CNN "P/N"
+	1    12650 7600
+	1    0    0    -1  
+$EndComp
+Text Label 9250 6700 0    50   ~ 0
+DVI-I_SHIELD
+Text Label 11350 5400 3    50   ~ 0
+A_HSYNC
+Text Label 11250 5400 3    50   ~ 0
+ANALOG_B
+Text Label 11150 5400 3    50   ~ 0
+ANALOG_G
+Text Label 11050 5400 3    50   ~ 0
+ANALOG_R
+Text GLabel 10650 5850 1    50   Input ~ 0
+DVI-I_CLK_P
+Text GLabel 10750 5850 1    50   Input ~ 0
+DVI-I_CLK_N
+$Comp
+L GND #PWR?
+U 1 1 4F8E942F
+P 10550 5950
+F 0 "#PWR?" H 10550 5950 30  0001 C CNN
+F 1 "GND" H 10550 5880 30  0001 C CNN
+	1    10550 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E9426
+P 11450 5950
+F 0 "#PWR?" H 11450 5950 30  0001 C CNN
+F 1 "GND" H 11450 5880 30  0001 C CNN
+	1    11450 5950
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E940F
+P 10250 5950
+F 0 "#PWR?" H 10250 5950 30  0001 C CNN
+F 1 "GND" H 10250 5880 30  0001 C CNN
+	1    10250 5950
+	-1   0    0    1   
+$EndComp
+Text GLabel 10150 5850 1    50   Input ~ 0
+DVI-I_B_P
+Text GLabel 10050 5850 1    50   Input ~ 0
+DVI-I_B_N
+$Comp
+L GND #PWR?
+U 1 1 4F8E939B
+P 11450 7500
+F 0 "#PWR?" H 11450 7500 30  0001 C CNN
+F 1 "GND" H 11450 7430 30  0001 C CNN
+	1    11450 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E9350
+P 11050 7500
+F 0 "#PWR?" H 11050 7500 30  0001 C CNN
+F 1 "GND" H 11050 7430 30  0001 C CNN
+	1    11050 7500
+	1    0    0    -1  
+$EndComp
+Text Label 10750 8050 1    50   ~ 0
+A_VSYNC
+Text Label 10650 8050 1    50   ~ 0
+DDC_DATA
+Text Label 10550 8050 1    50   ~ 0
+DDC_CLK
+Text GLabel 10850 7600 3    50   Input ~ 0
+DVI-I_G_N
+Text GLabel 10950 7600 3    50   Input ~ 0
+DVI-I_G_P
+NoConn ~ 10450 6100
+NoConn ~ 10350 6100
+NoConn ~ 11250 7350
+NoConn ~ 11150 7350
+NoConn ~ 10450 7350
+NoConn ~ 10350 7350
+$Comp
+L GND #PWR?
+U 1 1 4F8E92C7
+P 10250 7500
+F 0 "#PWR?" H 10250 7500 30  0001 C CNN
+F 1 "GND" H 10250 7430 30  0001 C CNN
+	1    10250 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 10150 7600 3    50   Input ~ 0
+DVI-I_R_P
+Text GLabel 10050 7600 3    50   Input ~ 0
+DVI-I_R_N
+$Comp
+L SN74LVC1G17DBV U19
+U 1 1 4F8E9226
+P 6000 9050
+F 0 "U19" H 5550 9450 60  0000 C CNN
+F 1 "SN74LVC1G17DBV" H 5900 8600 60  0000 C CNN
+	1    6000 9050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 8850
+$Comp
+L 5V #PWR?
+U 1 1 4F8E9225
+P 6650 8350
+F 0 "#PWR?" H 6650 8310 30  0001 C CNN
+F 1 "5V" H 6650 8460 60  0000 C CNN
+	1    6650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C189
+U 1 1 4F8E9224
+P 6200 8450
+F 0 "C189" V 6250 8600 50  0000 L CNN
+F 1 "100nF" V 6100 8600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 6200 8450 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 6200 8450 60  0001 C CNN "P/N"
+	1    6200 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E9223
+P 5850 8450
+F 0 "#PWR?" H 5850 8450 30  0001 C CNN
+F 1 "GND" H 5850 8380 30  0001 C CNN
+	1    5850 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E9222
+P 5200 9450
+F 0 "#PWR?" H 5200 9450 30  0001 C CNN
+F 1 "GND" H 5200 9380 30  0001 C CNN
+	1    5200 9450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4950 9050 0    50   Input ~ 0
+VGA_HSYNC
+Text Label 7250 9250 2    50   ~ 0
+A_HSYNC
+Text Label 4300 9250 2    50   ~ 0
+A_VSYNC
+Text GLabel 2000 9050 0    50   Input ~ 0
+VGA_VSYNC
+$Comp
+L GND #PWR?
+U 1 1 4F8E91DD
+P 2250 9450
+F 0 "#PWR?" H 2250 9450 30  0001 C CNN
+F 1 "GND" H 2250 9380 30  0001 C CNN
+	1    2250 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E91B2
+P 2900 8450
+F 0 "#PWR?" H 2900 8450 30  0001 C CNN
+F 1 "GND" H 2900 8380 30  0001 C CNN
+	1    2900 8450
+	0    1    1    0   
+$EndComp
+$Comp
+L C C190
+U 1 1 4F8E919C
+P 3250 8450
+F 0 "C190" V 3300 8600 50  0000 L CNN
+F 1 "100nF" V 3150 8600 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3250 8450 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3250 8450 60  0001 C CNN "P/N"
+	1    3250 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 5V #PWR?
+U 1 1 4F8E918F
+P 3700 8350
+F 0 "#PWR?" H 3700 8310 30  0001 C CNN
+F 1 "5V" H 3700 8460 60  0000 C CNN
+	1    3700 8350
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2350 8850
+$Comp
+L 2N7002MTF Q2
+U 1 1 4F8E904E
+P 5500 7100
+F 0 "Q2" V 5750 6950 60  0000 R CNN
+F 1 "2N7002MTF" V 5850 7150 60  0000 R CNN
+F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 5500 7100 60  0001 C CNN
+	1    5500 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L R R149
+U 1 1 4F8E904D
+P 5100 6800
+F 0 "R149" H 5250 6900 50  0000 C CNN
+F 1 "4.7K" H 5250 6800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5100 6800 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 5100 6800 60  0001 C CNN "P/N"
+	1    5100 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4800 7200 0    50   Input ~ 0
+VGA_SCL
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8E904C
+P 5500 6350
+F 0 "#PWR?" H 5500 6310 30  0001 C CNN
+F 1 "3V3" H 5500 6460 60  0000 C CNN
+	1    5500 6350
+	1    0    0    -1  
+$EndComp
+Text Label 6500 7200 2    50   ~ 0
+DDC_CLK
+$Comp
+L R R150
+U 1 1 4F8E904B
+P 5900 6800
+F 0 "R150" H 6050 6900 50  0000 C CNN
+F 1 "4.7K" H 6050 6800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5900 6800 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 5900 6800 60  0001 C CNN "P/N"
+	1    5900 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR?
+U 1 1 4F8E904A
+P 5900 6350
+F 0 "#PWR?" H 5900 6310 30  0001 C CNN
+F 1 "5V" H 5900 6460 60  0000 C CNN
+	1    5900 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR?
+U 1 1 4F8E9031
+P 3500 6350
+F 0 "#PWR?" H 3500 6310 30  0001 C CNN
+F 1 "5V" H 3500 6460 60  0000 C CNN
+	1    3500 6350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R148
+U 1 1 4F8E9019
+P 3500 6800
+F 0 "R148" H 3650 6900 50  0000 C CNN
+F 1 "4.7K" H 3650 6800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 3500 6800 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 3500 6800 60  0001 C CNN "P/N"
+	1    3500 6800
+	1    0    0    -1  
+$EndComp
+Text Label 4100 7200 2    50   ~ 0
+DDC_DATA
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8E8FE7
+P 3100 6350
+F 0 "#PWR?" H 3100 6310 30  0001 C CNN
+F 1 "3V3" H 3100 6460 60  0000 C CNN
+	1    3100 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 7200 0    50   BiDi ~ 0
+VGA_SDA
+$Comp
+L R R147
+U 1 1 4F8E8F7F
+P 2700 6800
+F 0 "R147" H 2850 6900 50  0000 C CNN
+F 1 "4.7K" H 2850 6800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 2700 6800 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 2700 6800 60  0001 C CNN "P/N"
+	1    2700 6800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 2000 0    50   Input ~ 0
+VGA_R[7..0]
+Text GLabel 2700 2900 0    50   Input ~ 0
+VGA_G[7..0]
+Text GLabel 2700 3800 0    50   Input ~ 0
+VGA_B[7..0]
+Text Label 2800 3800 0    50   ~ 0
+VGA_B[7..0]
+Text Label 2800 2900 0    50   ~ 0
+VGA_G[7..0]
+Text Label 2800 2000 0    50   ~ 0
+VGA_R[7..0]
+Entry Wire Line
+	3450 4350 3550 4450
+Entry Wire Line
+	3450 4450 3550 4550
+Entry Wire Line
+	3450 4550 3550 4650
+Entry Wire Line
+	3450 4250 3550 4350
+Entry Wire Line
+	3450 4150 3550 4250
+Entry Wire Line
+	3450 4050 3550 4150
+Entry Wire Line
+	3450 3950 3550 4050
+Entry Wire Line
+	3450 3850 3550 3950
+Entry Wire Line
+	3450 2950 3550 3050
+Entry Wire Line
+	3450 3050 3550 3150
+Entry Wire Line
+	3450 3150 3550 3250
+Entry Wire Line
+	3450 3250 3550 3350
+Entry Wire Line
+	3450 3350 3550 3450
+Entry Wire Line
+	3450 3650 3550 3750
+Entry Wire Line
+	3450 3550 3550 3650
+Entry Wire Line
+	3450 3450 3550 3550
+Entry Wire Line
+	3450 2550 3550 2650
+Entry Wire Line
+	3450 2650 3550 2750
+Entry Wire Line
+	3450 2750 3550 2850
+Entry Wire Line
+	3450 2450 3550 2550
+Entry Wire Line
+	3450 2350 3550 2450
+Entry Wire Line
+	3450 2250 3550 2350
+Entry Wire Line
+	3450 2150 3550 2250
+Entry Wire Line
+	3450 2050 3550 2150
+Text Label 3650 2450 0    50   ~ 0
+VGA_R3
+Text Label 3650 2350 0    50   ~ 0
+VGA_R2
+Text Label 3650 2150 0    50   ~ 0
+VGA_R0
+Text Label 3650 2250 0    50   ~ 0
+VGA_R1
+Text Label 3650 2650 0    50   ~ 0
+VGA_R5
+Text Label 3650 2550 0    50   ~ 0
+VGA_R4
+Text Label 3650 2750 0    50   ~ 0
+VGA_R6
+Text Label 3650 2850 0    50   ~ 0
+VGA_R7
+Text Label 3650 3750 0    50   ~ 0
+VGA_G7
+Text Label 3650 3650 0    50   ~ 0
+VGA_G6
+Text Label 3650 3450 0    50   ~ 0
+VGA_G4
+Text Label 3650 3550 0    50   ~ 0
+VGA_G5
+Text Label 3650 3150 0    50   ~ 0
+VGA_G1
+Text Label 3650 3050 0    50   ~ 0
+VGA_G0
+Text Label 3650 3250 0    50   ~ 0
+VGA_G2
+Text Label 3650 3350 0    50   ~ 0
+VGA_G3
+Text Label 3650 4250 0    50   ~ 0
+VGA_B3
+Text Label 3650 4150 0    50   ~ 0
+VGA_B2
+Text Label 3650 3950 0    50   ~ 0
+VGA_B7
+Text Label 3650 4050 0    50   ~ 0
+VGA_B1
+Text Label 3650 4450 0    50   ~ 0
+VGA_B5
+Text Label 3650 4350 0    50   ~ 0
+VGA_B4
+Text Label 3650 4550 0    50   ~ 0
+VGA_B6
+Text Label 3650 4650 0    50   ~ 0
+VGA_B7
+Text GLabel 3200 5200 0    50   Input ~ 0
+VGA_PSAVE_N
+Text GLabel 3200 5100 0    50   Input ~ 0
+VGA_CLK
+$Comp
+L GND #PWR?
+U 1 1 4F8E8B6D
+P 4000 4900
+F 0 "#PWR?" H 4000 4900 30  0001 C CNN
+F 1 "GND" H 4000 4830 30  0001 C CNN
+	1    4000 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8E8B53
+P 4000 5000
+F 0 "#PWR?" H 4000 4960 30  0001 C CNN
+F 1 "3V3" V 4000 5200 60  0000 C CNN
+	1    4000 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C180
+U 1 1 4F8E88E9
+P 8500 1650
+F 0 "C180" H 8550 1750 50  0000 L CNN
+F 1 "10nF" H 8550 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 8500 1650 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103" H 8500 1650 60  0001 C CNN "P/N"
+	1    8500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C181
+U 1 1 4F8E88C0
+P 8900 1650
+F 0 "C181" H 8950 1750 50  0000 L CNN
+F 1 "10nF" H 8950 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 8900 1650 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103" H 8900 1650 60  0001 C CNN "P/N"
+	1    8900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C182
+U 1 1 4F8E888E
+P 9300 1650
+F 0 "C182" H 9350 1750 50  0000 L CNN
+F 1 "10nF" H 9350 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 9300 1650 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103" H 9300 1650 60  0001 C CNN "P/N"
+	1    9300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C183
+U 1 1 4F8E8831
+P 9700 1650
+F 0 "C183" H 9750 1750 50  0000 L CNN
+F 1 "100nF" H 9750 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9700 1650 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 9700 1650 60  0001 C CNN "P/N"
+	1    9700 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C184
+U 1 1 4F8E8828
+P 10100 1650
+F 0 "C184" H 10150 1750 50  0000 L CNN
+F 1 "100nF" H 10150 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 10100 1650 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 10100 1650 60  0001 C CNN "P/N"
+	1    10100 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C185
+U 1 1 4F8E8821
+P 10500 1650
+F 0 "C185" H 10550 1750 50  0000 L CNN
+F 1 "100nF" H 10550 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 10500 1650 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 10500 1650 60  0001 C CNN "P/N"
+	1    10500 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR?
+U 1 1 4F8E8798
+P 11850 1200
+F 0 "#PWR?" H 11850 1160 30  0001 C CNN
+F 1 "3V3" H 11850 1310 60  0000 C CNN
+	1    11850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E8782
+P 11850 2100
+F 0 "#PWR?" H 11850 2100 30  0001 C CNN
+F 1 "GND" H 11850 2030 30  0001 C CNN
+	1    11850 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP10
+U 1 1 4F8E8739
+P 7950 2100
+F 0 "TP10" V 7950 2350 60  0000 C CNN
+F 1 "TESTPOINT" H 7950 2100 60  0001 C CNN
+	1    7950 2100
+	0    1    1    0   
+$EndComp
+NoConn ~ 8300 2550
+$Comp
+L GND #PWR?
+U 1 1 4F8E86D3
+P 7450 2900
+F 0 "#PWR?" H 7450 2900 30  0001 C CNN
+F 1 "GND" H 7450 2830 30  0001 C CNN
+	1    7450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C187
+U 1 1 4F8E86C9
+P 7450 2500
+F 0 "C187" H 7500 2600 50  0000 L CNN
+F 1 "1uF" H 7500 2400 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7450 2500 60  0001 C CNN
+F 4 "C1005X5R0J105KT" H 7450 2500 60  0001 C CNN "P/N"
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R141
+U 1 1 4F8E8666
+P 7650 1750
+F 0 "R141" H 7800 1850 50  0000 C CNN
+F 1 "1K" H 7750 1750 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7650 1750 60  0001 C CNN
+F 4 "RC0402FR-071KL" V 7650 1750 60  0001 C CNN "P/N"
+	1    7650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E85AC
+P 7200 3000
+F 0 "#PWR?" H 7200 3000 30  0001 C CNN
+F 1 "GND" H 7200 2930 30  0001 C CNN
+	1    7200 3000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R142
+U 1 1 4F8E853D
+P 6800 3000
+F 0 "R142" V 6836 3256 50  0000 C CNN
+F 1 "560" V 6752 3248 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 6800 3000 60  0001 C CNN
+F 4 "RC0402FR-07560RL" V 6800 3000 60  0001 C CNN "P/N"
+	1    6800 3000
+	0    -1   -1   0   
+$EndComp
+Text Label 8250 3500 2    60   ~ 0
+ANALOG_B
+Text Label 8250 3400 2    60   ~ 0
+ANALOG_G
+Text Label 8250 3300 2    60   ~ 0
+ANALOG_R
+$Comp
+L GND #PWR?
+U 1 1 4F8E84F7
+P 7250 4350
+F 0 "#PWR?" H 7250 4350 30  0001 C CNN
+F 1 "GND" H 7250 4280 30  0001 C CNN
+	1    7250 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R146
+U 1 1 4F8E84C4
+P 7650 3900
+F 0 "R146" H 7800 4000 50  0000 C CNN
+F 1 "75" H 7750 3900 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7650 3900 60  0001 C CNN
+F 4 "RC0402FR-0775RL" V 7650 3900 60  0001 C CNN "P/N"
+	1    7650 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R145
+U 1 1 4F8E84C1
+P 7250 3900
+F 0 "R145" H 7400 4000 50  0000 C CNN
+F 1 "75" H 7350 3900 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7250 3900 60  0001 C CNN
+F 4 "RC0402FR-0775RL" V 7250 3900 60  0001 C CNN "P/N"
+	1    7250 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F8E843D
+P 6500 5300
+F 0 "#PWR?" H 6500 5300 30  0001 C CNN
+F 1 "GND" H 6500 5230 30  0001 C CNN
+	1    6500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74320-1004 J17
+U 1 1 4F8E7E1F
+P 10400 6900
+F 0 "J17" H 11600 7600 60  0000 C CNN
+F 1 "74320-1004" H 9650 7650 60  0000 C CNN
+	1    10400 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LVC1G17DBV U20
+U 1 1 4F8E7E06
+P 3050 9050
+F 0 "U20" H 2600 9450 60  0000 C CNN
+F 1 "SN74LVC1G17DBV" H 2950 8600 60  0000 C CNN
+	1    3050 9050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N7002MTF Q1
+U 1 1 4F8E7DF6
+P 3100 7100
+F 0 "Q1" V 3350 6950 60  0000 R CNN
+F 1 "2N7002MTF" V 3450 7150 60  0000 R CNN
+F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 3100 7100 60  0001 C CNN
+	1    3100 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L MIC2090-1YM5 U32
+U 1 1 4F8E7DD9
+P 10750 9300
+F 0 "U32" H 10500 9700 60  0000 C CNN
+F 1 "MIC2090-1YM5" H 10750 9050 60  0000 C CNN
+	1    10750 9300
+	1    0    0    -1  
+$EndComp
+$Comp
+L EZJ-Z0V80010 V12
+U 1 1 4F8E7DC3
+P 12050 3300
+F 0 "V12" V 12014 3148 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 12150 3300 50  0001 C CNN
+F 3 "http://industrial.panasonic.com/www-data/pdf/AWC0000/AWC0000CE2.pdf" H 12050 3300 60  0001 C CNN
+	1    12050 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L FILTER L13
+U 1 1 4F8E7DB2
+P 11350 1300
+F 0 "L13" H 11150 1450 60  0000 C CNN
+F 1 "CB100505T-601Y" H 11350 1200 60  0000 C CNN
+F 3 "http://downloads.qi-hardware.com/hardware/milkymist_one/datasheet/Audio/CB100505T-601Y.pdf" H 11350 1300 60  0001 C CNN
+F 4 "300mA" H 11550 1450 60  0000 C CNN "Rated Current(Max.)"
+	1    11350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R144
+U 1 1 4F8E7D9E
+P 6850 3900
+F 0 "R144" H 7000 4000 50  0000 C CNN
+F 1 "75" H 6950 3900 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 6850 3900 60  0001 C CNN
+F 4 "RC0402FR-0775RL" V 6850 3900 60  0001 C CNN "P/N"
+	1    6850 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L AD1580BRTZ D5
+U 1 1 4F8E7D8C
+P 8100 2550
+F 0 "D5" H 7950 2850 50  0000 C CNN
+F 1 "AD1580BRTZ" H 8050 2250 40  0000 C CNN
+	1    8100 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C179
+U 1 1 4F8E7D7D
+P 10900 1650
+F 0 "C179" H 10950 1750 50  0000 L CNN
+F 1 "10uF" H 10950 1550 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 10900 1650 60  0001 C CNN
+F 4 "CC0805MRX5R5BB106" H 10900 1650 60  0001 C CNN "P/N"
+	1    10900 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C186
+U 1 1 4F8E7D74
+P 6800 2250
+F 0 "C186" H 6850 2350 50  0000 L CNN
+F 1 "100nF" H 6850 2150 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 6800 2250 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 6800 2250 60  0001 C CNN "P/N"
+	1    6800 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L ADV7125KSTZ140 U18
+U 1 1 4F8E7D46
+P 5300 3700
+F 0 "U18" H 4600 5400 60  0000 C CNN
+F 1 "ADV7125KSTZ140" H 5700 5400 60  0000 C CNN
+	1    5300 3700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
