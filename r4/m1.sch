@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Wed 18 Apr 2012 12:05:54 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -37,14 +35,25 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
 LIBS:m1-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-encoding utf-8
 Sheet 1 15
 Title "Milkymist One - Hierarchical Sheet"
-Date "11 apr 2012"
+Date "18 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""

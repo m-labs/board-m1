@@ -1,4 +1,4 @@
-update=Mon 16 Apr 2012 21:37:48 CST
+update=Wed 18 Apr 2012 15:09:43 CST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -105,3 +105,5 @@ LibName43=filter
 LibName44=crystal
 LibName45=switch
 LibName46=rca
+LibName47=zener
+LibName48=dc_jack
