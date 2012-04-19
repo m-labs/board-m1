@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 17 Apr 2012 09:17:07 CST
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 11:39:01 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -44,14 +44,16 @@ LIBS:con
 LIBS:filter
 LIBS:crystal
 LIBS:switch
-LIBS:bnc
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
 LIBS:m1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
 Sheet 2 15
 Title "Milkymist One - Video-In Sheet"
-Date "17 apr 2012"
+Date "19 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -59,6 +61,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 8500 7050 3    60   Output ~ 0
+VIDEOIN_LLC
 Text Label 6200 2800 2    60   ~ 0
 AIN4
 Text Label 6200 2600 2    60   ~ 0
