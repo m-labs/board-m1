@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 17 Apr 2012 17:25:29 CST
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 18:08:29 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -47,13 +47,14 @@ LIBS:switch
 LIBS:rca
 LIBS:zener
 LIBS:dc_jack
+LIBS:hole
 LIBS:m1-cache
 EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
 Sheet 7 15
 Title "Milkymist One - Power Sheet"
-Date "17 apr 2012"
+Date "19 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -61,6 +62,42 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MH J15
+U 1 1 4F8FE413
+P 4900 6300
+F 0 "J15" H 4900 6450 60  0000 C CNN
+F 1 "MH" H 4900 6450 60  0001 C CNN
+	1    4900 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH J14
+U 1 1 4F8FE40B
+P 4900 5600
+F 0 "J14" H 4900 5750 60  0000 C CNN
+F 1 "MH" H 4900 5750 60  0001 C CNN
+	1    4900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH J13
+U 1 1 4F8FE400
+P 4900 4900
+F 0 "J13" H 4900 5050 60  0000 C CNN
+F 1 "MH" H 4900 5050 60  0001 C CNN
+	1    4900 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MH J12
+U 1 1 4F8FE3D8
+P 4900 4200
+F 0 "J12" H 4900 4350 60  0000 C CNN
+F 1 "MH" H 4900 4350 60  0001 C CNN
+	1    4900 4200
+	1    0    0    -1  
+$EndComp
 Connection ~ 2600 8600
 Wire Wire Line
 	2600 8600 2800 8600
