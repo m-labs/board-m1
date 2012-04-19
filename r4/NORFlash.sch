@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 17 Apr 2012 17:30:55 CST
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 15:56:52 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -53,7 +53,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 8 15
 Title "Milkymist One - NOR Flash Sheet"
-Date "17 apr 2012"
+Date "19 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -434,7 +434,7 @@ $Comp
 L TESTPOINT TP37
 U 1 1 4F8581C0
 P 9650 5600
-F 0 "TP37" H 9650 5600 30  0000 C CNN
+F 0 "TP37" H 9650 5750 30  0000 C CNN
 F 1 "TESTPOINT" H 9650 5600 60  0001 C CNN
 	1    9650 5600
 	1    0    0    -1  
@@ -543,15 +543,15 @@ Text Label 6700 3250 0    60   ~ 0
 FLASH_A0
 Text GLabel 5800 2800 0    60   Input ~ 0
 FLASH_A[23..0]
-Text GLabel 5700 6050 0    60   Input ~ 0
+Text GLabel 5700 6050 0    50   Input ~ 0
 FLASH_CE_N
-Text GLabel 10800 6150 2    60   Output ~ 0
+Text GLabel 10800 6150 2    50   Output ~ 0
 FLASH_STS_N
-Text GLabel 10800 6050 2    60   Input ~ 0
+Text GLabel 10800 6050 2    50   Input ~ 0
 FLASH_OE_N
-Text GLabel 10800 5850 2    60   Input ~ 0
+Text GLabel 10800 5850 2    50   Input ~ 0
 FLASH_RESET_N
-Text GLabel 10800 5950 2    60   Input ~ 0
+Text GLabel 10800 5950 2    50   Input ~ 0
 FLASH_WE_N
 Entry Wire Line
 	10000 3450 9900 3550
