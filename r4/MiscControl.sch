@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 10:54:25 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -37,14 +35,25 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
 LIBS:m1-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-encoding utf-8
 Sheet 9 15
 Title "Milkymist One - Misc. Control Sheet"
-Date "11 apr 2012"
+Date "19 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -52,4 +61,121 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L R R?
+U 1 1 4F8F7E57
+P 6350 9600
+F 0 "R?" V 6430 9600 50  0000 C CNN
+F 1 "R" V 6350 9600 50  0000 C CNN
+	1    6350 9600
+	1    0    0    -1  
+$EndComp
+$Comp
+L IR U?
+U 1 1 4F8F7E42
+P 7450 8900
+F 0 "U?" H 7338 9135 50  0000 C CNN
+F 1 "IR" H 7325 8661 40  0000 C CNN
+	1    7450 8900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP?
+U 1 1 4F8F7E35
+P 9700 6500
+F 0 "TP?" H 9700 6500 60  0000 C CNN
+F 1 "TESTPOINT" H 9700 6500 60  0001 C CNN
+	1    9700 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_5_2S J?
+U 1 1 4F8F7E26
+P 13300 6700
+F 0 "J?" H 13253 7250 70  0000 C CNN
+F 1 "DIN_5_2S" H 13283 7150 70  0000 C CNN
+	1    13300 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_5_2S J?
+U 1 1 4F8F7E20
+P 5250 7900
+F 0 "J?" H 5203 8450 70  0000 C CNN
+F 1 "DIN_5_2S" H 5233 8350 70  0000 C CNN
+	1    5250 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LVC1G17DBV U?
+U 1 1 4F8F7E02
+P 2400 7800
+F 0 "U?" H 1950 8200 60  0000 C CNN
+F 1 "SN74LVC1G17DBV" H 2300 7350 60  0000 C CNN
+	1    2400 7800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4F8F7DF5
+P 2250 9000
+F 0 "C?" H 2300 9100 50  0000 L CNN
+F 1 "C" H 2300 8900 50  0000 L CNN
+	1    2250 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L EZJ-Z0V80010 V?
+U 1 1 4F8F7DE8
+P 3600 8150
+F 0 "V?" V 3500 8150 50  0000 C CNN
+F 1 "EZJ-Z0V80010" V 3700 8150 50  0000 C CNN
+	1    3600 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L XLR-3-F-R J?
+U 1 1 4F8F7DDA
+P 4450 2350
+F 0 "J?" H 4600 2600 60  0000 C CNN
+F 1 "XLR-3-F-R" H 4800 2000 60  0000 C CNN
+	1    4450 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L XLR-3-M-R J?
+U 1 1 4F8F7DD4
+P 13200 2350
+F 0 "J?" H 13350 2600 60  0000 C CNN
+F 1 "XLR-3-M-R" H 13550 2000 60  0000 C CNN
+	1    13200 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BZX84 D?
+U 1 1 4F8F7D9C
+P 12600 3500
+F 0 "D?" H 12450 3800 50  0000 C CNN
+F 1 "BZX84" H 12550 3200 40  0000 C CNN
+	1    12600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 6N138 U?
+U 1 1 4F8F7D80
+P 11150 6600
+F 0 "U?" H 11150 7150 70  0000 C CNN
+F 1 "6N138" H 11150 6050 70  0000 C CNN
+	1    11150 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN75HVD12D U?
+U 1 1 4F8F7D67
+P 11050 2900
+F 0 "U?" H 10700 3300 60  0000 C CNN
+F 1 "SN75HVD12D" H 11150 3300 60  0000 C CNN
+	1    11050 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
