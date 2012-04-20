@@ -1,4 +1,4 @@
-update=Wed 18 Apr 2012 15:09:43 CST
+update=Fri 20 Apr 2012 10:42:00 CST
 last_client=eeschema
 [pcbnew]
 version=1
@@ -107,3 +107,5 @@ LibName45=switch
 LibName46=rca
 LibName47=zener
 LibName48=dc_jack
+LibName49=hole
+LibName50=diode
