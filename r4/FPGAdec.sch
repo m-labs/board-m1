@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Fri 20 Apr 2012 05:31:32 PM CST
+EESchema Schematic File Version 2  date Fri 20 Apr 2012 05:39:20 PM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -63,12 +63,155 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 9500 6750
+Connection ~ 10050 6750
+Connection ~ 10550 6750
+Connection ~ 11000 6750
+Connection ~ 11450 6750
+Connection ~ 11900 6750
+Connection ~ 12300 6750
+Connection ~ 12750 6750
+Connection ~ 13200 6750
+Connection ~ 13650 6750
+Connection ~ 13650 6350
+Connection ~ 13200 6350
+Connection ~ 12750 6350
+Connection ~ 12300 6350
+Connection ~ 11900 6350
+Connection ~ 11450 6350
+Connection ~ 11000 6350
+Connection ~ 10550 6350
+Connection ~ 10050 6350
+Connection ~ 9500 6350
+Connection ~ 2650 6750
+Connection ~ 3150 6750
+Connection ~ 3650 6750
+Connection ~ 4100 6750
+Connection ~ 4600 6750
+Connection ~ 5050 6750
+Connection ~ 5500 6750
+Connection ~ 5900 6750
+Connection ~ 6350 6750
+Connection ~ 6800 6750
+Connection ~ 7250 6750
+Connection ~ 7700 6750
+Connection ~ 7700 6350
+Connection ~ 7250 6350
+Connection ~ 6800 6350
+Connection ~ 6350 6350
+Connection ~ 5900 6350
+Connection ~ 5500 6350
+Connection ~ 5050 6350
+Connection ~ 4600 6350
+Connection ~ 4100 6350
+Connection ~ 3650 6350
+Connection ~ 3150 6350
+Connection ~ 2650 6350
+Connection ~ 6300 5650
+Connection ~ 6700 5650
+Connection ~ 7200 5650
+Connection ~ 7650 5650
+Connection ~ 8000 5650
+Connection ~ 8450 5650
+Connection ~ 8850 5650
+Connection ~ 9300 5650
+Connection ~ 9750 5650
+Connection ~ 10200 5650
+Connection ~ 10200 5250
+Connection ~ 9750 5250
+Connection ~ 9300 5250
+Connection ~ 8850 5250
+Connection ~ 8450 5250
+Connection ~ 8000 5250
+Connection ~ 7650 5250
+Connection ~ 7200 5250
+Connection ~ 6700 5250
+Connection ~ 6300 5250
+Connection ~ 2550 5650
+Connection ~ 3100 5650
+Connection ~ 3600 5650
+Connection ~ 4100 5650
+Connection ~ 4550 5650
+Connection ~ 5000 5650
+Connection ~ 5000 5250
+Connection ~ 4550 5250
+Connection ~ 4100 5250
+Connection ~ 3600 5250
+Connection ~ 3100 5250
+Connection ~ 2550 5250
+Connection ~ 2550 4450
+Connection ~ 3050 4450
+Connection ~ 3550 4450
+Connection ~ 4000 4450
+Connection ~ 4500 4450
+Connection ~ 4950 4450
+Connection ~ 5400 4450
+Connection ~ 5850 4450
+Connection ~ 6300 4450
+Connection ~ 6700 4450
+Connection ~ 7150 4450
+Connection ~ 7600 4450
+Connection ~ 8050 4450
+Connection ~ 8050 4050
+Connection ~ 7600 4050
+Connection ~ 7150 4050
+Connection ~ 6700 4050
+Connection ~ 6300 4050
+Connection ~ 5850 4050
+Connection ~ 5400 4050
+Connection ~ 4950 4050
+Connection ~ 4500 4050
+Connection ~ 4000 4050
+Connection ~ 3550 4050
+Connection ~ 3050 4050
+Connection ~ 2550 4050
+Connection ~ 2550 3050
+Connection ~ 3050 3050
+Connection ~ 3550 3050
+Connection ~ 4050 3050
+Connection ~ 4500 3050
+Connection ~ 5000 3050
+Connection ~ 5450 3050
+Connection ~ 5900 3050
+Connection ~ 5900 3050
+Connection ~ 6400 3050
+Connection ~ 6850 3050
+Connection ~ 7300 3050
+Connection ~ 7750 3050
+Connection ~ 8150 3050
+Connection ~ 8600 3050
+Connection ~ 9050 3050
+Connection ~ 9500 3050
+Connection ~ 9900 3050
+Connection ~ 10350 3050
+Connection ~ 10800 3050
+Connection ~ 11250 3050
+Connection ~ 11250 2650
+Connection ~ 10800 2650
+Connection ~ 10350 2650
+Connection ~ 9900 2650
+Connection ~ 9500 2650
+Connection ~ 9050 2650
+Connection ~ 8600 2650
+Connection ~ 8150 2650
+Connection ~ 7750 2650
+Connection ~ 7300 2650
+Connection ~ 6850 2650
+Connection ~ 6400 2650
+Connection ~ 5900 2650
+Connection ~ 5450 2650
+Connection ~ 5000 2650
+Connection ~ 4500 2650
+Connection ~ 4050 2650
+Connection ~ 3550 2650
+Connection ~ 3050 2650
+Connection ~ 2550 2650
 Wire Wire Line
 	13650 6750 9500 6750
 Wire Wire Line
 	7700 6750 2650 6750
 Wire Wire Line
-	10400 5650 6500 5650
+	10200 5650 6300 5650
 Wire Wire Line
 	8050 4450 2550 4450
 Wire Wire Line
@@ -78,25 +221,25 @@ Wire Wire Line
 Wire Wire Line
 	2650 6200 2650 6350
 Wire Wire Line
-	6500 5100 6500 5250
+	6300 5100 6300 5250
 Wire Wire Line
-	5050 5650 2600 5650
+	5000 5650 2550 5650
 Wire Wire Line
-	5050 5250 2600 5250
+	5000 5250 2550 5250
 Wire Wire Line
 	2550 3050 2550 3200
 Wire Wire Line
 	2550 4450 2550 4600
 Wire Wire Line
-	2600 5650 2600 5800
+	2550 5650 2550 5800
 Wire Wire Line
 	2650 6750 2650 6900
 Wire Wire Line
-	6500 5650 6500 5800
+	6300 5650 6300 5800
 Wire Wire Line
 	9500 6750 9500 6900
 Wire Wire Line
-	2600 5250 2600 5100
+	2550 5250 2550 5100
 Wire Wire Line
 	2550 3900 2550 4050
 Wire Wire Line
@@ -106,7 +249,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4050 8050 4050
 Wire Wire Line
-	6500 5250 10400 5250
+	6300 5250 10200 5250
 Wire Wire Line
 	2650 6350 7700 6350
 Wire Wire Line
@@ -191,56 +334,56 @@ $EndComp
 $Comp
 L C C88
 U 1 1 4F912C8B
-P 7850 5450
-F 0 "C88" H 7900 5550 50  0000 L CNN
-F 1 "4.7uF" H 7900 5350 50  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7850 5450 60  0001 C CNN
-F 4 "C2012X5R0J475KT" H 7850 5450 60  0001 C CNN "P/N"
-	1    7850 5450
+P 7650 5450
+F 0 "C88" H 7700 5550 50  0000 L CNN
+F 1 "4.7uF" H 7700 5350 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7650 5450 60  0001 C CNN
+F 4 "C2012X5R0J475KT" H 7650 5450 60  0001 C CNN "P/N"
+	1    7650 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C86
 U 1 1 4F912C8A
-P 6900 5450
-F 0 "C86" H 6950 5550 50  0000 L CNN
-F 1 "4.7uF" H 6950 5350 50  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 6900 5450 60  0001 C CNN
-F 4 "C2012X5R0J475KT" H 6900 5450 60  0001 C CNN "P/N"
-	1    6900 5450
+P 6700 5450
+F 0 "C86" H 6750 5550 50  0000 L CNN
+F 1 "4.7uF" H 6750 5350 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 6700 5450 60  0001 C CNN
+F 4 "C2012X5R0J475KT" H 6700 5450 60  0001 C CNN "P/N"
+	1    6700 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C87
 U 1 1 4F912C89
-P 7400 5450
-F 0 "C87" H 7450 5550 50  0000 L CNN
-F 1 "4.7uF" H 7450 5350 50  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7400 5450 60  0001 C CNN
-F 4 "C2012X5R0J475KT" H 7400 5450 60  0001 C CNN "P/N"
-	1    7400 5450
+P 7200 5450
+F 0 "C87" H 7250 5550 50  0000 L CNN
+F 1 "4.7uF" H 7250 5350 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7200 5450 60  0001 C CNN
+F 4 "C2012X5R0J475KT" H 7200 5450 60  0001 C CNN "P/N"
+	1    7200 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C83
 U 1 1 4F912C67
-P 3150 5450
-F 0 "C83" H 3200 5550 50  0000 L CNN
-F 1 "4.7uF" H 3200 5350 50  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 3150 5450 60  0001 C CNN
-F 4 "C2012X5R0J475KT" H 3150 5450 60  0001 C CNN "P/N"
-	1    3150 5450
+P 3100 5450
+F 0 "C83" H 3150 5550 50  0000 L CNN
+F 1 "4.7uF" H 3150 5350 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 3100 5450 60  0001 C CNN
+F 4 "C2012X5R0J475KT" H 3100 5450 60  0001 C CNN "P/N"
+	1    3100 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C84
 U 1 1 4F912C66
-P 3650 5450
-F 0 "C84" H 3700 5550 50  0000 L CNN
-F 1 "4.7uF" H 3700 5350 50  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 3650 5450 60  0001 C CNN
-F 4 "C2012X5R0J475KT" H 3650 5450 60  0001 C CNN "P/N"
-	1    3650 5450
+P 3600 5450
+F 0 "C84" H 3650 5550 50  0000 L CNN
+F 1 "4.7uF" H 3650 5350 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 3600 5450 60  0001 C CNN
+F 4 "C2012X5R0J475KT" H 3600 5450 60  0001 C CNN "P/N"
+	1    3600 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -312,23 +455,23 @@ $EndComp
 $Comp
 L C C85
 U 1 1 4F912BE6
-P 6500 5450
-F 0 "C85" H 6550 5550 50  0000 L CNN
-F 1 "100uF" H 6550 5350 50  0000 L CNN
-F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 6500 5450 60  0001 C CNN
-F 4 "C3225X5R0J107MT" H 6500 5450 60  0001 C CNN "P/N"
-	1    6500 5450
+P 6300 5450
+F 0 "C85" H 6350 5550 50  0000 L CNN
+F 1 "100uF" H 6350 5350 50  0000 L CNN
+F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 6300 5450 60  0001 C CNN
+F 4 "C3225X5R0J107MT" H 6300 5450 60  0001 C CNN "P/N"
+	1    6300 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C82
 U 1 1 4F912BE3
-P 2600 5450
-F 0 "C82" H 2650 5550 50  0000 L CNN
-F 1 "100uF" H 2650 5350 50  0000 L CNN
-F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 2600 5450 60  0001 C CNN
-F 4 "C3225X5R0J107MT" H 2600 5450 60  0001 C CNN "P/N"
-	1    2600 5450
+P 2550 5450
+F 0 "C82" H 2600 5550 50  0000 L CNN
+F 1 "100uF" H 2600 5350 50  0000 L CNN
+F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 2550 5450 60  0001 C CNN
+F 4 "C3225X5R0J107MT" H 2550 5450 60  0001 C CNN "P/N"
+	1    2550 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -488,100 +631,100 @@ $EndComp
 $Comp
 L C C97
 U 1 1 4F912B09
-P 10400 5450
-F 0 "C97" H 10450 5550 50  0000 L CNN
-F 1 "470nF" H 10450 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 10400 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 10400 5450 60  0001 C CNN "P/N"
-	1    10400 5450
+P 10200 5450
+F 0 "C97" H 10250 5550 50  0000 L CNN
+F 1 "470nF" H 10250 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 10200 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 10200 5450 60  0001 C CNN "P/N"
+	1    10200 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C94
 U 1 1 4F912B08
-P 9050 5450
-F 0 "C94" H 9100 5550 50  0000 L CNN
-F 1 "470nF" H 9100 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9050 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 9050 5450 60  0001 C CNN "P/N"
-	1    9050 5450
+P 8850 5450
+F 0 "C94" H 8900 5550 50  0000 L CNN
+F 1 "470nF" H 8900 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 8850 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 8850 5450 60  0001 C CNN "P/N"
+	1    8850 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C96
 U 1 1 4F912B07
-P 9950 5450
-F 0 "C96" H 10000 5550 50  0000 L CNN
-F 1 "470nF" H 10000 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9950 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 9950 5450 60  0001 C CNN "P/N"
-	1    9950 5450
+P 9750 5450
+F 0 "C96" H 9800 5550 50  0000 L CNN
+F 1 "470nF" H 9800 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9750 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 9750 5450 60  0001 C CNN "P/N"
+	1    9750 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C95
 U 1 1 4F912B06
-P 9500 5450
-F 0 "C95" H 9550 5550 50  0000 L CNN
-F 1 "470nF" H 9550 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9500 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 9500 5450 60  0001 C CNN "P/N"
-	1    9500 5450
+P 9300 5450
+F 0 "C95" H 9350 5550 50  0000 L CNN
+F 1 "470nF" H 9350 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 9300 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 9300 5450 60  0001 C CNN "P/N"
+	1    9300 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C92
 U 1 1 4F912B05
-P 8200 5450
-F 0 "C92" H 8250 5550 50  0000 L CNN
-F 1 "470nF" H 8250 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 8200 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 8200 5450 60  0001 C CNN "P/N"
-	1    8200 5450
+P 8000 5450
+F 0 "C92" H 8050 5550 50  0000 L CNN
+F 1 "470nF" H 8050 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 8000 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 8000 5450 60  0001 C CNN "P/N"
+	1    8000 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C93
 U 1 1 4F912B04
-P 8650 5450
-F 0 "C93" H 8700 5550 50  0000 L CNN
-F 1 "470nF" H 8700 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 8650 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 8650 5450 60  0001 C CNN "P/N"
-	1    8650 5450
+P 8450 5450
+F 0 "C93" H 8500 5550 50  0000 L CNN
+F 1 "470nF" H 8500 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 8450 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 8450 5450 60  0001 C CNN "P/N"
+	1    8450 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C91
 U 1 1 4F912ADC
-P 5050 5450
-F 0 "C91" H 5100 5550 50  0000 L CNN
-F 1 "470nF" H 5100 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 5050 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 5050 5450 60  0001 C CNN "P/N"
-	1    5050 5450
+P 5000 5450
+F 0 "C91" H 5050 5550 50  0000 L CNN
+F 1 "470nF" H 5050 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 5000 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 5000 5450 60  0001 C CNN "P/N"
+	1    5000 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C90
 U 1 1 4F912ADB
-P 4600 5450
-F 0 "C90" H 4650 5550 50  0000 L CNN
-F 1 "470nF" H 4650 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 4600 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 4600 5450 60  0001 C CNN "P/N"
-	1    4600 5450
+P 4550 5450
+F 0 "C90" H 4600 5550 50  0000 L CNN
+F 1 "470nF" H 4600 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 4550 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 4550 5450 60  0001 C CNN "P/N"
+	1    4550 5450
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C89
 U 1 1 4F912ADA
-P 4150 5450
-F 0 "C89" H 4200 5550 50  0000 L CNN
-F 1 "470nF" H 4200 5350 50  0000 L CNN
-F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 4150 5450 60  0001 C CNN
-F 4 "CC0402KRX5R5BB474" H 4150 5450 60  0001 C CNN "P/N"
-	1    4150 5450
+P 4100 5450
+F 0 "C89" H 4150 5550 50  0000 L CNN
+F 1 "470nF" H 4150 5350 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 4100 5450 60  0001 C CNN
+F 4 "CC0402KRX5R5BB474" H 4100 5450 60  0001 C CNN "P/N"
+	1    4100 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -797,9 +940,9 @@ Text Notes 9600 6250 0    60   ~ 0
 BANK3 decoupling
 Text Notes 2750 6250 0    60   ~ 0
 BANK2 decoupling
-Text Notes 6650 5150 0    60   ~ 0
+Text Notes 6450 5150 0    60   ~ 0
 BANK1 decoupling
-Text Notes 2750 5150 0    60   ~ 0
+Text Notes 2700 5150 0    60   ~ 0
 BANK0 decoupling
 Text Notes 2700 3950 0    60   ~ 0
 VCCAUX decoupling
@@ -826,10 +969,10 @@ $EndComp
 $Comp
 L 2V5 #PWR?
 U 1 1 4F8CE95B
-P 2600 5100
-F 0 "#PWR?" H 2600 5060 30  0001 C CNN
-F 1 "2V5" H 2600 5210 60  0000 C CNN
-	1    2600 5100
+P 2550 5100
+F 0 "#PWR?" H 2550 5060 30  0001 C CNN
+F 1 "2V5" H 2550 5210 60  0000 C CNN
+	1    2550 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -853,10 +996,10 @@ $EndComp
 $Comp
 L 3V3 #PWR?
 U 1 1 4F8CE936
-P 6500 5100
-F 0 "#PWR?" H 6500 5060 30  0001 C CNN
-F 1 "3V3" H 6500 5210 60  0000 C CNN
-	1    6500 5100
+P 6300 5100
+F 0 "#PWR?" H 6300 5060 30  0001 C CNN
+F 1 "3V3" H 6300 5210 60  0000 C CNN
+	1    6300 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -871,10 +1014,10 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4F8CE921
-P 6500 5800
-F 0 "#PWR?" H 6500 5800 30  0001 C CNN
-F 1 "GND" H 6500 5730 30  0001 C CNN
-	1    6500 5800
+P 6300 5800
+F 0 "#PWR?" H 6300 5800 30  0001 C CNN
+F 1 "GND" H 6300 5730 30  0001 C CNN
+	1    6300 5800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -889,10 +1032,10 @@ $EndComp
 $Comp
 L GND #PWR?
 U 1 1 4F8CE914
-P 2600 5800
-F 0 "#PWR?" H 2600 5800 30  0001 C CNN
-F 1 "GND" H 2600 5730 30  0001 C CNN
-	1    2600 5800
+P 2550 5800
+F 0 "#PWR?" H 2550 5800 30  0001 C CNN
+F 1 "GND" H 2550 5730 30  0001 C CNN
+	1    2550 5800
 	1    0    0    -1  
 $EndComp
 $Comp
