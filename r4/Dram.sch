@@ -1,5 +1,4 @@
-EESchema Schematic File Version 2  date Wed 11 Apr 2012 06:52:07 PM CST
-LIBS:power
+EESchema Schematic File Version 2  date Fri 20 Apr 2012 16:13:08 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -18,7 +17,6 @@ LIBS:c8051f326
 LIBS:din_5_2s
 LIBS:diodes_inc
 LIBS:fairchild
-LIBS:fsmra2jh
 LIBS:ir
 LIBS:micrel
 LIBS:micron
@@ -37,14 +35,27 @@ LIBS:vga
 LIBS:wolfson
 LIBS:xc6slx45-2fgg484c
 LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
+LIBS:hole
+LIBS:diode
 LIBS:m1-cache
-EELAYER 25  0
+EELAYER 24  0
 EELAYER END
 $Descr A3 16535 11700
-encoding utf-8
 Sheet 6 15
 Title "Milkymist One - DRAM Sheet"
-Date "11 apr 2012"
+Date "20 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -52,4 +63,2349 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text GLabel 5100 9600 0    60   BiDi ~ 0
+SDRAM_DQ[31..0]
+Text GLabel 5100 9150 0    60   Input ~ 0
+SDRAM_DQM[3..0]
+Wire Bus Line
+	12700 8700 12600 8700
+Wire Bus Line
+	12600 8700 8200 8700
+Wire Bus Line
+	8200 8700 8100 8700
+Wire Bus Line
+	8100 8700 5100 8700
+Wire Bus Line
+	5100 9600 8900 9600
+Wire Bus Line
+	8900 9600 9000 9600
+Wire Bus Line
+	9000 9600 9100 9600
+Wire Bus Line
+	9100 9600 9200 9600
+Wire Bus Line
+	9200 9600 9300 9600
+Wire Bus Line
+	9300 9600 9400 9600
+Wire Bus Line
+	9400 9600 9500 9600
+Wire Bus Line
+	9500 9600 9600 9600
+Wire Bus Line
+	9600 9600 9700 9600
+Wire Bus Line
+	9700 9600 9800 9600
+Wire Bus Line
+	9800 9600 9900 9600
+Wire Bus Line
+	9900 9600 10000 9600
+Wire Bus Line
+	10000 9600 10100 9600
+Wire Bus Line
+	10100 9600 10200 9600
+Wire Bus Line
+	10200 9600 10300 9600
+Wire Bus Line
+	10300 9600 10400 9600
+Wire Bus Line
+	10400 9600 13400 9600
+Wire Bus Line
+	13400 9600 13500 9600
+Wire Bus Line
+	13500 9600 13600 9600
+Wire Bus Line
+	13600 9600 13700 9600
+Wire Bus Line
+	13700 9600 13800 9600
+Wire Bus Line
+	13800 9600 13900 9600
+Wire Bus Line
+	13900 9600 14000 9600
+Wire Bus Line
+	14000 9600 14100 9600
+Wire Bus Line
+	14100 9600 14200 9600
+Wire Bus Line
+	14200 9600 14300 9600
+Wire Bus Line
+	14300 9600 14400 9600
+Wire Bus Line
+	14400 9600 14500 9600
+Wire Bus Line
+	14500 9600 14600 9600
+Wire Bus Line
+	14600 9600 14700 9600
+Wire Bus Line
+	14700 9600 14800 9600
+Wire Bus Line
+	14800 9600 14900 9600
+Wire Wire Line
+	1900 3850 1900 3700
+Wire Wire Line
+	1900 8850 2300 8850
+Wire Wire Line
+	2300 8850 2700 8850
+Wire Wire Line
+	2700 8850 3100 8850
+Connection ~ 3100 8250
+Wire Wire Line
+	3100 8250 3100 8100
+Connection ~ 2300 8250
+Wire Wire Line
+	2300 8100 2300 8250
+Wire Wire Line
+	1900 8250 2300 8250
+Wire Wire Line
+	2300 8250 2700 8250
+Wire Wire Line
+	2700 8250 3100 8250
+Wire Wire Line
+	3100 8250 3500 8250
+Wire Wire Line
+	3500 8250 3500 8100
+Connection ~ 3100 7550
+Wire Wire Line
+	3100 7550 3100 7700
+Connection ~ 2300 7550
+Wire Wire Line
+	2300 7700 2300 7550
+Connection ~ 3100 6250
+Wire Wire Line
+	3100 6250 3100 6400
+Connection ~ 2300 6250
+Wire Wire Line
+	2300 6400 2300 6250
+Wire Wire Line
+	1900 6250 2300 6250
+Wire Wire Line
+	2300 6250 2700 6250
+Wire Wire Line
+	2700 6250 3100 6250
+Wire Wire Line
+	3100 6250 3500 6250
+Wire Wire Line
+	3500 6250 3500 6400
+Connection ~ 2700 6950
+Wire Wire Line
+	2700 6950 2700 6800
+Wire Wire Line
+	1900 6950 2300 6950
+Wire Wire Line
+	2300 6950 2700 6950
+Wire Wire Line
+	2700 6950 3100 6950
+Wire Wire Line
+	3100 6950 3500 6950
+Wire Wire Line
+	3500 6950 3500 6800
+Wire Wire Line
+	2300 6950 2300 6800
+Connection ~ 2300 6950
+Wire Wire Line
+	3100 6800 3100 6950
+Connection ~ 3100 6950
+Wire Wire Line
+	1900 6150 1900 6250
+Wire Wire Line
+	1900 6250 1900 6400
+Connection ~ 1900 6250
+Wire Wire Line
+	2700 6250 2700 6400
+Connection ~ 2700 6250
+Wire Wire Line
+	1900 7050 1900 6950
+Wire Wire Line
+	1900 6950 1900 6800
+Connection ~ 1900 6950
+Connection ~ 1900 5650
+Wire Wire Line
+	1900 5750 1900 5650
+Wire Wire Line
+	1900 5650 1900 5500
+Connection ~ 2700 4950
+Wire Wire Line
+	2700 4950 2700 5100
+Connection ~ 1900 4950
+Wire Wire Line
+	1900 4850 1900 4950
+Wire Wire Line
+	1900 4950 1900 5100
+Connection ~ 3100 5650
+Wire Wire Line
+	3100 5500 3100 5650
+Connection ~ 2300 5650
+Wire Wire Line
+	2300 5650 2300 5500
+Wire Bus Line
+	3200 1600 4350 1600
+Wire Bus Line
+	4350 1600 4350 1700
+Wire Bus Line
+	4350 1700 4350 1800
+Wire Bus Line
+	4350 1800 4350 1900
+Wire Bus Line
+	4350 1900 4350 2000
+Wire Bus Line
+	4350 2000 4350 2100
+Wire Bus Line
+	4350 2100 4350 2200
+Wire Bus Line
+	4350 2200 4350 2300
+Wire Bus Line
+	4350 2300 4350 2400
+Wire Bus Line
+	4350 2400 4350 2500
+Wire Bus Line
+	4350 2500 4350 2600
+Wire Bus Line
+	4350 2600 4350 2700
+Wire Bus Line
+	4350 2700 4350 2800
+Wire Bus Line
+	4350 2800 4350 2900
+Connection ~ 10600 1900
+Wire Wire Line
+	10600 4200 10600 1900
+Connection ~ 10400 2100
+Wire Wire Line
+	10400 4200 10400 2100
+Connection ~ 10100 2400
+Wire Wire Line
+	10100 4200 10100 2400
+Connection ~ 9900 2600
+Wire Wire Line
+	9900 4200 9900 2600
+Connection ~ 9700 2800
+Wire Wire Line
+	9700 4200 9700 2800
+Connection ~ 9500 3000
+Wire Wire Line
+	9500 4200 9500 3000
+Connection ~ 9100 3200
+Wire Wire Line
+	9100 4200 9100 3200
+Connection ~ 8700 3400
+Wire Wire Line
+	8700 4200 8700 3400
+Connection ~ 8500 3600
+Wire Wire Line
+	8500 4200 8500 3600
+Connection ~ 7900 3800
+Wire Wire Line
+	7900 4200 7900 3800
+Wire Wire Line
+	5300 1800 4450 1800
+Wire Wire Line
+	5800 1800 10700 1800
+Wire Wire Line
+	10700 1800 15200 1800
+Wire Wire Line
+	15200 1800 15200 4200
+Wire Wire Line
+	5800 2000 10500 2000
+Wire Wire Line
+	10500 2000 15000 2000
+Wire Wire Line
+	15000 2000 15000 4200
+Wire Wire Line
+	5800 2200 10300 2200
+Wire Wire Line
+	10300 2200 14800 2200
+Wire Wire Line
+	14800 2200 14800 4200
+Wire Wire Line
+	5800 2400 10100 2400
+Wire Wire Line
+	10100 2400 14600 2400
+Wire Wire Line
+	14600 2400 14600 4200
+Wire Wire Line
+	5800 2600 9900 2600
+Wire Wire Line
+	9900 2600 14400 2600
+Wire Wire Line
+	14400 2600 14400 4200
+Wire Wire Line
+	5800 2800 9700 2800
+Wire Wire Line
+	9700 2800 14200 2800
+Wire Wire Line
+	14200 2800 14200 4200
+Wire Wire Line
+	5800 3000 9500 3000
+Wire Wire Line
+	9500 3000 14000 3000
+Wire Wire Line
+	14000 3000 14000 4200
+Wire Wire Line
+	5800 3200 9100 3200
+Wire Wire Line
+	9100 3200 13600 3200
+Wire Wire Line
+	13600 3200 13600 4200
+Wire Wire Line
+	5800 3400 8700 3400
+Wire Wire Line
+	8700 3400 13200 3400
+Wire Wire Line
+	13200 3400 13200 4200
+Wire Wire Line
+	5800 3600 8500 3600
+Wire Wire Line
+	8500 3600 13000 3600
+Wire Wire Line
+	13000 3600 13000 4200
+Wire Wire Line
+	5300 2000 4450 2000
+Wire Wire Line
+	5300 1900 4450 1900
+Wire Wire Line
+	5300 2100 4450 2100
+Wire Wire Line
+	5300 2200 4450 2200
+Wire Wire Line
+	5300 2600 4450 2600
+Wire Wire Line
+	5300 2500 4450 2500
+Wire Wire Line
+	5300 2300 4450 2300
+Wire Wire Line
+	5300 2400 4450 2400
+Wire Wire Line
+	5300 2800 4450 2800
+Wire Wire Line
+	5300 2700 4450 2700
+Wire Wire Line
+	5300 2900 4450 2900
+Wire Wire Line
+	5300 3000 4450 3000
+Wire Wire Line
+	5300 3300 4450 3300
+Wire Wire Line
+	5300 3100 4450 3100
+Wire Wire Line
+	5300 3200 4450 3200
+Wire Wire Line
+	5300 3500 4450 3500
+Wire Wire Line
+	5300 3400 4450 3400
+Wire Wire Line
+	5300 3600 4450 3600
+Wire Wire Line
+	5300 3700 4450 3700
+Wire Wire Line
+	5250 3800 5250 3950
+Wire Wire Line
+	4450 4650 5250 4650
+Wire Wire Line
+	5250 4650 5500 4650
+Wire Wire Line
+	5500 4650 5500 3900
+Wire Wire Line
+	12400 4200 12400 3800
+Wire Wire Line
+	8200 8600 8200 7450
+Wire Wire Line
+	8200 6950 8200 6800
+Wire Wire Line
+	8300 6950 8300 6800
+Wire Wire Line
+	8700 7450 8700 9050
+Wire Wire Line
+	8700 6950 8700 6800
+Wire Wire Line
+	8600 6950 8600 6800
+Wire Wire Line
+	8600 7450 8600 9050
+Wire Wire Line
+	9000 7450 9000 9500
+Wire Wire Line
+	9000 6950 9000 6800
+Wire Wire Line
+	9100 6950 9100 6800
+Wire Wire Line
+	9100 7450 9100 9500
+Wire Wire Line
+	9300 7450 9300 9500
+Wire Wire Line
+	9300 6950 9300 6800
+Wire Wire Line
+	9200 6950 9200 6800
+Wire Wire Line
+	9200 7450 9200 9500
+Wire Wire Line
+	9600 7450 9600 9500
+Wire Wire Line
+	9600 6950 9600 6800
+Wire Wire Line
+	9700 6950 9700 6800
+Wire Wire Line
+	9700 7450 9700 9500
+Wire Wire Line
+	9500 7450 9500 9500
+Wire Wire Line
+	9500 6950 9500 6800
+Wire Wire Line
+	9400 6950 9400 6800
+Wire Wire Line
+	9400 7450 9400 9500
+Wire Wire Line
+	10200 7450 10200 9500
+Wire Wire Line
+	10200 6950 10200 6800
+Wire Wire Line
+	10300 6950 10300 6800
+Wire Wire Line
+	10300 7450 10300 9500
+Wire Wire Line
+	10500 7450 10500 9500
+Wire Wire Line
+	10500 6950 10500 6800
+Wire Wire Line
+	10400 6950 10400 6800
+Wire Wire Line
+	10400 7450 10400 9500
+Wire Wire Line
+	10000 7450 10000 9500
+Wire Wire Line
+	10000 6950 10000 6800
+Wire Wire Line
+	10100 6950 10100 6800
+Wire Wire Line
+	10100 7450 10100 9500
+Wire Wire Line
+	9900 7450 9900 9500
+Wire Wire Line
+	9900 6950 9900 6800
+Wire Wire Line
+	9800 6950 9800 6800
+Wire Wire Line
+	9800 7450 9800 9500
+Wire Wire Line
+	8300 8600 8300 7450
+Wire Wire Line
+	12800 8600 12800 7450
+Wire Wire Line
+	14300 7450 14300 9500
+Wire Wire Line
+	14300 6950 14300 6800
+Wire Wire Line
+	14400 6950 14400 6800
+Wire Wire Line
+	14400 7450 14400 9500
+Wire Wire Line
+	14600 7450 14600 9500
+Wire Wire Line
+	14600 6950 14600 6800
+Wire Wire Line
+	14500 6950 14500 6800
+Wire Wire Line
+	14500 7450 14500 9500
+Wire Wire Line
+	14900 7450 14900 9500
+Wire Wire Line
+	14900 6950 14900 6800
+Wire Wire Line
+	15000 6950 15000 6800
+Wire Wire Line
+	15000 7450 15000 9500
+Wire Wire Line
+	14800 7450 14800 9500
+Wire Wire Line
+	14800 6950 14800 6800
+Wire Wire Line
+	14700 6950 14700 6800
+Wire Wire Line
+	14700 7450 14700 9500
+Wire Wire Line
+	13900 7450 13900 9500
+Wire Wire Line
+	13900 6950 13900 6800
+Wire Wire Line
+	14000 6950 14000 6800
+Wire Wire Line
+	14000 7450 14000 9500
+Wire Wire Line
+	14200 7450 14200 9500
+Wire Wire Line
+	14200 6950 14200 6800
+Wire Wire Line
+	14100 6950 14100 6800
+Wire Wire Line
+	14100 7450 14100 9500
+Wire Wire Line
+	13700 7450 13700 9500
+Wire Wire Line
+	13700 6950 13700 6800
+Wire Wire Line
+	13800 6950 13800 6800
+Wire Wire Line
+	13800 7450 13800 9500
+Wire Wire Line
+	13600 7450 13600 9500
+Wire Wire Line
+	13600 6950 13600 6800
+Wire Wire Line
+	13500 6950 13500 6800
+Wire Wire Line
+	13500 7450 13500 9500
+Wire Wire Line
+	13100 7450 13100 9050
+Wire Wire Line
+	13100 6950 13100 6800
+Wire Wire Line
+	13200 6950 13200 6800
+Wire Wire Line
+	13200 7450 13200 9050
+Wire Wire Line
+	12800 6950 12800 6800
+Connection ~ 7150 6750
+Wire Wire Line
+	7150 6750 7550 6750
+Wire Wire Line
+	11650 8250 12050 8250
+Wire Wire Line
+	12050 8250 12050 8050
+Wire Wire Line
+	11650 6750 12050 6750
+Wire Wire Line
+	12050 6750 12050 6950
+Wire Wire Line
+	11650 7500 12050 7500
+Wire Wire Line
+	12050 7500 12400 7500
+Wire Wire Line
+	12400 7500 12400 6800
+Connection ~ 11350 5800
+Wire Wire Line
+	11350 5800 11200 5800
+Connection ~ 11350 5600
+Wire Wire Line
+	11350 5600 11200 5600
+Connection ~ 11350 5100
+Wire Wire Line
+	11350 5100 11200 5100
+Wire Wire Line
+	11350 4850 11350 5000
+Wire Wire Line
+	11350 5000 11350 5100
+Wire Wire Line
+	11350 5100 11350 5200
+Wire Wire Line
+	11350 5200 11350 5600
+Wire Wire Line
+	11350 5600 11350 5700
+Wire Wire Line
+	11350 5700 11350 5800
+Wire Wire Line
+	11350 5800 11350 5900
+Wire Wire Line
+	11350 5900 11350 6000
+Wire Wire Line
+	11350 6000 11200 6000
+Connection ~ 11650 5900
+Connection ~ 11650 5800
+Connection ~ 11650 5600
+Connection ~ 11650 5700
+Wire Wire Line
+	11650 6000 11800 6000
+Connection ~ 11650 5100
+Wire Wire Line
+	11650 5200 11800 5200
+Wire Wire Line
+	11800 5000 11650 5000
+Wire Wire Line
+	11800 5100 11650 5100
+Wire Wire Line
+	11650 5600 11800 5600
+Wire Wire Line
+	11650 5700 11800 5700
+Wire Wire Line
+	11650 5900 11800 5900
+Wire Wire Line
+	11650 5800 11800 5800
+Connection ~ 11650 5200
+Wire Wire Line
+	11650 5000 11650 5100
+Wire Wire Line
+	11650 5100 11650 5200
+Wire Wire Line
+	11650 5200 11650 5600
+Wire Wire Line
+	11650 5600 11650 5700
+Wire Wire Line
+	11650 5700 11650 5800
+Wire Wire Line
+	11650 5800 11650 5900
+Wire Wire Line
+	11650 5900 11650 6000
+Wire Wire Line
+	11650 6000 11650 6100
+Connection ~ 11650 6000
+Wire Wire Line
+	11350 5000 11200 5000
+Connection ~ 11350 5000
+Wire Wire Line
+	11350 5200 11200 5200
+Connection ~ 11350 5200
+Wire Wire Line
+	11350 5700 11200 5700
+Connection ~ 11350 5700
+Wire Wire Line
+	11200 5900 11350 5900
+Connection ~ 11350 5900
+Connection ~ 15850 5900
+Wire Wire Line
+	15700 5900 15850 5900
+Connection ~ 15850 5700
+Wire Wire Line
+	15850 5700 15700 5700
+Connection ~ 15850 5200
+Wire Wire Line
+	15850 5200 15700 5200
+Connection ~ 15850 5000
+Wire Wire Line
+	15850 5000 15700 5000
+Wire Wire Line
+	15700 6000 15850 6000
+Wire Wire Line
+	15850 6000 15850 5900
+Wire Wire Line
+	15850 5900 15850 5800
+Wire Wire Line
+	15850 5800 15850 5700
+Wire Wire Line
+	15850 5700 15850 5600
+Wire Wire Line
+	15850 5600 15850 5200
+Wire Wire Line
+	15850 5200 15850 5100
+Wire Wire Line
+	15850 5100 15850 5000
+Wire Wire Line
+	15850 5000 15850 4850
+Wire Wire Line
+	15850 5100 15700 5100
+Connection ~ 15850 5100
+Wire Wire Line
+	15850 5600 15700 5600
+Connection ~ 15850 5600
+Wire Wire Line
+	15850 5800 15700 5800
+Connection ~ 15850 5800
+Connection ~ 7150 6000
+Wire Wire Line
+	7150 6100 7150 6000
+Wire Wire Line
+	7150 6000 7150 5900
+Wire Wire Line
+	7150 5900 7150 5800
+Wire Wire Line
+	7150 5800 7150 5700
+Wire Wire Line
+	7150 5700 7150 5600
+Wire Wire Line
+	7150 5600 7150 5200
+Wire Wire Line
+	7150 5200 7150 5100
+Wire Wire Line
+	7150 5100 7150 5000
+Connection ~ 7150 5200
+Wire Wire Line
+	7150 5800 7300 5800
+Wire Wire Line
+	7150 5900 7300 5900
+Wire Wire Line
+	7150 5700 7300 5700
+Wire Wire Line
+	7150 5600 7300 5600
+Wire Wire Line
+	7300 5100 7150 5100
+Wire Wire Line
+	7150 5000 7300 5000
+Wire Wire Line
+	7150 5200 7300 5200
+Connection ~ 7150 5100
+Wire Wire Line
+	7150 6000 7300 6000
+Connection ~ 7150 5700
+Connection ~ 7150 5600
+Connection ~ 7150 5800
+Connection ~ 7150 5900
+Wire Wire Line
+	12050 7650 12050 7500
+Wire Wire Line
+	12050 7500 12050 7350
+Connection ~ 12050 7500
+Wire Wire Line
+	11650 7600 11650 7500
+Wire Wire Line
+	11650 7500 11650 7400
+Connection ~ 11650 7500
+Wire Wire Line
+	11650 6650 11650 6750
+Wire Wire Line
+	11650 6750 11650 6900
+Connection ~ 11650 6750
+Wire Wire Line
+	11650 8350 11650 8250
+Wire Wire Line
+	11650 8250 11650 8100
+Connection ~ 11650 8250
+Connection ~ 7150 8250
+Wire Wire Line
+	7150 8350 7150 8250
+Wire Wire Line
+	7150 8250 7150 8100
+Wire Wire Line
+	7150 6650 7150 6750
+Wire Wire Line
+	7150 6750 7150 6900
+Connection ~ 7150 7500
+Wire Wire Line
+	7150 7600 7150 7500
+Wire Wire Line
+	7150 7500 7150 7400
+Connection ~ 7550 7500
+Wire Wire Line
+	7550 7650 7550 7500
+Wire Wire Line
+	7550 7500 7550 7350
+Wire Wire Line
+	7900 6800 7900 7500
+Wire Wire Line
+	7900 7500 7550 7500
+Wire Wire Line
+	7550 7500 7150 7500
+Wire Wire Line
+	7550 6750 7550 6950
+Wire Wire Line
+	7550 8050 7550 8250
+Wire Wire Line
+	7550 8250 7150 8250
+Wire Wire Line
+	12700 6950 12700 6800
+Wire Wire Line
+	12700 8600 12700 7450
+Wire Wire Line
+	12300 4200 12300 3900
+Wire Wire Line
+	12300 3900 7800 3900
+Wire Wire Line
+	7800 3900 5500 3900
+Wire Wire Line
+	5250 4450 5250 4650
+Connection ~ 5250 4650
+Wire Wire Line
+	12400 3800 7900 3800
+Wire Wire Line
+	7900 3800 5250 3800
+Wire Wire Line
+	5250 3800 4450 3800
+Connection ~ 5250 3800
+Wire Wire Line
+	12700 4200 12700 3700
+Wire Wire Line
+	12700 3700 8200 3700
+Wire Wire Line
+	8200 3700 5800 3700
+Wire Wire Line
+	5800 3500 8600 3500
+Wire Wire Line
+	8600 3500 13100 3500
+Wire Wire Line
+	13100 3500 13100 4200
+Wire Wire Line
+	5800 3300 8800 3300
+Wire Wire Line
+	8800 3300 13300 3300
+Wire Wire Line
+	13300 3300 13300 4200
+Wire Wire Line
+	5800 3100 9200 3100
+Wire Wire Line
+	9200 3100 13700 3100
+Wire Wire Line
+	13700 3100 13700 4200
+Wire Wire Line
+	5800 2900 9600 2900
+Wire Wire Line
+	9600 2900 14100 2900
+Wire Wire Line
+	14100 2900 14100 4200
+Wire Wire Line
+	5800 2700 9800 2700
+Wire Wire Line
+	9800 2700 14300 2700
+Wire Wire Line
+	14300 2700 14300 4200
+Wire Wire Line
+	5800 2500 10000 2500
+Wire Wire Line
+	10000 2500 14500 2500
+Wire Wire Line
+	14500 2500 14500 4200
+Wire Wire Line
+	5800 2300 10200 2300
+Wire Wire Line
+	10200 2300 14700 2300
+Wire Wire Line
+	14700 2300 14700 4200
+Wire Wire Line
+	5800 2100 10400 2100
+Wire Wire Line
+	10400 2100 14900 2100
+Wire Wire Line
+	14900 2100 14900 4200
+Wire Wire Line
+	5800 1900 10600 1900
+Wire Wire Line
+	10600 1900 15100 1900
+Wire Wire Line
+	15100 1900 15100 4200
+Wire Wire Line
+	7800 4200 7800 3900
+Connection ~ 7800 3900
+Wire Wire Line
+	8200 4200 8200 3700
+Connection ~ 8200 3700
+Wire Wire Line
+	8600 4200 8600 3500
+Connection ~ 8600 3500
+Wire Wire Line
+	8800 4200 8800 3300
+Connection ~ 8800 3300
+Wire Wire Line
+	9200 4200 9200 3100
+Connection ~ 9200 3100
+Wire Wire Line
+	9600 4200 9600 2900
+Connection ~ 9600 2900
+Wire Wire Line
+	9800 4200 9800 2700
+Connection ~ 9800 2700
+Wire Wire Line
+	10000 4200 10000 2500
+Connection ~ 10000 2500
+Wire Wire Line
+	10200 4200 10200 2300
+Connection ~ 10200 2300
+Wire Wire Line
+	10300 4200 10300 2200
+Connection ~ 10300 2200
+Wire Wire Line
+	10500 4200 10500 2000
+Connection ~ 10500 2000
+Wire Wire Line
+	10700 4200 10700 1800
+Connection ~ 10700 1800
+Wire Wire Line
+	3500 5500 3500 5650
+Wire Wire Line
+	3500 5650 3100 5650
+Wire Wire Line
+	3100 5650 2700 5650
+Wire Wire Line
+	2700 5650 2300 5650
+Wire Wire Line
+	2300 5650 1900 5650
+Wire Wire Line
+	2700 5650 2700 5500
+Connection ~ 2700 5650
+Wire Wire Line
+	3500 5100 3500 4950
+Wire Wire Line
+	3500 4950 3100 4950
+Wire Wire Line
+	3100 4950 2700 4950
+Wire Wire Line
+	2700 4950 2300 4950
+Wire Wire Line
+	2300 4950 1900 4950
+Wire Wire Line
+	2300 5100 2300 4950
+Connection ~ 2300 4950
+Wire Wire Line
+	3100 4950 3100 5100
+Connection ~ 3100 4950
+Wire Wire Line
+	1900 7550 2300 7550
+Wire Wire Line
+	2300 7550 2700 7550
+Wire Wire Line
+	2700 7550 3100 7550
+Wire Wire Line
+	3100 7550 3500 7550
+Wire Wire Line
+	2700 7550 2700 7700
+Connection ~ 2700 7550
+Wire Wire Line
+	3500 7550 3500 7700
+Wire Wire Line
+	1900 8100 1900 8250
+Wire Wire Line
+	1900 8250 1900 8350
+Connection ~ 1900 8250
+Wire Wire Line
+	2700 8250 2700 8100
+Connection ~ 2700 8250
+Wire Wire Line
+	1900 7450 1900 7550
+Wire Wire Line
+	1900 7550 1900 7700
+Connection ~ 1900 7550
+Connection ~ 1900 8850
+Wire Wire Line
+	1900 8750 1900 8850
+Wire Wire Line
+	1900 8850 1900 9000
+Connection ~ 2700 9550
+Wire Wire Line
+	2700 9400 2700 9550
+Connection ~ 1900 9550
+Wire Wire Line
+	1900 9400 1900 9550
+Wire Wire Line
+	1900 9550 1900 9650
+Connection ~ 2700 8850
+Wire Wire Line
+	2700 9000 2700 8850
+Wire Wire Line
+	2300 8850 2300 9000
+Connection ~ 2300 8850
+Wire Wire Line
+	3100 8850 3100 9000
+Wire Wire Line
+	2300 9550 2300 9400
+Connection ~ 2300 9550
+Wire Wire Line
+	3100 9400 3100 9550
+Wire Wire Line
+	3100 9550 2700 9550
+Wire Wire Line
+	2700 9550 2300 9550
+Wire Wire Line
+	2300 9550 1900 9550
+Wire Wire Line
+	1900 4250 1900 4450
+Wire Bus Line
+	5100 9150 8500 9150
+Wire Bus Line
+	8500 9150 8600 9150
+Wire Bus Line
+	8600 9150 13000 9150
+Wire Bus Line
+	13000 9150 13100 9150
+Text GLabel 5100 8700 0    60   BiDi ~ 0
+SDRAM_DQS[3..0]
+Text Label 5250 9600 0    60   ~ 0
+SDRAM_DQ[31..0]
+Text Label 5250 9150 0    60   ~ 0
+SDRAM_DQM[3..0]
+Text Label 5250 8700 0    60   ~ 0
+SDRAM_DQS[3..0]
+$Comp
+L GND #PWR?
+U 1 1 4F911849
+P 1900 4450
+F 0 "#PWR?" H 1900 4450 30  0001 C CNN
+F 1 "GND" H 1900 4380 30  0001 C CNN
+	1    1900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F911841
+P 1900 3700
+F 0 "#PWR?" H 1900 3660 30  0001 C CNN
+F 1 "2V5" H 1900 3850 60  0000 C CNN
+	1    1900 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C156
+U 1 1 4F9117F1
+P 1900 4050
+F 0 "C156" H 1950 4150 50  0000 L CNN
+F 1 "1uF" H 1950 3950 50  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 1900 4050 60  0001 C CNN
+F 4 "C1005X5R0J105KT" H 1900 4050 60  0001 C CNN "P/N"
+	1    1900 4050
+	1    0    0    -1  
+$EndComp
+Text Notes 2100 9700 0    60   ~ 0
+For U15
+Text Notes 2100 8400 0    60   ~ 0
+For U14
+$Comp
+L C C250
+U 1 1 4F91176F
+P 2300 9200
+F 0 "C250" H 2350 9300 50  0000 L CNN
+F 1 "100nF" H 2350 9100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2300 9200 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 2300 9200 60  0001 C CNN "P/N"
+	1    2300 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C251
+U 1 1 4F91176E
+P 2700 9200
+F 0 "C251" H 2750 9300 50  0000 L CNN
+F 1 "100nF" H 2750 9100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2700 9200 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 2700 9200 60  0001 C CNN "P/N"
+	1    2700 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C252
+U 1 1 4F91176C
+P 3100 9200
+F 0 "C252" H 3150 9300 50  0000 L CNN
+F 1 "100nF" H 3150 9100 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3100 9200 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3100 9200 60  0001 C CNN "P/N"
+	1    3100 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C248
+U 1 1 4F91176B
+P 1900 9200
+F 0 "C248" H 1950 9300 50  0000 L CNN
+F 1 "100uF" H 1950 9100 50  0000 L CNN
+F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 1900 9200 60  0001 C CNN
+F 4 "C3225X5R0J107MT" H 1900 9200 60  0001 C CNN "P/N"
+	1    1900 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F91176A
+P 1900 8750
+F 0 "#PWR?" H 1900 8710 30  0001 C CNN
+F 1 "2V5" H 1900 8900 60  0000 C CNN
+	1    1900 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F911769
+P 1900 9650
+F 0 "#PWR?" H 1900 9650 30  0001 C CNN
+F 1 "GND" H 1900 9580 30  0001 C CNN
+	1    1900 9650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F91154B
+P 1900 8350
+F 0 "#PWR?" H 1900 8350 30  0001 C CNN
+F 1 "GND" H 1900 8280 30  0001 C CNN
+	1    1900 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F911535
+P 1900 7450
+F 0 "#PWR?" H 1900 7410 30  0001 C CNN
+F 1 "2V5" H 1900 7600 60  0000 C CNN
+	1    1900 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_P C240
+U 1 1 4F9114BE
+P 1900 7900
+F 0 "C240" H 1950 8000 50  0000 L CNN
+F 1 "100uF" H 1950 7800 50  0000 L CNN
+F 3 "http://www.tdk.co.jp/tefe02/e412_c.pdf" H 1900 7900 60  0001 C CNN
+F 4 "C3225X5R0J107MT" H 1900 7900 60  0001 C CNN "P/N"
+	1    1900 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C244
+U 1 1 4F911495
+P 3100 7900
+F 0 "C244" H 3150 8000 50  0000 L CNN
+F 1 "100nF" H 3150 7800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3100 7900 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3100 7900 60  0001 C CNN "P/N"
+	1    3100 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C245
+U 1 1 4F911494
+P 3500 7900
+F 0 "C245" H 3550 8000 50  0000 L CNN
+F 1 "100nF" H 3550 7800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 3500 7900 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 3500 7900 60  0001 C CNN "P/N"
+	1    3500 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C243
+U 1 1 4F911483
+P 2700 7900
+F 0 "C243" H 2750 8000 50  0000 L CNN
+F 1 "100nF" H 2750 7800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2700 7900 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 2700 7900 60  0001 C CNN "P/N"
+	1    2700 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C242
+U 1 1 4F911470
+P 2300 7900
+F 0 "C242" H 2350 8000 50  0000 L CNN
+F 1 "100nF" H 2350 7800 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 2300 7900 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 2300 7900 60  0001 C CNN "P/N"
+	1    2300 7900
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C162
+U 1 1 4F91144D
+P 1900 6600
+F 0 "C162" H 1950 6700 50  0000 L CNN
+F 1 "100nF" H 1950 6500 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1900 6600 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1900 6600 60  0001 C CNN "P/N"
+	1    1900 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C163
+U 1 1 4F91144C
+P 2300 6600
+F 0 "C163" H 2350 6700 50  0000 L CNN
+F 1 "10nF" H 2350 6500 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2300 6600 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 2300 6600 60  0001 C CNN "P/N"
+	1    2300 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C164
+U 1 1 4F91144B
+P 2700 6600
+F 0 "C164" H 2750 6700 50  0000 L CNN
+F 1 "10nF" H 2750 6500 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2700 6600 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 2700 6600 60  0001 C CNN "P/N"
+	1    2700 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C166
+U 1 1 4F91144A
+P 3500 6600
+F 0 "C166" H 3550 6700 50  0000 L CNN
+F 1 "10nF" H 3550 6500 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3500 6600 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 3500 6600 60  0001 C CNN "P/N"
+	1    3500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C165
+U 1 1 4F911449
+P 3100 6600
+F 0 "C165" H 3150 6700 50  0000 L CNN
+F 1 "10nF" H 3150 6500 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3100 6600 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 3100 6600 60  0001 C CNN "P/N"
+	1    3100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F911448
+P 1900 7050
+F 0 "#PWR?" H 1900 7050 30  0001 C CNN
+F 1 "GND" H 1900 6980 30  0001 C CNN
+	1    1900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F911447
+P 1900 6150
+F 0 "#PWR?" H 1900 6110 30  0001 C CNN
+F 1 "2V5" H 1900 6300 60  0000 C CNN
+	1    1900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F911412
+P 1900 4850
+F 0 "#PWR?" H 1900 4810 30  0001 C CNN
+F 1 "2V5" H 1900 5000 60  0000 C CNN
+	1    1900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F911408
+P 1900 5750
+F 0 "#PWR?" H 1900 5750 30  0001 C CNN
+F 1 "GND" H 1900 5680 30  0001 C CNN
+	1    1900 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C160
+U 1 1 4F9113BF
+P 3100 5300
+F 0 "C160" H 3150 5400 50  0000 L CNN
+F 1 "10nF" H 3150 5200 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3100 5300 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 3100 5300 60  0001 C CNN "P/N"
+	1    3100 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C161
+U 1 1 4F9113BE
+P 3500 5300
+F 0 "C161" H 3550 5400 50  0000 L CNN
+F 1 "10nF" H 3550 5200 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 3500 5300 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 3500 5300 60  0001 C CNN "P/N"
+	1    3500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C159
+U 1 1 4F9113B2
+P 2700 5300
+F 0 "C159" H 2750 5400 50  0000 L CNN
+F 1 "10nF" H 2750 5200 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2700 5300 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 2700 5300 60  0001 C CNN "P/N"
+	1    2700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C158
+U 1 1 4F911371
+P 2300 5300
+F 0 "C158" H 2350 5400 50  0000 L CNN
+F 1 "10nF" H 2350 5200 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X7R_6.3V-to-50V_8.pdf" H 2300 5300 60  0001 C CNN
+F 4 "CC0402KRX7R7BB103 " H 2300 5300 60  0001 C CNN "P/N"
+	1    2300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C157
+U 1 1 4F91131B
+P 1900 5300
+F 0 "C157" H 1950 5400 50  0000 L CNN
+F 1 "100nF" H 1950 5200 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 1900 5300 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 1900 5300 60  0001 C CNN "P/N"
+	1    1900 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 4650 0    50   Input ~ 0
+SDRAM_CK_N
+Text GLabel 3200 1600 0    60   Input ~ 0
+SDRAM_A[12..0]
+Text Label 3400 1600 0    60   ~ 0
+SDRAM_A[12..0]
+$Comp
+L R R71
+U 1 1 4F91113A
+P 5550 1800
+F 0 "R71" V 5500 1500 50  0000 C CNN
+F 1 "33" V 5500 2050 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 1800 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 1800 60  0001 C CNN "P/N"
+	1    5550 1800
+	0    1    1    0   
+$EndComp
+Text Label 4550 1800 0    60   ~ 0
+SDRAM_A0
+Entry Wire Line
+	4350 1700 4450 1800
+$Comp
+L R R73
+U 1 1 4F911063
+P 5550 2000
+F 0 "R73" V 5500 1700 50  0000 C CNN
+F 1 "33" V 5500 2250 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2000 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2000 60  0001 C CNN "P/N"
+	1    5550 2000
+	0    1    1    0   
+$EndComp
+Text Label 4550 2000 0    60   ~ 0
+SDRAM_A2
+Entry Wire Line
+	4350 1900 4450 2000
+Entry Wire Line
+	4350 1800 4450 1900
+Text Label 4550 1900 0    60   ~ 0
+SDRAM_A1
+$Comp
+L R R72
+U 1 1 4F911062
+P 5550 1900
+F 0 "R72" V 5500 1600 50  0000 C CNN
+F 1 "33" V 5500 2150 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 1900 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 1900 60  0001 C CNN "P/N"
+	1    5550 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L R R74
+U 1 1 4F911061
+P 5550 2100
+F 0 "R74" V 5500 1800 50  0000 C CNN
+F 1 "33" V 5500 2350 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2100 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2100 60  0001 C CNN "P/N"
+	1    5550 2100
+	0    1    1    0   
+$EndComp
+Text Label 4550 2100 0    60   ~ 0
+SDRAM_A3
+Entry Wire Line
+	4350 2000 4450 2100
+Entry Wire Line
+	4350 2100 4450 2200
+Text Label 4550 2200 0    60   ~ 0
+SDRAM_A4
+$Comp
+L R R75
+U 1 1 4F911060
+P 5550 2200
+F 0 "R75" V 5500 1900 50  0000 C CNN
+F 1 "33" V 5500 2450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2200 60  0001 C CNN "P/N"
+	1    5550 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R79
+U 1 1 4F911055
+P 5550 2600
+F 0 "R79" V 5500 2300 50  0000 C CNN
+F 1 "33" V 5500 2850 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2600 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2600 60  0001 C CNN "P/N"
+	1    5550 2600
+	0    1    1    0   
+$EndComp
+Text Label 4550 2600 0    60   ~ 0
+SDRAM_A8
+Entry Wire Line
+	4350 2500 4450 2600
+Entry Wire Line
+	4350 2400 4450 2500
+Text Label 4550 2500 0    60   ~ 0
+SDRAM_A7
+$Comp
+L R R78
+U 1 1 4F911054
+P 5550 2500
+F 0 "R78" V 5500 2200 50  0000 C CNN
+F 1 "33" V 5500 2750 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2500 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2500 60  0001 C CNN "P/N"
+	1    5550 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R76
+U 1 1 4F911053
+P 5550 2300
+F 0 "R76" V 5500 2000 50  0000 C CNN
+F 1 "33" V 5500 2550 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2300 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2300 60  0001 C CNN "P/N"
+	1    5550 2300
+	0    1    1    0   
+$EndComp
+Text Label 4550 2300 0    60   ~ 0
+SDRAM_A5
+Entry Wire Line
+	4350 2200 4450 2300
+Entry Wire Line
+	4350 2300 4450 2400
+Text Label 4550 2400 0    60   ~ 0
+SDRAM_A6
+$Comp
+L R R77
+U 1 1 4F911052
+P 5550 2400
+F 0 "R77" V 5500 2100 50  0000 C CNN
+F 1 "33" V 5500 2650 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2400 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2400 60  0001 C CNN "P/N"
+	1    5550 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R81
+U 1 1 4F91104A
+P 5550 2800
+F 0 "R81" V 5500 2500 50  0000 C CNN
+F 1 "33" V 5500 3050 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2800 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2800 60  0001 C CNN "P/N"
+	1    5550 2800
+	0    1    1    0   
+$EndComp
+Text Label 4550 2800 0    60   ~ 0
+SDRAM_A10
+Entry Wire Line
+	4350 2700 4450 2800
+Entry Wire Line
+	4350 2600 4450 2700
+Text Label 4550 2700 0    60   ~ 0
+SDRAM_A9
+$Comp
+L R R80
+U 1 1 4F911049
+P 5550 2700
+F 0 "R80" V 5500 2400 50  0000 C CNN
+F 1 "33" V 5500 2950 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2700 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2700 60  0001 C CNN "P/N"
+	1    5550 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R82
+U 1 1 4F91103D
+P 5550 2900
+F 0 "R82" V 5500 2600 50  0000 C CNN
+F 1 "33" V 5500 3150 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 2900 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 2900 60  0001 C CNN "P/N"
+	1    5550 2900
+	0    1    1    0   
+$EndComp
+Text Label 4550 2900 0    60   ~ 0
+SDRAM_A11
+Entry Wire Line
+	4350 2800 4450 2900
+Entry Wire Line
+	4350 2900 4450 3000
+Text Label 4550 3000 0    60   ~ 0
+SDRAM_A12
+$Comp
+L R R83
+U 1 1 4F91100C
+P 5550 3000
+F 0 "R83" V 5500 2700 50  0000 C CNN
+F 1 "33" V 5500 3250 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3000 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3000 60  0001 C CNN "P/N"
+	1    5550 3000
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 3300 0    50   Input ~ 0
+SDRAM_RAS_N
+$Comp
+L R R86
+U 1 1 4F910FFB
+P 5550 3300
+F 0 "R86" V 5500 3000 50  0000 C CNN
+F 1 "33" V 5500 3550 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3300 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3300 60  0001 C CNN "P/N"
+	1    5550 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R84
+U 1 1 4F910FFA
+P 5550 3100
+F 0 "R84" V 5500 2800 50  0000 C CNN
+F 1 "33" V 5500 3350 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3100 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3100 60  0001 C CNN "P/N"
+	1    5550 3100
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 3100 0    50   Input ~ 0
+SDRAM_BA0
+Text GLabel 4450 3200 0    50   Input ~ 0
+SDRAM_BA1
+$Comp
+L R R85
+U 1 1 4F910FF9
+P 5550 3200
+F 0 "R85" V 5500 2900 50  0000 C CNN
+F 1 "33" V 5500 3450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3200 60  0001 C CNN "P/N"
+	1    5550 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R88
+U 1 1 4F910FED
+P 5550 3500
+F 0 "R88" V 5500 3200 50  0000 C CNN
+F 1 "33" V 5500 3750 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3500 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3500 60  0001 C CNN "P/N"
+	1    5550 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 3500 0    50   Input ~ 0
+SDRAM_WE_N
+Text GLabel 4450 3400 0    50   Input ~ 0
+SDRAM_CAS_N
+$Comp
+L R R87
+U 1 1 4F910FEC
+P 5550 3400
+F 0 "R87" V 5500 3100 50  0000 C CNN
+F 1 "33" V 5500 3650 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3400 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3400 60  0001 C CNN "P/N"
+	1    5550 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R89
+U 1 1 4F910FE4
+P 5550 3600
+F 0 "R89" V 5500 3300 50  0000 C CNN
+F 1 "33" V 5500 3850 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3600 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3600 60  0001 C CNN "P/N"
+	1    5550 3600
+	0    1    1    0   
+$EndComp
+Text GLabel 4450 3600 0    50   Input ~ 0
+SDRAM_CS_N
+Text GLabel 4450 3700 0    50   Input ~ 0
+SDRAM_CKE
+Text GLabel 4450 3800 0    50   Input ~ 0
+SDRAM_CK
+$Comp
+L R R90
+U 1 1 4F910F56
+P 5550 3700
+F 0 "R90" V 5500 3400 50  0000 C CNN
+F 1 "33" V 5500 3950 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5550 3700 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 5550 3700 60  0001 C CNN "P/N"
+	1    5550 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R91
+U 1 1 4F910ED8
+P 5250 4200
+F 0 "R91" H 5400 4250 50  0000 C CNN
+F 1 "120" H 5350 4150 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5250 4200 60  0001 C CNN
+F 4 "RC0402FR-07120RL" H 5250 4200 60  0001 C CNN "P/N"
+	1    5250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R93
+U 1 1 4F90FF28
+P 8200 7200
+F 0 "R93" V 8150 6900 50  0000 C CNN
+F 1 "33" V 8150 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 8200 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 8200 7200 60  0001 C CNN "P/N"
+	1    8200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R94
+U 1 1 4F90FF27
+P 8300 7200
+F 0 "R94" V 8250 6900 50  0000 C CNN
+F 1 "33" V 8250 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 8300 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 8300 7200 60  0001 C CNN "P/N"
+	1    8300 7200
+	1    0    0    -1  
+$EndComp
+Text Label 8200 8400 1    60   ~ 0
+SDRAM_DQS3
+Text Label 8300 8400 1    60   ~ 0
+SDRAM_DQS2
+Text Label 8700 8400 1    60   ~ 0
+SDRAM_DQM2
+Text Label 8600 8400 1    60   ~ 0
+SDRAM_DQM3
+$Comp
+L R R96
+U 1 1 4F90FF26
+P 8700 7200
+F 0 "R96" V 8650 6900 50  0000 C CNN
+F 1 "33" V 8650 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 8700 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 8700 7200 60  0001 C CNN "P/N"
+	1    8700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R95
+U 1 1 4F90FF25
+P 8600 7200
+F 0 "R95" V 8550 6900 50  0000 C CNN
+F 1 "33" V 8550 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 8600 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 8600 7200 60  0001 C CNN "P/N"
+	1    8600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R97
+U 1 1 4F90FF24
+P 9000 7200
+F 0 "R97" V 8950 6900 50  0000 C CNN
+F 1 "33" V 8950 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9000 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9000 7200 60  0001 C CNN "P/N"
+	1    9000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R98
+U 1 1 4F90FF23
+P 9100 7200
+F 0 "R98" V 9050 6900 50  0000 C CNN
+F 1 "33" V 9050 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9100 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9100 7200 60  0001 C CNN "P/N"
+	1    9100 7200
+	1    0    0    -1  
+$EndComp
+Text Label 9000 8400 1    60   ~ 0
+SDRAM_DQ31
+Text Label 9100 8400 1    60   ~ 0
+SDRAM_DQ30
+Text Label 9300 8400 1    60   ~ 0
+SDRAM_DQ28
+Text Label 9200 8400 1    60   ~ 0
+SDRAM_DQ29
+$Comp
+L R R100
+U 1 1 4F90FF22
+P 9300 7200
+F 0 "R100" V 9250 6900 50  0000 C CNN
+F 1 "33" V 9250 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9300 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9300 7200 60  0001 C CNN "P/N"
+	1    9300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R99
+U 1 1 4F90FF21
+P 9200 7200
+F 0 "R99" V 9150 6900 50  0000 C CNN
+F 1 "33" V 9150 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9200 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9200 7200 60  0001 C CNN "P/N"
+	1    9200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R103
+U 1 1 4F90FF20
+P 9600 7200
+F 0 "R103" V 9550 6900 50  0000 C CNN
+F 1 "33" V 9550 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9600 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9600 7200 60  0001 C CNN "P/N"
+	1    9600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R104
+U 1 1 4F90FF1F
+P 9700 7200
+F 0 "R104" V 9650 6900 50  0000 C CNN
+F 1 "33" V 9650 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9700 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9700 7200 60  0001 C CNN "P/N"
+	1    9700 7200
+	1    0    0    -1  
+$EndComp
+Text Label 9600 8400 1    60   ~ 0
+SDRAM_DQ25
+Text Label 9700 8400 1    60   ~ 0
+SDRAM_DQ24
+Text Label 9500 8400 1    60   ~ 0
+SDRAM_DQ26
+Text Label 9400 8400 1    60   ~ 0
+SDRAM_DQ27
+$Comp
+L R R102
+U 1 1 4F90FF1E
+P 9500 7200
+F 0 "R102" V 9450 6900 50  0000 C CNN
+F 1 "33" V 9450 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9500 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9500 7200 60  0001 C CNN "P/N"
+	1    9500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R101
+U 1 1 4F90FF1D
+P 9400 7200
+F 0 "R101" V 9350 6900 50  0000 C CNN
+F 1 "33" V 9350 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9400 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9400 7200 60  0001 C CNN "P/N"
+	1    9400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R109
+U 1 1 4F90FF1C
+P 10200 7200
+F 0 "R109" V 10150 6900 50  0000 C CNN
+F 1 "33" V 10150 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10200 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10200 7200 60  0001 C CNN "P/N"
+	1    10200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R110
+U 1 1 4F90FF1B
+P 10300 7200
+F 0 "R110" V 10250 6900 50  0000 C CNN
+F 1 "33" V 10250 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10300 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10300 7200 60  0001 C CNN "P/N"
+	1    10300 7200
+	1    0    0    -1  
+$EndComp
+Text Label 10200 8400 1    60   ~ 0
+SDRAM_DQ19
+Text Label 10300 8400 1    60   ~ 0
+SDRAM_DQ18
+Text Label 10500 8400 1    60   ~ 0
+SDRAM_DQ16
+Text Label 10400 8400 1    60   ~ 0
+SDRAM_DQ17
+$Comp
+L R R112
+U 1 1 4F90FF1A
+P 10500 7200
+F 0 "R112" V 10450 6900 50  0000 C CNN
+F 1 "33" V 10450 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10500 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10500 7200 60  0001 C CNN "P/N"
+	1    10500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R111
+U 1 1 4F90FF19
+P 10400 7200
+F 0 "R111" V 10350 6900 50  0000 C CNN
+F 1 "33" V 10350 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10400 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10400 7200 60  0001 C CNN "P/N"
+	1    10400 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R107
+U 1 1 4F90FF18
+P 10000 7200
+F 0 "R107" V 9950 6900 50  0000 C CNN
+F 1 "33" V 9950 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10000 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10000 7200 60  0001 C CNN "P/N"
+	1    10000 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R108
+U 1 1 4F90FF17
+P 10100 7200
+F 0 "R108" V 10050 6900 50  0000 C CNN
+F 1 "33" V 10050 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10100 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 10100 7200 60  0001 C CNN "P/N"
+	1    10100 7200
+	1    0    0    -1  
+$EndComp
+Text Label 10000 8400 1    60   ~ 0
+SDRAM_DQ21
+Text Label 10100 8400 1    60   ~ 0
+SDRAM_DQ20
+Text Label 9900 8400 1    60   ~ 0
+SDRAM_DQ22
+Text Label 9800 8400 1    60   ~ 0
+SDRAM_DQ23
+$Comp
+L R R106
+U 1 1 4F90FF16
+P 9900 7200
+F 0 "R106" V 9850 6900 50  0000 C CNN
+F 1 "33" V 9850 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9900 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9900 7200 60  0001 C CNN "P/N"
+	1    9900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R105
+U 1 1 4F90FF15
+P 9800 7200
+F 0 "R105" V 9750 6900 50  0000 C CNN
+F 1 "33" V 9750 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9800 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 9800 7200 60  0001 C CNN "P/N"
+	1    9800 7200
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	8100 8700 8200 8600
+Entry Wire Line
+	8200 8700 8300 8600
+Entry Wire Line
+	8600 9150 8700 9050
+Entry Wire Line
+	8500 9150 8600 9050
+Entry Wire Line
+	8900 9600 9000 9500
+Entry Wire Line
+	9000 9600 9100 9500
+Entry Wire Line
+	9200 9600 9300 9500
+Entry Wire Line
+	9100 9600 9200 9500
+Entry Wire Line
+	9500 9600 9600 9500
+Entry Wire Line
+	9600 9600 9700 9500
+Entry Wire Line
+	9400 9600 9500 9500
+Entry Wire Line
+	9300 9600 9400 9500
+Entry Wire Line
+	10100 9600 10200 9500
+Entry Wire Line
+	10200 9600 10300 9500
+Entry Wire Line
+	10400 9600 10500 9500
+Entry Wire Line
+	10300 9600 10400 9500
+Entry Wire Line
+	9900 9600 10000 9500
+Entry Wire Line
+	10000 9600 10100 9500
+Entry Wire Line
+	9800 9600 9900 9500
+Entry Wire Line
+	9700 9600 9800 9500
+Entry Wire Line
+	14200 9600 14300 9500
+Entry Wire Line
+	14300 9600 14400 9500
+Entry Wire Line
+	14500 9600 14600 9500
+Entry Wire Line
+	14400 9600 14500 9500
+Entry Wire Line
+	14800 9600 14900 9500
+Entry Wire Line
+	14900 9600 15000 9500
+Entry Wire Line
+	14700 9600 14800 9500
+Entry Wire Line
+	14600 9600 14700 9500
+Entry Wire Line
+	13800 9600 13900 9500
+Entry Wire Line
+	13900 9600 14000 9500
+Entry Wire Line
+	14100 9600 14200 9500
+Entry Wire Line
+	14000 9600 14100 9500
+Entry Wire Line
+	13600 9600 13700 9500
+Entry Wire Line
+	13700 9600 13800 9500
+Entry Wire Line
+	13500 9600 13600 9500
+Entry Wire Line
+	13400 9600 13500 9500
+Entry Wire Line
+	13000 9150 13100 9050
+Entry Wire Line
+	13100 9150 13200 9050
+Entry Wire Line
+	12700 8700 12800 8600
+Entry Wire Line
+	12600 8700 12700 8600
+$Comp
+L R R126
+U 1 1 4F90FDF0
+P 14300 7200
+F 0 "R126" V 14250 6900 50  0000 C CNN
+F 1 "33" V 14250 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14300 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14300 7200 60  0001 C CNN "P/N"
+	1    14300 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R127
+U 1 1 4F90FDEF
+P 14400 7200
+F 0 "R127" V 14350 6900 50  0000 C CNN
+F 1 "33" V 14350 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14400 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14400 7200 60  0001 C CNN "P/N"
+	1    14400 7200
+	1    0    0    -1  
+$EndComp
+Text Label 14300 8400 1    60   ~ 0
+SDRAM_DQ7
+Text Label 14400 8400 1    60   ~ 0
+SDRAM_DQ6
+Text Label 14600 8400 1    60   ~ 0
+SDRAM_DQ4
+Text Label 14500 8400 1    60   ~ 0
+SDRAM_DQ5
+$Comp
+L R R129
+U 1 1 4F90FDEE
+P 14600 7200
+F 0 "R129" V 14550 6900 50  0000 C CNN
+F 1 "33" V 14550 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14600 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14600 7200 60  0001 C CNN "P/N"
+	1    14600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R128
+U 1 1 4F90FDED
+P 14500 7200
+F 0 "R128" V 14450 6900 50  0000 C CNN
+F 1 "33" V 14450 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14500 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14500 7200 60  0001 C CNN "P/N"
+	1    14500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R132
+U 1 1 4F90FDEC
+P 14900 7200
+F 0 "R132" V 14850 6900 50  0000 C CNN
+F 1 "33" V 14850 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14900 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14900 7200 60  0001 C CNN "P/N"
+	1    14900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R133
+U 1 1 4F90FDEB
+P 15000 7200
+F 0 "R133" V 14950 6900 50  0000 C CNN
+F 1 "33" V 14950 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 15000 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 15000 7200 60  0001 C CNN "P/N"
+	1    15000 7200
+	1    0    0    -1  
+$EndComp
+Text Label 14900 8400 1    60   ~ 0
+SDRAM_DQ1
+Text Label 15000 8400 1    60   ~ 0
+SDRAM_DQ0
+Text Label 14800 8400 1    60   ~ 0
+SDRAM_DQ2
+Text Label 14700 8400 1    60   ~ 0
+SDRAM_DQ3
+$Comp
+L R R131
+U 1 1 4F90FDEA
+P 14800 7200
+F 0 "R131" V 14750 6900 50  0000 C CNN
+F 1 "33" V 14750 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14800 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14800 7200 60  0001 C CNN "P/N"
+	1    14800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R130
+U 1 1 4F90FDE9
+P 14700 7200
+F 0 "R130" V 14650 6900 50  0000 C CNN
+F 1 "33" V 14650 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14700 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14700 7200 60  0001 C CNN "P/N"
+	1    14700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R122
+U 1 1 4F90FDE4
+P 13900 7200
+F 0 "R122" V 13850 6900 50  0000 C CNN
+F 1 "33" V 13850 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13900 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13900 7200 60  0001 C CNN "P/N"
+	1    13900 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R123
+U 1 1 4F90FDE3
+P 14000 7200
+F 0 "R123" V 13950 6900 50  0000 C CNN
+F 1 "33" V 13950 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14000 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14000 7200 60  0001 C CNN "P/N"
+	1    14000 7200
+	1    0    0    -1  
+$EndComp
+Text Label 13900 8400 1    60   ~ 0
+SDRAM_DQ11
+Text Label 14000 8400 1    60   ~ 0
+SDRAM_DQ10
+Text Label 14200 8400 1    60   ~ 0
+SDRAM_DQ8
+Text Label 14100 8400 1    60   ~ 0
+SDRAM_DQ9
+$Comp
+L R R125
+U 1 1 4F90FDE2
+P 14200 7200
+F 0 "R125" V 14150 6900 50  0000 C CNN
+F 1 "33" V 14150 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14200 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14200 7200 60  0001 C CNN "P/N"
+	1    14200 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R124
+U 1 1 4F90FDE1
+P 14100 7200
+F 0 "R124" V 14050 6900 50  0000 C CNN
+F 1 "33" V 14050 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 14100 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 14100 7200 60  0001 C CNN "P/N"
+	1    14100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R120
+U 1 1 4F90FDDB
+P 13700 7200
+F 0 "R120" V 13650 6900 50  0000 C CNN
+F 1 "33" V 13650 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13700 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13700 7200 60  0001 C CNN "P/N"
+	1    13700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R121
+U 1 1 4F90FDDA
+P 13800 7200
+F 0 "R121" V 13750 6900 50  0000 C CNN
+F 1 "33" V 13750 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13800 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13800 7200 60  0001 C CNN "P/N"
+	1    13800 7200
+	1    0    0    -1  
+$EndComp
+Text Label 13700 8400 1    60   ~ 0
+SDRAM_DQ13
+Text Label 13800 8400 1    60   ~ 0
+SDRAM_DQ12
+Text Label 13600 8400 1    60   ~ 0
+SDRAM_DQ14
+Text Label 13500 8400 1    60   ~ 0
+SDRAM_DQ15
+$Comp
+L R R119
+U 1 1 4F90FDAF
+P 13600 7200
+F 0 "R119" V 13550 6900 50  0000 C CNN
+F 1 "33" V 13550 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13600 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13600 7200 60  0001 C CNN "P/N"
+	1    13600 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R118
+U 1 1 4F90FDAE
+P 13500 7200
+F 0 "R118" V 13450 6900 50  0000 C CNN
+F 1 "33" V 13450 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13500 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13500 7200 60  0001 C CNN "P/N"
+	1    13500 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R116
+U 1 1 4F90FD75
+P 13100 7200
+F 0 "R116" V 13050 6900 50  0000 C CNN
+F 1 "33" V 13050 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13100 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13100 7200 60  0001 C CNN "P/N"
+	1    13100 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R117
+U 1 1 4F90FD74
+P 13200 7200
+F 0 "R117" V 13150 6900 50  0000 C CNN
+F 1 "33" V 13150 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 13200 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 13200 7200 60  0001 C CNN "P/N"
+	1    13200 7200
+	1    0    0    -1  
+$EndComp
+Text Label 13100 8400 1    60   ~ 0
+SDRAM_DQM1
+Text Label 13200 8400 1    60   ~ 0
+SDRAM_DQM0
+Text Label 12800 8400 1    60   ~ 0
+SDRAM_DQS0
+Text Label 12700 8400 1    60   ~ 0
+SDRAM_DQS1
+$Comp
+L R R115
+U 1 1 4F90FCD5
+P 12800 7200
+F 0 "R115" V 12750 6900 50  0000 C CNN
+F 1 "33" V 12750 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 12800 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 12800 7200 60  0001 C CNN "P/N"
+	1    12800 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R114
+U 1 1 4F90FC39
+P 12700 7200
+F 0 "R114" V 12650 6900 50  0000 C CNN
+F 1 "33" V 12650 7450 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 12700 7200 60  0001 C CNN
+F 4 "RC0402FR-0733RL" H 12700 7200 60  0001 C CNN "P/N"
+	1    12700 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F90FBB2
+P 7150 6650
+F 0 "#PWR?" H 7150 6610 30  0001 C CNN
+F 1 "2V5" H 7150 6800 60  0000 C CNN
+	1    7150 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R92
+U 1 1 4F90FBB0
+P 7150 7150
+F 0 "R92" H 7300 7200 50  0000 C CNN
+F 1 "1K" H 7250 7100 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7150 7150 60  0001 C CNN
+F 4 "RC0402FR-071KL" H 7150 7150 60  0001 C CNN "P/N"
+F 5 "1%" H 7250 7000 60  0000 C CNN "Field5"
+	1    7150 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C167
+U 1 1 4F90FBAF
+P 7550 7150
+F 0 "C167" H 7600 7250 50  0000 L CNN
+F 1 "100nF" H 7600 7050 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 7550 7150 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 7550 7150 60  0001 C CNN "P/N"
+	1    7550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C169
+U 1 1 4F90FBAE
+P 7550 7850
+F 0 "C169" H 7600 7950 50  0000 L CNN
+F 1 "100nF" H 7600 7750 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 7550 7850 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 7550 7850 60  0001 C CNN "P/N"
+	1    7550 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R134
+U 1 1 4F90FBAD
+P 7150 7850
+F 0 "R134" H 7300 7900 50  0000 C CNN
+F 1 "1K" H 7250 7800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7150 7850 60  0001 C CNN
+F 4 "RC0402FR-071KL" H 7150 7850 60  0001 C CNN "P/N"
+F 5 "1%" H 7250 7700 60  0000 C CNN "Field5"
+	1    7150 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F90FBAC
+P 7150 8350
+F 0 "#PWR?" H 7150 8350 30  0001 C CNN
+F 1 "GND" H 7150 8280 30  0001 C CNN
+	1    7150 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F90FB68
+P 11650 6650
+F 0 "#PWR?" H 11650 6610 30  0001 C CNN
+F 1 "2V5" H 11650 6800 60  0000 C CNN
+	1    11650 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F90FB5B
+P 11650 8350
+F 0 "#PWR?" H 11650 8350 30  0001 C CNN
+F 1 "GND" H 11650 8280 30  0001 C CNN
+	1    11650 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R135
+U 1 1 4F90FB25
+P 11650 7850
+F 0 "R135" H 11800 7900 50  0000 C CNN
+F 1 "1K" H 11750 7800 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11650 7850 60  0001 C CNN
+F 4 "RC0402FR-071KL" H 11650 7850 60  0001 C CNN "P/N"
+F 5 "1%" H 11750 7700 60  0000 C CNN "Field5"
+	1    11650 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C170
+U 1 1 4F90FB24
+P 12050 7850
+F 0 "C170" H 12100 7950 50  0000 L CNN
+F 1 "100nF" H 12100 7750 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12050 7850 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 12050 7850 60  0001 C CNN "P/N"
+	1    12050 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C168
+U 1 1 4F90FA71
+P 12050 7150
+F 0 "C168" H 12100 7250 50  0000 L CNN
+F 1 "100nF" H 12100 7050 50  0000 L CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_X5R_4V-to-50V_12.pdf" H 12050 7150 60  0001 C CNN
+F 4 "CC0402KRX5R8BB104" H 12050 7150 60  0001 C CNN "P/N"
+	1    12050 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R113
+U 1 1 4F90FA63
+P 11650 7150
+F 0 "R113" H 11800 7200 50  0000 C CNN
+F 1 "1K" H 11750 7100 50  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11650 7150 60  0001 C CNN
+F 4 "RC0402FR-071KL" H 11650 7150 60  0001 C CNN "P/N"
+F 5 "1%" H 11750 7000 60  0000 C CNN "Field5"
+	1    11650 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F90FA2A
+P 7150 6100
+F 0 "#PWR?" H 7150 6100 30  0001 C CNN
+F 1 "GND" H 7150 6030 30  0001 C CNN
+	1    7150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F90FA1A
+P 15850 4850
+F 0 "#PWR?" H 15850 4810 30  0001 C CNN
+F 1 "2V5" H 15850 4960 60  0000 C CNN
+	1    15850 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2V5 #PWR?
+U 1 1 4F90FA06
+P 11350 4850
+F 0 "#PWR?" H 11350 4810 30  0001 C CNN
+F 1 "2V5" H 11350 5000 60  0000 C CNN
+	1    11350 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4F90F9DA
+P 11650 6100
+F 0 "#PWR?" H 11650 6100 30  0001 C CNN
+F 1 "GND" H 11650 6030 30  0001 C CNN
+	1    11650 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT46V32M16P U14
+U 1 1 4F90F77E
+P 9250 5500
+F 0 "U14" H 8250 5550 60  0000 C CNN
+F 1 "MT46V32M16P-5B:F" H 9650 5550 60  0000 C CNN
+F 3 "http://download.micron.com/pdf/datasheets/dram/ddr/512MBDDRx4x8x16.pdf" H 9250 5500 60  0001 C CNN
+	1    9250 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L MT46V32M16P U15
+U 1 1 4F8FB8EC
+P 13750 5500
+F 0 "U15" H 12750 5550 60  0000 C CNN
+F 1 "MT46V32M16P-5B:F" H 14150 5550 60  0000 C CNN
+F 3 "http://download.micron.com/pdf/datasheets/dram/ddr/512MBDDRx4x8x16.pdf" H 13750 5500 60  0001 C CNN
+	1    13750 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Wed 18 Apr 2012 12:05:54 CST
+EESchema Schematic File Version 2  date Thu 19 Apr 2012 17:44:46 CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -53,7 +53,7 @@ EELAYER END
 $Descr A3 16535 11700
 Sheet 1 15
 Title "Milkymist One - Hierarchical Sheet"
-Date "18 apr 2012"
+Date "19 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
