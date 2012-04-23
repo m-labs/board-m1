@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Apr 2012 15:23:10 CST
+EESchema Schematic File Version 2  date 2012年04月23日 (週一) 21時05分08秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -49,10 +49,11 @@ LIBS:zener
 LIBS:dc_jack
 LIBS:hole
 LIBS:diode
-LIBS:m1-cache
-EELAYER 24  0
+LIBS:powered
+EELAYER 25  0
 EELAYER END
-$Descr A3 16535 11700
+$Descr A3 16535 11693
+encoding utf-8
 Sheet 1 15
 Title "Milkymist One - Hierarchical Sheet"
 Date "23 apr 2012"
@@ -65,34 +66,34 @@ Comment4 ""
 $EndDescr
 Text Notes 1700 1200 0    300  ~ 60
 Milkymist One - Hierarchical Sheet - Functional Block\n
-Text Notes 7100 2100 0    100  ~ 20
-MIDI IN/OUT\nDMX IN/OUT\nIR
-Text Notes 9900 2250 0    100  ~ 20
-Led Matrix, JTAG,\nMISC.
-Text Notes 9900 5100 0    100  ~ 20
-MICRON\nMT46V32M16P-5B:F
-Text Notes 1450 8700 0    100  ~ 20
-Linear Regulators
-Text Notes 7100 7050 0    100  ~ 20
+Text Notes 7250 3000 0    200  ~ 40
+MIDI/DMX/IR
+Text Notes 9900 2950 0    200  ~ 40
+Led Matrix, SW,\nJTAG/Serial, \n8:10 Card
+Text Notes 10500 6000 0    200  ~ 40
+DRAM
+Text Notes 1500 9300 0    200  ~ 40
+Power Supply
+Text Notes 5650 7600 0    200  ~ 40
 FPGA\nDecoupling Cap.
-Text Notes 1500 5900 0    100  ~ 20
-MICREL\nKSZ8001L
-Text Notes 6450 8550 0    100  ~ 20
-ANALOG DEVICES\nADV7125KSTZ140 and FPGA's TMDS
-Text Notes 4250 2200 0    100  ~ 20
-NUMONYX\nJS28F256J3F105
-Text Notes 12700 5600 0    100  ~ 20
-Internal USB ports E/F
-Text Notes 12700 4000 0    100  ~ 20
-External USB ports C/D
-Text Notes 12700 2400 0    100  ~ 20
-External USB ports A/B
-Text Notes 7050 4950 0    100  ~ 20
-Xilinx\nXC6SLX45-2FGG484C
-Text Notes 1450 3500 0    100  ~ 20
-Analog Devices\nADV7181CBSTZ
-Text Notes 11650 8550 0    100  ~ 20
-Wolfson\nWM9707SCFT/V
+Text Notes 1850 6650 0    200  ~ 40
+Ethernet
+Text Notes 7200 9200 0    200  ~ 40
+DVI-I\nOutput
+Text Notes 4500 3000 0    200  ~ 40
+NOR Flash
+Text Notes 12750 6100 0    200  ~ 40
+Internal USB:\nE/F
+Text Notes 12750 4500 0    200  ~ 40
+External USB:\nC/D
+Text Notes 12750 2950 0    200  ~ 40
+External USB:\nA/B
+Text Notes 5950 5250 0    200  ~ 40
+Xilinx\nSpartan - 6\nXC6SLX45-2FGG484C
+Text Notes 1900 4250 0    200  ~ 40
+Video IN
+Text Notes 11700 9300 0    200  ~ 40
+Audio IN/OUT
 $Sheet
 S 1450 3750 2250 750 
 U 4F7EED3A
@@ -100,19 +101,19 @@ F0 "VIDEO_IN" 60
 F1 "VideoIn.sch" 60
 $EndSheet
 $Sheet
-S 12700 5700 2150 800 
+S 12700 5700 2450 900 
 U 4F7EED19
 F0 "USB_E/F" 60
 F1 "USBIntPorts.sch" 60
 $EndSheet
 $Sheet
-S 12700 4100 2150 800 
+S 12700 4100 2450 900 
 U 4F7EECE5
 F0 "USB_C/D" 60
 F1 "USBExtPorts2.sch" 60
 $EndSheet
 $Sheet
-S 12700 2500 2200 850 
+S 12700 2500 2450 950 
 U 4F7EECA8
 F0 "USB_A/B" 60
 F1 "USBExtPorts1.sch" 60
@@ -142,19 +143,19 @@ F0 "MISC_CONTROL" 60
 F1 "MiscControl.sch" 60
 $EndSheet
 $Sheet
-S 9900 2500 2200 850 
+S 9800 2500 2500 1350
 U 4F7EEC30
 F0 "MISC" 60
 F1 "Misc.sch" 60
 $EndSheet
 $Sheet
-S 7100 7300 1350 450 
+S 5550 7250 3050 800 
 U 4F7EEBE5
 F0 "FPGA_Dec" 60
 F1 "FPGAdec.sch" 60
 $EndSheet
 $Sheet
-S 7050 5200 2200 1500
+S 5500 4450 4100 2100
 U 4F7EEBD4
 F0 "FPGA" 60
 F1 "FPGA.sch" 60
