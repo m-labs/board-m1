@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Apr 2012 15:23:10 CST
+EESchema Schematic File Version 2  date Mon 23 Apr 2012 10:11:55 PM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -49,10 +49,11 @@ LIBS:zener
 LIBS:dc_jack
 LIBS:hole
 LIBS:diode
-LIBS:m1-cache
-EELAYER 24  0
+LIBS:powered
+EELAYER 25  0
 EELAYER END
-$Descr A3 16535 11700
+$Descr A3 16535 11693
+encoding utf-8
 Sheet 11 15
 Title "Milkymist One - FPGA Decoupling Cap. Sheet"
 Date "23 apr 2012"
@@ -308,8 +309,6 @@ Connection ~ 6850 2300
 Connection ~ 6400 2300
 Connection ~ 5900 2300
 Connection ~ 5450 2300
-Connection ~ 4950 2300
-Connection ~ 4450 2300
 Connection ~ 4050 2300
 Connection ~ 3550 2300
 Connection ~ 3050 2300
