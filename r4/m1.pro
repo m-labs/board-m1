@@ -109,3 +109,4 @@ LibName47=zener
 LibName48=dc_jack
 LibName49=hole
 LibName50=diode
+LibName51=powered

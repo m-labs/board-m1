@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Apr 2012 15:23:10 CST
+EESchema Schematic File Version 2  date Mon Apr 23 07:32:29 2012
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -49,10 +49,11 @@ LIBS:zener
 LIBS:dc_jack
 LIBS:hole
 LIBS:diode
-LIBS:m1-cache
-EELAYER 24  0
+LIBS:powered
+EELAYER 25  0
 EELAYER END
-$Descr A3 16535 11700
+$Descr A3 16535 11693
+encoding utf-8
 Sheet 7 15
 Title "Milkymist One - Power Sheet"
 Date "23 apr 2012"
@@ -428,24 +429,6 @@ F 0 "#PWR0126" H 1950 10400 30  0001 C CNN
 F 1 "GND" H 1950 10330 30  0001 C CNN
 	1    1950 10400
 	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG0127
-U 1 1 4F92AA1A
-P 1950 10100
-F 0 "#FLG0127" H 1950 10370 30  0001 C CNN
-F 1 "PWR_FLAG" H 1950 10330 30  0000 C CNN
-	1    1950 10100
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG0128
-U 1 1 4F916A08
-P 1450 10250
-F 0 "#FLG0128" H 1450 10520 30  0001 C CNN
-F 1 "PWR_FLAG" H 1450 10480 30  0000 C CNN
-	1    1450 10250
-	-1   0    0    1   
 $EndComp
 $Comp
 L 5V #PWR0129
@@ -1684,5 +1667,23 @@ F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 4100 38
 F 4 "RC0402FR-071ML" V 4100 3850 60  0001 C CNN "P/N"
 	1    4100 3850
 	0    1    1    0   
+$EndComp
+$Comp
+L POWERED #FLG?
+U 1 1 4F95561F
+P 1950 9900
+F 0 "#FLG?" H 2150 9800 60  0001 C CNN
+F 1 "POWERED" H 1950 9950 60  0000 C CNN
+	1    1950 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L POWERED #FLG?
+U 1 1 4F95562E
+P 1450 10450
+F 0 "#FLG?" H 1650 10350 60  0001 C CNN
+F 1 "POWERED" H 1450 10500 60  0000 C CNN
+	1    1450 10450
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
