@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Apr 2012 09:02:42 AM CST
+EESchema Schematic File Version 2  date 2012年04月24日 (週二) 17時12分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -54,9 +54,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 9 15
+Sheet 9 16
 Title "Milkymist One - Misc. Control Sheet"
-Date "23 apr 2012"
+Date "24 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""

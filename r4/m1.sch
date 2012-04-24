@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Tue 24 Apr 2012 09:02:42 AM CST
+EESchema Schematic File Version 2  date 2012年04月24日 (週二) 17時12分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -54,9 +54,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 15
+Sheet 1 16
 Title "Milkymist One - Hierarchical Sheet"
-Date "23 apr 2012"
+Date "24 apr 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -88,7 +88,7 @@ Text Notes 12750 4500 0    200  ~ 40
 External USB:\nC/D
 Text Notes 12750 2950 0    200  ~ 40
 External USB:\nA/B
-Text Notes 5950 5250 0    200  ~ 40
+Text Notes 5500 4350 0    200  ~ 40
 Xilinx\nSpartan - 6\nXC6SLX45-2FGG484C
 Text Notes 1900 4250 0    200  ~ 40
 Video IN
@@ -155,10 +155,10 @@ F0 "FPGA_Dec" 60
 F1 "FPGAdec.sch" 60
 $EndSheet
 $Sheet
-S 5500 4450 4100 2100
+S 5500 5150 1200 750 
 U 4F7EEBD4
-F0 "FPGA" 60
-F1 "FPGA.sch" 60
+F0 "FPGA_P1" 60
+F1 "FPGA_P1.sch" 60
 $EndSheet
 $Sheet
 S 1500 6150 2150 750 
@@ -178,4 +178,14 @@ U 4F7EEB07
 F0 "AUDIO" 60
 F1 "Audio.sch" 60
 $EndSheet
+$Sheet
+S 7150 5150 1200 750 
+U 4F966C8E
+F0 "FPGA_P2" 60
+F1 "FPGA_P2.sch" 60
+$EndSheet
+Text Notes 7300 5600 0    118  ~ 24
+Bank 1, 2
+Text Notes 5650 5600 0    118  ~ 24
+Bank 0, 3
 $EndSCHEMATC
