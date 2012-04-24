@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 23 Apr 2012 15:23:10 CST
+EESchema Schematic File Version 2  date Tue 24 Apr 2012 09:02:42 AM CST
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -49,10 +49,11 @@ LIBS:zener
 LIBS:dc_jack
 LIBS:hole
 LIBS:diode
-LIBS:m1-cache
-EELAYER 24  0
+LIBS:powered
+EELAYER 25  0
 EELAYER END
-$Descr A3 16535 11700
+$Descr A3 16535 11693
+encoding utf-8
 Sheet 2 15
 Title "Milkymist One - Video-In Sheet"
 Date "23 apr 2012"
