@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年04月24日 (週二) 17時12分31秒
+EESchema Schematic File Version 2  date 2012年04月24日 (週二) 19時01分55秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -64,10 +64,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 7500 750  0    60   ~ 0
-SDRAM_A[12..0]
-Text Label 13600 4500 0    60   ~ 0
-SDRAM_DQ[31..0]
 Text Notes 13800 9750 2    60   ~ 0
 H/W Control: R4 Version
 Text Label 12700 8550 0    60   ~ 0
@@ -165,8 +161,6 @@ Entry Wire Line
 	7250 3250 7350 3350
 Entry Wire Line
 	7250 3150 7350 3250
-Text GLabel 8350 750  2    60   Output ~ 0
-SDRAM_A[12..0]
 Entry Wire Line
 	7400 2950 7500 3050
 Entry Wire Line
@@ -259,8 +253,6 @@ Text GLabel 8000 1150 0    50   Output ~ 0
 SDRAM_BA0
 Text Label 8100 1050 0    60   ~ 0
 FPGA_VREF
-Text GLabel 14450 4500 2    60   BiDi ~ 0
-SDRAM_DQ[31..0]
 Entry Wire Line
 	13400 1250 13500 1350
 Entry Wire Line
@@ -716,6 +708,10 @@ F 1 "XC6SLX45-2FGG484C" H 10350 3800 60  0000 C CNN
 	4    10350 3750
 	1    0    0    -1  
 $EndComp
+Text GLabel 8550 800  2    60   Output ~ 0
+SDRAM_A[12..0]
+Text Label 7550 800  0    60   ~ 0
+SDRAM_A[12..0]
 Wire Wire Line
 	13400 9350 12700 9350
 Wire Wire Line
@@ -740,10 +736,6 @@ Wire Bus Line
 	7250 2150 7250 3450
 Wire Wire Line
 	8750 2450 8100 2450
-Wire Bus Line
-	8350 750  7400 750 
-Wire Bus Line
-	7400 750  7400 3050
 Wire Bus Line
 	8950 7550 8950 8300
 Wire Bus Line
@@ -1256,10 +1248,6 @@ Wire Wire Line
 	12700 1150 11950 1150
 Wire Wire Line
 	13400 1250 11950 1250
-Wire Bus Line
-	13500 1150 13500 4500
-Wire Bus Line
-	13500 4500 14450 4500
 Wire Wire Line
 	8750 1050 8100 1050
 Wire Wire Line
@@ -1360,4 +1348,16 @@ Wire Wire Line
 Connection ~ 14200 8950
 Wire Wire Line
 	13400 8950 12700 8950
+Wire Bus Line
+	7400 3050 7400 800 
+Wire Bus Line
+	7400 800  8550 800 
+Wire Bus Line
+	13500 1150 13500 4600
+Wire Bus Line
+	13500 4600 14850 4600
+Text GLabel 14850 4600 2    60   BiDi ~ 0
+SDRAM_DQ[31..0]
+Text Label 14500 4600 2    60   ~ 0
+SDRAM_DQ[31..0]
 $EndSCHEMATC
