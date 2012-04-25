@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年04月24日 (週二) 17時12分31秒
+EESchema Schematic File Version 2  date 2012年04月24日 (週二) 19時37分36秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5

@@ -1,4 +1,4 @@
-update=Sat 21 Apr 2012 20:40:20 CST
+update=2012年04月25日 (週三) 09時29分50秒
 last_client=eeschema
 [pcbnew]
 version=1
@@ -28,36 +28,14 @@ EquName1=devcms
 [eeschema]
 version=1
 LibDir=../../kicad-libs/components;../../../kicad-libs/components
-NetFmt=1
+NetFmtName=
 HPGLSpd=20
 HPGLDm=15
 HPGLNum=1
-offX_A4=0
-offY_A4=0
-offX_A3=0
-offY_A3=0
-offX_A2=0
-offY_A2=0
-offX_A1=0
-offY_A1=0
-offX_A0=0
-offY_A0=0
-offX_A=0
-offY_A=0
-offX_B=0
-offY_B=0
-offX_C=0
-offY_C=0
-offX_D=0
-offY_D=0
-offX_E=0
-offY_E=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
-PrintMonochrome=1
-ShowSheetReferenceAndTitleBlock=1
 [eeschema/libraries]
 LibName1=js28f256j3f105
 LibName2=8_10-card
