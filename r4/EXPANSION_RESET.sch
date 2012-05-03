@@ -1,0 +1,790 @@
+EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+LIBS:js28f256j3f105
+LIBS:8_10-card
+LIBS:74x1g00_5
+LIBS:74x1g07_4
+LIBS:74x1g07_5
+LIBS:74x1g07_6
+LIBS:74x1g08_5
+LIBS:74x1g08_6
+LIBS:74x1g125
+LIBS:74x2g126
+LIBS:analog_devices
+LIBS:atmega8u2
+LIBS:atmega48-mmu
+LIBS:c8051f320
+LIBS:c8051f326
+LIBS:din_5_2s
+LIBS:diodes_inc
+LIBS:fairchild
+LIBS:ir
+LIBS:micrel
+LIBS:micron
+LIBS:microphone
+LIBS:mini_usb_b
+LIBS:molex
+LIBS:nxp
+LIBS:oscillator-cmos-out-4
+LIBS:phonejack
+LIBS:pic18f46j50-ml
+LIBS:pptc
+LIBS:ti
+LIBS:usb_a_plug
+LIBS:varistor
+LIBS:vga
+LIBS:wolfson
+LIBS:xc6slx45-2fgg484c
+LIBS:xlr-3
+LIBS:testpoint
+LIBS:c
+LIBS:led
+LIBS:r
+LIBS:pwr
+LIBS:con
+LIBS:filter
+LIBS:crystal
+LIBS:switch
+LIBS:rca
+LIBS:zener
+LIBS:dc_jack
+LIBS:hole
+LIBS:diode
+LIBS:powered
+LIBS:r4-specific
+LIBS:m1-cache
+EELAYER 25  0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 19 19
+Title "Milkymist One - EXPANSION_RESET Sheet"
+Date "3 may 2012"
+Rev "R4"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 7650 6150
+Text Notes 12900 2700 2    60   ~ 0
+J27 : Mechanical mounting hole\nPlace J27 close to J21:19 or 20 pin.
+$Comp
+L MH J27
+U 1 1 4F8FE2E0
+P 12650 2300
+F 0 "J27" H 12650 2300 60  0000 C CNN
+F 1 "MH" H 12650 2450 60  0001 C CNN
+	1    12650 2300
+	1    0    0    -1  
+$EndComp
+Text Notes 8050 1300 2    60   ~ 0
+Note: User can build your own extension board to connect\nthese two J21 and J22 board-to-board female headers.
+$Comp
+L GND #PWR0352
+U 1 1 4F8FDE05
+P 11150 2500
+F 0 "#PWR0352" H 11150 2500 30  0001 C CNN
+F 1 "GND" H 11150 2430 30  0001 C CNN
+	1    11150 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C273
+U 1 1 4F8FDD98
+P 11900 2500
+F 0 "C273" V 11950 2550 60  0000 L CNN
+F 1 "4n7" V 11850 2250 60  0000 L CNN
+F 3 "http://www.chipcera.com.cn/download/%E4%B8%AD%E5%8E%8B%E5%93%813.pdf" H 11900 2500 60  0001 C CNN
+F 4 "CC1206X7R9K472RL" H 11900 2500 60  0001 C CNN "P/N"
+	1    11900 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R234
+U 1 1 4F8FDD53
+P 11900 2100
+F 0 "R234" V 12000 2100 60  0000 C CNN
+F 1 "1M" V 11800 2100 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC1206_51_RoHS_L_4.pdf" H 11900 2100 60  0001 C CNN
+F 4 "RC1206JR-071ML" H 11900 2100 60  0001 C CNN "P/N"
+	1    11900 2100
+	0    -1   -1   0   
+$EndComp
+Text Notes 11400 3900 2    60   ~ 0
+Default: M1r4 ships with the jumper plug included,\none contact of the the jumper be placed on J25.1
+$Comp
+L 5V #PWR0353
+U 1 1 4F8FDC69
+P 8150 4150
+F 0 "#PWR0353" H 8150 4110 30  0001 C CNN
+F 1 "5V" H 8150 4300 60  0000 C CNN
+	1    8150 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0354
+U 1 1 4F8FDB78
+P 8200 3250
+F 0 "#PWR0354" H 8200 3250 30  0001 C CNN
+F 1 "GND" H 8200 3180 30  0001 C CNN
+	1    8200 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR0355
+U 1 1 4F8FDB66
+P 8750 3150
+F 0 "#PWR0355" H 8750 3110 30  0001 C CNN
+F 1 "3V3" H 8750 3300 60  0000 C CNN
+	1    8750 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 6850 2900
+$Comp
+L CONN_10X2 J21
+U 1 1 4F8FDADC
+P 7250 2550
+F 0 "J21" H 7250 1750 60  0000 C CNN
+F 1 "CONN_10X2" V 7250 2450 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/res/en/pdffiles/doc_search/87606.pdf" H 7250 2550 60  0001 C CNN
+F 4 "87606-310LF" H 7200 1850 60  0000 C CNN "P/N"
+F 5 "Header 10X2, 2.54mm pitch" H 7200 1950 60  0000 C CNN "Field5"
+	1    7250 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L 3V3 #PWR0356
+U 1 1 4F8FDADA
+P 5950 3050
+F 0 "#PWR0356" H 5950 3010 30  0001 C CNN
+F 1 "3V3" H 5950 3200 60  0000 C CNN
+	1    5950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0357
+U 1 1 4F8FDAD8
+P 6650 1800
+F 0 "#PWR0357" H 6650 1800 30  0001 C CNN
+F 1 "GND" H 6650 1730 30  0001 C CNN
+	1    6650 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0358
+U 1 1 4F8FDAD7
+P 7900 1800
+F 0 "#PWR0358" H 7900 1800 30  0001 C CNN
+F 1 "GND" H 7900 1730 30  0001 C CNN
+	1    7900 1800
+	1    0    0    -1  
+$EndComp
+Text Notes 10350 4950 0    60   ~ 0
+J21, 22 Harwin p/n : M20-7831046 or\nFCI p/n : 87606-310LF
+$Comp
+L GND #PWR0359
+U 1 1 4F8FD896
+P 7950 4950
+F 0 "#PWR0359" H 7950 4950 30  0001 C CNN
+F 1 "GND" H 7950 4880 30  0001 C CNN
+	1    7950 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0360
+U 1 1 4F8FD88B
+P 6600 4950
+F 0 "#PWR0360" H 6600 4950 30  0001 C CNN
+F 1 "GND" H 6600 4880 30  0001 C CNN
+	1    6600 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR0361
+U 1 1 4F8FD85B
+P 8400 6300
+F 0 "#PWR0361" H 8400 6260 30  0001 C CNN
+F 1 "3V3" H 8400 6450 60  0000 C CNN
+	1    8400 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR0362
+U 1 1 4F8FD845
+P 6100 6300
+F 0 "#PWR0362" H 6100 6260 30  0001 C CNN
+F 1 "3V3" H 6100 6450 60  0000 C CNN
+	1    6100 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0363
+U 1 1 4F8FD830
+P 6500 6500
+F 0 "#PWR0363" H 6500 6500 30  0001 C CNN
+F 1 "GND" H 6500 6430 30  0001 C CNN
+	1    6500 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_2 J25
+U 1 1 4F8FD634
+P 8900 3950
+F 0 "J25" H 8850 3750 60  0000 C CNN
+F 1 "CONN_2" V 8950 3950 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/Comergent//fci/drawing/68000.pdf" H 8900 3950 60  0001 C CNN
+F 4 "68002-102HLF" H 8800 4200 60  0000 L CNN "P/N"
+F 5 "Header 2X1 - 2.54mm pitch" H 8800 4300 60  0000 L CNN "Field5"
+	1    8900 3950
+	1    0    0    1   
+$EndComp
+$Comp
+L CONN_10X2 J22
+U 1 1 4F8FD620
+P 7250 5700
+F 0 "J22" H 7250 4900 60  0000 C CNN
+F 1 "CONN_10X2" V 7250 5600 60  0001 C CNN
+F 3 "http://portal.fciconnect.com/res/en/pdffiles/doc_search/87606.pdf" H 7250 5700 60  0001 C CNN
+F 4 "87606-310LF" H 7250 5000 60  0000 C CNN "P/N"
+F 5 "Header 10X2, 2.54mm pitch" H 7200 5100 60  0000 C CNN "Field5"
+	1    7250 5700
+	-1   0    0    1   
+$EndComp
+Text GLabel 11350 8300 2    60   Output ~ 0
+nFLASH_RESET
+$Comp
+L 3V3 #PWR0364
+U 1 1 4F8FCF74
+P 11300 7500
+F 0 "#PWR0364" H 11300 7460 30  0001 C CNN
+F 1 "3V3" H 11300 7650 60  0000 C CNN
+	1    11300 7500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9500 7900 0    60   Input ~ 0
+nSW_RESET
+$Comp
+L 3V3 #PWR0365
+U 1 1 4F8FCF33
+P 9800 6950
+F 0 "#PWR0365" H 9800 6910 30  0001 C CNN
+F 1 "3V3" H 9800 7100 60  0000 C CNN
+	1    9800 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R185
+U 1 1 4F8FCEDE
+P 9800 7400
+F 0 "R185" H 10000 7500 60  0000 C CNN
+F 1 "10k" H 10000 7400 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 9800 7400 60  0001 C CNN
+F 4 "RC0402FR-0710KL" V 9800 7400 60  0001 C CNN "P/N"
+F 5 "DNP" H 10000 7300 60  0000 C CNN "Smt"
+	1    9800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0366
+U 1 1 4F8FCEB3
+P 9800 9100
+F 0 "#PWR0366" H 9800 9100 30  0001 C CNN
+F 1 "GND" H 9800 9030 30  0001 C CNN
+	1    9800 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR0367
+U 1 1 4F8FCE81
+P 9500 8450
+F 0 "#PWR0367" H 9500 8410 30  0001 C CNN
+F 1 "5V" H 9500 8600 60  0000 C CNN
+	1    9500 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R30
+U 1 1 4F8FCE2E
+P 8200 7700
+F 0 "R30" H 8350 7750 60  0000 C CNN
+F 1 "10k" H 8350 7650 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 8200 7700 60  0001 C CNN
+F 4 "RC0402FR-0710KL" V 8200 7700 60  0001 C CNN "P/N"
+	1    8200 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP36
+U 1 1 4F8FCDF2
+P 8650 7750
+F 0 "TP36" H 8650 8000 60  0000 C CNN
+F 1 "TESTPOINT" H 8650 7750 60  0001 C CNN
+	1    8650 7750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0368
+U 1 1 4F8FCDC1
+P 8500 9100
+F 0 "#PWR0368" H 8500 9100 30  0001 C CNN
+F 1 "GND" H 8500 9030 30  0001 C CNN
+	1    8500 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L 3V3 #PWR0369
+U 1 1 4F8FCD94
+P 8000 7250
+F 0 "#PWR0369" H 8000 7210 30  0001 C CNN
+F 1 "3V3" H 8000 7400 60  0000 C CNN
+	1    8000 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR0370
+U 1 1 4F8FCCFD
+P 6600 9100
+F 0 "#PWR0370" H 6600 9100 30  0001 C CNN
+F 1 "GND" H 6600 9030 30  0001 C CNN
+	1    6600 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L APX803-40SAG-7 U24
+U 1 1 4F8EB6FF
+P 9100 8600
+F 0 "U24" H 8850 8950 60  0000 C CNN
+F 1 "APX803-40SAG-7" H 9000 8250 60  0000 C CNN
+	1    9100 8600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6900 8200 2    60   Input ~ 0
+TMS
+Text GLabel 6900 8350 2    60   Output ~ 0
+TDO
+Text GLabel 6900 8050 2    60   Input ~ 0
+TDI
+Text GLabel 6900 7900 2    60   Input ~ 0
+TCK
+NoConn ~ 6350 8550
+$Comp
+L R R39
+U 1 1 4F8EB73D
+P 7800 7700
+F 0 "R39" H 7950 7750 60  0000 C CNN
+F 1 "330R" H 7950 7650 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7800 7700 60  0001 C CNN
+F 4 "RC0402FR-07330RL" V 7800 7700 60  0001 C CNN "P/N"
+	1    7800 7700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TESTPOINT TP35
+U 1 1 4F8EB730
+P 7450 8300
+F 0 "TP35" H 7450 8550 60  0000 C CNN
+F 1 "TESTPOINT" H 7450 8300 60  0001 C CNN
+	1    7450 8300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74AUP1G08GW,125 U25
+U 1 1 4F8EB714
+P 10650 8100
+F 0 "U25" H 10200 8500 60  0000 C CNN
+F 1 "74AUP1G08GW,125" H 10584 7666 60  0000 C CNN
+	1    10650 8100
+	1    0    0    -1  
+$EndComp
+$Comp
+L XC6SLX45-2FGG484C U22
+U 6 1 4F8EB36C
+P 5250 8450
+F 0 "U22" H 4625 9100 60  0000 C CNN
+F 1 "XC6SLX45-2FGG484C" H 5000 9000 60  0000 C CNN
+	6    5250 8450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8900 2050 2    60   BiDi ~ 0
+IO_L9N_1
+Text GLabel 8900 2200 2    60   BiDi ~ 0
+IO_L9P_1
+Text GLabel 8900 2350 2    60   BiDi ~ 0
+IO_L19N_1
+Text GLabel 8900 2500 2    60   BiDi ~ 0
+IO_L19P_1
+Text GLabel 8900 2650 2    60   BiDi ~ 0
+IO_L20N_1
+Text GLabel 8900 2800 2    60   BiDi ~ 0
+IO_L20P_1
+Text GLabel 5000 2050 0    60   BiDi ~ 0
+IO_L21P_1
+Text GLabel 5000 2200 0    60   BiDi ~ 0
+IO_L21N_1
+Text GLabel 5000 2350 0    60   BiDi ~ 0
+IO_L28N_VREF_1
+Text GLabel 5000 2500 0    60   BiDi ~ 0
+IO_L28P_1
+Text GLabel 5000 2650 0    60   BiDi ~ 0
+IO_L10N_1
+Text GLabel 5000 2800 0    60   BiDi ~ 0
+IO_L10P_1
+Text GLabel 5000 5200 0    60   BiDi ~ 0
+IO_L40N_GCLK10_M1A6_1
+Text GLabel 5000 5350 0    60   BiDi ~ 0
+IO_L52N_2
+Text GLabel 5000 5500 0    60   BiDi ~ 0
+IO_L52P_2
+Text GLabel 5000 5650 0    60   BiDi ~ 0
+IO_L51N_2
+Text GLabel 5000 5800 0    60   BiDi ~ 0
+IO_L51P_2
+Text GLabel 5000 5950 0    60   BiDi ~ 0
+IO_L22N_2
+Text GLabel 5000 6100 0    60   BiDi ~ 0
+IO_L22P_2
+Text GLabel 8900 5200 2    60   BiDi ~ 0
+IO_L40P_GCLK11_M1A5_1
+Text GLabel 8900 5350 2    60   BiDi ~ 0
+IO_L39N_M1ODT_1
+Text GLabel 8900 5500 2    60   BiDi ~ 0
+IO_L39P_M1A3_1
+Text GLabel 8900 5650 2    60   BiDi ~ 0
+IO_L20N_2
+Text GLabel 8900 5800 2    60   BiDi ~ 0
+IO_L20P_2
+Text GLabel 8900 5950 2    60   BiDi ~ 0
+IO_L1N_A24_VREF_1
+Text GLabel 8900 6100 2    60   BiDi ~ 0
+IO_L1P_A25_1
+Connection ~ 11450 2300
+Wire Wire Line
+	11150 2300 11450 2300
+Wire Wire Line
+	12150 2100 12300 2100
+Wire Wire Line
+	12300 2100 12300 2500
+Wire Wire Line
+	12300 2500 12100 2500
+Wire Wire Line
+	6650 3350 7850 3350
+Wire Wire Line
+	7850 3000 7850 3850
+Wire Wire Line
+	7850 3000 7650 3000
+Wire Wire Line
+	7650 2800 8500 2800
+Wire Wire Line
+	8200 1650 8200 2100
+Wire Wire Line
+	8200 2100 7650 2100
+Wire Wire Line
+	6850 3000 6650 3000
+Wire Wire Line
+	6850 2800 6300 2800
+Wire Wire Line
+	6300 2100 6850 2100
+Wire Wire Line
+	6300 1650 6300 2100
+Wire Wire Line
+	5200 2700 6850 2700
+Wire Wire Line
+	5000 2500 6850 2500
+Wire Wire Line
+	5100 2600 6850 2600
+Wire Wire Line
+	5200 2300 6850 2300
+Wire Wire Line
+	5300 2200 6850 2200
+Wire Wire Line
+	5100 2400 6850 2400
+Wire Wire Line
+	7650 2500 8900 2500
+Wire Wire Line
+	7650 2400 8800 2400
+Wire Wire Line
+	7650 2700 8700 2700
+Wire Wire Line
+	7650 2600 8800 2600
+Wire Wire Line
+	7650 2300 8700 2300
+Wire Wire Line
+	7650 5450 8700 5450
+Wire Wire Line
+	7650 5750 8800 5750
+Wire Wire Line
+	7650 5950 8600 5950
+Wire Wire Line
+	7650 5850 8700 5850
+Wire Wire Line
+	7650 5550 8800 5550
+Wire Wire Line
+	7650 5650 8900 5650
+Wire Wire Line
+	7650 5350 8600 5350
+Wire Wire Line
+	5100 5550 6850 5550
+Wire Wire Line
+	5300 5350 6850 5350
+Wire Wire Line
+	5200 5450 6850 5450
+Wire Wire Line
+	5100 5750 6850 5750
+Wire Wire Line
+	5000 5650 6850 5650
+Wire Wire Line
+	5200 5850 6850 5850
+Wire Wire Line
+	5300 5950 6850 5950
+Wire Wire Line
+	6300 4800 6300 5250
+Wire Wire Line
+	6300 5250 6850 5250
+Wire Wire Line
+	6300 6050 6850 6050
+Wire Wire Line
+	11200 8300 11350 8300
+Connection ~ 9800 7900
+Wire Wire Line
+	9500 7900 9950 7900
+Wire Wire Line
+	8200 8100 9950 8100
+Wire Wire Line
+	9500 8450 9500 8600
+Wire Wire Line
+	9500 8600 9400 8600
+Wire Wire Line
+	8200 7350 8200 7450
+Wire Wire Line
+	8500 9100 8500 8450
+Wire Wire Line
+	8500 8450 8600 8450
+Wire Wire Line
+	7800 8650 7800 7950
+Wire Wire Line
+	6350 8650 7800 8650
+Wire Wire Line
+	6800 8250 6350 8250
+Wire Wire Line
+	6900 8350 6350 8350
+Wire Wire Line
+	6700 8150 6350 8150
+Wire Wire Line
+	6600 8050 6350 8050
+Wire Wire Line
+	6350 8450 6600 8450
+Wire Wire Line
+	6600 8450 6600 9100
+Wire Wire Line
+	7800 7350 7800 7450
+Wire Wire Line
+	7450 8300 7450 8650
+Connection ~ 7450 8650
+Wire Wire Line
+	6350 8750 8600 8750
+Wire Wire Line
+	8200 7950 8200 8750
+Connection ~ 8200 8750
+Connection ~ 8200 8100
+Wire Wire Line
+	9950 8300 9800 8300
+Wire Wire Line
+	9800 8300 9800 9100
+Wire Wire Line
+	9800 7150 9800 6950
+Wire Wire Line
+	11200 7900 11300 7900
+Wire Wire Line
+	11300 7900 11300 7500
+Wire Wire Line
+	6850 6150 6500 6150
+Wire Wire Line
+	6500 6150 6500 6500
+Wire Wire Line
+	7650 6050 8200 6050
+Wire Wire Line
+	8200 5250 7650 5250
+Wire Wire Line
+	8200 4800 8200 5250
+Wire Wire Line
+	7650 2900 8200 2900
+Wire Wire Line
+	6650 3000 6650 3350
+Wire Wire Line
+	8450 4050 8550 4050
+Wire Wire Line
+	11650 2100 11450 2100
+Wire Wire Line
+	11450 2100 11450 2500
+Wire Wire Line
+	11450 2500 11700 2500
+Wire Wire Line
+	12500 2300 12300 2300
+Connection ~ 12300 2300
+Wire Wire Line
+	6800 8250 6800 8200
+Wire Wire Line
+	6800 8200 6900 8200
+Wire Wire Line
+	6700 8150 6700 8050
+Wire Wire Line
+	6700 8050 6900 8050
+Wire Wire Line
+	6600 8050 6600 7900
+Wire Wire Line
+	6600 7900 6900 7900
+Wire Wire Line
+	8650 7750 8650 8100
+Connection ~ 8650 8100
+Wire Wire Line
+	7800 7350 8200 7350
+Wire Wire Line
+	8000 7350 8000 7250
+Connection ~ 8000 7350
+Wire Wire Line
+	9800 7900 9800 7650
+Wire Wire Line
+	8200 1650 7900 1650
+Wire Wire Line
+	7900 1650 7900 1800
+Wire Wire Line
+	6300 1650 6650 1650
+Wire Wire Line
+	6650 1650 6650 1800
+Wire Wire Line
+	8800 2600 8800 2650
+Wire Wire Line
+	8800 2650 8900 2650
+Wire Wire Line
+	8700 2700 8700 2800
+Wire Wire Line
+	8700 2800 8900 2800
+Wire Wire Line
+	8800 2400 8800 2350
+Wire Wire Line
+	8800 2350 8900 2350
+Wire Wire Line
+	8700 2300 8700 2200
+Wire Wire Line
+	8700 2200 8900 2200
+Wire Wire Line
+	7650 2200 8600 2200
+Wire Wire Line
+	8600 2200 8600 2050
+Wire Wire Line
+	8600 2050 8900 2050
+Wire Wire Line
+	5100 2600 5100 2650
+Wire Wire Line
+	5100 2650 5000 2650
+Wire Wire Line
+	5200 2700 5200 2800
+Wire Wire Line
+	5200 2800 5000 2800
+Wire Wire Line
+	5100 2400 5100 2350
+Wire Wire Line
+	5100 2350 5000 2350
+Wire Wire Line
+	5200 2300 5200 2200
+Wire Wire Line
+	5200 2200 5000 2200
+Wire Wire Line
+	5300 2200 5300 2050
+Wire Wire Line
+	5300 2050 5000 2050
+Wire Wire Line
+	6300 2800 6300 3250
+Wire Wire Line
+	6300 3250 5950 3250
+Wire Wire Line
+	5950 3250 5950 3050
+Wire Wire Line
+	7850 3850 8550 3850
+Connection ~ 7850 3350
+Wire Wire Line
+	8500 2800 8500 3350
+Wire Wire Line
+	8500 3350 8750 3350
+Wire Wire Line
+	8750 3350 8750 3150
+Wire Wire Line
+	8200 2900 8200 3250
+Wire Wire Line
+	8450 4050 8450 4350
+Wire Wire Line
+	8450 4350 8150 4350
+Wire Wire Line
+	8150 4350 8150 4150
+Wire Wire Line
+	5100 5750 5100 5800
+Wire Wire Line
+	5100 5800 5000 5800
+Wire Wire Line
+	5200 5850 5200 5950
+Wire Wire Line
+	5200 5950 5000 5950
+Wire Wire Line
+	5300 5950 5300 6100
+Wire Wire Line
+	5300 6100 5000 6100
+Wire Wire Line
+	5100 5550 5100 5500
+Wire Wire Line
+	5100 5500 5000 5500
+Wire Wire Line
+	5200 5450 5200 5350
+Wire Wire Line
+	5200 5350 5000 5350
+Wire Wire Line
+	5300 5350 5300 5200
+Wire Wire Line
+	5300 5200 5000 5200
+Wire Wire Line
+	8800 5750 8800 5800
+Wire Wire Line
+	8800 5800 8900 5800
+Wire Wire Line
+	8700 5850 8700 5950
+Wire Wire Line
+	8700 5950 8900 5950
+Wire Wire Line
+	8600 5950 8600 6100
+Wire Wire Line
+	8600 6100 8900 6100
+Wire Wire Line
+	8800 5550 8800 5500
+Wire Wire Line
+	8800 5500 8900 5500
+Wire Wire Line
+	8700 5450 8700 5350
+Wire Wire Line
+	8700 5350 8900 5350
+Wire Wire Line
+	8600 5350 8600 5200
+Wire Wire Line
+	8600 5200 8900 5200
+Wire Wire Line
+	8200 4800 7950 4800
+Wire Wire Line
+	7950 4800 7950 4950
+Wire Wire Line
+	6300 4800 6600 4800
+Wire Wire Line
+	6600 4800 6600 4950
+Wire Wire Line
+	6300 6050 6300 6450
+Wire Wire Line
+	6300 6450 6100 6450
+Wire Wire Line
+	6100 6450 6100 6300
+Wire Wire Line
+	8200 6050 8200 6450
+Wire Wire Line
+	8200 6450 8400 6450
+Wire Wire Line
+	8400 6450 8400 6300
+Wire Wire Line
+	11150 2300 11150 2500
+$EndSCHEMATC
