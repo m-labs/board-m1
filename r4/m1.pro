@@ -1,4 +1,4 @@
-update=2012年04月25日 (週三) 09時29分50秒
+update=2012年04月30日 (週一) 10時25分33秒
 last_client=eeschema
 [pcbnew]
 version=1
@@ -27,7 +27,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../kicad-libs/components;../../../kicad-libs/components
+LibDir=../../../kicad-libs/components;../components
 NetFmtName=
 HPGLSpd=20
 HPGLDm=15
@@ -88,3 +88,4 @@ LibName48=dc_jack
 LibName49=hole
 LibName50=diode
 LibName51=powered
+LibName52=r4-specific
