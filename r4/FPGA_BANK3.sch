@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 12時04分13秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 18 19
 Title "Milkymist One - FPGA_BANK3 Sheet"
-Date "3 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -66,7 +66,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 3550 8550 2    60   ~ 0
+Text Notes 3530 8550 2    60   ~ 0
 H/W Control: R4 Version
 Text Label 3900 7350 2    60   ~ 0
 HW_VER_0
@@ -472,6 +472,58 @@ Entry Wire Line
 	6550 5950 6650 5850
 Text Label 6900 5850 0    60   ~ 0
 SDRAM_DQS0
+Text Notes 3125 9050 2    60   ~ 0
+Board revision :
+Text Notes 2400 9200 0    60   ~ 0
+R179
+Text Notes 2400 9400 0    60   ~ 0
+removed
+Text Notes 2950 9400 0    60   ~ 0
+DNP
+Text Notes 3450 9400 0    60   ~ 0
+1k
+Text Notes 4000 9400 0    60   ~ 0
+1k\n
+Text Notes 4450 9400 0    60   ~ 0
+R4\n
+Text Notes 2400 9550 0    60   ~ 0
+DNP
+Text Notes 2950 9550 0    60   ~ 0
+DNP
+Text Notes 3450 9550 0    60   ~ 0
+1k
+Text Notes 4000 9550 0    60   ~ 0
+DNP\n
+Text Notes 4450 9550 0    60   ~ 0
+rc3\n
+Text Notes 2400 9700 0    60   ~ 0
+DNP
+Text Notes 2950 9700 0    60   ~ 0
+DNP\n
+Text Notes 3450 9700 0    60   ~ 0
+DNP
+Text Notes 4000 9700 0    60   ~ 0
+1k\n
+Text Notes 4450 9700 0    60   ~ 0
+rc2\n
+Text Notes 2400 9850 0    60   ~ 0
+none
+Text Notes 2950 9850 0    60   ~ 0
+none\n
+Text Notes 3450 9850 0    60   ~ 0
+none
+Text Notes 4000 9850 0    60   ~ 0
+none\n
+Text Notes 4450 9850 0    60   ~ 0
+rc1\n
+Text Notes 2950 9200 0    60   ~ 0
+R178
+Text Notes 3450 9200 0    60   ~ 0
+R177
+Text Notes 3950 9200 0    60   ~ 0
+R176
+Text Notes 4450 9200 0    60   ~ 0
+Revision
 Wire Wire Line
 	3900 8150 3200 8150
 Wire Wire Line
@@ -735,4 +787,14 @@ Wire Bus Line
 	6550 5950 6550 7100
 Wire Bus Line
 	6550 7100 5500 7100
+Wire Notes Line
+	2850 9100 2850 9850
+Wire Notes Line
+	3350 9100 3350 9850
+Wire Notes Line
+	3850 9100 3850 9850
+Wire Notes Line
+	4350 9100 4350 9850
+Wire Notes Line
+	2400 9250 4850 9250
 $EndSCHEMATC
