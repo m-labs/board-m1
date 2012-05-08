@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 12時07分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 19 19
 Title "Milkymist One - EXPANSION_RESET Sheet"
-Date "3 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -79,7 +79,7 @@ F 1 "MH" H 12650 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 8050 1300 2    60   ~ 0
-Note: User can build your own extension board to connect\nthese two J21 and J22 board-to-board female headers.
+Note: Users can build their own extension board to connect\nthese two J21 and J22 board-to-board female headers.
 $Comp
 L GND #PWR0352
 U 1 1 4F8FDE05
