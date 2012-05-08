@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月04日 (週五) 09時28分57秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 15時02分06秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 19
 Title "Milkymist One - Internal USB ports E/F Sheet"
-Date "4 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -71,7 +71,7 @@ L 5V #PWR042
 U 1 1 4F8B9D39
 P 10200 5000
 F 0 "#PWR042" H 10200 4960 30  0001 C CNN
-F 1 "5V" H 10200 5110 60  0000 C CNN
+F 1 "5V" H 10200 5150 60  0000 C CNN
 	1    10200 5000
 	1    0    0    -1  
 $EndComp
@@ -539,7 +539,7 @@ F 4 "MIC2550AYTS" H 5400 4050 60  0001 C CNN "P/N"
 	1    5400 4050
 	1    0    0    -1  
 $EndComp
-Text Notes 6600 5550 0    60   ~ 0
+Text Notes 6950 9150 0    60   ~ 0
 V[20..23]: P/N - V0402MHS03\n3pF, 42Vdc
 Connection ~ 10200 5100
 Wire Wire Line

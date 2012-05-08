@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月07日 (週一) 20時19分55秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 14時55分01秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 5 19
 Title "Milkymist One - External USB ports A/B Sheet"
-Date "7 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -118,7 +118,7 @@ L USBEXT5V #PWR085
 U 1 1 4F8B90A3
 P 10500 2450
 F 0 "#PWR085" H 10500 2410 30  0001 C CNN
-F 1 "USBEXT5V" H 10500 2560 60  0000 C CNN
+F 1 "USBEXT5V" H 10500 2600 60  0000 C CNN
 	1    10500 2450
 	1    0    0    -1  
 $EndComp
@@ -127,7 +127,7 @@ L 3V3 #PWR086
 U 1 1 4F8B907D
 P 8000 6800
 F 0 "#PWR086" H 8000 6760 30  0001 C CNN
-F 1 "3V3" H 8000 6910 60  0000 C CNN
+F 1 "3V3" H 8000 6950 60  0000 C CNN
 	1    8000 6800
 	1    0    0    -1  
 $EndComp
@@ -145,7 +145,7 @@ L 3V3 #PWR088
 U 1 1 4F8B9051
 P 8000 2950
 F 0 "#PWR088" H 8000 2910 30  0001 C CNN
-F 1 "3V3" H 8000 3060 60  0000 C CNN
+F 1 "3V3" H 8000 3100 60  0000 C CNN
 	1    8000 2950
 	1    0    0    -1  
 $EndComp
@@ -154,7 +154,7 @@ L 3V3 #PWR089
 U 1 1 4F8B9040
 P 6550 2150
 F 0 "#PWR089" H 6550 2110 30  0001 C CNN
-F 1 "3V3" H 6550 2260 60  0000 C CNN
+F 1 "3V3" H 6550 2300 60  0000 C CNN
 	1    6550 2150
 	1    0    0    -1  
 $EndComp

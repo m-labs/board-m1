@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 16時43分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -56,9 +56,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 19
+Sheet 13 19
 Title "Milkymist One - DVI-I Single Channel Sheet"
-Date "3 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -66,10 +66,8 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-NoConn ~ 11550 6950
-NoConn ~ 11450 6950
-Text Notes 11650 6350 0    60   ~ 0
-DVI-I CON
+NoConn ~ 11550 6900
+NoConn ~ 11450 6900
 Text Notes 11200 2850 0    60   ~ 0
 EZJ-Z0V80010 : Vdc 10V, 0.8 pF@1 MHz
 Text Notes 11200 3000 0    60   ~ 0
@@ -394,8 +392,8 @@ Text GLabel 10450 8050 0    60   Input ~ 0
 DVI-I_G_P
 NoConn ~ 11550 5700
 NoConn ~ 11450 5700
-NoConn ~ 12350 6950
-NoConn ~ 12250 6950
+NoConn ~ 12350 6900
+NoConn ~ 12250 6900
 $Comp
 L GND #PWR0284
 U 1 1 4F8E92C7
@@ -729,7 +727,6 @@ F 1 "TESTPOINT" H 9600 2450 60  0001 C CNN
 	1    9600 2450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10100 3200
 $Comp
 L GND #PWR0294
 U 1 1 4F8E86D3
@@ -830,10 +827,10 @@ $EndComp
 $Comp
 L 74320-1004 J17
 U 1 1 4F8E7E1F
-P 11500 6500
-F 0 "J17" H 12700 7200 60  0000 C CNN
-F 1 "74320-1004" H 10750 7050 60  0000 C CNN
-	1    11500 6500
+P 12250 6300
+F 0 "J17" H 13450 7000 60  0000 C CNN
+F 1 "74320-1004" H 10550 6700 60  0000 C CNN
+	1    12250 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -884,15 +881,6 @@ F 1 "75R" H 7300 5100 60  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 7100 5150 60  0001 C CNN
 F 4 "RC0402FR-0775RL" V 7100 5150 60  0001 C CNN "P/N"
 	1    7100 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L AD1580BRTZ D5
-U 1 1 4F8E7D8C
-P 9900 3200
-F 0 "D5" H 9750 3500 60  0000 C CNN
-F 1 "AD1580BRTZ" H 9950 2850 60  0000 C CNN
-	1    9900 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1005,6 +993,71 @@ F 1 "GND" H 11150 5030 30  0001 C CNN
 	1    11150 5100
 	1    0    0    -1  
 $EndComp
+$Comp
+L 2N7002MTF Q1
+U 1 1 4F9F8AEC
+P 4150 7250
+F 0 "Q1" H 4500 7300 60  0000 R CNN
+F 1 "2N7002MTF" H 4900 7150 60  0000 R CNN
+F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 4150 7250 60  0001 C CNN
+	1    4150 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R147
+U 1 1 4F9F8AF3
+P 3600 6500
+F 0 "R147" H 3800 6550 60  0000 C CNN
+F 1 "4k7" H 3800 6450 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 3600 6500 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 3600 6500 60  0001 C CNN "P/N"
+	1    3600 6500
+	1    0    0    -1  
+$EndComp
+Text GLabel 3750 7750 0    60   BiDi ~ 0
+VGA_SDA
+$Comp
+L 3V3 #PWR0304
+U 1 1 4F9F8AFA
+P 3600 6050
+F 0 "#PWR0304" H 3600 6010 30  0001 C CNN
+F 1 "3V3" H 3600 6200 60  0000 C CNN
+	1    3600 6050
+	1    0    0    -1  
+$EndComp
+Text Label 5050 6900 2    60   ~ 0
+DDC_DATA
+$Comp
+L R R148
+U 1 1 4F9F8B02
+P 4250 6500
+F 0 "R148" H 4450 6550 60  0000 C CNN
+F 1 "4k7" H 4450 6450 60  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 4250 6500 60  0001 C CNN
+F 4 "RC0402FR-074K7L" V 4250 6500 60  0001 C CNN "P/N"
+	1    4250 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 5V #PWR0305
+U 1 1 4F9F8B08
+P 4250 6050
+F 0 "#PWR0305" H 4250 6010 30  0001 C CNN
+F 1 "5V" H 4250 6200 60  0000 C CNN
+	1    4250 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D5
+U 1 1 4FA8E89B
+P 9600 3200
+F 0 "D5" V 9650 3050 60  0000 C CNN
+F 1 "AD1580BRTZ" V 9550 2820 60  0000 C CNN
+F 3 "http://www.analog.com/static/imported-files/data_sheets/AD1580.pdf" H 9600 3200 60  0001 C CNN
+F 4 "1.225Vdc" V 9450 2900 60  0000 C CNN "Field4"
+	1    9600 3200
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	12500 2000 12500 1850
 Wire Wire Line
@@ -1048,27 +1101,25 @@ Wire Wire Line
 	14550 6300 14550 6550
 Connection ~ 14050 6300
 Wire Wire Line
-	12900 6300 14550 6300
-Wire Wire Line
-	10900 6300 9950 6300
+	13100 6300 14550 6300
 Wire Wire Line
 	11150 5450 11150 5700
 Wire Wire Line
 	11250 5300 11250 5700
 Wire Wire Line
-	12550 6950 12550 7100
+	12550 6900 12550 7100
 Wire Wire Line
-	12150 6950 12150 7100
+	12150 6900 12150 7100
 Wire Wire Line
-	11850 6950 11850 7800
+	11850 6900 11850 7800
 Wire Wire Line
-	11750 6950 11750 7650
+	11750 6900 11750 7650
 Wire Wire Line
-	11650 7500 11650 6950
+	11650 7500 11650 6900
 Wire Wire Line
-	11250 6950 11250 7300
+	11250 6900 11250 7300
 Wire Wire Line
-	11150 6950 11150 7150
+	11150 6900 11150 7150
 Wire Wire Line
 	2900 9500 2550 9500
 Wire Wire Line
@@ -1286,11 +1337,11 @@ Wire Wire Line
 Wire Wire Line
 	4150 9700 4850 9700
 Wire Wire Line
-	11350 6950 11350 7100
+	11350 6900 11350 7100
 Wire Wire Line
-	11950 6950 11950 7900
+	11950 6900 11950 7900
 Wire Wire Line
-	12050 6950 12050 8050
+	12050 6900 12050 8050
 Wire Wire Line
 	11350 5000 11350 5700
 Wire Wire Line
@@ -1309,8 +1360,6 @@ Wire Wire Line
 	12350 5250 12350 5700
 Wire Wire Line
 	12450 5400 12450 5700
-Wire Wire Line
-	14050 6300 14050 6300
 Wire Wire Line
 	14050 6300 14050 6500
 Wire Wire Line
@@ -1336,10 +1385,10 @@ Wire Wire Line
 	10850 8500 10850 9400
 Connection ~ 10850 8900
 Wire Wire Line
-	12450 6950 12450 9400
+	12450 6900 12450 9400
 Connection ~ 12450 8900
 Wire Wire Line
-	12650 6950 12650 7100
+	12650 6900 12650 7100
 Wire Wire Line
 	11900 3500 11700 3500
 Wire Wire Line
@@ -1514,60 +1563,6 @@ Wire Wire Line
 	11350 5000 11150 5000
 Wire Wire Line
 	11150 5000 11150 5100
-$Comp
-L 2N7002MTF Q1
-U 1 1 4F9F8AEC
-P 4150 7250
-F 0 "Q1" H 4500 7300 60  0000 R CNN
-F 1 "2N7002MTF" H 4900 7150 60  0000 R CNN
-F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 4150 7250 60  0001 C CNN
-	1    4150 7250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R147
-U 1 1 4F9F8AF3
-P 3600 6500
-F 0 "R147" H 3800 6550 60  0000 C CNN
-F 1 "4k7" H 3800 6450 60  0000 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 3600 6500 60  0001 C CNN
-F 4 "RC0402FR-074K7L" V 3600 6500 60  0001 C CNN "P/N"
-	1    3600 6500
-	1    0    0    -1  
-$EndComp
-Text GLabel 3750 7750 0    60   BiDi ~ 0
-VGA_SDA
-$Comp
-L 3V3 #PWR0304
-U 1 1 4F9F8AFA
-P 3600 6050
-F 0 "#PWR0304" H 3600 6010 30  0001 C CNN
-F 1 "3V3" H 3600 6200 60  0000 C CNN
-	1    3600 6050
-	1    0    0    -1  
-$EndComp
-Text Label 5050 6900 2    60   ~ 0
-DDC_DATA
-$Comp
-L R R148
-U 1 1 4F9F8B02
-P 4250 6500
-F 0 "R148" H 4450 6550 60  0000 C CNN
-F 1 "4k7" H 4450 6450 60  0000 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 4250 6500 60  0001 C CNN
-F 4 "RC0402FR-074K7L" V 4250 6500 60  0001 C CNN "P/N"
-	1    4250 6500
-	1    0    0    -1  
-$EndComp
-$Comp
-L 5V #PWR0305
-U 1 1 4F9F8B08
-P 4250 6050
-F 0 "#PWR0305" H 4250 6010 30  0001 C CNN
-F 1 "5V" H 4250 6200 60  0000 C CNN
-	1    4250 6050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4250 6750 4250 7050
 Wire Wire Line
@@ -1585,4 +1580,6 @@ Wire Wire Line
 Connection ~ 4250 6900
 Wire Wire Line
 	4250 7750 4250 7450
+Wire Wire Line
+	10700 6300 9950 6300
 $EndSCHEMATC

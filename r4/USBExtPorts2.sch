@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月04日 (週五) 09時26分27秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 14時56分02秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 4 19
 Title "Milkymist One - External USB ports A/B Sheet"
-Date "4 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -71,7 +71,7 @@ L USBEXT5V #PWR062
 U 1 1 4F8B90A3
 P 10500 2450
 F 0 "#PWR062" H 10500 2410 30  0001 C CNN
-F 1 "USBEXT5V" H 10500 2560 60  0000 C CNN
+F 1 "USBEXT5V" H 10500 2600 60  0000 C CNN
 	1    10500 2450
 	1    0    0    -1  
 $EndComp
@@ -89,7 +89,7 @@ L 3V3 #PWR064
 U 1 1 4F8B9040
 P 6550 2150
 F 0 "#PWR064" H 6550 2110 30  0001 C CNN
-F 1 "3V3" H 6550 2260 60  0000 C CNN
+F 1 "3V3" H 6550 2300 60  0000 C CNN
 	1    6550 2150
 	1    0    0    -1  
 $EndComp
@@ -620,7 +620,7 @@ F 1 "GND" H 10900 8930 30  0001 C CNN
 	1    10900 9000
 	1    0    0    -1  
 $EndComp
-Text Notes 6950 5400 0    60   ~ 0
+Text Notes 6950 9600 0    60   ~ 0
 V[8..11]: P/N - V0402MHS03\n3pF, 42Vdc
 Connection ~ 13650 7700
 Wire Wire Line

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月07日 (週一) 20時27分22秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 16時59分19秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 19
 Title "Milkymist One - Misc. Control Sheet"
-Date "7 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -113,16 +113,6 @@ F 0 "U6" H 10500 7200 60  0000 C CNN
 F 1 "6N138S" H 10500 6050 60  0000 C CNN
 	1    10500 6650
 	-1   0    0    -1  
-$EndComp
-$Comp
-L BZX84 D6
-U 1 1 4F90CDBC
-P 5100 3550
-F 0 "D6" H 4950 3850 60  0000 C CNN
-F 1 "BZX84-C4V3" H 5050 3250 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5100 3550 60  0001 C CNN
-	1    5100 3550
-	1    0    0    -1  
 $EndComp
 $Comp
 L XLR-3-M-R J8
@@ -261,7 +251,7 @@ F 4 "RC0402FR-07220RL" V 5350 7250 60  0001 C CNN "P/N"
 	1    5350 7250
 	0    -1   -1   0   
 $EndComp
-Text Notes 4200 8450 0    60   ~ 0
+Text Notes 4760 7940 0    60   ~ 0
 Vdc 5.5V, 33 pF@1 KHz
 $Comp
 L GND #PWR0204
@@ -335,16 +325,6 @@ F 4 "SN75HVD12DR" H 10250 2700 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L BZX84 D8
-U 1 1 4F90BE2D
-P 12200 3450
-F 0 "D8" H 12050 3750 60  0000 C CNN
-F 1 "BZX84-C4V3" H 12150 3150 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12200 3450 60  0001 C CNN
-	1    12200 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C124
 U 1 1 4F90BE2B
 P 11300 1950
@@ -413,123 +393,46 @@ F 1 "GND" H 11000 3180 30  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BZX84 D9
-U 1 1 4F90BE24
-P 12800 3450
-F 0 "D9" H 12850 3150 60  0000 C CNN
-F 1 "BZX84-C4V3" H 12750 3750 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12800 3450 60  0001 C CNN
-	1    12800 3450
-	-1   0    0    1   
-$EndComp
-$Comp
-L BZX84 D13
-U 1 1 4F90BE23
-P 12800 4150
-F 0 "D13" H 12850 3850 60  0000 C CNN
-F 1 "BZX84-C4V3" H 12750 4450 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12800 4150 60  0001 C CNN
-	1    12800 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L BZX84 D12
-U 1 1 4F90BE22
-P 12200 4150
-F 0 "D12" H 12050 4450 60  0000 C CNN
-F 1 "BZX84-C4V3" H 12150 3850 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12200 4150 60  0001 C CNN
-	1    12200 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR0211
-U 1 1 4F90BE21
-P 13300 4600
-F 0 "#PWR0211" H 13300 4600 30  0001 C CNN
-F 1 "GND" H 13300 4530 30  0001 C CNN
-	1    13300 4600
-	1    0    0    -1  
-$EndComp
-NoConn ~ 13100 3250
-NoConn ~ 11900 3650
-NoConn ~ 11900 4350
-NoConn ~ 13100 3950
-$Comp
-L GND #PWR0212
 U 1 1 4F90BE20
 P 11300 2300
-F 0 "#PWR0212" H 11300 2300 30  0001 C CNN
+F 0 "#PWR0211" H 11300 2300 30  0001 C CNN
 F 1 "GND" H 11300 2230 30  0001 C CNN
 	1    11300 2300
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0213
+L GND #PWR0212
 U 1 1 4F90BD6A
 P 4300 2350
-F 0 "#PWR0213" H 4300 2350 30  0001 C CNN
+F 0 "#PWR0212" H 4300 2350 30  0001 C CNN
 F 1 "GND" H 4300 2280 30  0001 C CNN
 	1    4300 2350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6000 4050
-NoConn ~ 4800 4450
-NoConn ~ 4800 3750
-NoConn ~ 6000 3350
+$Comp
+L GND #PWR0213
+U 1 1 4F90BD14
+P 6550 4800
+F 0 "#PWR0213" H 6550 4800 30  0001 C CNN
+F 1 "GND" H 6550 4730 30  0001 C CNN
+	1    6550 4800
+	1    0    0    -1  
+$EndComp
 $Comp
 L GND #PWR0214
-U 1 1 4F90BD14
-P 6200 4800
-F 0 "#PWR0214" H 6200 4800 30  0001 C CNN
-F 1 "GND" H 6200 4730 30  0001 C CNN
-	1    6200 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L BZX84 D10
-U 1 1 4F90BCC4
-P 5100 4250
-F 0 "D10" H 4950 4550 60  0000 C CNN
-F 1 "BZX84-C4V3" H 5050 3950 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5100 4250 60  0001 C CNN
-	1    5100 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L BZX84 D11
-U 1 1 4F90BCC3
-P 5700 4250
-F 0 "D11" H 5750 3950 60  0000 C CNN
-F 1 "BZX84-C4V3" H 5650 4550 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5700 4250 60  0001 C CNN
-	1    5700 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L BZX84 D7
-U 1 1 4F90BC8E
-P 5700 3550
-F 0 "D7" H 5750 3250 60  0000 C CNN
-F 1 "BZX84-C4V3" H 5650 3850 60  0000 C CNN
-F 3 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5700 3550 60  0001 C CNN
-	1    5700 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L GND #PWR0215
 U 1 1 4F90BC25
 P 3900 3350
-F 0 "#PWR0215" H 3900 3350 30  0001 C CNN
+F 0 "#PWR0214" H 3900 3350 30  0001 C CNN
 F 1 "GND" H 3900 3280 30  0001 C CNN
 	1    3900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0216
+L GND #PWR0215
 U 1 1 4F90BBD8
 P 7650 2700
-F 0 "#PWR0216" H 7650 2700 30  0001 C CNN
+F 0 "#PWR0215" H 7650 2700 30  0001 C CNN
 F 1 "GND" H 7650 2630 30  0001 C CNN
 	1    7650 2700
 	1    0    0    -1  
@@ -557,10 +460,10 @@ F 4 "RC0402FR-0710RL" V 5050 2950 60  0001 C CNN "P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L 3V3 #PWR0217
+L 3V3 #PWR0216
 U 1 1 4F90BA98
 P 4300 1450
-F 0 "#PWR0217" H 4300 1410 30  0001 C CNN
+F 0 "#PWR0216" H 4300 1410 30  0001 C CNN
 F 1 "3V3" H 4300 1600 60  0000 C CNN
 	1    4300 1450
 	1    0    0    -1  
@@ -637,19 +540,59 @@ L EZJ-Z0V80010 V34
 U 1 1 4F8F7DE8
 P 4700 7700
 F 0 "V34" H 4850 7700 60  0000 C CNN
-F 1 "AVR-M1005C08MTACB" H 4700 7100 60  0000 C CNN
+F 1 "AVR-M1005C08MTACB" H 5260 7600 60  0000 C CNN
 F 3 "http://www.tdk.co.jp/tefe02/e9c11_avr.pdf" H 4700 7700 60  0001 C CNN
 	1    4700 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWERED #FLG0218
+L POWERED #FLG0217
 U 1 1 4F97B439
 P 7400 8800
-F 0 "#FLG0218" H 7600 8700 60  0001 C CNN
+F 0 "#FLG0217" H 7600 8700 60  0001 C CNN
 F 1 "POWERED" H 7400 8850 60  0000 C CNN
 	1    7400 8800
 	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D6
+U 1 1 4FA8E326
+P 5000 3600
+F 0 "D6" H 5000 3700 60  0000 C CNN
+F 1 "BZX84-C4V3" H 5000 3500 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5000 3600 60  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D7
+U 1 1 4FA8E36A
+P 5850 3600
+F 0 "D7" H 5850 3500 60  0000 C CNN
+F 1 "BZX84-C4V3" H 5850 3700 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5850 3600 60  0001 C CNN
+	1    5850 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L ZENER D10
+U 1 1 4FA8E52A
+P 5000 4050
+F 0 "D10" H 5000 4150 60  0000 C CNN
+F 1 "BZX84-C4V3" H 5000 3950 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5000 4050 60  0001 C CNN
+	1    5000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D11
+U 1 1 4FA8E530
+P 5850 4050
+F 0 "D11" H 5850 3950 60  0000 C CNN
+F 1 "BZX84-C4V3" H 5850 4150 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 5850 4050 60  0001 C CNN
+	1    5850 4050
+	-1   0    0    1   
 $EndComp
 Connection ~ 7400 9350
 Wire Wire Line
@@ -716,15 +659,11 @@ Wire Wire Line
 Wire Wire Line
 	11300 3950 11900 3950
 Wire Wire Line
-	13100 4350 13300 4350
-Wire Wire Line
-	13100 3650 13300 3650
-Wire Wire Line
 	11150 2850 11900 2850
 Wire Wire Line
-	11650 2850 11650 3250
+	11650 2850 11650 3500
 Wire Wire Line
-	11650 3250 11900 3250
+	11650 3500 11900 3500
 Connection ~ 12900 2300
 Wire Wire Line
 	12900 2300 12600 2300
@@ -764,20 +703,6 @@ Wire Wire Line
 	10850 2900 11000 2900
 Wire Wire Line
 	11000 2900 11000 3250
-Wire Wire Line
-	12400 3450 12600 3450
-Wire Wire Line
-	13300 3650 13300 4600
-Connection ~ 13300 4350
-Wire Wire Line
-	12600 4150 12400 4150
-Wire Wire Line
-	5500 4250 5300 4250
-Connection ~ 6200 4450
-Wire Wire Line
-	6200 3750 6200 4800
-Wire Wire Line
-	5300 3550 5500 3550
 Wire Wire Line
 	3900 3350 3900 3000
 Wire Wire Line
@@ -824,13 +749,9 @@ Connection ~ 5800 2400
 Wire Wire Line
 	7100 2400 7650 2400
 Wire Wire Line
-	4550 3350 4800 3350
+	4550 3600 4800 3600
 Wire Wire Line
-	4550 2950 4550 3350
-Wire Wire Line
-	6200 3750 6000 3750
-Wire Wire Line
-	6000 4450 6200 4450
+	4550 2950 4550 3600
 Wire Wire Line
 	4800 4050 4200 4050
 Wire Wire Line
@@ -920,4 +841,75 @@ Wire Wire Line
 Connection ~ 4800 5850
 Connection ~ 4300 1600
 Connection ~ 11300 1600
+Wire Wire Line
+	5650 3600 5200 3600
+Wire Wire Line
+	5650 4050 5200 4050
+Wire Wire Line
+	6050 3600 6550 3600
+Wire Wire Line
+	6550 3600 6550 4800
+Wire Wire Line
+	6050 4050 6550 4050
+Connection ~ 6550 4050
+$Comp
+L GND #PWR0218
+U 1 1 4FA8E839
+P 13650 4700
+F 0 "#PWR0218" H 13650 4700 30  0001 C CNN
+F 1 "GND" H 13650 4630 30  0001 C CNN
+	1    13650 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D8
+U 1 1 4FA8E83F
+P 12100 3500
+F 0 "D8" H 12100 3600 60  0000 C CNN
+F 1 "BZX84-C4V3" H 12100 3400 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12100 3500 60  0001 C CNN
+	1    12100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D9
+U 1 1 4FA8E845
+P 12950 3500
+F 0 "D9" H 12950 3400 60  0000 C CNN
+F 1 "BZX84-C4V3" H 12950 3600 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12950 3500 60  0001 C CNN
+	1    12950 3500
+	-1   0    0    1   
+$EndComp
+$Comp
+L ZENER D12
+U 1 1 4FA8E84B
+P 12100 3950
+F 0 "D12" H 12100 4050 60  0000 C CNN
+F 1 "BZX84-C4V3" H 12100 3850 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12100 3950 60  0001 C CNN
+	1    12100 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D13
+U 1 1 4FA8E851
+P 12950 3950
+F 0 "D13" H 12950 3850 60  0000 C CNN
+F 1 "BZX84-C4V3" H 12950 4050 60  0000 C CNN
+F 2 "http://www.nxp.com/acrobat_download/datasheets/BZX84_SERIES.pdf" H 12950 3950 60  0001 C CNN
+	1    12950 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12750 3500 12300 3500
+Wire Wire Line
+	12750 3950 12300 3950
+Wire Wire Line
+	13150 3500 13650 3500
+Wire Wire Line
+	13650 3500 13650 4700
+Wire Wire Line
+	13150 3950 13650 3950
+Connection ~ 13650 3950
 $EndSCHEMATC

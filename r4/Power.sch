@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月08日 (週二) 17時03分26秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 19
 Title "Milkymist One - Power Sheet"
-Date "3 may 2012"
+Date "8 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -1044,7 +1044,7 @@ F 1 "TPS76301" H 10450 8000 60  0000 C CNN
 	1    10450 8250
 	1    0    0    -1  
 $EndComp
-Text Notes 2550 6650 0    60   ~ 0
+Text Notes 3800 6850 0    60   ~ 0
 J[12:15] are the mechanical mounting holes\nat each corner of PCB.
 $Comp
 L R R68
@@ -1069,22 +1069,13 @@ F 4 "CC1206X7R9K472RL" H 4100 5600 60  0001 C CNN "P/N"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR0178
-U 1 1 4F8D0596
-P 3350 5600
-F 0 "#PWR0178" H 3350 5600 30  0001 C CNN
-F 1 "GND" H 3350 5530 30  0001 C CNN
-	1    3350 5600
-	0    1    1    0   
-$EndComp
-$Comp
 L GND #PWR0179
 U 1 1 4F8D0595
-P 3350 6300
-F 0 "#PWR0179" H 3350 6300 30  0001 C CNN
-F 1 "GND" H 3350 6230 30  0001 C CNN
-	1    3350 6300
-	0    1    1    0   
+P 3550 6600
+F 0 "#PWR0179" H 3550 6600 30  0001 C CNN
+F 1 "GND" H 3550 6530 30  0001 C CNN
+	1    3550 6600
+	1    0    0    -1  
 $EndComp
 $Comp
 L C C155
@@ -1129,24 +1120,6 @@ F 3 "http://www.chipcera.com.cn/download/%E4%B8%AD%E5%8E%8B%E5%93%813.pdf" H 410
 F 4 "CC1206X7R9K472RL" H 4100 4900 60  0001 C CNN "P/N"
 	1    4100 4900
 	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR0180
-U 1 1 4F8D0582
-P 3350 4900
-F 0 "#PWR0180" H 3350 4900 30  0001 C CNN
-F 1 "GND" H 3350 4830 30  0001 C CNN
-	1    3350 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR0181
-U 1 1 4F8D055F
-P 3350 4200
-F 0 "#PWR0181" H 3350 4200 30  0001 C CNN
-F 1 "GND" H 3350 4130 30  0001 C CNN
-	1    3350 4200
-	0    1    1    0   
 $EndComp
 $Comp
 L C C146
@@ -1470,7 +1443,7 @@ Connection ~ 11750 1750
 Wire Wire Line
 	11750 1750 11750 1900
 Wire Wire Line
-	3550 4200 3550 3850
+	3550 3850 3550 6600
 Wire Wire Line
 	3550 3850 3850 3850
 Wire Wire Line
@@ -1480,12 +1453,8 @@ Wire Wire Line
 Wire Wire Line
 	4300 4200 4750 4200
 Connection ~ 4650 4200
-Wire Wire Line
-	3350 4200 3900 4200
 Connection ~ 3550 4200
 Connection ~ 3550 4900
-Wire Wire Line
-	3350 4900 3900 4900
 Connection ~ 4650 4900
 Wire Wire Line
 	4300 4900 4750 4900
@@ -1494,11 +1463,7 @@ Wire Wire Line
 Wire Wire Line
 	4650 4550 4650 4900
 Wire Wire Line
-	3850 4550 3550 4550
-Wire Wire Line
-	3550 4550 3550 4900
-Wire Wire Line
-	3550 6300 3550 5950
+	3550 4550 3850 4550
 Wire Wire Line
 	3550 5950 3850 5950
 Wire Wire Line
@@ -1508,12 +1473,8 @@ Wire Wire Line
 Wire Wire Line
 	4300 6300 4750 6300
 Connection ~ 4650 6300
-Wire Wire Line
-	3350 6300 3900 6300
 Connection ~ 3550 6300
 Connection ~ 3550 5600
-Wire Wire Line
-	3350 5600 3900 5600
 Connection ~ 4650 5600
 Wire Wire Line
 	4300 5600 4750 5600
@@ -1523,8 +1484,6 @@ Wire Wire Line
 	4650 5250 4650 5600
 Wire Wire Line
 	3850 5250 3550 5250
-Wire Wire Line
-	3550 5250 3550 5600
 Wire Wire Line
 	10900 1750 12050 1750
 Wire Wire Line
@@ -1788,4 +1747,18 @@ Wire Wire Line
 	12650 5450 12650 5100
 Wire Wire Line
 	12650 6200 12650 5850
+Wire Wire Line
+	3900 4200 3550 4200
+Wire Wire Line
+	3550 4900 3900 4900
+Wire Wire Line
+	3550 5600 3900 5600
+Wire Wire Line
+	3900 6300 3550 6300
+Connection ~ 3550 5950
+Connection ~ 3550 5950
+Connection ~ 3550 5250
+Connection ~ 3550 5250
+Connection ~ 3550 4550
+Connection ~ 3550 4550
 $EndSCHEMATC
