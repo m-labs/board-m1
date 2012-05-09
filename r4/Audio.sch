@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月08日 (週二) 17時06分35秒
+EESchema Schematic File Version 2  date 2012年05月09日 (週三) 10時53分40秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,14 +51,13 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
-LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 14 19
 Title "Milkymist One - Audio Sheet"
-Date "8 may 2012"
+Date "9 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -70,11 +69,11 @@ $Comp
 L CONN_3 J3
 U 1 1 4F8E6B8E
 P 15150 8450
-F 0 "J3" H 15100 8650 60  0000 C CNN
-F 1 "68002-103HLF" H 14950 8150 60  0000 C CNN
+F 0 "J3" H 15120 8740 60  0000 C CNN
+F 1 "68002-103HLF" H 15060 8240 60  0000 C CNN
 F 3 "http://portal.fciconnect.com/res/en/pdffiles/doc_search/68000.pdf" H 15150 8450 60  0001 C CNN
-F 4 "DNP" H 15150 8250 60  0000 C CNN "Smt"
-F 5 "Header, 3-Pin, 2.54 mm Pitch" H 14550 8800 60  0000 C CNN "Field5"
+F 4 "DNP" H 15150 8650 60  0000 C CNN "Smt"
+F 5 "Header, 3-Pin, 2.54 mm" H 15280 8150 60  0000 C CNN "Field5"
 	1    15150 8450
 	1    0    0    -1  
 $EndComp
@@ -104,11 +103,11 @@ $Comp
 L CONN_4 J26
 U 1 1 4F8E6AB8
 P 15150 3400
-F 0 "J26" H 15220 4070 60  0000 C CNN
-F 1 "68002-104HLF" H 14950 3800 60  0000 C CNN
+F 0 "J26" H 15120 3900 60  0000 C CNN
+F 1 "68002-104HLF" H 15030 3100 60  0000 C CNN
 F 3 "http://portal.fciconnect.com/res/en/pdffiles/doc_search/68000.pdf" H 15150 3400 60  0001 C CNN
-F 4 "DNP" H 15210 3980 60  0000 C CNN "Smt"
-F 5 "Header, 4-Pin, 2.54 mm Pitch" H 14590 3890 60  0000 C CNN "Field5"
+F 4 "DNP" H 15130 3800 60  0000 C CNN "Smt"
+F 5 "Header, 4-Pin, 2.54 mm" H 15250 3000 60  0000 C CNN "Field5"
 	1    15150 3400
 	1    0    0    -1  
 $EndComp
@@ -122,11 +121,11 @@ $Comp
 L CONN_4 J23
 U 1 1 4F8E69A2
 P 1500 2250
-F 0 "J23" H 1580 2890 50  0000 C CNN
-F 1 "68002-104HLF" H 1310 2650 60  0000 C CNN
+F 0 "J23" H 1580 2750 60  0000 C CNN
+F 1 "68002-104HLF" H 1530 1950 60  0000 C CNN
 F 3 "http://portal.fciconnect.com/res/en/pdffiles/doc_search/68000.pdf" H 1500 2250 60  0001 C CNN
-F 4 "DNP" H 1560 2810 60  0000 C CNN "Smt"
-F 5 "Header, 4-Pin, 2.54 mm Pitch" H 950 2730 60  0000 C CNN "Field5"
+F 4 "DNP" H 1570 2650 60  0000 C CNN "Smt"
+F 5 "Header, 4-Pin, 2.54 mm" H 1750 1850 60  0000 C CNN "Field5"
 	1    1500 2250
 	-1   0    0    -1  
 $EndComp
