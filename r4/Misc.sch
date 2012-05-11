@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月11日 (週五) 11時40分01秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,14 +51,13 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
-LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 19
 Title "Milkymist One - Misc. Sheet"
-Date "3 may 2012"
+Date "11 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -237,7 +236,7 @@ About the numbering: there used to be also SW1\nand SW3 (and BTN1/3), but we fou
 Text Notes 6500 6100 0    60   ~ 0
 LED_PWR: pulldown -> D1 OFF\nLED_PWR: PWM -> D1 Variable Luminance\nLED_PWR: pullup -> D1 ON\n
 Text Notes 10450 6000 0    60   ~ 0
-1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n
+1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n3. D[35..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
 Text Notes 3000 7250 0    60   ~ 0
 D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
 Text GLabel 3350 5500 0    60   Input ~ 0
@@ -603,7 +602,7 @@ P 12850 5400
 F 0 "D35" H 12850 5500 60  0000 C CNN
 F 1 "LED" H 12850 5300 60  0001 C CNN
 	1    12850 5400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D42
@@ -612,7 +611,7 @@ P 13900 5400
 F 0 "D42" H 13900 5500 60  0000 C CNN
 F 1 "LED" H 13900 5300 60  0001 C CNN
 	1    13900 5400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D40
@@ -639,7 +638,7 @@ P 11800 5400
 F 0 "D29" H 11800 5500 60  0000 C CNN
 F 1 "LED" H 11800 5300 60  0001 C CNN
 	1    11800 5400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D3
@@ -648,7 +647,7 @@ P 10750 5400
 F 0 "D3" H 10750 5500 60  0000 C CNN
 F 1 "LED" H 10750 5300 60  0001 C CNN
 	1    10750 5400
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D22
@@ -675,7 +674,7 @@ P 10750 4550
 F 0 "D21" H 10750 4650 60  0000 C CNN
 F 1 "LED" H 10750 4450 60  0001 C CNN
 	1    10750 4550
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D27
@@ -684,7 +683,7 @@ P 11800 4550
 F 0 "D27" H 11800 4650 60  0000 C CNN
 F 1 "LED" H 11800 4450 60  0001 C CNN
 	1    11800 4550
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D26
@@ -711,7 +710,7 @@ P 13900 4550
 F 0 "D39" H 13900 4650 60  0000 C CNN
 F 1 "LED" H 13900 4450 60  0001 C CNN
 	1    13900 4550
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D33
@@ -720,7 +719,7 @@ P 12850 4550
 F 0 "D33" H 12850 4650 60  0000 C CNN
 F 1 "LED" H 12850 4450 60  0001 C CNN
 	1    12850 4550
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D32
@@ -747,7 +746,7 @@ P 12850 3700
 F 0 "D31" H 12850 3800 60  0000 C CNN
 F 1 "LED" H 12850 3600 60  0001 C CNN
 	1    12850 3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D37
@@ -756,7 +755,7 @@ P 13900 3700
 F 0 "D37" H 13900 3800 60  0000 C CNN
 F 1 "LED" H 13900 3600 60  0001 C CNN
 	1    13900 3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D36
@@ -783,7 +782,7 @@ P 11800 3700
 F 0 "D25" H 11800 3800 60  0000 C CNN
 F 1 "LED" H 11800 3600 60  0001 C CNN
 	1    11800 3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D19
@@ -792,7 +791,7 @@ P 10750 3700
 F 0 "D19" H 10750 3800 60  0000 C CNN
 F 1 "LED" H 10750 3600 60  0001 C CNN
 	1    10750 3700
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 $Comp
 L LED D18
@@ -1214,4 +1213,38 @@ Connection ~ 13150 3200
 Wire Wire Line
 	14700 3200 14200 3200
 Connection ~ 14200 3200
+Text Notes 11075 3450 0    60   ~ 0
+DMX TX
+Text Notes 11075 3750 0    60   ~ 0
+DMX RX
+Text Notes 11075 4300 0    60   ~ 0
+MIDI TX
+Text Notes 11075 4600 0    60   ~ 0
+MIDI RX
+Text Notes 11075 5150 0    60   ~ 0
+LINE IN
+Text Notes 11075 5450 0    60   ~ 0
+LINE OUT
+Text Notes 12125 3425 0    60   ~ 0
+VIDEOIN\nR
+Text Notes 12125 3750 0    60   ~ 0
+VIDEOIN\nB
+Text Notes 12125 4300 0    60   ~ 0
+VIDEOIN\nG
+Text Notes 12125 4600 0    60   ~ 0
+MIC
+Text Notes 12125 5150 0    60   ~ 0
+DVI-I
+Text Notes 12125 5450 0    60   ~ 0
+IR
+Text Notes 13175 3450 0    60   ~ 0
+USB-A
+Text Notes 13175 3750 0    60   ~ 0
+USB-B
+Text Notes 13175 4300 0    60   ~ 0
+USB-C
+Text Notes 13175 4600 0    60   ~ 0
+USB-D
+Text Notes 13175 5150 0    60   ~ 0
+USB-D
 $EndSCHEMATC
