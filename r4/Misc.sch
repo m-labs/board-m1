@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月11日 (週五) 11時40分01秒
+EESchema Schematic File Version 2  date 2012年05月11日 (週五) 11時43分07秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -81,28 +81,28 @@ F 4 "CC0402KRX5R8BB104" H 3150 3850 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0219
+L GND #PWR0216
 U 1 1 4F912B35
 P 3150 4400
-F 0 "#PWR0219" H 3150 4400 30  0001 C CNN
+F 0 "#PWR0216" H 3150 4400 30  0001 C CNN
 F 1 "GND" H 3150 4330 30  0001 C CNN
 	1    3150 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0220
+L 3V3 #PWR0217
 U 1 1 4F912B1A
 P 3150 3250
-F 0 "#PWR0220" H 3150 3210 30  0001 C CNN
+F 0 "#PWR0217" H 3150 3210 30  0001 C CNN
 F 1 "3V3" H 3150 3400 60  0000 C CNN
 	1    3150 3250
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0221
+L GND #PWR0218
 U 1 1 4F912AF0
 P 3950 4400
-F 0 "#PWR0221" H 3950 4400 30  0001 C CNN
+F 0 "#PWR0218" H 3950 4400 30  0001 C CNN
 F 1 "GND" H 3950 4330 30  0001 C CNN
 	1    3950 4400
 	1    0    0    -1  
@@ -121,10 +121,10 @@ $EndComp
 Text GLabel 5150 6700 0    60   Input ~ 0
 LED_PWR
 $Comp
-L 3V3 #PWR0222
+L 3V3 #PWR0219
 U 1 1 4F9126D3
 P 6000 5100
-F 0 "#PWR0222" H 6000 5060 30  0001 C CNN
+F 0 "#PWR0219" H 6000 5060 30  0001 C CNN
 F 1 "3V3" H 6000 5250 60  0000 C CNN
 	1    6000 5100
 	1    0    0    -1  
@@ -161,10 +161,10 @@ F 1 "LED" H 6000 6050 60  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L GND #PWR0223
+L GND #PWR0220
 U 1 1 4F9125FD
 P 6000 7050
-F 0 "#PWR0223" H 6000 7050 30  0001 C CNN
+F 0 "#PWR0220" H 6000 7050 30  0001 C CNN
 F 1 "GND" H 6000 6980 30  0001 C CNN
 	1    6000 7050
 	1    0    0    -1  
@@ -213,10 +213,10 @@ F 4 "RC0402FR-07270RL" H 12100 2700 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0224
+L 3V3 #PWR0221
 U 1 1 4F911F32
 P 2650 1700
-F 0 "#PWR0224" H 2650 1660 30  0001 C CNN
+F 0 "#PWR0221" H 2650 1660 30  0001 C CNN
 F 1 "3V3" H 2650 1850 60  0000 C CNN
 	1    2650 1700
 	1    0    0    -1  
@@ -236,16 +236,16 @@ About the numbering: there used to be also SW1\nand SW3 (and BTN1/3), but we fou
 Text Notes 6500 6100 0    60   ~ 0
 LED_PWR: pulldown -> D1 OFF\nLED_PWR: PWM -> D1 Variable Luminance\nLED_PWR: pullup -> D1 ON\n
 Text Notes 10450 6000 0    60   ~ 0
-1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n3. D[35..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
+1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n3. D[34..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
 Text Notes 3000 7250 0    60   ~ 0
 D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
 Text GLabel 3350 5500 0    60   Input ~ 0
 LED1
 $Comp
-L GND #PWR0225
+L GND #PWR0222
 U 1 1 4F8D80F4
 P 3800 6850
-F 0 "#PWR0225" H 3800 6850 30  0001 C CNN
+F 0 "#PWR0222" H 3800 6850 30  0001 C CNN
 F 1 "GND" H 3800 6780 30  0001 C CNN
 	1    3800 6850
 	1    0    0    -1  
@@ -271,19 +271,19 @@ F 4 "RC0402FR-07560RL" V 3800 5900 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0226
+L 3V3 #PWR0223
 U 1 1 4F8D80AC
 P 7100 7700
-F 0 "#PWR0226" H 7100 7660 30  0001 C CNN
+F 0 "#PWR0223" H 7100 7660 30  0001 C CNN
 F 1 "3V3" H 7100 7850 60  0000 C CNN
 	1    7100 7700
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0227
+L GND #PWR0224
 U 1 1 4F8D80A8
 P 7100 8450
-F 0 "#PWR0227" H 7100 8450 30  0001 C CNN
+F 0 "#PWR0224" H 7100 8450 30  0001 C CNN
 F 1 "GND" H 7100 8380 30  0001 C CNN
 	1    7100 8450
 	1    0    0    -1  
@@ -354,10 +354,10 @@ F 1 "TESTPOINT" H 4950 8250 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0228
+L GND #PWR0225
 U 1 1 4F8D7FDC
 P 6800 10000
-F 0 "#PWR0228" H 6800 10000 30  0001 C CNN
+F 0 "#PWR0225" H 6800 10000 30  0001 C CNN
 F 1 "GND" H 6800 9930 30  0001 C CNN
 	1    6800 10000
 	1    0    0    -1  
@@ -383,19 +383,19 @@ TCK
 Text GLabel 8350 1750 2    60   Output ~ 0
 TMS
 $Comp
-L 2V5 #PWR0229
+L 2V5 #PWR0226
 U 1 1 4F8D7E9D
 P 7750 1550
-F 0 "#PWR0229" H 7750 1510 30  0001 C CNN
+F 0 "#PWR0226" H 7750 1510 30  0001 C CNN
 F 1 "2V5" H 7750 1700 60  0000 C CNN
 	1    7750 1550
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0230
+L GND #PWR0227
 U 1 1 4F8D7E92
 P 5900 2500
-F 0 "#PWR0230" H 5900 2500 30  0001 C CNN
+F 0 "#PWR0227" H 5900 2500 30  0001 C CNN
 F 1 "GND" H 5900 2430 30  0001 C CNN
 	1    5900 2500
 	1    0    0    -1  
@@ -457,10 +457,10 @@ $EndComp
 Text GLabel 11600 8100 2    60   Input ~ 0
 BTN2
 $Comp
-L GND #PWR0231
+L GND #PWR0228
 U 1 1 4F8BE756
 P 10750 9800
-F 0 "#PWR0231" H 10750 9800 30  0001 C CNN
+F 0 "#PWR0228" H 10750 9800 30  0001 C CNN
 F 1 "GND" H 10750 9730 30  0001 C CNN
 	1    10750 9800
 	1    0    0    -1  
@@ -488,10 +488,10 @@ F 4 "CC1206X7R9K472RL" H 10250 9350 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0232
+L GND #PWR0229
 U 1 1 4F8BE722
 P 11250 8850
-F 0 "#PWR0232" H 11250 8850 30  0001 C CNN
+F 0 "#PWR0229" H 11250 8850 30  0001 C CNN
 F 1 "GND" H 11250 8780 30  0001 C CNN
 	1    11250 8850
 	1    0    0    -1  
@@ -508,10 +508,10 @@ F 4 "RC0402FR-0710KL" H 11250 8450 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3 #PWR0233
+L 3V3 #PWR0230
 U 1 1 4F8BE708
 P 10200 7950
-F 0 "#PWR0233" H 10200 7910 30  0001 C CNN
+F 0 "#PWR0230" H 10200 7910 30  0001 C CNN
 F 1 "3V3" H 10200 8100 60  0000 C CNN
 	1    10200 7950
 	1    0    0    -1  
@@ -803,10 +803,10 @@ F 1 "LED" H 10750 3300 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR0234
+L GND #PWR0231
 U 1 1 4F9EE359
 P 3450 2500
-F 0 "#PWR0234" H 3450 2500 30  0001 C CNN
+F 0 "#PWR0231" H 3450 2500 30  0001 C CNN
 F 1 "GND" H 3450 2430 30  0001 C CNN
 	1    3450 2500
 	1    0    0    -1  
@@ -1244,7 +1244,5 @@ USB-B
 Text Notes 13175 4300 0    60   ~ 0
 USB-C
 Text Notes 13175 4600 0    60   ~ 0
-USB-D
-Text Notes 13175 5150 0    60   ~ 0
 USB-D
 $EndSCHEMATC
