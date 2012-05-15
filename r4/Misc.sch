@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月11日 (週五) 11時43分07秒
+EESchema Schematic File Version 2  date 2012年05月15日 (週二) 11時14分30秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 19
 Title "Milkymist One - Misc. Sheet"
-Date "11 may 2012"
+Date "15 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -236,7 +236,7 @@ About the numbering: there used to be also SW1\nand SW3 (and BTN1/3), but we fou
 Text Notes 6500 6100 0    60   ~ 0
 LED_PWR: pulldown -> D1 OFF\nLED_PWR: PWM -> D1 Variable Luminance\nLED_PWR: pullup -> D1 ON\n
 Text Notes 10450 6000 0    60   ~ 0
-1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\nPlacement (TP32, TP38-TP41) at the bottom of PCB.\n3. D[34..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
+1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\n3. D[34..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
 Text Notes 3000 7250 0    60   ~ 0
 D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
 Text GLabel 3350 5500 0    60   Input ~ 0
