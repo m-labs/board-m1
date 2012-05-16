@@ -1,0 +1,126 @@
+#!/usr/bin/perl
+
+sub csv
+{
+	my $s = $_[0];
+	my @a = ();
+
+	while (1) {
+		if ($s =~ /^"/) {
+			die unless $s =~ /^"([^"]*)"(,\s*)?/;
+			push(@a, $1);
+			$s = $';
+			return @a unless length $2;
+			
+		} elsif ($s =~ /,\s*/) {
+			push(@a, $`);
+			$s = $';
+		} else {
+			push(@a, $s);
+			return @a;
+		}
+	}
+	
+}
+
+
+sub lookup
+{
+	my $p = $_[0];
+	my $add = $_[1];
+	my @a;
+
+	return $p if defined $cr{$p};
+	@a = grep { $_ =~ /^$p/ } keys %cr;
+	die "key $p* is ambiguous" if scalar @a > 1;
+	if (!@a) {
+		@a = grep { $_ =~ /$p/ } keys %cr;
+		die "key *$p* is ambiguous" if scalar @a > 1;
+		if (!@a) {
+			die "key $p matches nothing" unless $add;
+			warn "adding $p as supplement";
+			return $p;
+		}
+	}
+	return $a[0];
+}
+
+
+while (<>) {
+	chop;
+	@f = &csv($_);
+	next unless $f[0] =~ /^[0-9]+$/;
+	die "duplicate part $f[3]" if defined $cr{$f[3]};
+	$f[1] =~ s/\(DNP\)//g;
+	$cr{$f[3]} = $f[1];
+	$url{$f[3]} = $f[4];
+	$dsc{$f[3]} = $f[6];
+	for (&csv($f[1])) {
+		warn "\"$_\" used for $r{$_} and $f[3]" if defined $r{$_};
+		$r{$_} = $f[3];
+	}
+}
+
+open(F, "SUPPLEMENT") || die "open SUPPLEMENT: $!";
+while (<F>) {
+	chop;
+	next if /^\s*#/;
+	next if /^\s*$/;
+	if (/^[Xx]:\s*/) {
+		$p = &lookup($', 0);
+		delete $cr{$p}, $url{$p}, $dsc{$p};
+		for (keys %r) {
+			delete $r{$_} if $r{$_} eq $p;
+		}
+		undef $p;
+		next;
+	}
+	if (/^[Cc]:\s*/) {
+		undef $p if $clear;
+		$clear = 0;
+		if (defined $p) {
+			$cr{$p} = $';
+			for $c (&csv($')) {
+				warn "$p overrides $r{$c} for $c"
+				    if defined $r{$c};
+				$r{$c} = $p;
+			}
+			next;
+		}
+		die "unknown component reference $'" unless defined $r{$'};
+		$p = $r{$'};
+		next;
+	}
+	if (/^[Pp]:\s*/) {
+		$p = &lookup($', 1);
+		$clear = 0;
+		next;
+	}
+	if (/^[Aa]:\s*/) {
+		$a{$p} .= "," if defined $a{$p};
+		$a{$p} .= $';
+		$clear = 1;
+		next;
+	}
+	if (/^[Dd]:\s*/) {
+		$url{$p} = $';
+		$clear = 1;
+		next;
+	}
+	die "don't recognize \"$_\"";
+}
+
+for (sort keys %cr) {
+	next if $url{$_} eq "";
+	print "# $dsc{$_}\n" unless $dsc{$_} eq "";
+	print "N: $_\n";
+	for $a (&csv($cr{$_})) {
+		print "A: $a\n";
+	}
+	if (defined $a{$_}) {
+		for $a (&csv($a{$_})) {
+			print "A: $a\n";
+		}
+	}
+	print "D: $url{$_}\n\n";
+}

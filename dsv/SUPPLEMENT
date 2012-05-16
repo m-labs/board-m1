@@ -1,0 +1,35 @@
+#
+# Tags:
+#
+# C	component reference
+# P	manufacturer part number (can be prefix or substring)
+# A	alias name (optional)
+# D	data sheet URL (optional, overrides)
+# X	delete part number
+#
+# X is always used alone. In all other cases, if P are absent, C must be
+# present. If both P and C are specified, the component references from
+# C are added to P.
+#
+
+# --- Link directly to data sheet, not overview page --------------------------
+
+P: SCJ368R1
+D: http://www.scpre.com.tw/Download.aspx?oid=1361
+
+# --- Use shorther and syntactically simpler URL ------------------------------
+
+P: NC3FAH1
+D: http://www.neutrik.com/zoolu-website/media/document/1218/Drawing+NC3FAH1
+
+P: NC3MAH
+D: http://www.neutrik.com/zoolu-website/media/document/1295/Drawing+NC3MAH
+
+# --- Mechanical components ---------------------------------------------------
+
+X: PN3
+X: HTS306
+
+# --- The PCB -----------------------------------------------------------------
+
+X: K231060001<not final>
