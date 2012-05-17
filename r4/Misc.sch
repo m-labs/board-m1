@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月15日 (週二) 11時14分30秒
+EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時54分45秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 19
 Title "Milkymist One - Misc. Sheet"
-Date "15 may 2012"
+Date "17 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -232,13 +232,13 @@ F 3 "http://www.molex.com/pdm_docs/sd/878321420_sd.pdf" H 6650 2050 60  0001 C C
 	1    0    0    -1  
 $EndComp
 Text Notes 11600 9150 0    60   ~ 0
-About the numbering: there used to be also SW1\nand SW3 (and BTN1/3), but we found that one\nbutton is all we need, and removed them.\n
+About the numbering: there used to be also SW1\n\nand SW3 (and BTN1/3), but we found that one\n\nbutton is all we need, and removed them.\n
 Text Notes 6500 6100 0    60   ~ 0
-LED_PWR: pulldown -> D1 OFF\nLED_PWR: PWM -> D1 Variable Luminance\nLED_PWR: pullup -> D1 ON\n
+LED_PWR: pulldown -> D1 OFF\n\nLED_PWR: PWM -> D1 Variable Luminance\n\nLED_PWR: pullup -> D1 ON\n
 Text Notes 10450 6000 0    60   ~ 0
-1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\n3. D[34..41] are placed closely board edge bottom side under \nbetween SW2 and IR\n
+1. D[18..41] is p/n: APA1606SURCK Hyper Red color\n\n2. Placement LEDs above on bottom side of PCB and under corresponding connector.\n\n3. D[34..41] are placed closely board edge bottom side under \n\n   between SW2 and IR\n
 Text Notes 3000 7250 0    60   ~ 0
-D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
+D1 and D2 are on pcb bottom side and in hyper red color of p/n: APA1606SURCK\n\nAnd D2 is under SW2 button and D1 is under J11 DC jack connector\n
 Text GLabel 3350 5500 0    60   Input ~ 0
 LED1
 $Comp
@@ -641,10 +641,10 @@ F 1 "LED" H 11800 5300 60  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED D23
 U 1 1 4F87E68C
 P 10750 5400
-F 0 "D3" H 10750 5500 60  0000 C CNN
+F 0 "D23" H 10750 5500 60  0000 C CNN
 F 1 "LED" H 10750 5300 60  0001 C CNN
 	1    10750 5400
 	-1   0    0    -1  

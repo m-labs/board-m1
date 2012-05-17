@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月03日 (週四) 11時24分03秒
+EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時56分55秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,14 +51,13 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
-LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 16 19
 Title "Milkymist One - FPGA_BANK1 Sheet"
-Date "3 may 2012"
+Date "17 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -113,10 +112,10 @@ ETH_CLK
 Text GLabel 11650 8250 2    60   Output ~ 0
 ETH_TXC
 $Comp
-L 3V3 #PWR0340
+L 3V3 #PWR0337
 U 1 1 4F8FC977
 P 7050 8850
-F 0 "#PWR0340" H 7050 8810 30  0001 C CNN
+F 0 "#PWR0337" H 7050 8810 30  0001 C CNN
 F 1 "3V3" H 7050 9000 60  0000 C CNN
 	1    7050 8850
 	1    0    0    -1  
@@ -191,7 +190,7 @@ nFLASH_OE
 Text GLabel 3450 2700 0    60   BiDi ~ 0
 ETH_MDIO
 Text GLabel 3450 2400 0    60   Input ~ 0
-ETH_INT_N
+nETH_INT
 Text GLabel 3450 2550 0    60   Output ~ 0
 ETH_MDC
 Text Label 6100 3750 0    60   ~ 0

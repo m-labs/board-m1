@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月08日 (週二) 16時43分31秒
+EESchema Schematic File Version 2  date 2012年05月16日 (週三) 17時32分43秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,14 +51,13 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
-LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 13 19
 Title "Milkymist One - DVI-I Single Channel Sheet"
-Date "8 may 2012"
+Date "16 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -471,7 +470,7 @@ F 4 "RC0402FR-074K7L" V 6700 6500 60  0001 C CNN "P/N"
 	1    6700 6500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6850 7750 0    60   Input ~ 0
+Text GLabel 6850 7750 0    60   BiDi ~ 0
 VGA_SCL
 $Comp
 L 3V3 #PWR0288

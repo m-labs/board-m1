@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月09日 (週三) 14時17分59秒
+EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時16分05秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 19
 Title "Milkymist One - Misc. Control Sheet"
-Date "9 may 2012"
+Date "17 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -919,4 +919,8 @@ Wire Wire Line
 Connection ~ 11300 2500
 Text Notes 12550 3490 0    60   ~ 0
 D[6..11]: P/N -> BZX84-C4V3\n450 pF @ 1 MHz
+Text Notes 6750 1900 0    60   ~ 0
+DMX port A ( TX )
+Text Notes 13750 1800 0    60   ~ 0
+DMX port B ( RX )
 $EndSCHEMATC
