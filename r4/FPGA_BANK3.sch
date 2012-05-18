@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月08日 (週二) 12時04分13秒
+EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時21分11秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,14 +51,13 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
-LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 18 19
 Title "Milkymist One - FPGA_BANK3 Sheet"
-Date "8 may 2012"
+Date "18 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -797,4 +796,6 @@ Wire Notes Line
 	4350 9100 4350 9850
 Wire Notes Line
 	2400 9250 4850 9250
+Text Notes 11900 9850 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
 $EndSCHEMATC

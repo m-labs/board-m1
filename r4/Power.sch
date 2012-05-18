@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月17日 (週四) 09時43分13秒
+EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時21分27秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 7 19
 Title "Milkymist One - Power Sheet"
-Date "17 may 2012"
+Date "18 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -1355,7 +1355,7 @@ Text Notes 7600 4550 0    60   ~ 0
 See datasheet for R62 placement in details.
 Text Notes 4150 7750 0    60   ~ 0
 D[14..17]: P/N - SMBJ5339B-TP
-Text Notes 1200 3850 0    60   ~ 0
+Text Notes 11850 9900 0    60   ~ 0
 Notes:\n1. Tolerance about resistors is 1% in default.
 Wire Wire Line
 	1950 10100 1950 10400

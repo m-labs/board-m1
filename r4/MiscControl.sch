@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時16分05秒
+EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時22分26秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 9 19
 Title "Milkymist One - Misc. Control Sheet"
-Date "17 may 2012"
+Date "18 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -923,4 +923,6 @@ Text Notes 6750 1900 0    60   ~ 0
 DMX port A ( TX )
 Text Notes 13750 1800 0    60   ~ 0
 DMX port B ( RX )
+Text Notes 11850 10000 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
 $EndSCHEMATC

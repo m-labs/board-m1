@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時54分45秒
+EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時22分41秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 10 19
 Title "Milkymist One - Misc. Sheet"
-Date "17 may 2012"
+Date "18 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -1245,4 +1245,6 @@ Text Notes 13175 4300 0    60   ~ 0
 USB-C
 Text Notes 13175 4600 0    60   ~ 0
 USB-D
+Text Notes 11900 10050 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
 $EndSCHEMATC

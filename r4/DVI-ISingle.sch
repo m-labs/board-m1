@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月16日 (週三) 17時32分43秒
+EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時19分46秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 13 19
 Title "Milkymist One - DVI-I Single Channel Sheet"
-Date "16 may 2012"
+Date "18 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -1581,4 +1581,6 @@ Wire Wire Line
 	4250 7750 4250 7450
 Wire Wire Line
 	10700 6300 9950 6300
+Text Notes 11900 10150 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
 $EndSCHEMATC
