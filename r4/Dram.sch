@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月18日 (週五) 19時19分31秒
+EESchema Schematic File Version 2  date 2012年05月19日 (週六) 10時35分14秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 19
 Title "Milkymist One - DRAM Sheet"
-Date "18 may 2012"
+Date "19 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -2135,4 +2135,6 @@ Text Notes 2100 5800 0    60   ~ 0
 For U15
 Text Notes 950  10200 0    60   ~ 0
 Notes:\n1. Tolerance about resistors is 1% in default.
+Text Notes 4000 8750 0    60   ~ 0
+Bypass Cap.:\n\nPin     1      3      9             15     18      \n------------------------------\nU14    C162  C243  C162+C244   C164  C245  \nU15    C159  C251  C158+C252   C157  C156  \n\nPin     33            55        61\n------------------------------\nU14    C165+C240   C242     C166\nU15    C161+C248   C250     C160
 $EndSCHEMATC
