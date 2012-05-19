@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月19日 (週六) 10時35分14秒
+EESchema Schematic File Version 2  date 2012年05月19日 (週六) 10時46分45秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -70,32 +70,14 @@ SDRAM_DQM[3..0]
 Text GLabel 5100 10050 0    60   BiDi ~ 0
 SDRAM_DQS[3..0]
 $Comp
-L GND #PWR0111
-U 1 1 4F911849
-P 1900 4450
-F 0 "#PWR0111" H 1900 4450 30  0001 C CNN
-F 1 "GND" H 1900 4380 30  0001 C CNN
-	1    1900 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2V5 #PWR0112
-U 1 1 4F911841
-P 1900 3700
-F 0 "#PWR0112" H 1900 3660 30  0001 C CNN
-F 1 "2V5" H 1900 3850 60  0000 C CNN
-	1    1900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C156
 U 1 1 4F9117F1
-P 1900 4050
-F 0 "C156" H 1950 4150 60  0000 L CNN
-F 1 "1u" H 1950 3950 60  0000 L CNN
-F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 1900 4050 60  0001 C CNN
-F 4 "C1005X5R0J105KT" H 1900 4050 60  0001 C CNN "P/N"
-	1    1900 4050
+P 3500 6650
+F 0 "C156" H 3550 6750 60  0000 L CNN
+F 1 "1u" H 3550 6550 60  0000 L CNN
+F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 3500 6650 60  0001 C CNN
+F 4 "C1005X5R0J105KT" H 3500 6650 60  0001 C CNN "P/N"
+	1    3500 6650
 	1    0    0    -1  
 $EndComp
 Text Notes 2100 7150 0    60   ~ 0
@@ -1470,10 +1452,16 @@ Entry Wire Line
 	7300 10050 7400 9950
 Entry Wire Line
 	7400 10050 7500 9950
+Text Notes 2100 8500 0    60   ~ 0
+For U14
+Text Notes 2100 5800 0    60   ~ 0
+For U15
+Text Notes 950  10200 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
+Text Notes 4000 8750 0    60   ~ 0
+Bypass Cap.:\n\nPin     1      3      9             15     18      \n------------------------------\nU14    C162  C243  C162+C244   C164  C245  \nU15    C159  C251  C158+C252   C157  C156  \n\nPin     33            55        61\n------------------------------\nU14    C165+C240   C242     C166\nU15    C161+C248   C250     C160
 Wire Wire Line
-	1900 4250 1900 4450
-Wire Wire Line
-	1900 7000 3100 7000
+	1900 7000 3500 7000
 Wire Wire Line
 	3100 7000 3100 6850
 Connection ~ 2300 7000
@@ -1673,9 +1661,7 @@ Wire Wire Line
 	3100 9650 3100 9500
 Connection ~ 3100 9650
 Wire Wire Line
-	1900 6300 3100 6300
-Wire Wire Line
-	1900 3850 1900 3700
+	1900 6300 3500 6300
 Wire Wire Line
 	11400 6800 10900 6800
 Connection ~ 11400 6700
@@ -2129,12 +2115,10 @@ Connection ~ 7100 3800
 Wire Wire Line
 	7000 4000 7000 3900
 Connection ~ 7000 3900
-Text Notes 2100 8500 0    60   ~ 0
-For U14
-Text Notes 2100 5800 0    60   ~ 0
-For U15
-Text Notes 950  10200 0    60   ~ 0
-Notes:\n1. Tolerance about resistors is 1% in default.
-Text Notes 4000 8750 0    60   ~ 0
-Bypass Cap.:\n\nPin     1      3      9             15     18      \n------------------------------\nU14    C162  C243  C162+C244   C164  C245  \nU15    C159  C251  C158+C252   C157  C156  \n\nPin     33            55        61\n------------------------------\nU14    C165+C240   C242     C166\nU15    C161+C248   C250     C160
+Wire Wire Line
+	3500 6300 3500 6450
+Connection ~ 3100 6300
+Wire Wire Line
+	3500 7000 3500 6850
+Connection ~ 3100 7000
 $EndSCHEMATC
