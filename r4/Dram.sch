@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月19日 (週六) 10時46分45秒
+EESchema Schematic File Version 2  date 2012年05月21日 (週一) 09時56分35秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 6 19
 Title "Milkymist One - DRAM Sheet"
-Date "19 may 2012"
+Date "21 may 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -908,7 +908,6 @@ F 0 "R135" H 11100 7200 60  0000 C CNN
 F 1 "1k" H 11050 7100 60  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10900 7150 60  0001 C CNN
 F 4 "RC0402FR-071KL" H 10900 7150 60  0001 C CNN "P/N"
-F 5 "1%" H 11050 7000 60  0000 C CNN "Field5"
 	1    10900 7150
 	1    0    0    -1  
 $EndComp
@@ -942,7 +941,6 @@ F 0 "R113" H 11100 6400 60  0000 C CNN
 F 1 "1k" H 11050 6300 60  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 10900 6350 60  0001 C CNN
 F 4 "RC0402FR-071KL" H 10900 6350 60  0001 C CNN "P/N"
-F 5 "1%" H 11050 6200 60  0000 C CNN "Field5"
 	1    10900 6350
 	1    0    0    -1  
 $EndComp
@@ -1347,7 +1345,6 @@ F 0 "R134" H 5800 7200 60  0000 C CNN
 F 1 "1k" H 5750 7100 60  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5600 7150 60  0001 C CNN
 F 4 "RC0402FR-071KL" H 5600 7150 60  0001 C CNN "P/N"
-F 5 "1%" H 5750 7000 60  0000 C CNN "Field5"
 	1    5600 7150
 	1    0    0    -1  
 $EndComp
@@ -1381,7 +1378,6 @@ F 0 "R92" H 5800 6400 60  0000 C CNN
 F 1 "1k" H 5750 6300 60  0000 C CNN
 F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 5600 6350 60  0001 C CNN
 F 4 "RC0402FR-071KL" H 5600 6350 60  0001 C CNN "P/N"
-F 5 "1%" H 5750 6200 60  0000 C CNN "Field5"
 	1    5600 6350
 	1    0    0    -1  
 $EndComp
@@ -1459,7 +1455,7 @@ For U15
 Text Notes 950  10200 0    60   ~ 0
 Notes:\n1. Tolerance about resistors is 1% in default.
 Text Notes 4000 8750 0    60   ~ 0
-Bypass Cap.:\n\nPin     1      3      9             15     18      \n------------------------------\nU14    C162  C243  C162+C244   C164  C245  \nU15    C159  C251  C158+C252   C157  C156  \n\nPin     33            55        61\n------------------------------\nU14    C165+C240   C242     C166\nU15    C161+C248   C250     C160
+Bypass Cap.:\n\nPin     1      3      9             15     18      \n------------------------------\nU14    C162  C243  C163+C244   C164  C245  \nU15    C159  C251  C158+C252   C157  C156  \n\nPin     33            55        61\n------------------------------\nU14    C165+C240   C242     C166\nU15    C161+C248   C250     C160
 Wire Wire Line
 	1900 7000 3500 7000
 Wire Wire Line
