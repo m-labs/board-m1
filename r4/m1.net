@@ -1,0 +1,8862 @@
+# EESchema Netlist Version 1.1 created  2012年06月19日 (週二) 15時30分30秒
+(
+ ( /4F7EED3A/4F8C1F4F 0402  C201 100n {Lib=C}
+  (    1 /VIDEO_IN/AIN4 )
+  (    2 N-000441 )
+ )
+ ( /4F7EED3A/4F8C1F4B 0402  C197 100n {Lib=C}
+  (    1 /VIDEO_IN/AIN5 )
+  (    2 N-000450 )
+ )
+ ( /4F7EED3A/4F8C1F1F 0402  C195 100n {Lib=C}
+  (    1 /VIDEO_IN/AIN6 )
+  (    2 N-000437 )
+ )
+ ( /4F7EED3A/4F8C1ED4 0402  R153 75R {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000437 )
+ )
+ ( /4F7EED3A/4F8C1ECE 0402  R152 75R {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000450 )
+ )
+ ( /4F7EED3A/4F8C1E83 0402  R151 75R {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000441 )
+ )
+ ( /4F7EED3A/4F8C1DC7 RCA-3-RA  J18 SCP662CNS257U00G {Lib=RCA_3}
+  (    1 AUDIO_AGND )
+  (    2 N-000441 )
+  (    3 AUDIO_AGND )
+  (    4 N-000450 )
+  (    5 AUDIO_AGND )
+  (    6 N-000437 )
+ )
+ ( /4F7EED3A/4F8BFE07 0402  V5 V9MLA0402LNH {Lib=EZJ-Z0V80010}
+  (    1 N-000441 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BFDFD 0402  V6 V9MLA0402LNH {Lib=EZJ-Z0V80010}
+  (    1 N-000450 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BFDA5 PAD_C_1mm  TP12 TESTPOINT {Lib=TESTPOINT}
+  (    1 VIDEOIN_VS )
+ )
+ ( /4F7EED3A/4F8BFDA4 PAD_C_1mm  TP13 TESTPOINT {Lib=TESTPOINT}
+  (    1 VIDEOIN_FIELD )
+ )
+ ( /4F7EED3A/4F8BFB87 PAD_C_1mm  TP15 TESTPOINT {Lib=TESTPOINT}
+  (    1 VIDEOIN_SDA )
+ )
+ ( /4F7EED3A/4F8BFABB 0402  R175 1k {Lib=R}
+  (    1 nVIDEOIN_RST )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BF52F 0402  C215 100n {Lib=C}
+  (    1 N-000440 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BF52E 0805P  C213 10u {Lib=C_P}
+  (    1 N-000440 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BF515 0805P  C212 10u {Lib=C_P}
+  (    1 N-000443 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BF4FB 0402  C214 100n {Lib=C}
+  (    1 N-000443 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BF21C 0402  R155 1k69 {Lib=R}
+  (    1 N-000439 )
+  (    2 VIDEOIN_A1V8 )
+ )
+ ( /4F7EED3A/4F8BF200 0402  C227 10n {Lib=C}
+  (    1 N-000438 )
+  (    2 VIDEOIN_A1V8 )
+ )
+ ( /4F7EED3A/4F8BF19F 0402  C224 82n {Lib=C}
+  (    1 N-000438 )
+  (    2 N-000439 )
+ )
+ ( /4F7EED3A/4F8BD9C3 xtal2-11.5mmx4.83mm  Y2 CRYSTAL {Lib=CRYSTAL}
+  (    1 /VIDEO_IN/XTAL )
+  (    2 /VIDEO_IN/XTAL1 )
+ )
+ ( /4F7EED3A/4F8BD5DA 0402  C226 33p {Lib=C}
+  (    1 /VIDEO_IN/XTAL1 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD4A7 0402  C208 100n {Lib=C}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD4A6 0402  C209 100n {Lib=C}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD4A5 0402  C210 10n {Lib=C}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD4A4 0402  C211 10n {Lib=C}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD3F1 0402  C219 10n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD3E3 0402  C218 10n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD3DA 0402  C217 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD3CB 0402  C216 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD371 0402  C220 100n {Lib=C}
+  (    1 VIDEOIN_A3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD370 0402  C221 10n {Lib=C}
+  (    1 VIDEOIN_A3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD320 0805P  C223 10u {Lib=C_P}
+  (    1 VIDEOIN_A3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD31F 0402  L17 CB100505T-601Y {Lib=FILTER}
+  (    1 3V3 )
+  (    2 VIDEOIN_A3V3 )
+ )
+ ( /4F7EED3A/4F8BCECF 0402  C229 10n {Lib=C}
+  (    1 VIDEOIN_A1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BCEAC 0402  C228 100n {Lib=C}
+  (    1 VIDEOIN_A1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BCCA8 0402  L18 CB100505T-601Y {Lib=FILTER}
+  (    1 1V8 )
+  (    2 VIDEOIN_A1V8 )
+ )
+ ( /4F7EED3A/4F8BC71B 0805P  C231 10u {Lib=C_P}
+  (    1 VIDEOIN_A1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BC6DF 0805P  C230 10u {Lib=C_P}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BC1C5 0402  C200 100p {Lib=C}
+  (    1 /VIDEO_IN/CAPY2 )
+  (    2 /VIDEO_IN/CAPC2 )
+ )
+ ( /4F7EED3A/4F8BC17C 0402  C193 100p {Lib=C}
+  (    1 /VIDEO_IN/CAPY1 )
+  (    2 /VIDEO_IN/CAPY2 )
+ )
+ ( /4F7EED3A/4F8BC170 0402  C199 100n {Lib=C}
+  (    1 /VIDEO_IN/CAPY2 )
+  (    2 /VIDEO_IN/CAPC2 )
+ )
+ ( /4F7EED3A/4F8BC145 0402  C192 100n {Lib=C}
+  (    1 /VIDEO_IN/CAPY1 )
+  (    2 /VIDEO_IN/CAPY2 )
+ )
+ ( /4F7EED3A/4F8BC0FC 0402  C196 100n {Lib=C}
+  (    1 /VIDEO_IN/CAPY2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BC097 0402  C194 100n {Lib=C}
+  (    1 /VIDEO_IN/CAPY2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BC06D 0805P  C198 10u {Lib=C_P}
+  (    1 /VIDEO_IN/CAPY2 )
+  (    2 /VIDEO_IN/CAPC2 )
+ )
+ ( /4F7EED3A/4F8BBFDD QFP64  U21 ADV7181C {Lib=ADV7181C}
+  (    1 nVIDEOIN_INTRQ )
+  (    2 VIDEOIN_HS )
+  (    3 AUDIO_AGND )
+  (    4 3V3 )
+  (    5 /FPGA_BANK2/VIDEOIN_P3 )
+  (    6 /FPGA_BANK2/VIDEOIN_P2 )
+  (    7 /FPGA_BANK2/VIDEOIN_P1 )
+  (    8 /FPGA_BANK2/VIDEOIN_P0 )
+  (    9 ? )
+  (   10 AUDIO_AGND )
+  (   11 3V3 )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 VIDEOIN_LLC )
+  (   21 /VIDEO_IN/XTAL1 )
+  (   22 /VIDEO_IN/XTAL )
+  (   23 1V8 )
+  (   24 AUDIO_AGND )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 3V3 )
+  (   30 N-000438 )
+  (   31 VIDEOIN_A1V8 )
+  (   32 AUDIO_AGND )
+  (   33 ? )
+  (   34 AUDIO_AGND )
+  (   35 AUDIO_AGND )
+  (   36 AUDIO_AGND )
+  (   37 AUDIO_AGND )
+  (   38 /VIDEO_IN/CAPY1 )
+  (   39 /VIDEO_IN/CAPY2 )
+  (   40 VIDEOIN_A3V3 )
+  (   41 N-000443 )
+  (   42 N-000440 )
+  (   43 AUDIO_AGND )
+  (   44 /VIDEO_IN/CAPC2 )
+  (   45 ? )
+  (   46 AUDIO_AGND )
+  (   47 /VIDEO_IN/AIN4 )
+  (   48 /VIDEO_IN/AIN5 )
+  (   49 /VIDEO_IN/AIN6 )
+  (   50 ? )
+  (   51 nVIDEOIN_RST )
+  (   52 AUDIO_AGND )
+  (   53 VIDEOIN_SDA )
+  (   54 VIDEOIN_SDC )
+  (   55 AUDIO_AGND )
+  (   56 AUDIO_AGND )
+  (   57 AUDIO_AGND )
+  (   58 1V8 )
+  (   59 /FPGA_BANK2/VIDEOIN_P7 )
+  (   60 /FPGA_BANK2/VIDEOIN_P6 )
+  (   61 /FPGA_BANK2/VIDEOIN_P5 )
+  (   62 /FPGA_BANK2/VIDEOIN_P4 )
+  (   63 VIDEOIN_FIELD )
+  (   64 VIDEOIN_VS )
+ )
+ ( /4F7EED3A/4F8B9979 0805P  C191 10u {Lib=C_P}
+  (    1 /VIDEO_IN/CAPY1 )
+  (    2 /VIDEO_IN/CAPY2 )
+ )
+ ( /4F7EED3A/4F8B9347 PAD_C_1mm  TP14 TESTPOINT {Lib=TESTPOINT}
+  (    1 VIDEOIN_SDC )
+ )
+ ( /4F7EED3A/4F87F300 0402  C225 33p {Lib=C}
+  (    1 /VIDEO_IN/XTAL )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F87EC18 0402  R154 1M {Lib=R}
+  (    1 /VIDEO_IN/XTAL1 )
+  (    2 /VIDEO_IN/XTAL )
+ )
+ ( /4F7EED3A/4F87EB53 0402  V7 V9MLA0402LNH {Lib=EZJ-Z0V80010}
+  (    1 N-000437 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED3A/4F8BD321 0805P  C222 10u {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F881FE0 HE-5x2-100mil  J24 CONN_5X2 {Lib=CONN_5X2}
+  (    1 5V )
+  (    2 5V )
+  (    3 /USB_E/F/USBE_D- )
+  (    4 /USB_E/F/USBF_D- )
+  (    5 /USB_E/F/USBE_D+ )
+  (    6 /USB_E/F/USBF_D+ )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 ? )
+  (   10 ? )
+ )
+ ( /4F7EED19/4F87F924 0402  C287 1u {Lib=C}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5B4 TSSOP-14  U31 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBF_SPD )
+  (    3 USBF_RCV )
+  (    4 USBF_VP )
+  (    5 USBF_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBF_OE )
+  (   10 N-000392 )
+  (   11 N-000400 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EED19/4F87F5B3 0402  V22 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 /USB_E/F/USBF_D- )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5B1 0402  R223 24R {Lib=R}
+  (    1 /USB_E/F/USBF_D+ )
+  (    2 N-000400 )
+ )
+ ( /4F7EED19/4F87F5B0 0402  C281 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5A9 0402  R224 24R {Lib=R}
+  (    1 /USB_E/F/USBF_D- )
+  (    2 N-000392 )
+ )
+ ( /4F7EED19/4F87F5A7 0402  V23 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 /USB_E/F/USBF_D+ )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5A4 0402  C282 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5A3 0402  C283 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F5A2 0402  R227 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 /USB_E/F/USBF_D+ )
+ )
+ ( /4F7EED19/4F87F5A1 0402  R228 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 /USB_E/F/USBF_D- )
+ )
+ ( /4F7EED19/4F87F43E 0402  R222 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 /USB_E/F/USBE_D- )
+ )
+ ( /4F7EED19/4F87F3C7 0402  R221 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 /USB_E/F/USBE_D+ )
+ )
+ ( /4F7EED19/4F87F317 0402  C280 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F300 0402  C279 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F25D 0402  V21 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 /USB_E/F/USBE_D+ )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87F1A7 0402  R218 24R {Lib=R}
+  (    1 /USB_E/F/USBE_D- )
+  (    2 N-000394 )
+ )
+ ( /4F7EED19/4F87EC5D c-smd-6.3mmx8mm  C286 220u {Lib=C_P}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87EC2E 0402  C278 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87EC18 0402  R217 24R {Lib=R}
+  (    1 /USB_E/F/USBE_D+ )
+  (    2 N-000393 )
+ )
+ ( /4F7EED19/4F87EB53 0402  V20 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 /USB_E/F/USBE_D- )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EED19/4F87EB3A TSSOP-14  U30 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBE_SPD )
+  (    3 USBE_RCV )
+  (    4 USBE_VP )
+  (    5 USBE_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBE_OE )
+  (   10 N-000394 )
+  (   11 N-000393 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EECE5/4F87FE30 0402  C266 1u {Lib=C}
+  (    1 N-000384 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87FE2E TC-B-3528-21-B  C267 150u {Lib=C_P}
+  (    1 N-000384 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87FCF4 TC-B-3528-21-B  C269 150u {Lib=C_P}
+  (    1 N-000382 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87FCB0 0402  C268 1u {Lib=C}
+  (    1 N-000382 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87FB10 USB-A-DUAL-RECEPT-RA  J20 67298-4090 {Lib=67298-4090}
+  (    1 N-000384 )
+  (    2 N-000377 )
+  (    3 N-000366 )
+  (    4 AUDIO_AGND )
+  (    5 N-000382 )
+  (    6 N-000388 )
+  (    7 N-000387 )
+  (    8 AUDIO_AGND )
+  (   S1 USBSHIELD )
+  (   S2 USBSHIELD )
+  (   S3 USBSHIELD )
+  (   S4 USBSHIELD )
+ )
+ ( /4F7EECE5/4F87FAB2 0402  R197 10k {Lib=R}
+  (    1 nUSBDPWR_FLG )
+  (    2 3V3 )
+ )
+ ( /4F7EECE5/4F87FA6C 0402  R196 10k {Lib=R}
+  (    1 nUSBCPWR_FLG )
+  (    2 3V3 )
+ )
+ ( /4F7EECE5/4F87F924 0402  C265 1u {Lib=C}
+  (    1 USBEXT5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F8BC SOIC-8  U29 AP21X2A {Lib=AP21X2A}
+  (    1 AUDIO_AGND )
+  (    2 USBEXT5V )
+  (    3 nUSBCPWR_EN )
+  (    4 nUSBDPWR_EN )
+  (    5 nUSBDPWR_FLG )
+  (    6 N-000382 )
+  (    7 N-000384 )
+  (    8 nUSBCPWR_FLG )
+ )
+ ( /4F7EECE5/4F87F5B4 TSSOP-14  U28 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBD_SPD )
+  (    3 USBD_RCV )
+  (    4 USBD_VP )
+  (    5 USBD_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBD_OE )
+  (   10 N-000379 )
+  (   11 N-000380 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EECE5/4F87F5B3 0402  V10 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000388 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F5B1 0402  R190 24R {Lib=R}
+  (    1 N-000387 )
+  (    2 N-000380 )
+ )
+ ( /4F7EECE5/4F87F5B0 0402  C270 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F5A9 0402  R191 24R {Lib=R}
+  (    1 N-000388 )
+  (    2 N-000379 )
+ )
+ ( /4F7EECE5/4F87F5A7 0402  V11 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000387 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F5A4 0402  C271 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F5A3 0402  C272 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F5A2 0402  R198 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000387 )
+ )
+ ( /4F7EECE5/4F87F5A1 0402  R199 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000388 )
+ )
+ ( /4F7EECE5/4F87F43E 0402  R195 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000377 )
+ )
+ ( /4F7EECE5/4F87F3C7 0402  R194 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000366 )
+ )
+ ( /4F7EECE5/4F87F317 0402  C263 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F300 0402  C262 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F25D 0402  V9 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000366 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87F1A7 0402  R189 24R {Lib=R}
+  (    1 N-000377 )
+  (    2 N-000371 )
+ )
+ ( /4F7EECE5/4F87EC2E 0402  C261 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87EC18 0402  R188 24R {Lib=R}
+  (    1 N-000366 )
+  (    2 N-000372 )
+ )
+ ( /4F7EECE5/4F87EB53 0402  V8 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000377 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECE5/4F87EB3A TSSOP-14  U27 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBC_SPD )
+  (    3 USBC_RCV )
+  (    4 USBC_VP )
+  (    5 USBC_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBC_OE )
+  (   10 N-000371 )
+  (   11 N-000372 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EECA8/4F8B9979 c-smd-6.3mmx8mm  C178 220u {Lib=C_P}
+  (    1 USBEXT5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F8B9385 PAD_C_1mm  TP22 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBB_VP )
+ )
+ ( /4F7EECA8/4F8B9384 PAD_C_1mm  TP24 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBB_VM )
+ )
+ ( /4F7EECA8/4F8B936C PAD_C_1mm  TP23 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBB_RCV )
+ )
+ ( /4F7EECA8/4F8B936B PAD_C_1mm  TP25 TESTPOINT {Lib=TESTPOINT}
+  (    1 nUSBB_OE )
+ )
+ ( /4F7EECA8/4F87FE66 1206  R139 1M {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 USBSHIELD )
+ )
+ ( /4F7EECA8/4F87FE5A 1206  C177 4n7 {Lib=C}
+  (    1 USBSHIELD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87FE30 0402  C257 1u {Lib=C}
+  (    1 N-000341 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87FE2E TC-B-3528-21-B  C259 150u {Lib=C_P}
+  (    1 N-000341 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87FCF4 TC-B-3528-21-B  C260 150u {Lib=C_P}
+  (    1 N-000353 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87FCB0 0402  C258 1u {Lib=C}
+  (    1 N-000353 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87FB10 USB-A-DUAL-RECEPT-RA  J16 67298-4090 {Lib=67298-4090}
+  (    1 N-000341 )
+  (    2 N-000340 )
+  (    3 N-000355 )
+  (    4 AUDIO_AGND )
+  (    5 N-000353 )
+  (    6 N-000362 )
+  (    7 N-000364 )
+  (    8 AUDIO_AGND )
+  (   S1 USBSHIELD )
+  (   S2 USBSHIELD )
+  (   S3 USBSHIELD )
+  (   S4 USBSHIELD )
+ )
+ ( /4F7EECA8/4F87FAB2 0402  R187 10k {Lib=R}
+  (    1 nUSBBPWR_FLG )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87FA6C 0402  R186 10k {Lib=R}
+  (    1 nUSBAPWR_FLG )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87F924 0402  C256 1u {Lib=C}
+  (    1 USBEXT5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F8BC SOIC-8  U26 AP21X2A {Lib=AP21X2A}
+  (    1 AUDIO_AGND )
+  (    2 USBEXT5V )
+  (    3 nUSBAPWR_EN )
+  (    4 nUSBBPWR_EN )
+  (    5 nUSBBPWR_FLG )
+  (    6 N-000353 )
+  (    7 N-000341 )
+  (    8 nUSBAPWR_FLG )
+ )
+ ( /4F7EECA8/4F87F5B4 TSSOP-14  U17 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBB_SPD )
+  (    3 USBB_RCV )
+  (    4 USBB_VP )
+  (    5 USBB_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBB_OE )
+  (   10 N-000349 )
+  (   11 N-000350 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EECA8/4F87F5B3 0402  V3 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000362 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F5B1 0402  R138 24R {Lib=R}
+  (    1 N-000364 )
+  (    2 N-000350 )
+ )
+ ( /4F7EECA8/4F87F5B0 0402  C174 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F5A9 0402  R140 24R {Lib=R}
+  (    1 N-000362 )
+  (    2 N-000349 )
+ )
+ ( /4F7EECA8/4F87F5A7 0402  V4 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000364 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F5A4 0402  C175 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F5A3 0402  C176 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F5A2 0402  R170 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000364 )
+ )
+ ( /4F7EECA8/4F87F5A1 0402  R171 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000362 )
+ )
+ ( /4F7EECA8/4F87F59F 0402  R172 1k5 {Lib=R}
+  (    1 N-000364 )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87F59E 0402  R173 1k5 {Lib=R}
+  (    1 N-000362 )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87F52A 0402  R169 1k5 {Lib=R}
+  (    1 N-000340 )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87F49E 0402  R168 1k5 {Lib=R}
+  (    1 N-000355 )
+  (    2 3V3 )
+ )
+ ( /4F7EECA8/4F87F43E 0402  R167 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000340 )
+ )
+ ( /4F7EECA8/4F87F3C7 0402  R166 15k {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000355 )
+ )
+ ( /4F7EECA8/4F87F317 0402  C173 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F300 0402  C172 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F25D 0402  V2 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000355 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87F1A7 0402  R137 24R {Lib=R}
+  (    1 N-000340 )
+  (    2 N-000342 )
+ )
+ ( /4F7EECA8/4F87EC2E 0402  C171 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87EC18 0402  R136 24R {Lib=R}
+  (    1 N-000355 )
+  (    2 N-000343 )
+ )
+ ( /4F7EECA8/4F87EB53 0402  V1 V0402MHS03 {Lib=EZJ-Z0V80010}
+  (    1 N-000340 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EECA8/4F87EB3A TSSOP-14  U16 MIC2550AYTS {Lib=MIC2550AYTS}
+  (    1 3V3 )
+  (    2 USBA_SPD )
+  (    3 USBA_RCV )
+  (    4 USBA_VP )
+  (    5 USBA_VM )
+  (    7 AUDIO_AGND )
+  (    8 AUDIO_AGND )
+  (    9 nUSBA_OE )
+  (   10 N-000342 )
+  (   11 N-000343 )
+  (   12 3V3 )
+  (   14 3V3 )
+ )
+ ( /4F7EECA8/4F9A4125 PAD_C_1mm  TP27 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBA_RCV )
+ )
+ ( /4F7EECA8/4F9A4141 PAD_C_1mm  TP28 TESTPOINT {Lib=TESTPOINT}
+  (    1 nUSBA_OE )
+ )
+ ( /4F7EECA8/4F9A414E PAD_C_1mm  TP29 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBA_VP )
+ )
+ ( /4F7EECA8/4F9A415D PAD_C_1mm  TP30 TESTPOINT {Lib=TESTPOINT}
+  (    1 USBA_VM )
+ )
+ ( /4F7EEC8B/4F9117F1 0402  C156 1u {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91176F 0402  C250 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91176E 0402  C251 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91176C 0402  C252 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91176B 1210P  C248 100u {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F9114BE 1210P  C240 100u {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911495 0402  C244 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911494 0402  C245 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911483 0402  C243 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911470 0402  C242 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91144D 0402  C162 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91144C 0402  C163 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91144B 0402  C164 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91144A 0402  C166 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911449 0402  C165 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F9113BF 0402  C160 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F9113BE 0402  C161 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F9113B2 0402  C159 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F911371 0402  C158 10n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91131B 0402  C157 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F91113A 0402  R71 33R {Lib=R}
+  (    1 N-000330 )
+  (    2 /DRAM/SDRAM_A0 )
+ )
+ ( /4F7EEC8B/4F911063 0402  R73 33R {Lib=R}
+  (    1 N-000328 )
+  (    2 /DRAM/SDRAM_A2 )
+ )
+ ( /4F7EEC8B/4F911062 0402  R72 33R {Lib=R}
+  (    1 N-000329 )
+  (    2 /DRAM/SDRAM_A1 )
+ )
+ ( /4F7EEC8B/4F911061 0402  R74 33R {Lib=R}
+  (    1 N-000327 )
+  (    2 /DRAM/SDRAM_A3 )
+ )
+ ( /4F7EEC8B/4F911060 0402  R75 33R {Lib=R}
+  (    1 N-000326 )
+  (    2 /DRAM/SDRAM_A4 )
+ )
+ ( /4F7EEC8B/4F911055 0402  R79 33R {Lib=R}
+  (    1 N-000322 )
+  (    2 /DRAM/SDRAM_A8 )
+ )
+ ( /4F7EEC8B/4F911054 0402  R78 33R {Lib=R}
+  (    1 N-000323 )
+  (    2 /DRAM/SDRAM_A7 )
+ )
+ ( /4F7EEC8B/4F911053 0402  R76 33R {Lib=R}
+  (    1 N-000325 )
+  (    2 /DRAM/SDRAM_A5 )
+ )
+ ( /4F7EEC8B/4F911052 0402  R77 33R {Lib=R}
+  (    1 N-000324 )
+  (    2 /DRAM/SDRAM_A6 )
+ )
+ ( /4F7EEC8B/4F91104A 0402  R81 33R {Lib=R}
+  (    1 N-000320 )
+  (    2 /DRAM/SDRAM_A10 )
+ )
+ ( /4F7EEC8B/4F911049 0402  R80 33R {Lib=R}
+  (    1 N-000321 )
+  (    2 /DRAM/SDRAM_A9 )
+ )
+ ( /4F7EEC8B/4F91103D 0402  R82 33R {Lib=R}
+  (    1 N-000339 )
+  (    2 /DRAM/SDRAM_A11 )
+ )
+ ( /4F7EEC8B/4F91100C 0402  R83 33R {Lib=R}
+  (    1 N-000338 )
+  (    2 /DRAM/SDRAM_A12 )
+ )
+ ( /4F7EEC8B/4F910FFB 0402  R86 33R {Lib=R}
+  (    1 N-000335 )
+  (    2 nSDRAM_RAS )
+ )
+ ( /4F7EEC8B/4F910FFA 0402  R84 33R {Lib=R}
+  (    1 N-000337 )
+  (    2 SDRAM_BA0 )
+ )
+ ( /4F7EEC8B/4F910FF9 0402  R85 33R {Lib=R}
+  (    1 N-000336 )
+  (    2 SDRAM_BA1 )
+ )
+ ( /4F7EEC8B/4F910FED 0402  R88 33R {Lib=R}
+  (    1 N-000333 )
+  (    2 nSDRAM_WE )
+ )
+ ( /4F7EEC8B/4F910FEC 0402  R87 33R {Lib=R}
+  (    1 N-000334 )
+  (    2 nSDRAM_CAS )
+ )
+ ( /4F7EEC8B/4F910FE4 0402  R89 33R {Lib=R}
+  (    1 N-000332 )
+  (    2 nSDRAM_CS )
+ )
+ ( /4F7EEC8B/4F910F56 0402  R90 33R {Lib=R}
+  (    1 N-000331 )
+  (    2 SDRAM_CKE )
+ )
+ ( /4F7EEC8B/4F910ED8 0402  R91 120R {Lib=R}
+  (    1 SDRAM_CK )
+  (    2 nSDRAM_CK )
+ )
+ ( /4F7EEC8B/4F90FDF0 0402  R126 33R {Lib=R}
+  (    1 N-000302 )
+  (    2 /DRAM/SDRAM_DQ7 )
+ )
+ ( /4F7EEC8B/4F90FDEF 0402  R127 33R {Lib=R}
+  (    1 N-000301 )
+  (    2 /DRAM/SDRAM_DQ6 )
+ )
+ ( /4F7EEC8B/4F90FDEE 0402  R129 33R {Lib=R}
+  (    1 N-000300 )
+  (    2 /DRAM/SDRAM_DQ4 )
+ )
+ ( /4F7EEC8B/4F90FDED 0402  R128 33R {Lib=R}
+  (    1 N-000299 )
+  (    2 /DRAM/SDRAM_DQ5 )
+ )
+ ( /4F7EEC8B/4F90FDEC 0402  R132 33R {Lib=R}
+  (    1 N-000298 )
+  (    2 /DRAM/SDRAM_DQ1 )
+ )
+ ( /4F7EEC8B/4F90FDEB 0402  R133 33R {Lib=R}
+  (    1 N-000317 )
+  (    2 /DRAM/SDRAM_DQ0 )
+ )
+ ( /4F7EEC8B/4F90FDEA 0402  R131 33R {Lib=R}
+  (    1 N-000316 )
+  (    2 /DRAM/SDRAM_DQ2 )
+ )
+ ( /4F7EEC8B/4F90FDE9 0402  R130 33R {Lib=R}
+  (    1 N-000315 )
+  (    2 /DRAM/SDRAM_DQ3 )
+ )
+ ( /4F7EEC8B/4F90FDE4 0402  R122 33R {Lib=R}
+  (    1 N-000314 )
+  (    2 /DRAM/SDRAM_DQ11 )
+ )
+ ( /4F7EEC8B/4F90FDE3 0402  R123 33R {Lib=R}
+  (    1 N-000313 )
+  (    2 /DRAM/SDRAM_DQ10 )
+ )
+ ( /4F7EEC8B/4F90FDE2 0402  R125 33R {Lib=R}
+  (    1 N-000312 )
+  (    2 /DRAM/SDRAM_DQ8 )
+ )
+ ( /4F7EEC8B/4F90FDE1 0402  R124 33R {Lib=R}
+  (    1 N-000311 )
+  (    2 /DRAM/SDRAM_DQ9 )
+ )
+ ( /4F7EEC8B/4F90FDDB 0402  R120 33R {Lib=R}
+  (    1 N-000310 )
+  (    2 /DRAM/SDRAM_DQ13 )
+ )
+ ( /4F7EEC8B/4F90FDDA 0402  R121 33R {Lib=R}
+  (    1 N-000309 )
+  (    2 /DRAM/SDRAM_DQ12 )
+ )
+ ( /4F7EEC8B/4F90FDAF 0402  R119 33R {Lib=R}
+  (    1 N-000297 )
+  (    2 /DRAM/SDRAM_DQ14 )
+ )
+ ( /4F7EEC8B/4F90FDAE 0402  R118 33R {Lib=R}
+  (    1 N-000296 )
+  (    2 /DRAM/SDRAM_DQ15 )
+ )
+ ( /4F7EEC8B/4F90FD75 0402  R116 33R {Lib=R}
+  (    1 N-000295 )
+  (    2 /DRAM/SDRAM_DQM1 )
+ )
+ ( /4F7EEC8B/4F90FD74 0402  R117 33R {Lib=R}
+  (    1 N-000294 )
+  (    2 /DRAM/SDRAM_DQM0 )
+ )
+ ( /4F7EEC8B/4F90FCD5 0402  R115 33R {Lib=R}
+  (    1 N-000293 )
+  (    2 /DRAM/SDRAM_DQS0 )
+ )
+ ( /4F7EEC8B/4F90FC39 0402  R114 33R {Lib=R}
+  (    1 N-000292 )
+  (    2 /DRAM/SDRAM_DQS1 )
+ )
+ ( /4F7EEC8B/4F90FB25 0402  R135 1k {Lib=R}
+  (    1 N-000319 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F90FB24 0402  C170 100n {Lib=C}
+  (    1 N-000319 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4F90FA71 0402  C168 100n {Lib=C}
+  (    1 2V5 )
+  (    2 N-000319 )
+ )
+ ( /4F7EEC8B/4F90FA63 0402  R113 1k {Lib=R}
+  (    1 2V5 )
+  (    2 N-000319 )
+ )
+ ( /4F7EEC8B/4FA21B57 TSOP-66  U15 MT46V32M16P {Lib=MT46V32M16P}
+  (    1 2V5 )
+  (    2 N-000317 )
+  (    3 2V5 )
+  (    4 N-000298 )
+  (    5 N-000316 )
+  (    6 AUDIO_AGND )
+  (    7 N-000315 )
+  (    8 N-000300 )
+  (    9 2V5 )
+  (   10 N-000299 )
+  (   11 N-000301 )
+  (   12 AUDIO_AGND )
+  (   13 N-000302 )
+  (   15 2V5 )
+  (   16 N-000293 )
+  (   18 2V5 )
+  (   20 N-000294 )
+  (   21 N-000333 )
+  (   22 N-000334 )
+  (   23 N-000335 )
+  (   24 N-000332 )
+  (   26 N-000337 )
+  (   27 N-000336 )
+  (   28 N-000320 )
+  (   29 N-000330 )
+  (   30 N-000329 )
+  (   31 N-000328 )
+  (   32 N-000327 )
+  (   33 2V5 )
+  (   34 AUDIO_AGND )
+  (   35 N-000326 )
+  (   36 N-000325 )
+  (   37 N-000324 )
+  (   38 N-000323 )
+  (   39 N-000322 )
+  (   40 N-000321 )
+  (   41 N-000339 )
+  (   42 N-000338 )
+  (   44 N-000331 )
+  (   45 SDRAM_CK )
+  (   46 nSDRAM_CK )
+  (   47 N-000295 )
+  (   48 AUDIO_AGND )
+  (   49 N-000319 )
+  (   51 N-000292 )
+  (   52 AUDIO_AGND )
+  (   54 N-000312 )
+  (   55 2V5 )
+  (   56 N-000311 )
+  (   57 N-000313 )
+  (   58 AUDIO_AGND )
+  (   59 N-000314 )
+  (   60 N-000309 )
+  (   61 2V5 )
+  (   62 N-000310 )
+  (   63 N-000297 )
+  (   64 AUDIO_AGND )
+  (   65 N-000296 )
+  (   66 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4FA2696C 0402  R105 33R {Lib=R}
+  (    1 N-000279 )
+  (    2 /DRAM/SDRAM_DQ23 )
+ )
+ ( /4F7EEC8B/4FA26973 0402  R106 33R {Lib=R}
+  (    1 N-000278 )
+  (    2 /DRAM/SDRAM_DQ22 )
+ )
+ ( /4F7EEC8B/4FA2697E 0402  R108 33R {Lib=R}
+  (    1 N-000277 )
+  (    2 /DRAM/SDRAM_DQ20 )
+ )
+ ( /4F7EEC8B/4FA26985 0402  R107 33R {Lib=R}
+  (    1 N-000276 )
+  (    2 /DRAM/SDRAM_DQ21 )
+ )
+ ( /4F7EEC8B/4FA2698C 0402  R111 33R {Lib=R}
+  (    1 N-000275 )
+  (    2 /DRAM/SDRAM_DQ17 )
+ )
+ ( /4F7EEC8B/4FA26993 0402  R112 33R {Lib=R}
+  (    1 N-000274 )
+  (    2 /DRAM/SDRAM_DQ16 )
+ )
+ ( /4F7EEC8B/4FA2699E 0402  R110 33R {Lib=R}
+  (    1 N-000273 )
+  (    2 /DRAM/SDRAM_DQ18 )
+ )
+ ( /4F7EEC8B/4FA269A5 0402  R109 33R {Lib=R}
+  (    1 N-000272 )
+  (    2 /DRAM/SDRAM_DQ19 )
+ )
+ ( /4F7EEC8B/4FA269AC 0402  R101 33R {Lib=R}
+  (    1 N-000271 )
+  (    2 /DRAM/SDRAM_DQ27 )
+ )
+ ( /4F7EEC8B/4FA269B3 0402  R102 33R {Lib=R}
+  (    1 N-000288 )
+  (    2 /DRAM/SDRAM_DQ26 )
+ )
+ ( /4F7EEC8B/4FA269BE 0402  R104 33R {Lib=R}
+  (    1 N-000287 )
+  (    2 /DRAM/SDRAM_DQ24 )
+ )
+ ( /4F7EEC8B/4FA269C5 0402  R103 33R {Lib=R}
+  (    1 N-000286 )
+  (    2 /DRAM/SDRAM_DQ25 )
+ )
+ ( /4F7EEC8B/4FA269CC 0402  R99 33R {Lib=R}
+  (    1 N-000285 )
+  (    2 /DRAM/SDRAM_DQ29 )
+ )
+ ( /4F7EEC8B/4FA269D3 0402  R100 33R {Lib=R}
+  (    1 N-000284 )
+  (    2 /DRAM/SDRAM_DQ28 )
+ )
+ ( /4F7EEC8B/4FA269DE 0402  R98 33R {Lib=R}
+  (    1 N-000283 )
+  (    2 /DRAM/SDRAM_DQ30 )
+ )
+ ( /4F7EEC8B/4FA269E5 0402  R97 33R {Lib=R}
+  (    1 N-000282 )
+  (    2 /DRAM/SDRAM_DQ31 )
+ )
+ ( /4F7EEC8B/4FA269EC 0402  R95 33R {Lib=R}
+  (    1 N-000281 )
+  (    2 /DRAM/SDRAM_DQM3 )
+ )
+ ( /4F7EEC8B/4FA269F3 0402  R96 33R {Lib=R}
+  (    1 N-000280 )
+  (    2 /DRAM/SDRAM_DQM2 )
+ )
+ ( /4F7EEC8B/4FA269FE 0402  R94 33R {Lib=R}
+  (    1 N-000269 )
+  (    2 /DRAM/SDRAM_DQS2 )
+ )
+ ( /4F7EEC8B/4FA26A05 0402  R93 33R {Lib=R}
+  (    1 N-000270 )
+  (    2 /DRAM/SDRAM_DQS3 )
+ )
+ ( /4F7EEC8B/4FA26A19 0402  R134 1k {Lib=R}
+  (    1 N-000318 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4FA26A20 0402  C169 100n {Lib=C}
+  (    1 N-000318 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC8B/4FA26A27 0402  C167 100n {Lib=C}
+  (    1 2V5 )
+  (    2 N-000318 )
+ )
+ ( /4F7EEC8B/4FA26A2F 0402  R92 1k {Lib=R}
+  (    1 2V5 )
+  (    2 N-000318 )
+ )
+ ( /4F7EEC8B/4FA26A3B TSOP-66  U14 MT46V32M16P {Lib=MT46V32M16P}
+  (    1 2V5 )
+  (    2 N-000274 )
+  (    3 2V5 )
+  (    4 N-000275 )
+  (    5 N-000273 )
+  (    6 AUDIO_AGND )
+  (    7 N-000272 )
+  (    8 N-000277 )
+  (    9 2V5 )
+  (   10 N-000276 )
+  (   11 N-000278 )
+  (   12 AUDIO_AGND )
+  (   13 N-000279 )
+  (   15 2V5 )
+  (   16 N-000269 )
+  (   18 2V5 )
+  (   20 N-000280 )
+  (   21 N-000333 )
+  (   22 N-000334 )
+  (   23 N-000335 )
+  (   24 N-000332 )
+  (   26 N-000337 )
+  (   27 N-000336 )
+  (   28 N-000320 )
+  (   29 N-000330 )
+  (   30 N-000329 )
+  (   31 N-000328 )
+  (   32 N-000327 )
+  (   33 2V5 )
+  (   34 AUDIO_AGND )
+  (   35 N-000326 )
+  (   36 N-000325 )
+  (   37 N-000324 )
+  (   38 N-000323 )
+  (   39 N-000322 )
+  (   40 N-000321 )
+  (   41 N-000339 )
+  (   42 N-000338 )
+  (   44 N-000331 )
+  (   45 SDRAM_CK )
+  (   46 nSDRAM_CK )
+  (   47 N-000281 )
+  (   48 AUDIO_AGND )
+  (   49 N-000318 )
+  (   51 N-000270 )
+  (   52 AUDIO_AGND )
+  (   54 N-000287 )
+  (   55 2V5 )
+  (   56 N-000286 )
+  (   57 N-000288 )
+  (   58 AUDIO_AGND )
+  (   59 N-000271 )
+  (   60 N-000284 )
+  (   61 2V5 )
+  (   62 N-000285 )
+  (   63 N-000283 )
+  (   64 AUDIO_AGND )
+  (   65 N-000282 )
+  (   66 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8FE413 SPACER-3mm-7mm-9.5mm  J15 MH {Lib=MH}
+  (    1 N-000266 )
+ )
+ ( /4F7EEC7D/4F8FE40B SPACER-3mm-7mm-9.5mm  J14 MH {Lib=MH}
+  (    1 N-000267 )
+ )
+ ( /4F7EEC7D/4F8FE400 SPACER-3mm-7mm-9.5mm  J13 MH {Lib=MH}
+  (    1 N-000251 )
+ )
+ ( /4F7EEC7D/4F8FE3D8 SPACER-3mm-7mm-9.5mm  J12 MH {Lib=MH}
+  (    1 N-000262 )
+ )
+ ( /4F7EEC7D/4F8D32B8 DCJACK-14.4mmx9mm  J11 SCD441CPS011B00G {Lib=DCJACK_NO}
+  (    1 N-000261 )
+  (    2 AUDIO_AGND )
+  (    3 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D2DC6 DO-214AA  D16 SMBJ5339B-TP {Lib=ZENER}
+  (    1 AUDIO_AGND )
+  (    2 N-000256 )
+ )
+ ( /4F7EEC7D/4F8D2DC5 DO-214AA  D17 SMBJ5339B-TP {Lib=ZENER}
+  (    1 AUDIO_AGND )
+  (    2 N-000256 )
+ )
+ ( /4F7EEC7D/4F8D2DC2 0402  C285 100n {Lib=C}
+  (    1 USBEXT5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D2DC1 0402  C284 100n {Lib=C}
+  (    1 N-000256 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D2DC0 1206  L21 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000256 )
+  (    2 USBEXT5V )
+ )
+ ( /4F7EEC7D/4F8D2DBC 1812  F3 MINISMDC200F-2 {Lib=PPTC}
+  (    1 N-000261 )
+  (    2 N-000256 )
+ )
+ ( /4F7EEC7D/4F8D2A95 1812  F2 MINISMDC200F-2 {Lib=PPTC}
+  (    1 N-000261 )
+  (    2 N-000263 )
+ )
+ ( /4F7EEC7D/4F8D2A0A 1206  L10 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000263 )
+  (    2 5V )
+ )
+ ( /4F7EEC7D/4F8D2A09 0402  C142 100n {Lib=C}
+  (    1 N-000263 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D2A08 0402  C143 100n {Lib=C}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D29E5 DO-214AA  D15 SMBJ5339B-TP {Lib=ZENER}
+  (    1 AUDIO_AGND )
+  (    2 N-000263 )
+ )
+ ( /4F7EEC7D/4F8D28F2 DO-214AA  D14 SMBJ5339B-TP {Lib=ZENER}
+  (    1 AUDIO_AGND )
+  (    2 N-000263 )
+ )
+ ( /4F7EEC7D/4F8D12F9 0805P  C234 10u {Lib=C_P}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D1232 0805P  C235 10u {Lib=C_P}
+  (    1 N-000258 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D1231 SOT-235  U23 TPS76301 {Lib=TPS763XX}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+  (    3 5V )
+  (    4 N-000260 )
+  (    5 N-000258 )
+ )
+ ( /4F7EEC7D/4F8D122D 0402  R180 169k {Lib=R}
+  (    1 N-000260 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D1229 0402  C237 100n {Lib=C}
+  (    1 4V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D1228 0402  C236 100n {Lib=C}
+  (    1 N-000258 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D1227 1206  L20 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000258 )
+  (    2 4V3 )
+ )
+ ( /4F7EEC7D/4F8D1226 0402  R181 442k {Lib=R}
+  (    1 N-000258 )
+  (    2 N-000260 )
+ )
+ ( /4F7EEC7D/4F8D115C 0402  C145 1u {Lib=C}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0F66 0402  R63 86k6 {Lib=R}
+  (    1 N-000265 )
+  (    2 N-000259 )
+ )
+ ( /4F7EEC7D/4F8D0F65 1206  L9 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000265 )
+  (    2 1V8 )
+ )
+ ( /4F7EEC7D/4F8D0F64 0402  C140 100n {Lib=C}
+  (    1 N-000265 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0F63 0402  C141 100n {Lib=C}
+  (    1 1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0F5D 0402  R64 169k {Lib=R}
+  (    1 N-000259 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0DAD 0402  R70 1k {Lib=R}
+  (    1 N-000250 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0D0B 1210P  C148 47u {Lib=C_P}
+  (    1 N-000253 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0CAB 0402  C151 100n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0CAA 0402  C150 100n {Lib=C}
+  (    1 N-000253 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0CA9 1206  L12 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000253 )
+  (    2 1V2 )
+ )
+ ( /4F7EEC7D/4F8D0C05 TO-263  U13 LP38511TJ-ADJ {Lib=LP38511TJ-ADJ}
+  (    1 N-000264 )
+  (    2 N-000264 )
+  (    3 AUDIO_AGND )
+  (    4 N-000253 )
+  (    5 N-000250 )
+  (  DAP AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0B89 1206  L8 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000264 )
+  (    2 2V5 )
+ )
+ ( /4F7EEC7D/4F8D0B88 0402  C136 100n {Lib=C}
+  (    1 N-000264 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0B87 0402  C137 100n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0B2E 1210P  C139 47u {Lib=C_P}
+  (    1 N-000264 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0AF8 PAD_C_80x80  TP34 TESTPOINT {Lib=TESTPOINT}
+  (    1 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0ABE PAD_C_80x80  TP33 TESTPOINT {Lib=TESTPOINT}
+  (    1 5V )
+ )
+ ( /4F7EEC7D/4F8D0A8D 1210P  C138 47u {Lib=C_P}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0916 EUS  U11 PTH04000WAH {Lib=PTH04000WAH}
+  (    1 AUDIO_AGND )
+  (    2 5V )
+  (    3 5V )
+  (    4 ? )
+  (    5 N-000254 )
+  (    6 N-000264 )
+ )
+ ( /4F7EEC7D/4F8D08A1 1210P  C133 47u {Lib=C_P}
+  (    1 N-000268 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0833 0402  C134 1u {Lib=C}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D073D 0402  C132 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D067E TO-252  U10 LP38690DT-3.3 {Lib=LP38690DT-XX}
+  (    1 N-000268 )
+  (    3 5V )
+  (    4 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D066E SOT-235  U12 TPS76301 {Lib=TPS763XX}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+  (    3 5V )
+  (    4 N-000259 )
+  (    5 N-000265 )
+ )
+ ( /4F7EEC7D/4F8D0598 1206  R68 1M {Lib=R}
+  (    1 N-000267 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0597 1206  C152 4n7 {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 N-000267 )
+ )
+ ( /4F7EEC7D/4F8D0594 1206  C155 4n7 {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 N-000266 )
+ )
+ ( /4F7EEC7D/4F8D0593 1206  R69 1M {Lib=R}
+  (    1 N-000266 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0584 1206  R66 1M {Lib=R}
+  (    1 N-000251 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8D0583 1206  C147 4n7 {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 N-000251 )
+ )
+ ( /4F7EEC7D/4F8D0477 1206  C146 4n7 {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 N-000262 )
+ )
+ ( /4F7EEC7D/4F8BFABB 0603  R62 2k32 {Lib=R}
+  (    1 N-000254 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8BF52F 0402  C131 100n {Lib=C}
+  (    1 N-000268 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8BF52E 0805P  C154 10u {Lib=C_P}
+  (    1 N-000264 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F8BF21C 0402  R67 1k4 {Lib=R}
+  (    1 N-000253 )
+  (    2 N-000250 )
+ )
+ ( /4F7EEC7D/4F8BF200 0402  C153 3n3 {Lib=C}
+  (    1 N-000250 )
+  (    2 N-000253 )
+ )
+ ( /4F7EEC7D/4F8BD31F 1206  L7 FBMJ3216HM600-T {Lib=FILTER}
+  (    1 N-000268 )
+  (    2 3V3 )
+ )
+ ( /4F7EEC7D/4F8BC71B 0805P  C144 10u {Lib=C_P}
+  (    1 N-000265 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F87EC18 1206  R65 1M {Lib=R}
+  (    1 N-000262 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC7D/4F9A6C06 PAD_C_1mm  TP3 TESTPOINT {Lib=TESTPOINT}
+  (    1 1V8 )
+ )
+ ( /4F7EEC7D/4F9A6C1D PAD_C_1mm  TP4 TESTPOINT {Lib=TESTPOINT}
+  (    1 1V2 )
+ )
+ ( /4F7EEC7D/4F9A6C3E PAD_C_1mm  TP2 TESTPOINT {Lib=TESTPOINT}
+  (    1 2V5 )
+ )
+ ( /4F7EEC7D/4F9A6C55 PAD_C_1mm  TP1 TESTPOINT {Lib=TESTPOINT}
+  (    1 3V3 )
+ )
+ ( /4F7EEC7D/4F9A6C6C PAD_C_1mm  TP26 TESTPOINT {Lib=TESTPOINT}
+  (    1 4V3 )
+ )
+ ( /4F7EEC62/4F939969 0402  R183 4k7 {Lib=R}
+  (    1 3V3 )
+  (    2 nFLASH_CE )
+ )
+ ( /4F7EEC62/4F87CB35 0402  C130 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC62/4F87CB30 0402  C129 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC62/4F87C45A 0402  R184 4k7 {Lib=R}
+  (    1 3V3 )
+  (    2 nFLASH_WE )
+ )
+ ( /4F7EEC62/4F87C441 0402  R61 10k {Lib=R}
+  (    1 3V3 )
+  (    2 FLASH_STS )
+ )
+ ( /4F7EEC62/4F858A90 0402  C128 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC62/4F858A68 0402  C127 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC62/4F858933 0402  R60 10k {Lib=R}
+  (    1 3V3 )
+  (    2 nFLASH_RESET )
+ )
+ ( /4F7EEC62/4F854F58 TSOP-56  U9 JS28F256J3F105 {Lib=JS28F256J3F105}
+  (    1 /FPGA_BANK1/FLASH_A21 )
+  (    2 AUDIO_AGND )
+  (    3 /FPGA_BANK1/FLASH_A20 )
+  (    4 /FPGA_BANK1/FLASH_A19 )
+  (    5 /FPGA_BANK1/FLASH_A18 )
+  (    6 /FPGA_BANK1/FLASH_A17 )
+  (    7 /FPGA_BANK1/FLASH_A16 )
+  (    8 /FPGA_BANK1/FLASH_A15 )
+  (    9 3V3 )
+  (   10 /FPGA_BANK1/FLASH_A14 )
+  (   11 /FPGA_BANK1/FLASH_A13 )
+  (   12 /FPGA_BANK1/FLASH_A12 )
+  (   13 /FPGA_BANK1/FLASH_A11 )
+  (   14 nFLASH_CE )
+  (   15 3V3 )
+  (   16 nFLASH_RESET )
+  (   17 /FPGA_BANK1/FLASH_A10 )
+  (   18 /FPGA_BANK1/FLASH_A9 )
+  (   19 /FPGA_BANK1/FLASH_A8 )
+  (   20 /FPGA_BANK1/FLASH_A7 )
+  (   21 AUDIO_AGND )
+  (   22 /FPGA_BANK1/FLASH_A6 )
+  (   23 /FPGA_BANK1/FLASH_A5 )
+  (   24 /FPGA_BANK1/FLASH_A4 )
+  (   25 /FPGA_BANK1/FLASH_A3 )
+  (   26 /FPGA_BANK1/FLASH_A2 )
+  (   27 /FPGA_BANK1/FLASH_A1 )
+  (   28 /FPGA_BANK1/FLASH_A0 )
+  (   29 AUDIO_AGND )
+  (   30 /FPGA_BANK1/FLASH_A22 )
+  (   31 3V3 )
+  (   32 AUDIO_AGND )
+  (   33 /FPGA_BANK2/FLASH_D0 )
+  (   34 /FPGA_BANK2/FLASH_D8 )
+  (   35 /FPGA_BANK2/FLASH_D1 )
+  (   36 /FPGA_BANK2/FLASH_D9 )
+  (   37 3V3 )
+  (   38 /FPGA_BANK2/FLASH_D2 )
+  (   39 /FPGA_BANK2/FLASH_D10 )
+  (   40 /FPGA_BANK2/FLASH_D3 )
+  (   41 /FPGA_BANK2/FLASH_D11 )
+  (   42 AUDIO_AGND )
+  (   43 3V3 )
+  (   44 /FPGA_BANK2/FLASH_D4 )
+  (   45 /FPGA_BANK2/FLASH_D12 )
+  (   46 /FPGA_BANK2/FLASH_D5 )
+  (   47 /FPGA_BANK2/FLASH_D13 )
+  (   48 AUDIO_AGND )
+  (   49 /FPGA_BANK2/FLASH_D6 )
+  (   50 /FPGA_BANK2/FLASH_D14 )
+  (   51 /FPGA_BANK2/FLASH_D7 )
+  (   52 /FPGA_BANK2/FLASH_D15 )
+  (   53 FLASH_STS )
+  (   54 nFLASH_OE )
+  (   55 nFLASH_WE )
+  (   56 /FPGA_BANK1/FLASH_A23 )
+ )
+ ( /4F7EEC62/4F9A5A8A PAD_C_1mm  TP37 TESTPOINT {Lib=TESTPOINT}
+  (    1 nFLASH_RESET )
+ )
+ ( /4F7EEC47/4F90CFD4 0402  R58 100R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000241 )
+ )
+ ( /4F7EEC47/4F90CE0B 0805P  D4 TS4148_RY {Lib=DIODE}
+  (    1 N-000242 )
+  (    2 N-000224 )
+ )
+ ( /4F7EEC47/4F90CDDA MDIP-8-355mil  U6 6N138S {Lib=6N138}
+  (    1 ? )
+  (    2 N-000224 )
+  (    3 N-000242 )
+  (    4 ? )
+  (    5 AUDIO_AGND )
+  (    6 MIDI_RX )
+  (    7 ? )
+  (    8 3V3 )
+ )
+ ( /4F7EEC47/4F90CD93 XLR-PANEL-HORIZ/PCB-PLUG  J8 NC3MAH {Lib=XLR-3-M-R}
+  (    1 AUDIO_AGND )
+  (    2 N-000205 )
+  (    3 N-000203 )
+  (    4 ? )
+ )
+ ( /4F7EEC47/4F90CD61 XLR-PANEL-HORIZ/PCB-SOCKET  J7 NC3FAH1 {Lib=XLR-3-F-R}
+  (    1 AUDIO_AGND )
+  (    2 N-000234 )
+  (    3 N-000243 )
+ )
+ ( /4F7EEC47/4F90CD33 SOIC-8  U4 SN75HVD12D {Lib=SN75HVD12D}
+  (    1 DMXA_R )
+  (    2 DMXA_DE )
+  (    3 DMXA_DE )
+  (    4 DMXA_D )
+  (    5 AUDIO_AGND )
+  (    6 N-000211 )
+  (    7 N-000210 )
+  (    8 3V3 )
+ )
+ ( /4F7EEC47/4F90C766 0402  C126 470n {Lib=C}
+  (    1 N-000241 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC47/4F90C484 DIN-SOCKET-PCB-5-45  J10 671-0500 {Lib=DIN_5_2S}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 N-000232 )
+  (    5 N-000242 )
+  (    6 ? )
+  (    7 ? )
+ )
+ ( /4F7EEC47/4F90C472 0402  R55 220R {Lib=R}
+  (    1 N-000224 )
+  (    2 N-000232 )
+ )
+ ( /4F7EEC47/4F90C3E1 0402  R54 120R {Lib=R}
+  (    1 MIDI_RX )
+  (    2 3V3 )
+ )
+ ( /4F7EEC47/4F90C1EA 0402  R57 220R {Lib=R}
+  (    1 5V )
+  (    2 N-000216 )
+ )
+ ( /4F7EEC47/4F90C199 0402  R56 220R {Lib=R}
+  (    1 N-000240 )
+  (    2 N-000228 )
+ )
+ ( /4F7EEC47/4F90C077 0402  C125 100n {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 5V )
+ )
+ ( /4F7EEC47/4F90BE2E SOIC-8  U5 SN75HVD12D {Lib=SN75HVD12D}
+  (    1 DMXB_R )
+  (    2 DMXB_DE )
+  (    3 DMXB_DE )
+  (    4 DMXB_D )
+  (    5 AUDIO_AGND )
+  (    6 N-000238 )
+  (    7 N-000237 )
+  (    8 3V3 )
+ )
+ ( /4F7EEC47/4F90BE2B 0402  C124 100n {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 3V3 )
+ )
+ ( /4F7EEC47/4F90BE2A 0402  R49 10R {Lib=R}
+  (    1 N-000237 )
+  (    2 N-000205 )
+ )
+ ( /4F7EEC47/4F90BE28 0402  R53 10R {Lib=R}
+  (    1 N-000238 )
+  (    2 N-000203 )
+ )
+ ( /4F7EEC47/4F90BE27 0402  R51 120R {Lib=R}
+  (    1 N-000205 )
+  (    2 N-000203 )
+ )
+ ( /4F7EEC47/4F90BB36 0402  R50 120R {Lib=R}
+  (    1 N-000234 )
+  (    2 N-000243 )
+ )
+ ( /4F7EEC47/4F90BB0E 0402  R52 10R {Lib=R}
+  (    1 N-000211 )
+  (    2 N-000243 )
+ )
+ ( /4F7EEC47/4F8F7E57 0402  R48 10R {Lib=R}
+  (    1 N-000210 )
+  (    2 N-000234 )
+ )
+ ( /4F7EEC47/4F8F7E42 TSOP348  U8 TSOP34838 {Lib=IR}
+  (    1 IR_RX )
+  (    2 AUDIO_AGND )
+  (    3 N-000241 )
+ )
+ ( /4F7EEC47/4F8F7E35 PAD_C_1mm  TP31 TESTPOINT {Lib=TESTPOINT}
+  (    1 MIDI_RX )
+ )
+ ( /4F7EEC47/4F8F7E20 DIN-SOCKET-PCB-5-45  J9 671-0500 {Lib=DIN_5_2S}
+  (    1 ? )
+  (    2 AUDIO_AGND )
+  (    3 ? )
+  (    4 N-000216 )
+  (    5 N-000228 )
+  (    6 ? )
+  (    7 ? )
+ )
+ ( /4F7EEC47/4F8F7E02 SOT-235  U7 SN74LVC1G17DBV {Lib=SN74LVC1G17DBV}
+  (    1 ? )
+  (    2 MIDI_TX )
+  (    3 AUDIO_AGND )
+  (    4 N-000240 )
+  (    5 5V )
+ )
+ ( /4F7EEC47/4F8F7DF5 0402  C123 100n {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 3V3 )
+ )
+ ( /4F7EEC47/4F8F7DE8 0402  V34 AVR-M1005C08MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000240 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC47/4FA8E52A SOT23  D10 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 N-000210 )
+  (    3 N-000212 )
+ )
+ ( /4F7EEC47/4FA9F55D SOT23  D6 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 N-000211 )
+  (    3 N-000213 )
+ )
+ ( /4F7EEC47/4FA9F564 SOT23  D11 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 AUDIO_AGND )
+  (    3 N-000212 )
+ )
+ ( /4F7EEC47/4FA9F589 SOT23  D7 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 AUDIO_AGND )
+  (    3 N-000213 )
+ )
+ ( /4F7EEC47/4FA9FD19 SOT23  D12 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 N-000237 )
+  (    3 N-000236 )
+ )
+ ( /4F7EEC47/4FA9FD20 SOT23  D8 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 N-000238 )
+  (    3 N-000235 )
+ )
+ ( /4F7EEC47/4FA9FD27 SOT23  D13 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 AUDIO_AGND )
+  (    3 N-000236 )
+ )
+ ( /4F7EEC47/4FA9FD2E SOT23  D9 BZX84-C4V3 {Lib=ZENER-13}
+  (    1 AUDIO_AGND )
+  (    3 N-000235 )
+ )
+ ( /4F7EEC30/4F912B36 0402  C120 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F912AA4 xtal4-5mmx3.2mm  U3 SO5032-050000-O3A-BBE-QA {Lib=OSCILLATOR-VDD-4}
+  (    1 ? )
+  (    2 AUDIO_AGND )
+  (    3 CLK50 )
+  (    4 3V3 )
+ )
+ ( /4F7EEC30/4F912658 0402  R229 1M {Lib=R}
+  (    1 3V3 )
+  (    2 LED_PWR )
+ )
+ ( /4F7EEC30/4F912627 0402  R41 560R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000172 )
+ )
+ ( /4F7EEC30/4F912626 LEDSMD-0603R  D1 LED {Lib=LED}
+  (    1 N-000172 )
+  (    2 N-000173 )
+ )
+ ( /4F7EEC30/4F9125D8 SOT23  Q3 2N7002MTF {Lib=2N7002MTF}
+  (    1 LED_PWR )
+  (    2 AUDIO_AGND )
+  (    3 N-000173 )
+ )
+ ( /4F7EEC30/4F912068 0402  R203 270R {Lib=R}
+  (    1 LED_COL3 )
+  (    2 N-000175 )
+ )
+ ( /4F7EEC30/4F912064 0402  R202 270R {Lib=R}
+  (    1 LED_COL2 )
+  (    2 N-000176 )
+ )
+ ( /4F7EEC30/4F912060 0402  R201 270R {Lib=R}
+  (    1 LED_COL1 )
+  (    2 N-000201 )
+ )
+ ( /4F7EEC30/4F8D75FD he-shrouded-7x2pins-2mm  J6 87832-1420 {Lib=CONN_7X2}
+  (    1 AUDIO_AGND )
+  (    2 2V5 )
+  (    3 AUDIO_AGND )
+  (    4 TMS )
+  (    5 AUDIO_AGND )
+  (    6 TCK )
+  (    7 AUDIO_AGND )
+  (    8 TDO )
+  (    9 AUDIO_AGND )
+  (   10 TDI )
+  (   11 AUDIO_AGND )
+  (   12 ? )
+  (   13 AUDIO_AGND )
+  (   14 ? )
+ )
+ ( /4F7EEC30/4F8D80E5 LEDSMD-0603R  D2 LED {Lib=LED}
+  (    1 N-000174 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8D80DD 0402  R42 560R {Lib=R}
+  (    1 LED1 )
+  (    2 N-000174 )
+ )
+ ( /4F7EEC30/4F8D80A2 0402  C232 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8D8025 PAD_C_1mm  TP21 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_DAT1 )
+ )
+ ( /4F7EEC30/4F8D8024 PAD_C_1mm  TP20 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_DAT0 )
+ )
+ ( /4F7EEC30/4F8D800D PAD_C_1mm  TP17 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_DAT3 )
+ )
+ ( /4F7EEC30/4F8D800C PAD_C_1mm  TP16 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_DAT2 )
+ )
+ ( /4F7EEC30/4F8D8007 PAD_C_1mm  TP18 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_CMD )
+ )
+ ( /4F7EEC30/4F8D7FFB PAD_C_1mm  TP19 TESTPOINT {Lib=TESTPOINT}
+  (    1 SD_CLK )
+ )
+ ( /4F7EEC30/4F8D7AB8 HDR-4x1-100mil  J5 Header4 {Lib=CONN_4}
+  (    1 N-000188 )
+  (    2 UART_TX )
+  (    3 UART_RX )
+  (    4 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8D79F9 0402  R40 47R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000188 )
+ )
+ ( /4F7EEC30/4F8D79C0 0402  C121 1u {Lib=C}
+  (    1 N-000188 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8D762E 8:10-SOCKET-RA  J19 500901-0801 {Lib=MEMCARD8}
+  (    1 SD_DAT2 )
+  (    2 SD_DAT3 )
+  (    3 SD_CMD )
+  (    4 3V3 )
+  (    5 SD_CLK )
+  (    6 AUDIO_AGND )
+  (    7 SD_DAT0 )
+  (    8 SD_DAT1 )
+ )
+ ( /4F7EEC30/4F8BEC07 TACTIL-SW-SPST-RA-1.25mm-3.86mm  SW2 FSMRA2JH {Lib=FSMRA2JH}
+  (    1 3V3 )
+  (    2 BTN2 )
+  (    3 N-000200 )
+  (    4 N-000200 )
+ )
+ ( /4F7EEC30/4F8BE74F 1206  R47 1M {Lib=R}
+  (    1 N-000200 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8BE72B 1206  C122 4n7 {Lib=C}
+  (    1 N-000200 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8BE714 0402  R45 10k {Lib=R}
+  (    1 BTN2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEC30/4F8BE0A9 PAD_C_1mm  TP38 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000175 )
+ )
+ ( /4F7EEC30/4F8BE09A PAD_C_1mm  TP32 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000176 )
+ )
+ ( /4F7EEC30/4F8BE05C 0402  R200 270R {Lib=R}
+  (    1 LED_COL0 )
+  (    2 N-000202 )
+ )
+ ( /4F7EEC30/4F8BDFF0 PAD_C_1mm  TP41 TESTPOINT {Lib=TESTPOINT}
+  (    1 LED_ROW2 )
+ )
+ ( /4F7EEC30/4F8BDFE7 PAD_C_1mm  TP40 TESTPOINT {Lib=TESTPOINT}
+  (    1 LED_ROW1 )
+ )
+ ( /4F7EEC30/4F8BDF7C PAD_C_1mm  TP39 TESTPOINT {Lib=TESTPOINT}
+  (    1 LED_ROW0 )
+ )
+ ( /4F7EEC30/4F87E692 LEDSMD-0603R  D34 LED {Lib=LED}
+  (    1 LED_ROW2 )
+  (    2 N-000176 )
+ )
+ ( /4F7EEC30/4F87E691 LEDSMD-0603R  D35 LED {Lib=LED}
+  (    1 N-000176 )
+  (    2 LED_ROW2 )
+ )
+ ( /4F7EEC30/4F87E690 LEDSMD-0603R  D42 LED {Lib=LED}
+  (    1 N-000175 )
+  (    2 LED_ROW2 )
+ )
+ ( /4F7EEC30/4F87E68F LEDSMD-0603R  D40 LED {Lib=LED}
+  (    1 LED_ROW2 )
+  (    2 N-000175 )
+ )
+ ( /4F7EEC30/4F87E68E LEDSMD-0603R  D28 LED {Lib=LED}
+  (    1 LED_ROW2 )
+  (    2 N-000201 )
+ )
+ ( /4F7EEC30/4F87E68D LEDSMD-0603R  D29 LED {Lib=LED}
+  (    1 N-000201 )
+  (    2 LED_ROW2 )
+ )
+ ( /4F7EEC30/4F87E68C LEDSMD-0603R  D23 LED {Lib=LED}
+  (    1 N-000202 )
+  (    2 LED_ROW2 )
+ )
+ ( /4F7EEC30/4F87E68B LEDSMD-0603R  D22 LED {Lib=LED}
+  (    1 LED_ROW2 )
+  (    2 N-000202 )
+ )
+ ( /4F7EEC30/4F87E683 LEDSMD-0603R  D20 LED {Lib=LED}
+  (    1 LED_ROW1 )
+  (    2 N-000202 )
+ )
+ ( /4F7EEC30/4F87E682 LEDSMD-0603R  D21 LED {Lib=LED}
+  (    1 N-000202 )
+  (    2 LED_ROW1 )
+ )
+ ( /4F7EEC30/4F87E681 LEDSMD-0603R  D27 LED {Lib=LED}
+  (    1 N-000201 )
+  (    2 LED_ROW1 )
+ )
+ ( /4F7EEC30/4F87E680 LEDSMD-0603R  D26 LED {Lib=LED}
+  (    1 LED_ROW1 )
+  (    2 N-000201 )
+ )
+ ( /4F7EEC30/4F87E67F LEDSMD-0603R  D38 LED {Lib=LED}
+  (    1 LED_ROW1 )
+  (    2 N-000175 )
+ )
+ ( /4F7EEC30/4F87E67E LEDSMD-0603R  D39 LED {Lib=LED}
+  (    1 N-000175 )
+  (    2 LED_ROW1 )
+ )
+ ( /4F7EEC30/4F87E67D LEDSMD-0603R  D33 LED {Lib=LED}
+  (    1 N-000176 )
+  (    2 LED_ROW1 )
+ )
+ ( /4F7EEC30/4F87E67C LEDSMD-0603R  D32 LED {Lib=LED}
+  (    1 LED_ROW1 )
+  (    2 N-000176 )
+ )
+ ( /4F7EEC30/4F87E652 LEDSMD-0603R  D30 LED {Lib=LED}
+  (    1 LED_ROW0 )
+  (    2 N-000176 )
+ )
+ ( /4F7EEC30/4F87E651 LEDSMD-0603R  D31 LED {Lib=LED}
+  (    1 N-000176 )
+  (    2 LED_ROW0 )
+ )
+ ( /4F7EEC30/4F87E650 LEDSMD-0603R  D37 LED {Lib=LED}
+  (    1 N-000175 )
+  (    2 LED_ROW0 )
+ )
+ ( /4F7EEC30/4F87E64F LEDSMD-0603R  D36 LED {Lib=LED}
+  (    1 LED_ROW0 )
+  (    2 N-000175 )
+ )
+ ( /4F7EEC30/4F87E645 LEDSMD-0603R  D24 LED {Lib=LED}
+  (    1 LED_ROW0 )
+  (    2 N-000201 )
+ )
+ ( /4F7EEC30/4F87E644 LEDSMD-0603R  D25 LED {Lib=LED}
+  (    1 N-000201 )
+  (    2 LED_ROW0 )
+ )
+ ( /4F7EEC30/4F87E5AB LEDSMD-0603R  D19 LED {Lib=LED}
+  (    1 N-000202 )
+  (    2 LED_ROW0 )
+ )
+ ( /4F7EEC30/4F87E581 LEDSMD-0603R  D18 LED {Lib=LED}
+  (    1 LED_ROW0 )
+  (    2 N-000202 )
+ )
+ ( /4F7EEBE5/4F9157D4 0402  C61 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F915255 2010P  C50 100u {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F9151CA 1210P  C49 100u {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CD9 0805P  C105 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CD8 0805P  C104 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CD7 0805P  C106 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CB4 0805P  C100 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CB3 0805P  C99 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CB2 0805P  C102 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912CB1 0805P  C101 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C8B 0805P  C88 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C8A 0805P  C86 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C89 0805P  C87 4u7 {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C67 0805P  C83 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C66 0805P  C84 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C4A 0805P  C71 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C49 0805P  C70 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C48 0805P  C73 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912C47 0805P  C72 4u7 {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912BED 1210P  C103 100u {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912BE8 1210P  C98 100u {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912BE6 1210P  C85 100u {Lib=C_P}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912BE3 1210P  C82 100u {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912BDF 1210P  C69 100u {Lib=C_P}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B90 0402  C115 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B8F 0402  C114 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B8E 0402  C117 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B8D 0402  C118 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B8C 0402  C116 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B8B 0402  C119 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B62 0402  C113 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B47 0402  C108 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B46 0402  C107 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B45 0402  C110 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B44 0402  C111 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B43 0402  C109 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B42 0402  C112 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B09 0402  C97 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B08 0402  C94 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B07 0402  C96 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B06 0402  C95 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B05 0402  C92 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912B04 0402  C93 470n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912ADC 0402  C91 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912ADB 0402  C90 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912ADA 0402  C89 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A49 0402  C74 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A48 0402  C75 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A47 0402  C77 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A46 0402  C76 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A45 0402  C79 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A44 0402  C80 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A43 0402  C78 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912A3F 0402  C81 470n {Lib=C}
+  (    1 2V5 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912968 0402  C68 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912964 0402  C64 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912963 0402  C66 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912962 0402  C67 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912961 0402  C65 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F91295D 0402  C63 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F91295C 0402  C62 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912949 0402  C59 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912948 0402  C60 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F912907 0402  C58 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6F0 0805P  C56 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6EF 0402  C57 470n {Lib=C}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6E1 0805P  C53 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6E0 0805P  C54 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6DF 0805P  C55 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6C6 0805P  C51 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBE5/4F8CE6C5 0805P  C52 4u7 {Lib=C_P}
+  (    1 1V2 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CDBD0 0402  C48 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CDACB 0402  R34 49R9 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000138 )
+ )
+ ( /4F7EEBB8/4F8CDACA 0402  R35 49R9 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000145 )
+ )
+ ( /4F7EEBB8/4F8CDABE 0402  R33 49R9 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000146 )
+ )
+ ( /4F7EEBB8/4F8CDA7D 0402  R32 49R9 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000139 )
+ )
+ ( /4F7EEBB8/4F8CD925 0402  R38 220R {Lib=R}
+  (    1 N-000124 )
+  (    2 N-000142 )
+ )
+ ( /4F7EEBB8/4F8CD8AF 0402  R36 220R {Lib=R}
+  (    1 N-000140 )
+  (    2 N-000147 )
+ )
+ ( /4F7EEBB8/4F8CD79F 1206  R37 1M {Lib=R}
+  (    1 /ETHERNET/ETHSHIELD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CD5EC 0402  R31 6k65 {Lib=R}
+  (    1 N-000134 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CD476 0402  R174 1k {Lib=R}
+  (    1 nETH_RESET )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CD162 0402  R29 4k7 {Lib=R}
+  (    1 3V3 )
+  (    2 ETH_MDIO )
+ )
+ ( /4F7EEBB8/4F8CD0FB RJ45-8-LED  J4 48025-0002 {Lib=48025-0002}
+  (    1 N-000145 )
+  (    2 N-000138 )
+  (    3 3V3 )
+  (    4 AUDIO_AGND )
+  (    5 AUDIO_AGND )
+  (    6 3V3 )
+  (    7 N-000146 )
+  (    8 N-000139 )
+  (    9 3V3 )
+  (   10 N-000147 )
+  (   11 3V3 )
+  (   12 N-000142 )
+  (   13 /ETHERNET/ETHSHIELD )
+  (   14 /ETHERNET/ETHSHIELD )
+ )
+ ( /4F7EEBB8/4F8CD01C 0402  C45 100n {Lib=C}
+  (    1 ETH_PLL1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCFE1 0402  L6 CB100505T-601Y {Lib=FILTER}
+  (    1 ETH_A1V8 )
+  (    2 ETH_PLL1V8 )
+ )
+ ( /4F7EEBB8/4F8CCFAB 0402  C44 100n {Lib=C}
+  (    1 ETH_A1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCF4A 0402  C43 100n {Lib=C}
+  (    1 ETH_1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCF49 0402  C42 1u {Lib=C}
+  (    1 ETH_1V8 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCD98 0402  C41 100n {Lib=C}
+  (    1 ETH_A3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCD82 0402  C40 1u {Lib=C}
+  (    1 ETH_A3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCD42 0402  C39 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCCCA 0402  C37 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8CCC27 QFP48  U2 KSZ8001L {Lib=KSZ8001L}
+  (    1 ETH_MDIO )
+  (    2 ETH_MDC )
+  (    3 ETH_RX3 )
+  (    4 ETH_RX2 )
+  (    5 ETH_RX1 )
+  (    6 ETH_RX0 )
+  (    7 3V3 )
+  (    8 AUDIO_AGND )
+  (    9 ETH_RXDV )
+  (   10 ETH_RXC )
+  (   11 ETH_RXER )
+  (   12 AUDIO_AGND )
+  (   13 ETH_1V8 )
+  (   14 ETH_TXER )
+  (   15 ETH_TXC )
+  (   16 ETH_TXEN )
+  (   17 ETH_TX0 )
+  (   18 ETH_TX1 )
+  (   19 ETH_TX2 )
+  (   20 ETH_TX3 )
+  (   21 ETH_COL )
+  (   22 ETH_CRS )
+  (   23 AUDIO_AGND )
+  (   24 3V3 )
+  (   25 nETH_INT )
+  (   26 N-000124 )
+  (   27 N-000140 )
+  (   28 ? )
+  (   29 ? )
+  (   30 ? )
+  (   31 ETH_A1V8 )
+  (   32 N-000139 )
+  (   33 N-000146 )
+  (   34 ? )
+  (   35 AUDIO_AGND )
+  (   36 AUDIO_AGND )
+  (   37 N-000134 )
+  (   38 ETH_A3V3 )
+  (   39 AUDIO_AGND )
+  (   40 N-000138 )
+  (   41 N-000145 )
+  (   42 ? )
+  (   43 ? )
+  (   44 AUDIO_AGND )
+  (   45 ? )
+  (   46 ETH_CLK )
+  (   47 ETH_PLL1V8 )
+  (   48 nETH_RESET )
+ )
+ ( /4F7EEBB8/4F8BFDA5 PAD_C_1mm  TP9 TESTPOINT {Lib=TESTPOINT}
+  (    1 nETH_INT )
+ )
+ ( /4F7EEBB8/4F8BD371 0402  C38 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8BD31F 0402  L4 CB100505T-601Y {Lib=FILTER}
+  (    1 3V3 )
+  (    2 ETH_A3V3 )
+ )
+ ( /4F7EEBB8/4F8BCECF 1206  C46 4n7 {Lib=C}
+  (    1 /ETHERNET/ETHSHIELD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8BCEAC 0402  C47 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEBB8/4F8BCCA8 0402  L5 CB100505T-601Y {Lib=FILTER}
+  (    1 ETH_1V8 )
+  (    2 ETH_A1V8 )
+ )
+ ( /4F7EEB27/4F8E9BC7 0402  V31 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 /DVI-I/HPD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9B9B 0402  V17 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 DVI-I_B_P )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9B9A 0402  V19 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 DVI-I_CLK_P )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9B95 0402  V15 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 DVI-I_G_P )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9B76 0402  V13 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 DVI-I_R_P )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9B44 0402  V16 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 AUDIO_AGND )
+  (    2 DVI-I_B_N )
+ )
+ ( /4F7EEB27/4F8E9B43 0402  V18 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 AUDIO_AGND )
+  (    2 DVI-I_CLK_N )
+ )
+ ( /4F7EEB27/4F8E9B3B 0402  V14 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 AUDIO_AGND )
+  (    2 DVI-I_G_N )
+ )
+ ( /4F7EEB27/4F8E98B6 0402  R232 10k {Lib=R}
+  (    1 /DVI-I/HPD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9871 SOT23  Q4 2N7002MTF {Lib=2N7002MTF}
+  (    1 /DVI-I/HPD )
+  (    2 AUDIO_AGND )
+  (    3 DVI-I_HPD )
+ )
+ ( /4F7EEB27/4F8E9830 0805  C188 10u {Lib=C}
+  (    1 N-000096 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E97F2 0805  C288 10u {Lib=C}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E9713 0402  R143 10k {Lib=R}
+  (    1 5V )
+  (    2 N-000100 )
+ )
+ ( /4F7EEB27/4F8E9659 0402  R235 10k {Lib=R}
+  (    1 5V )
+  (    2 N-000099 )
+ )
+ ( /4F7EEB27/4F8E953B 1206  C135 4n7 {Lib=C}
+  (    1 /DVI-I/DVI-I_SHIELD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E94F8 1206  R156 1M {Lib=R}
+  (    1 /DVI-I/DVI-I_SHIELD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E919C 0402  C190 100n {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 5V )
+ )
+ ( /4F7EEB27/4F8E904E SOT23  Q2 2N7002MTF {Lib=2N7002MTF}
+  (    1 N-000115 )
+  (    2 VGA_SCL )
+  (    3 /DVI-I/DDC_CLK )
+ )
+ ( /4F7EEB27/4F8E904D 0402  R149 4k7 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000115 )
+ )
+ ( /4F7EEB27/4F8E904B 0402  R150 4k7 {Lib=R}
+  (    1 5V )
+  (    2 /DVI-I/DDC_CLK )
+ )
+ ( /4F7EEB27/4F8E88E9 0402  C180 10n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E88C0 0402  C181 10n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E888E 0402  C182 10n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E8831 0402  C183 100n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E8828 0402  C184 100n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E8821 0402  C185 100n {Lib=C}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E8739 PAD_C_1mm  TP10 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000120 )
+ )
+ ( /4F7EEB27/4F8E86C9 0402  C187 1u {Lib=C}
+  (    1 N-000120 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E8666 0402  R141 1k {Lib=R}
+  (    1 N-000086 )
+  (    2 N-000120 )
+ )
+ ( /4F7EEB27/4F8E853D 0402  R142 560R {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000068 )
+ )
+ ( /4F7EEB27/4F8E84C4 0402  R146 75R {Lib=R}
+  (    1 /DVI-I/ANALOG_R )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E84C1 0402  R145 75R {Lib=R}
+  (    1 /DVI-I/ANALOG_G )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E7E1F DVI-RECEPT-RA  J17 74320-1004 {Lib=74320-1004}
+  (    1 DVI-I_R_N )
+  (    2 DVI-I_R_P )
+  (    3 AUDIO_AGND )
+  (    4 ? )
+  (    5 ? )
+  (    6 /DVI-I/DDC_CLK )
+  (    7 /DVI-I/DDC_DATA )
+  (    8 /DVI-I/A_VSYNC )
+  (    9 DVI-I_G_N )
+  (   10 DVI-I_G_P )
+  (   11 AUDIO_AGND )
+  (   12 ? )
+  (   13 ? )
+  (   14 N-000096 )
+  (   15 AUDIO_AGND )
+  (   16 /DVI-I/HPD )
+  (   17 DVI-I_B_N )
+  (   18 DVI-I_B_P )
+  (   19 AUDIO_AGND )
+  (   20 ? )
+  (   21 ? )
+  (   22 AUDIO_AGND )
+  (   23 DVI-I_CLK_P )
+  (   24 DVI-I_CLK_N )
+  (   25 /DVI-I/DVI-I_SHIELD )
+  (   26 /DVI-I/DVI-I_SHIELD )
+  (   C1 /DVI-I/ANALOG_R )
+  (   C2 /DVI-I/ANALOG_G )
+  (   C3 /DVI-I/ANALOG_B )
+  (   C4 /DVI-I/A_HSYNC )
+  (   C5 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E7E06 SOT-235  U20 SN74LVC1G17DBV {Lib=SN74LVC1G17DBV}
+  (    1 ? )
+  (    2 VGA_VSYNC )
+  (    3 AUDIO_AGND )
+  (    4 /DVI-I/A_VSYNC )
+  (    5 5V )
+ )
+ ( /4F7EEB27/4F8E7DD9 SOT-235  U32 MIC2090-1YM5 {Lib=MIC2090-1YM5}
+  (    1 5V )
+  (    2 AUDIO_AGND )
+  (    3 N-000099 )
+  (    4 N-000100 )
+  (    5 N-000096 )
+ )
+ ( /4F7EEB27/4F8E7DC3 0402  V12 EZJ-Z0V80010 {Lib=EZJ-Z0V80010}
+  (    1 AUDIO_AGND )
+  (    2 DVI-I_R_N )
+ )
+ ( /4F7EEB27/4F8E7DB2 0402  L13 CB100505T-601Y {Lib=FILTER}
+  (    1 N-000086 )
+  (    2 3V3 )
+ )
+ ( /4F7EEB27/4F8E7D9E 0402  R144 75R {Lib=R}
+  (    1 /DVI-I/ANALOG_B )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E7D7D 0805P  C179 10u {Lib=C_P}
+  (    1 N-000086 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB27/4F8E7D74 0402  C186 100n {Lib=C}
+  (    1 N-000086 )
+  (    2 N-000095 )
+ )
+ ( /4F7EEB27/4F8E7D46 QFP48  U18 ADV7125KSTZ140 {Lib=ADV7125KSTZ140}
+  (    1 AUDIO_AGND )
+  (    2 AUDIO_AGND )
+  (    3 /DVI-I/VGA_G0 )
+  (    4 /DVI-I/VGA_G1 )
+  (    5 /DVI-I/VGA_G2 )
+  (    6 /DVI-I/VGA_G3 )
+  (    7 /DVI-I/VGA_G4 )
+  (    8 /DVI-I/VGA_G5 )
+  (    9 /DVI-I/VGA_G6 )
+  (   10 /DVI-I/VGA_G7 )
+  (   11 3V3 )
+  (   12 AUDIO_AGND )
+  (   13 N-000086 )
+  (   14 AUDIO_AGND )
+  (   15 AUDIO_AGND )
+  (   16 /DVI-I/VGA_B0 )
+  (   17 /DVI-I/VGA_B1 )
+  (   18 /DVI-I/VGA_B2 )
+  (   19 /DVI-I/VGA_B3 )
+  (   20 /DVI-I/VGA_B4 )
+  (   21 /DVI-I/VGA_B5 )
+  (   22 /DVI-I/VGA_B6 )
+  (   23 /DVI-I/VGA_B7 )
+  (   24 VGA_CLK )
+  (   25 AUDIO_AGND )
+  (   26 AUDIO_AGND )
+  (   27 AUDIO_AGND )
+  (   28 /DVI-I/ANALOG_B )
+  (   29 N-000086 )
+  (   30 N-000086 )
+  (   31 AUDIO_AGND )
+  (   32 /DVI-I/ANALOG_G )
+  (   33 AUDIO_AGND )
+  (   34 /DVI-I/ANALOG_R )
+  (   35 N-000095 )
+  (   36 N-000120 )
+  (   37 N-000068 )
+  (   38 nVGA_PSAVE )
+  (   39 AUDIO_AGND )
+  (   40 AUDIO_AGND )
+  (   41 /DVI-I/VGA_R0 )
+  (   42 /DVI-I/VGA_R1 )
+  (   43 /DVI-I/VGA_R2 )
+  (   44 /DVI-I/VGA_R3 )
+  (   45 /DVI-I/VGA_R4 )
+  (   46 /DVI-I/VGA_R5 )
+  (   47 /DVI-I/VGA_R6 )
+  (   48 /DVI-I/VGA_R7 )
+ )
+ ( /4F7EEB27/4F9FB62E 0402  C189 100n {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 5V )
+ )
+ ( /4F7EEB27/4F9FB63B SOT-235  U19 SN74LVC1G17DBV {Lib=SN74LVC1G17DBV}
+  (    1 ? )
+  (    2 VGA_HSYNC )
+  (    3 AUDIO_AGND )
+  (    4 /DVI-I/A_HSYNC )
+  (    5 5V )
+ )
+ ( /4F7EEB27/4F9F8AEC SOT23  Q1 2N7002MTF {Lib=2N7002MTF}
+  (    1 N-000123 )
+  (    2 VGA_SDA )
+  (    3 /DVI-I/DDC_DATA )
+ )
+ ( /4F7EEB27/4F9F8AF3 0402  R147 4k7 {Lib=R}
+  (    1 3V3 )
+  (    2 N-000123 )
+ )
+ ( /4F7EEB27/4F9F8B02 0402  R148 4k7 {Lib=R}
+  (    1 5V )
+  (    2 /DVI-I/DDC_DATA )
+ )
+ ( /4F7EEB27/4FA8E89B SOT23  D5 AD1580BRTZ {Lib=ZENER}
+  (    1 AUDIO_AGND )
+  (    2 N-000120 )
+ )
+ ( /4F7EEB07/4F8E6B8E HDR-3x1-100mil  J3 68002-103HLF {Lib=CONN_3}
+  (    1 /AUDIO/LNLVLOUT_L )
+  (    2 AUDIO_AGND )
+  (    3 /AUDIO/LNLVLOUT_R )
+ )
+ ( /4F7EEB07/4F8E6AB8 HDR-4x1-100mil  J26 68002-104HLF {Lib=CONN_4}
+  (    1 AUDIO_AGND )
+  (    2 /AUDIO/SPDIF_ENABLE )
+  (    3 /AUDIO/SPDIF_OUT )
+  (    4 3V3 )
+ )
+ ( /4F7EEB07/4F8E69A2 HDR-4x1-100mil  J23 68002-104HLF {Lib=CONN_4}
+  (    1 AUDIO_AGND )
+  (    2 /AUDIO/CD_L )
+  (    3 /AUDIO/CD_R )
+  (    4 /AUDIO/CD_GND )
+ )
+ ( /4F7EEB07/4F8E66A3 0402  R12 6k8 {Lib=R}
+  (    1 /AUDIO/CD_R )
+  (    2 N-000059 )
+ )
+ ( /4F7EEB07/4F8E66A0 0402  R11 6k8 {Lib=R}
+  (    1 /AUDIO/CD_GND )
+  (    2 N-000033 )
+ )
+ ( /4F7EEB07/4F8E6695 0402  R10 6k8 {Lib=R}
+  (    1 /AUDIO/CD_L )
+  (    2 N-000056 )
+ )
+ ( /4F7EEB07/4F8E6646 0402  V24 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000059 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E6640 0402  V25 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000033 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E663F 0402  V26 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000056 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E6616 0402  C11 1u {Lib=C}
+  (    1 N-000059 )
+  (    2 N-000053 )
+ )
+ ( /4F7EEB07/4F8E660D 0402  C10 1u {Lib=C}
+  (    1 N-000033 )
+  (    2 N-000054 )
+ )
+ ( /4F7EEB07/4F8E65FE 0402  C9 1u {Lib=C}
+  (    1 N-000056 )
+  (    2 N-000055 )
+ )
+ ( /4F7EEB07/4F8E659A 0402  C7 1u {Lib=C}
+  (    1 ? )
+  (    2 N-000027 )
+ )
+ ( /4F7EEB07/4F8E6599 0402  C8 1u {Lib=C}
+  (    1 ? )
+  (    2 N-000026 )
+ )
+ ( /4F7EEB07/4F8E655E 0402  C5 1u {Lib=C}
+  (    1 ? )
+  (    2 N-000025 )
+ )
+ ( /4F7EEB07/4F8E654C 0402  C4 1u {Lib=C}
+  (    1 ? )
+  (    2 N-000024 )
+ )
+ ( /4F7EEB07/4F8E64C3 0402  C1 100n {Lib=C}
+  (    1 N-000003 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E63B9 0402  R13 2k2 {Lib=R}
+  (    1 N-000051 )
+  (    2 /AUDIO/AUDIO_VREF )
+ )
+ ( /4F7EEB07/4F8E633C MIC-RA-DIP-9.7mmx6.7mm  MK1 MP33125 {Lib=MCE-100}
+  (    1 N-000051 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E6314 0402  C12 1u {Lib=C}
+  (    1 N-000051 )
+  (    2 N-000052 )
+ )
+ ( /4F7EEB07/4F8E62C5 0402  C14 1u {Lib=C}
+  (    1 ? )
+  (    2 N-000028 )
+ )
+ ( /4F7EEB07/4F8E623C 0402  R25 100k {Lib=R}
+  (    1 3V3 )
+  (    2 LINEIN_DET )
+ )
+ ( /4F7EEB07/4F8E619E phonejack-3.5-5  J1 SCJ368R1NUS0B00G {Lib=SCJ368R1NUS0B00G}
+  (    1 AUDIO_AGND )
+  (    2 N-000044 )
+  (    3 LINEIN_DET )
+  (    4 AUDIO_AGND )
+  (    5 N-000043 )
+ )
+ ( /4F7EEB07/4F8E6181 0402  R20 6k8 {Lib=R}
+  (    1 N-000044 )
+  (    2 N-000042 )
+ )
+ ( /4F7EEB07/4F8E613D 0402  R21 6k8 {Lib=R}
+  (    1 N-000043 )
+  (    2 N-000063 )
+ )
+ ( /4F7EEB07/4F8E6106 0402  V28 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000042 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E60CD 0402  R24 6k8 {Lib=R}
+  (    1 N-000042 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E6078 0402  V27 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000063 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E6076 0402  R23 6k8 {Lib=R}
+  (    1 N-000063 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E5FF2 0402  C18 1u {Lib=C}
+  (    1 N-000042 )
+  (    2 N-000041 )
+ )
+ ( /4F7EEB07/4F8E5FD0 0402  C20 1u {Lib=C}
+  (    1 N-000063 )
+  (    2 N-000048 )
+ )
+ ( /4F7EEB07/4F8E5B79 0402  C36 1u {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E5A3B 0402  C35 1u {Lib=C}
+  (    1 4V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E58C4 0402  C32 100n {Lib=C}
+  (    1 /AUDIO/AUDIO_AVDD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E588A xtal4-6mmx3.6mm  Y1 24.576MHz {Lib=CRYSTAL}
+  (    1 N-000016 )
+  (    2 N-000047 )
+ )
+ ( /4F7EEB07/4F8E55B9 0402  C3 100n {Lib=C}
+  (    1 N-000066 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E3C7B 0402  R233 100k {Lib=R}
+  (    1 3V3 )
+  (    2 LINEOUT_DET )
+ )
+ ( /4F7EEB07/4F8E3BDC phonejack-3.5-5  J2 SCJ368R1NUS0B00G {Lib=SCJ368R1NUS0B00G}
+  (    1 AUDIO_AGND )
+  (    2 N-000037 )
+  (    3 LINEOUT_DET )
+  (    4 N-000036 )
+  (    5 N-000036 )
+ )
+ ( /4F7EEB07/4F8E3667 0402  R231 100R {Lib=R}
+  (    1 N-000036 )
+  (    2 N-000061 )
+ )
+ ( /4F7EEB07/4F8E2F51 0402  R17 10k {Lib=R}
+  (    1 N-000060 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2F50 0402  R18 10k {Lib=R}
+  (    1 N-000061 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2F4E 0402  V29 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000060 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2F4D 0402  V30 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 N-000061 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2ECC 0805  C21 10u {Lib=C}
+  (    1 N-000061 )
+  (    2 N-000040 )
+ )
+ ( /4F7EEB07/4F8E2ECB 0805  C19 10u {Lib=C}
+  (    1 N-000060 )
+  (    2 N-000039 )
+ )
+ ( /4F7EEB07/4F8E2DFA 0805  C22 10u {Lib=C}
+  (    1 ? )
+  (    2 N-000038 )
+ )
+ ( /4F7EEB07/4F8E2D25 0402  V33 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 /AUDIO/LNLVLOUT_L )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2CB3 0402  V32 AVR-M1005C080MTACB {Lib=EZJ-Z0V80010}
+  (    1 /AUDIO/LNLVLOUT_R )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2C83 0402  R27 10k {Lib=R}
+  (    1 /AUDIO/LNLVLOUT_L )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2C04 0402  R26 10k {Lib=R}
+  (    1 /AUDIO/LNLVLOUT_R )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8E2BCD 0805  C23 10u {Lib=C}
+  (    1 /AUDIO/LNLVLOUT_L )
+  (    2 N-000009 )
+ )
+ ( /4F7EEB07/4F8E2B05 0805  C25 10u {Lib=C}
+  (    1 /AUDIO/LNLVLOUT_R )
+  (    2 N-000064 )
+ )
+ ( /4F7EEB07/4F8D6811 0402  C30 100n {Lib=C}
+  (    1 3V3 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8D6745 QFP48  U1 WM9707SCFT/V {Lib=WM9707SCFT/V}
+  (    1 3V3 )
+  (    2 N-000016 )
+  (    3 N-000047 )
+  (    4 AUDIO_AGND )
+  (    5 AC97_SOUT )
+  (    6 AC97_CLK )
+  (    7 AUDIO_AGND )
+  (    8 AC97_SIN )
+  (    9 3V3 )
+  (   10 AC97_SYNC )
+  (   11 nAC97_RESET )
+  (   12 N-000003 )
+  (   13 N-000003 )
+  (   14 N-000024 )
+  (   15 N-000025 )
+  (   16 N-000027 )
+  (   17 N-000026 )
+  (   18 N-000055 )
+  (   19 N-000054 )
+  (   20 N-000053 )
+  (   21 N-000052 )
+  (   22 N-000028 )
+  (   23 N-000041 )
+  (   24 N-000048 )
+  (   25 /AUDIO/AUDIO_AVDD )
+  (   26 AUDIO_AGND )
+  (   27 N-000066 )
+  (   28 /AUDIO/AUDIO_VREF )
+  (   29 ? )
+  (   30 ? )
+  (   31 ? )
+  (   32 N-000065 )
+  (   33 N-000057 )
+  (   34 N-000001 )
+  (   35 N-000039 )
+  (   36 N-000040 )
+  (   37 N-000038 )
+  (   38 /AUDIO/AUDIO_AVDD )
+  (   39 N-000009 )
+  (   40 ? )
+  (   41 N-000064 )
+  (   42 AUDIO_AGND )
+  (   43 ? )
+  (   44 /AUDIO/SPDIF_ENABLE )
+  (   45 ? )
+  (   46 ? )
+  (   47 ? )
+  (   48 /AUDIO/SPDIF_OUT )
+ )
+ ( /4F7EEB07/4F8BFDA5 PAD_C_1mm  TP5 TESTPOINT {Lib=TESTPOINT}
+  (    1 /AUDIO/AUDIO_VREF )
+ )
+ ( /4F7EEB07/4F8BFABB 0402  R230 100R {Lib=R}
+  (    1 N-000037 )
+  (    2 N-000060 )
+ )
+ ( /4F7EEB07/4F8BD5DA 0402  C29 33p {Lib=C}
+  (    1 N-000047 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BD371 0402  C31 100n {Lib=C}
+  (    1 /AUDIO/AUDIO_AVDD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BCCA8 0402  L2 CB100505T-601Y {Lib=FILTER}
+  (    1 4V3 )
+  (    2 /AUDIO/AUDIO_AVDD )
+ )
+ ( /4F7EEB07/4F8BC71B 0805P  C34 10u {Lib=C_P}
+  (    1 /AUDIO/AUDIO_AVDD )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BC6DF 0805P  C2 10u {Lib=C_P}
+  (    1 N-000066 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BC170 0402  C254 100n {Lib=C}
+  (    1 N-000065 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BC0FC 0402  C13 100n {Lib=C}
+  (    1 N-000057 )
+  (    2 N-000001 )
+ )
+ ( /4F7EEB07/4F8BC097 0402  C255 47n {Lib=C}
+  (    1 N-000057 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8BC06D 0805P  C253 10u {Lib=C_P}
+  (    1 N-000065 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F8B9979 0805P  C6 2u2 {Lib=C_P}
+  (    1 /AUDIO/AUDIO_VREF )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F87F300 0402  C28 33p {Lib=C}
+  (    1 N-000016 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4F7EEB07/4F87EC18 0402  R28 1M {Lib=R}
+  (    1 N-000047 )
+  (    2 N-000016 )
+ )
+ ( /4F7EEB07/4FB47494 PAD_C_1mm  TP8 TESTPOINT {Lib=TESTPOINT}
+  (    1 AC97_SYNC )
+ )
+ ( /4F7EEB07/4FB47B32 PAD_C_1mm  TP7 TESTPOINT {Lib=TESTPOINT}
+  (    1 nAC97_RESET )
+ )
+ ( /4F7EEB07/4FB47B3D PAD_C_1mm  TP6 TESTPOINT {Lib=TESTPOINT}
+  (    1 AC97_CLK )
+ )
+ ( /4FA0CD30/4F8EB38B BGA-484  U22 XC6SLX45-2FGG484C {Lib=XC6SLX45-2FGG484C}
+  (   A1 AUDIO_AGND )
+  (   A2 SDRAM_BA0 )
+  (   A3 AUDIO_AGND )
+  (   A4 AC97_SOUT )
+  (   A5 AC97_SYNC )
+  (   A6 /DVI-I/VGA_R2 )
+  (   A7 /DVI-I/VGA_R4 )
+  (   A8 /DVI-I/VGA_R6 )
+  (   A9 /DVI-I/VGA_G2 )
+  (  A10 SD_CLK )
+  (  A11 VGA_CLK )
+  (  A12 /DVI-I/VGA_B3 )
+  (  A13 /DVI-I/VGA_B5 )
+  (  A14 VGA_HSYNC )
+  (  A15 VGA_SDA )
+  (  A16 LED_PWR )
+  (  A17 SD_DAT3 )
+  (  A18 SD_DAT0 )
+  (  A19 TDO )
+  (  A20 IO_L20P_1 )
+  (  A21 IO_L20N_1 )
+  (  A22 AUDIO_AGND )
+  (  AA1 N-000646 )
+  (  AA2 /FPGA_BANK2/FLASH_D8 )
+  (  AA3 3V3 )
+  (  AA4 BTN2 )
+  (  AA5 AUDIO_AGND )
+  (  AA6 /FPGA_BANK2/FLASH_D3 )
+  (  AA7 3V3 )
+  (  AA8 USBC_SPD )
+  (  AA9 AUDIO_AGND )
+  ( AA10 nUSBD_OE )
+  ( AA11 3V3 )
+  ( AA12 /FPGA_BANK2/FLASH_D14 )
+  ( AA13 AUDIO_AGND )
+  ( AA14 VIDEOIN_SDC )
+  ( AA15 3V3 )
+  ( AA16 DVI-I_G_P )
+  ( AA17 AUDIO_AGND )
+  ( AA18 /FPGA_BANK2/FLASH_D11 )
+  ( AA19 3V3 )
+  ( AA20 /FPGA_BANK2/FLASH_D0 )
+  ( AA21 MIDI_TX )
+  ( AA22 /FPGA_BANK2/FPGA_M0 )
+  (  AB1 AUDIO_AGND )
+  (  AB2 /FPGA_BANK2/FLASH_D9 )
+  (  AB3 USBB_VP )
+  (  AB4 ? )
+  (  AB5 ? )
+  (  AB6 /FPGA_BANK2/FLASH_D4 )
+  (  AB7 USBE_VM )
+  (  AB8 USBF_VM )
+  (  AB9 USBC_VP )
+  ( AB10 nUSBC_OE )
+  ( AB11 CLK50 )
+  ( AB12 /FPGA_BANK2/FLASH_D15 )
+  ( AB13 LINEIN_DET )
+  ( AB14 VIDEOIN_FIELD )
+  ( AB15 DVI-I_R_N )
+  ( AB16 DVI-I_G_N )
+  ( AB17 VIDEOIN_SDA )
+  ( AB18 /FPGA_BANK2/FLASH_D12 )
+  ( AB19 DMXB_DE )
+  ( AB20 DMXA_R )
+  ( AB21 MIDI_RX )
+  ( AB22 AUDIO_AGND )
+  (   B1 /DRAM/SDRAM_A0 )
+  (   B2 /DRAM/SDRAM_A1 )
+  (   B3 /FPGA_BANK3/FPGA_VREF )
+  (   B4 3V3 )
+  (   B5 AUDIO_AGND )
+  (   B6 /DVI-I/VGA_R1 )
+  (   B7 3V3 )
+  (   B8 /DVI-I/VGA_R5 )
+  (   B9 AUDIO_AGND )
+  (  B10 /DVI-I/VGA_G7 )
+  (  B11 3V3 )
+  (  B12 /DVI-I/VGA_B2 )
+  (  B13 AUDIO_AGND )
+  (  B14 nVGA_PSAVE )
+  (  B15 3V3 )
+  (  B16 LED1 )
+  (  B17 AUDIO_AGND )
+  (  B18 SD_CMD )
+  (  B19 3V3 )
+  (  B20 IO_L1N_A24_VREF_1 )
+  (  B21 IO_L19P_1 )
+  (  B22 IO_L19N_1 )
+  (   C1 /DRAM/SDRAM_A9 )
+  (   C2 2V5 )
+  (   C3 /DRAM/SDRAM_A10 )
+  (   C4 nSDRAM_CAS )
+  (   C5 AC97_SIN )
+  (   C6 /DVI-I/VGA_R0 )
+  (   C7 /DVI-I/VGA_R3 )
+  (   C8 /DVI-I/VGA_G0 )
+  (   C9 /DVI-I/VGA_G1 )
+  (  C10 /DVI-I/VGA_G6 )
+  (  C11 AC97_CLK )
+  (  C12 /DVI-I/VGA_B1 )
+  (  C13 /DVI-I/VGA_B4 )
+  (  C14 /DVI-I/VGA_B7 )
+  (  C15 VGA_VSYNC )
+  (  C16 IR_RX )
+  (  C17 SD_DAT2 )
+  (  C18 TMS )
+  (  C19 IO_L1P_A25_1 )
+  (  C20 /FPGA_BANK1/FLASH_A17 )
+  (  C21 3V3 )
+  (  C22 /FPGA_BANK1/FLASH_A16 )
+  (   D1 /DRAM/SDRAM_A11 )
+  (   D2 /DRAM/SDRAM_A12 )
+  (   D3 nSDRAM_WE )
+  (   D4 AUDIO_AGND )
+  (   D5 /DRAM/SDRAM_A5 )
+  (   D6 nAC97_RESET )
+  (   D7 /DVI-I/VGA_G3 )
+  (   D8 /DVI-I/VGA_G4 )
+  (   D9 /DVI-I/VGA_R7 )
+  (  D10 /DVI-I/VGA_G5 )
+  (  D11 /DVI-I/VGA_B0 )
+  (  D12 ? )
+  (  D13 ? )
+  (  D14 /DVI-I/VGA_B6 )
+  (  D15 VGA_SCL )
+  (  D16 2V5 )
+  (  D17 DVI-I_HPD )
+  (  D18 AUDIO_AGND )
+  (  D19 /FPGA_BANK1/FLASH_A23 )
+  (  D20 /FPGA_BANK1/FLASH_A22 )
+  (  D21 /FPGA_BANK1/FLASH_A19 )
+  (  D22 /FPGA_BANK1/FLASH_A18 )
+  (   E1 /DRAM/SDRAM_DQM0 )
+  (   E2 AUDIO_AGND )
+  (   E3 /DRAM/SDRAM_DQM1 )
+  (   E4 /DRAM/SDRAM_A4 )
+  (   E5 nSDRAM_RAS )
+  (   E6 SDRAM_BA1 )
+  (   E7 AUDIO_AGND )
+  (   E8 ? )
+  (   E9 3V3 )
+  (  E10 ? )
+  (  E11 AUDIO_AGND )
+  (  E12 ? )
+  (  E13 3V3 )
+  (  E14 ? )
+  (  E15 AUDIO_AGND )
+  (  E16 SD_DAT1 )
+  (  E17 3V3 )
+  (  E18 TDI )
+  (  E19 3V3 )
+  (  E20 /FPGA_BANK1/FLASH_A11 )
+  (  E21 AUDIO_AGND )
+  (  E22 /FPGA_BANK1/FLASH_A10 )
+  (   F1 /DRAM/SDRAM_DQS0 )
+  (   F2 /DRAM/SDRAM_DQS1 )
+  (   F3 /DRAM/SDRAM_DQM2 )
+  (   F4 2V5 )
+  (   F5 /DRAM/SDRAM_A7 )
+  (   F6 2V5 )
+  (   F7 nSDRAM_CS )
+  (   F8 ? )
+  (   F9 ? )
+  (  F10 ? )
+  (  F11 2V5 )
+  (  F12 ? )
+  (  F13 ? )
+  (  F14 ? )
+  (  F15 ? )
+  (  F16 IO_L10P_1 )
+  (  F17 IO_L10N_1 )
+  (  F18 /FPGA_BANK1/FLASH_A21 )
+  (  F19 /FPGA_BANK1/FLASH_A20 )
+  (  F20 /FPGA_BANK1/FLASH_A14 )
+  (  F21 /FPGA_BANK1/FLASH_A7 )
+  (  F22 /FPGA_BANK1/FLASH_A6 )
+  (   G1 /FPGA_BANK3/HW_VER_0 )
+  (   G2 2V5 )
+  (   G3 /FPGA_BANK3/HW_VER_1 )
+  (   G4 /DRAM/SDRAM_DQM3 )
+  (   G5 AUDIO_AGND )
+  (   G6 /DRAM/SDRAM_A8 )
+  (   G7 SDRAM_CKE )
+  (   G8 ? )
+  (   G9 ? )
+  (  G10 3V3 )
+  (  G11 ? )
+  (  G12 2V5 )
+  (  G13 ? )
+  (  G14 3V3 )
+  (  G15 TCK )
+  (  G16 IO_L9P_1 )
+  (  G17 IO_L9N_1 )
+  (  G18 AUDIO_AGND )
+  (  G19 /FPGA_BANK1/FLASH_A15 )
+  (  G20 IO_L39P_M1A3_1 )
+  (  G21 3V3 )
+  (  G22 IO_L39N_M1ODT_1 )
+  (   H1 /FPGA_BANK3/HW_VER_2 )
+  (   H2 ? )
+  (   H3 ? )
+  (   H4 ? )
+  (   H5 /DRAM/SDRAM_DQS2 )
+  (   H6 /DRAM/SDRAM_DQS3 )
+  (   H7 AUDIO_AGND )
+  (   H8 /DRAM/SDRAM_A2 )
+  (   H9 2V5 )
+  (  H10 ? )
+  (  H11 ? )
+  (  H12 ? )
+  (  H13 ? )
+  (  H14 ? )
+  (  H15 2V5 )
+  (  H16 IO_L28P_1 )
+  (  H17 IO_L28N_VREF_1 )
+  (  H18 /FPGA_BANK1/FLASH_A12 )
+  (  H19 /FPGA_BANK1/FLASH_A13 )
+  (  H20 /FPGA_BANK1/FLASH_A5 )
+  (  H21 ETH_TXC )
+  (  H22 ETH_RXC )
+  (   J1 ? )
+  (   J2 AUDIO_AGND )
+  (   J3 ? )
+  (   J4 ? )
+  (   J5 2V5 )
+  (   J6 ? )
+  (   J7 /DRAM/SDRAM_A3 )
+  (   J8 1V2 )
+  (   J9 AUDIO_AGND )
+  (  J10 1V2 )
+  (  J11 AUDIO_AGND )
+  (  J12 1V2 )
+  (  J13 AUDIO_AGND )
+  (  J14 1V2 )
+  (  J15 AUDIO_AGND )
+  (  J16 IO_L21N_1 )
+  (  J17 /FPGA_BANK1/FLASH_A9 )
+  (  J18 3V3 )
+  (  J19 /FPGA_BANK1/FLASH_A4 )
+  (  J20 ETH_MDC )
+  (  J21 AUDIO_AGND )
+  (  J22 ETH_MDIO )
+  (   K1 ? )
+  (   K2 ? )
+  (   K3 ? )
+  (   K4 ? )
+  (   K5 ? )
+  (   K6 ? )
+  (   K7 /DRAM/SDRAM_A6 )
+  (   K8 /FPGA_BANK3/FPGA_VREF )
+  (   K9 1V2 )
+  (  K10 AUDIO_AGND )
+  (  K11 1V2 )
+  (  K12 AUDIO_AGND )
+  (  K13 1V2 )
+  (  K14 AUDIO_AGND )
+  (  K15 2V5 )
+  (  K16 IO_L21P_1 )
+  (  K17 /FPGA_BANK1/FLASH_A8 )
+  (  K18 UART_RX )
+  (  K19 IO_L40N_GCLK10_M1A6_1 )
+  (  K20 IO_L40P_GCLK11_M1A5_1 )
+  (  K21 /FPGA_BANK1/FLASH_A3 )
+  (  K22 /FPGA_BANK1/FLASH_A2 )
+  (   L1 ? )
+  (   L2 2V5 )
+  (   L3 ? )
+  (   L4 nSDRAM_CK )
+  (   L5 AUDIO_AGND )
+  (   L6 /DRAM/SDRAM_DQ18 )
+  (   L7 2V5 )
+  (   L8 2V5 )
+  (   L9 AUDIO_AGND )
+  (  L10 1V2 )
+  (  L11 AUDIO_AGND )
+  (  L12 1V2 )
+  (  L13 AUDIO_AGND )
+  (  L14 1V2 )
+  (  L15 ETH_TX1 )
+  (  L16 3V3 )
+  (  L17 UART_TX )
+  (  L18 AUDIO_AGND )
+  (  L19 nETH_INT )
+  (  L20 /FPGA_BANK1/FLASH_A1 )
+  (  L21 3V3 )
+  (  L22 /FPGA_BANK1/FLASH_A0 )
+  (   M1 ? )
+  (   M2 ? )
+  (   M3 SDRAM_CK )
+  (   M4 /FPGA_BANK3/FPGA_VREF )
+  (   M5 /DRAM/SDRAM_DQ21 )
+  (   M6 /DRAM/SDRAM_DQ17 )
+  (   M7 /DRAM/SDRAM_DQ13 )
+  (   M8 /DRAM/SDRAM_DQ14 )
+  (   M9 1V2 )
+  (  M10 AUDIO_AGND )
+  (  M11 1V2 )
+  (  M12 AUDIO_AGND )
+  (  M13 1V2 )
+  (  M14 AUDIO_AGND )
+  (  M15 2V5 )
+  (  M16 ETH_TX0 )
+  (  M17 nUSBCPWR_FLG )
+  (  M18 nUSBDPWR_FLG )
+  (  M19 ETH_TXER )
+  (  M20 ETH_CLK )
+  (  M21 nFLASH_CE )
+  (  M22 nFLASH_OE )
+  (   N1 ? )
+  (   N2 AUDIO_AGND )
+  (   N3 ? )
+  (   N4 /DRAM/SDRAM_DQ20 )
+  (   N5 2V5 )
+  (   N6 /DRAM/SDRAM_DQ11 )
+  (   N7 /DRAM/SDRAM_DQ12 )
+  (   N8 2V5 )
+  (   N9 AUDIO_AGND )
+  (  N10 1V2 )
+  (  N11 AUDIO_AGND )
+  (  N12 1V2 )
+  (  N13 AUDIO_AGND )
+  (  N14 1V2 )
+  (  N15 AUDIO_AGND )
+  (  N16 nUSBBPWR_EN )
+  (  N17 AUDIO_AGND )
+  (  N18 3V3 )
+  (  N19 ETH_TXEN )
+  (  N20 nFLASH_WE )
+  (  N21 AUDIO_AGND )
+  (  N22 LED_ROW0 )
+  (   P1 /DRAM/SDRAM_DQ31 )
+  (   P2 /DRAM/SDRAM_DQ30 )
+  (   P3 /DRAM/SDRAM_DQ19 )
+  (   P4 /DRAM/SDRAM_DQ16 )
+  (   P5 /DRAM/SDRAM_DQ6 )
+  (   P6 /DRAM/SDRAM_DQ5 )
+  (   P7 /DRAM/SDRAM_DQ4 )
+  (   P8 /DRAM/SDRAM_DQ3 )
+  (   P9 1V2 )
+  (  P10 AUDIO_AGND )
+  (  P11 1V2 )
+  (  P12 AUDIO_AGND )
+  (  P13 1V2 )
+  (  P14 AUDIO_AGND )
+  (  P15 ? )
+  (  P16 ? )
+  (  P17 nUSBAPWR_EN )
+  (  P18 nUSBCPWR_EN )
+  (  P19 ETH_TX2 )
+  (  P20 ETH_TX3 )
+  (  P21 ? )
+  (  P22 nSW_RESET )
+  (   R1 /DRAM/SDRAM_DQ29 )
+  (   R2 2V5 )
+  (   R3 /DRAM/SDRAM_DQ28 )
+  (   R4 /DRAM/SDRAM_DQ15 )
+  (   R5 AUDIO_AGND )
+  (   R6 2V5 )
+  (   R7 USBA_VM )
+  (   R8 nUSBB_OE )
+  (   R9 USBB_RCV )
+  (  R10 2V5 )
+  (  R11 USBD_VP )
+  (  R12 2V5 )
+  (  R13 LED_COL2 )
+  (  R14 1V2 )
+  (  R15 nVIDEOIN_INTRQ )
+  (  R16 /FPGA_BANK2/VIDEOIN_P7 )
+  (  R17 ? )
+  (  R18 AUDIO_AGND )
+  (  R19 nUSBDPWR_EN )
+  (  R20 FLASH_STS )
+  (  R21 3V3 )
+  (  R22 nETH_RESET )
+  (   T1 /DRAM/SDRAM_DQ27 )
+  (   T2 /DRAM/SDRAM_DQ26 )
+  (   T3 /DRAM/SDRAM_DQ8 )
+  (   T4 /DRAM/SDRAM_DQ7 )
+  (   T5 LINEOUT_DET )
+  (   T6 N-000538 )
+  (   T7 USBB_SPD )
+  (   T8 IO_L51P_2 )
+  (   T9 3V3 )
+  (  T10 IO_L52P_2 )
+  (  T11 USBD_VM )
+  (  T12 IO_L22P_2 )
+  (  T13 3V3 )
+  (  T14 LED_COL1 )
+  (  T15 /FPGA_BANK2/VIDEOIN_P2 )
+  (  T16 /FPGA_BANK2/VIDEOIN_P1 )
+  (  T17 DMXA_D )
+  (  T18 DMXA_DE )
+  (  T19 LED_ROW1 )
+  (  T20 LED_ROW2 )
+  (  T21 ETH_RX3 )
+  (  T22 ETH_RX2 )
+  (   U1 /DRAM/SDRAM_DQ25 )
+  (   U2 AUDIO_AGND )
+  (   U3 /DRAM/SDRAM_DQ24 )
+  (   U4 /DRAM/SDRAM_DQ9 )
+  (   U5 2V5 )
+  (   U6 USBA_VP )
+  (   U7 AUDIO_AGND )
+  (   U8 IO_L51N_2 )
+  (   U9 USBE_VP )
+  (  U10 IO_L52N_2 )
+  (  U11 2V5 )
+  (  U12 IO_L22N_2 )
+  (  U13 /FPGA_BANK2/FLASH_D2 )
+  (  U14 /FPGA_BANK2/FLASH_D1 )
+  (  U15 /FPGA_BANK2/FPGA_M1 )
+  (  U16 /FPGA_BANK2/VIDEOIN_P4 )
+  (  U17 /FPGA_BANK2/VIDEOIN_P3 )
+  (  U18 3V3 )
+  (  U19 nUSBAPWR_FLG )
+  (  U20 ETH_RX1 )
+  (  U21 AUDIO_AGND )
+  (  U22 ETH_RX0 )
+  (   V1 /DRAM/SDRAM_DQ23 )
+  (   V2 /DRAM/SDRAM_DQ22 )
+  (   V3 /DRAM/SDRAM_DQ10 )
+  (   V4 AUDIO_AGND )
+  (   V5 USBA_RCV )
+  (   V6 2V5 )
+  (   V7 USBF_RCV )
+  (   V8 3V3 )
+  (   V9 USBE_SPD )
+  (  V10 AUDIO_AGND )
+  (  V11 USBD_RCV )
+  (  V12 3V3 )
+  (  V13 LED_COL3 )
+  (  V14 AUDIO_AGND )
+  (  V15 /FPGA_BANK2/FLASH_D10 )
+  (  V16 3V3 )
+  (  V17 VIDEOIN_HS )
+  (  V18 /FPGA_BANK2/VIDEOIN_P6 )
+  (  V19 /FPGA_BANK2/VIDEOIN_P5 )
+  (  V20 nUSBBPWR_FLG )
+  (  V21 ETH_RXDV )
+  (  V22 ETH_RXER )
+  (   W1 /DRAM/SDRAM_DQ2 )
+  (   W2 2V5 )
+  (   W3 /DRAM/SDRAM_DQ1 )
+  (   W4 /FPGA_BANK2/FLASH_D5 )
+  (   W5 3V3 )
+  (   W6 USBE_RCV )
+  (   W7 AUDIO_AGND )
+  (   W8 USBF_VP )
+  (   W9 nUSBF_OE )
+  (  W10 USBC_RCV )
+  (  W11 USBD_SPD )
+  (  W12 DVI-I_CLK_P )
+  (  W13 LED_COL0 )
+  (  W14 IO_L20P_2 )
+  (  W15 DVI-I_B_N )
+  (  W16 AUDIO_AGND )
+  (  W17 nVIDEOIN_RST )
+  (  W18 DMXB_D )
+  (  W19 AUDIO_AGND )
+  (  W20 ETH_COL )
+  (  W21 3V3 )
+  (  W22 ETH_CRS )
+  (   Y1 /FPGA_BANK3/FPGA_VREF )
+  (   Y2 /DRAM/SDRAM_DQ0 )
+  (   Y3 USBB_VM )
+  (   Y4 /FPGA_BANK2/FLASH_D6 )
+  (   Y5 USBA_SPD )
+  (   Y6 nUSBA_OE )
+  (   Y7 /FPGA_BANK2/FLASH_D7 )
+  (   Y8 USBF_SPD )
+  (   Y9 USBC_VM )
+  (  Y10 nUSBE_OE )
+  (  Y11 VIDEOIN_LLC )
+  (  Y12 DVI-I_CLK_N )
+  (  Y13 /FPGA_BANK2/FLASH_D13 )
+  (  Y14 IO_L20N_2 )
+  (  Y15 DVI-I_R_P )
+  (  Y16 DVI-I_B_P )
+  (  Y17 VIDEOIN_VS )
+  (  Y18 /FPGA_BANK2/VIDEOIN_P0 )
+  (  Y19 DMXB_R )
+  (  Y20 ? )
+  (  Y21 N-000539 )
+  (  Y22 N-000645 )
+ )
+ ( /4FA0CD34/4F8F82D0 0402  R157 10k {Lib=R}
+  (    1 3V3 )
+  (    2 N-000538 )
+ )
+ ( /4FA0CD34/4F8F8215 0402  R165 100R {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000539 )
+ )
+ ( /4FA0CD34/4F8F81AA 0402  R164 100R {Lib=R}
+  (    1 N-000539 )
+  (    2 3V3 )
+ )
+ ( /4FA0CD34/4F8F6EE6 0402  R158 0R {Lib=R}
+  (    1 3V3 )
+  (    2 /FPGA_BANK2/FPGA_M1 )
+ )
+ ( /4FA0CD34/4F8F6EE5 0402  R159 0R {Lib=R}
+  (    1 /FPGA_BANK2/FPGA_M1 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4FA0CD34/4F8F6E79 0402  R161 0R {Lib=R}
+  (    1 /FPGA_BANK2/FPGA_M0 )
+  (    2 AUDIO_AGND )
+ )
+ ( /4FA0CD34/4F8F6E12 0402  R160 0R {Lib=R}
+  (    1 3V3 )
+  (    2 /FPGA_BANK2/FPGA_M0 )
+ )
+ ( /4FA0CD36/4F8FD6BD 0402  R176 1k {Lib=R}
+  (    1 2V5 )
+  (    2 /FPGA_BANK3/HW_VER_0 )
+ )
+ ( /4FA0CD36/4F8FD6BA 0402  R177 1k {Lib=R}
+  (    1 2V5 )
+  (    2 /FPGA_BANK3/HW_VER_1 )
+ )
+ ( /4FA0CD36/4F8FD655 0402  R178 1k {Lib=R}
+  (    1 2V5 )
+  (    2 /FPGA_BANK3/HW_VER_2 )
+ )
+ ( /4FA0CD36/4F8F6C19 0402  R163 1k {Lib=R}
+  (    1 /FPGA_BANK3/FPGA_VREF )
+  (    2 AUDIO_AGND )
+ )
+ ( /4FA0CD36/4F8F69B8 0402  R162 1k {Lib=R}
+  (    1 2V5 )
+  (    2 /FPGA_BANK3/FPGA_VREF )
+ )
+ ( /4FA0CD36/4F8F69A2 0402  C233 100n {Lib=C}
+  (    1 /FPGA_BANK3/FPGA_VREF )
+  (    2 AUDIO_AGND )
+ )
+ ( /4FA0CD36/4F8EB758 0402  C149 100n {Lib=C}
+  (    1 2V5 )
+  (    2 /FPGA_BANK3/FPGA_VREF )
+ )
+ ( /4FA0F9E1/4F8FE2E0 SPACER-3mm-7mm-9.5mm  J27 MH {Lib=MH}
+  (    1 N-000650 )
+ )
+ ( /4FA0F9E1/4F8FDD98 1206  C273 4n7 {Lib=C}
+  (    1 AUDIO_AGND )
+  (    2 N-000650 )
+ )
+ ( /4FA0F9E1/4F8FDD53 1206  R234 1M {Lib=R}
+  (    1 AUDIO_AGND )
+  (    2 N-000650 )
+ )
+ ( /4FA0F9E1/4F8FDADC HE-10x2-100mil  J21 CONN_10X2 {Lib=CONN_10X2}
+  (    1 N-000649 )
+  (    2 N-000649 )
+  (    3 AUDIO_AGND )
+  (    4 ? )
+  (    5 3V3 )
+  (    6 3V3 )
+  (    7 IO_L20P_1 )
+  (    8 IO_L10P_1 )
+  (    9 IO_L20N_1 )
+  (   10 IO_L10N_1 )
+  (   11 IO_L19P_1 )
+  (   12 IO_L28P_1 )
+  (   13 IO_L19N_1 )
+  (   14 IO_L28N_VREF_1 )
+  (   15 IO_L9P_1 )
+  (   16 IO_L21N_1 )
+  (   17 IO_L9N_1 )
+  (   18 IO_L21P_1 )
+  (   19 AUDIO_AGND )
+  (   20 AUDIO_AGND )
+ )
+ ( /4FA0F9E1/4F8FD634 HE-1x2-100mil  J25 CONN_2 {Lib=CONN_2}
+  (    1 5V )
+  (    2 N-000649 )
+ )
+ ( /4FA0F9E1/4F8FD620 HE-10x2-100mil  J22 CONN_10X2 {Lib=CONN_10X2}
+  (    1 ? )
+  (    2 AUDIO_AGND )
+  (    3 3V3 )
+  (    4 3V3 )
+  (    5 IO_L1P_A25_1 )
+  (    6 IO_L22P_2 )
+  (    7 IO_L1N_A24_VREF_1 )
+  (    8 IO_L22N_2 )
+  (    9 IO_L20P_2 )
+  (   10 IO_L51P_2 )
+  (   11 IO_L20N_2 )
+  (   12 IO_L51N_2 )
+  (   13 IO_L39P_M1A3_1 )
+  (   14 IO_L52P_2 )
+  (   15 IO_L39N_M1ODT_1 )
+  (   16 IO_L52N_2 )
+  (   17 IO_L40P_GCLK11_M1A5_1 )
+  (   18 IO_L40N_GCLK10_M1A6_1 )
+  (   19 AUDIO_AGND )
+  (   20 AUDIO_AGND )
+ )
+ ( /4FA0F9E1/4F8FCEDE 0402  R185 10k {Lib=R}
+  (    1 3V3 )
+  (    2 nSW_RESET )
+ )
+ ( /4FA0F9E1/4F8FCE2E 0402  R30 10k {Lib=R}
+  (    1 3V3 )
+  (    2 N-000646 )
+ )
+ ( /4FA0F9E1/4F8FCDF2 PAD_C_1mm  TP36 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000646 )
+ )
+ ( /4FA0F9E1/4F8EB6FF SOT23  U24 APX803-40SAG-7 {Lib=APX803-40SAG-7}
+  (    1 AUDIO_AGND )
+  (    2 N-000646 )
+  (    3 5V )
+ )
+ ( /4FA0F9E1/4F8EB73D 0402  R39 330R {Lib=R}
+  (    1 3V3 )
+  (    2 N-000645 )
+ )
+ ( /4FA0F9E1/4F8EB730 PAD_C_1mm  TP35 TESTPOINT {Lib=TESTPOINT}
+  (    1 N-000645 )
+ )
+ ( /4FA0F9E1/4F8EB714 TSSOP5  U25 74AUP1G08GW,125 {Lib=74AUP1G08GW,125}
+  (    1 nSW_RESET )
+  (    2 N-000646 )
+  (    3 AUDIO_AGND )
+  (    4 nFLASH_RESET )
+  (    5 3V3 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C201
+ SM*
+ C?
+ C1-1
+$endlist
+$component C197
+ SM*
+ C?
+ C1-1
+$endlist
+$component C195
+ SM*
+ C?
+ C1-1
+$endlist
+$component R153
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R152
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R151
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R175
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C215
+ SM*
+ C?
+ C1-1
+$endlist
+$component C213
+ CP*
+ SM*
+$endlist
+$component C212
+ CP*
+ SM*
+$endlist
+$component C214
+ SM*
+ C?
+ C1-1
+$endlist
+$component R155
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C227
+ SM*
+ C?
+ C1-1
+$endlist
+$component C224
+ SM*
+ C?
+ C1-1
+$endlist
+$component C226
+ SM*
+ C?
+ C1-1
+$endlist
+$component C208
+ SM*
+ C?
+ C1-1
+$endlist
+$component C209
+ SM*
+ C?
+ C1-1
+$endlist
+$component C210
+ SM*
+ C?
+ C1-1
+$endlist
+$component C211
+ SM*
+ C?
+ C1-1
+$endlist
+$component C219
+ SM*
+ C?
+ C1-1
+$endlist
+$component C218
+ SM*
+ C?
+ C1-1
+$endlist
+$component C217
+ SM*
+ C?
+ C1-1
+$endlist
+$component C216
+ SM*
+ C?
+ C1-1
+$endlist
+$component C220
+ SM*
+ C?
+ C1-1
+$endlist
+$component C221
+ SM*
+ C?
+ C1-1
+$endlist
+$component C223
+ CP*
+ SM*
+$endlist
+$component C229
+ SM*
+ C?
+ C1-1
+$endlist
+$component C228
+ SM*
+ C?
+ C1-1
+$endlist
+$component C231
+ CP*
+ SM*
+$endlist
+$component C230
+ CP*
+ SM*
+$endlist
+$component C200
+ SM*
+ C?
+ C1-1
+$endlist
+$component C193
+ SM*
+ C?
+ C1-1
+$endlist
+$component C199
+ SM*
+ C?
+ C1-1
+$endlist
+$component C192
+ SM*
+ C?
+ C1-1
+$endlist
+$component C196
+ SM*
+ C?
+ C1-1
+$endlist
+$component C194
+ SM*
+ C?
+ C1-1
+$endlist
+$component C198
+ CP*
+ SM*
+$endlist
+$component C191
+ CP*
+ SM*
+$endlist
+$component C225
+ SM*
+ C?
+ C1-1
+$endlist
+$component R154
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C222
+ CP*
+ SM*
+$endlist
+$component C287
+ SM*
+ C?
+ C1-1
+$endlist
+$component R223
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C281
+ SM*
+ C?
+ C1-1
+$endlist
+$component R224
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C282
+ SM*
+ C?
+ C1-1
+$endlist
+$component C283
+ SM*
+ C?
+ C1-1
+$endlist
+$component R227
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R228
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R222
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R221
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C280
+ SM*
+ C?
+ C1-1
+$endlist
+$component C279
+ SM*
+ C?
+ C1-1
+$endlist
+$component R218
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C286
+ CP*
+ SM*
+$endlist
+$component C278
+ SM*
+ C?
+ C1-1
+$endlist
+$component R217
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C266
+ SM*
+ C?
+ C1-1
+$endlist
+$component C267
+ CP*
+ SM*
+$endlist
+$component C269
+ CP*
+ SM*
+$endlist
+$component C268
+ SM*
+ C?
+ C1-1
+$endlist
+$component R197
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R196
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C265
+ SM*
+ C?
+ C1-1
+$endlist
+$component R190
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C270
+ SM*
+ C?
+ C1-1
+$endlist
+$component R191
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C271
+ SM*
+ C?
+ C1-1
+$endlist
+$component C272
+ SM*
+ C?
+ C1-1
+$endlist
+$component R198
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R199
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R195
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R194
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C263
+ SM*
+ C?
+ C1-1
+$endlist
+$component C262
+ SM*
+ C?
+ C1-1
+$endlist
+$component R189
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C261
+ SM*
+ C?
+ C1-1
+$endlist
+$component R188
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C178
+ CP*
+ SM*
+$endlist
+$component R139
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C177
+ SM*
+ C?
+ C1-1
+$endlist
+$component C257
+ SM*
+ C?
+ C1-1
+$endlist
+$component C259
+ CP*
+ SM*
+$endlist
+$component C260
+ CP*
+ SM*
+$endlist
+$component C258
+ SM*
+ C?
+ C1-1
+$endlist
+$component R187
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R186
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C256
+ SM*
+ C?
+ C1-1
+$endlist
+$component R138
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C174
+ SM*
+ C?
+ C1-1
+$endlist
+$component R140
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C175
+ SM*
+ C?
+ C1-1
+$endlist
+$component C176
+ SM*
+ C?
+ C1-1
+$endlist
+$component R170
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R171
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R172
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R173
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R169
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R168
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R167
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R166
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C173
+ SM*
+ C?
+ C1-1
+$endlist
+$component C172
+ SM*
+ C?
+ C1-1
+$endlist
+$component R137
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C171
+ SM*
+ C?
+ C1-1
+$endlist
+$component R136
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C156
+ SM*
+ C?
+ C1-1
+$endlist
+$component C250
+ SM*
+ C?
+ C1-1
+$endlist
+$component C251
+ SM*
+ C?
+ C1-1
+$endlist
+$component C252
+ SM*
+ C?
+ C1-1
+$endlist
+$component C248
+ CP*
+ SM*
+$endlist
+$component C240
+ CP*
+ SM*
+$endlist
+$component C244
+ SM*
+ C?
+ C1-1
+$endlist
+$component C245
+ SM*
+ C?
+ C1-1
+$endlist
+$component C243
+ SM*
+ C?
+ C1-1
+$endlist
+$component C242
+ SM*
+ C?
+ C1-1
+$endlist
+$component C162
+ SM*
+ C?
+ C1-1
+$endlist
+$component C163
+ SM*
+ C?
+ C1-1
+$endlist
+$component C164
+ SM*
+ C?
+ C1-1
+$endlist
+$component C166
+ SM*
+ C?
+ C1-1
+$endlist
+$component C165
+ SM*
+ C?
+ C1-1
+$endlist
+$component C160
+ SM*
+ C?
+ C1-1
+$endlist
+$component C161
+ SM*
+ C?
+ C1-1
+$endlist
+$component C159
+ SM*
+ C?
+ C1-1
+$endlist
+$component C158
+ SM*
+ C?
+ C1-1
+$endlist
+$component C157
+ SM*
+ C?
+ C1-1
+$endlist
+$component R71
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R73
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R72
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R74
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R75
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R79
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R78
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R76
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R77
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R81
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R80
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R82
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R83
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R86
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R84
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R85
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R88
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R87
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R89
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R90
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R91
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R126
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R127
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R129
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R128
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R132
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R133
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R131
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R130
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R122
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R123
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R125
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R124
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R120
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R121
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R119
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R118
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R116
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R117
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R115
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R114
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R135
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C170
+ SM*
+ C?
+ C1-1
+$endlist
+$component C168
+ SM*
+ C?
+ C1-1
+$endlist
+$component R113
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R105
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R106
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R108
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R107
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R111
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R112
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R110
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R109
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R101
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R104
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R99
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R100
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R98
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R97
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R95
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R96
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R94
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R93
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R134
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C169
+ SM*
+ C?
+ C1-1
+$endlist
+$component C167
+ SM*
+ C?
+ C1-1
+$endlist
+$component R92
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D16
+ D?
+ SO*
+ SM*
+$endlist
+$component D17
+ D?
+ SO*
+ SM*
+$endlist
+$component C285
+ SM*
+ C?
+ C1-1
+$endlist
+$component C284
+ SM*
+ C?
+ C1-1
+$endlist
+$component C142
+ SM*
+ C?
+ C1-1
+$endlist
+$component C143
+ SM*
+ C?
+ C1-1
+$endlist
+$component D15
+ D?
+ SO*
+ SM*
+$endlist
+$component D14
+ D?
+ SO*
+ SM*
+$endlist
+$component C234
+ CP*
+ SM*
+$endlist
+$component C235
+ CP*
+ SM*
+$endlist
+$component R180
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C237
+ SM*
+ C?
+ C1-1
+$endlist
+$component C236
+ SM*
+ C?
+ C1-1
+$endlist
+$component R181
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C145
+ SM*
+ C?
+ C1-1
+$endlist
+$component R63
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C140
+ SM*
+ C?
+ C1-1
+$endlist
+$component C141
+ SM*
+ C?
+ C1-1
+$endlist
+$component R64
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R70
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C148
+ CP*
+ SM*
+$endlist
+$component C151
+ SM*
+ C?
+ C1-1
+$endlist
+$component C150
+ SM*
+ C?
+ C1-1
+$endlist
+$component C136
+ SM*
+ C?
+ C1-1
+$endlist
+$component C137
+ SM*
+ C?
+ C1-1
+$endlist
+$component C139
+ CP*
+ SM*
+$endlist
+$component C138
+ CP*
+ SM*
+$endlist
+$component C133
+ CP*
+ SM*
+$endlist
+$component C134
+ SM*
+ C?
+ C1-1
+$endlist
+$component C132
+ SM*
+ C?
+ C1-1
+$endlist
+$component R68
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C152
+ SM*
+ C?
+ C1-1
+$endlist
+$component C155
+ SM*
+ C?
+ C1-1
+$endlist
+$component R69
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R66
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C147
+ SM*
+ C?
+ C1-1
+$endlist
+$component C146
+ SM*
+ C?
+ C1-1
+$endlist
+$component R62
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C131
+ SM*
+ C?
+ C1-1
+$endlist
+$component C154
+ CP*
+ SM*
+$endlist
+$component R67
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C153
+ SM*
+ C?
+ C1-1
+$endlist
+$component C144
+ CP*
+ SM*
+$endlist
+$component R65
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R183
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C130
+ SM*
+ C?
+ C1-1
+$endlist
+$component C129
+ SM*
+ C?
+ C1-1
+$endlist
+$component R184
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R61
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C128
+ SM*
+ C?
+ C1-1
+$endlist
+$component C127
+ SM*
+ C?
+ C1-1
+$endlist
+$component R60
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R58
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C126
+ SM*
+ C?
+ C1-1
+$endlist
+$component R55
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R54
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R57
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R56
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C125
+ SM*
+ C?
+ C1-1
+$endlist
+$component C124
+ SM*
+ C?
+ C1-1
+$endlist
+$component R49
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R53
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R51
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R50
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R52
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R48
+ R?
+ SM0603
+ SM0805
+$endlist
+$component U8
+ D?
+ SO*
+ SM*
+$endlist
+$component C123
+ SM*
+ C?
+ C1-1
+$endlist
+$component D10
+ D?
+ SO*
+ SM*
+$endlist
+$component D6
+ D?
+ SO*
+ SM*
+$endlist
+$component D11
+ D?
+ SO*
+ SM*
+$endlist
+$component D7
+ D?
+ SO*
+ SM*
+$endlist
+$component D12
+ D?
+ SO*
+ SM*
+$endlist
+$component D8
+ D?
+ SO*
+ SM*
+$endlist
+$component D13
+ D?
+ SO*
+ SM*
+$endlist
+$component D9
+ D?
+ SO*
+ SM*
+$endlist
+$component C120
+ SM*
+ C?
+ C1-1
+$endlist
+$component R229
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R41
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R203
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R202
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R201
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R42
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C232
+ SM*
+ C?
+ C1-1
+$endlist
+$component R40
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C121
+ SM*
+ C?
+ C1-1
+$endlist
+$component R47
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C122
+ SM*
+ C?
+ C1-1
+$endlist
+$component R45
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R200
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C61
+ SM*
+ C?
+ C1-1
+$endlist
+$component C50
+ CP*
+ SM*
+$endlist
+$component C49
+ CP*
+ SM*
+$endlist
+$component C105
+ CP*
+ SM*
+$endlist
+$component C104
+ CP*
+ SM*
+$endlist
+$component C106
+ CP*
+ SM*
+$endlist
+$component C100
+ CP*
+ SM*
+$endlist
+$component C99
+ CP*
+ SM*
+$endlist
+$component C102
+ CP*
+ SM*
+$endlist
+$component C101
+ CP*
+ SM*
+$endlist
+$component C88
+ CP*
+ SM*
+$endlist
+$component C86
+ CP*
+ SM*
+$endlist
+$component C87
+ CP*
+ SM*
+$endlist
+$component C83
+ CP*
+ SM*
+$endlist
+$component C84
+ CP*
+ SM*
+$endlist
+$component C71
+ CP*
+ SM*
+$endlist
+$component C70
+ CP*
+ SM*
+$endlist
+$component C73
+ CP*
+ SM*
+$endlist
+$component C72
+ CP*
+ SM*
+$endlist
+$component C103
+ CP*
+ SM*
+$endlist
+$component C98
+ CP*
+ SM*
+$endlist
+$component C85
+ CP*
+ SM*
+$endlist
+$component C82
+ CP*
+ SM*
+$endlist
+$component C69
+ CP*
+ SM*
+$endlist
+$component C115
+ SM*
+ C?
+ C1-1
+$endlist
+$component C114
+ SM*
+ C?
+ C1-1
+$endlist
+$component C117
+ SM*
+ C?
+ C1-1
+$endlist
+$component C118
+ SM*
+ C?
+ C1-1
+$endlist
+$component C116
+ SM*
+ C?
+ C1-1
+$endlist
+$component C119
+ SM*
+ C?
+ C1-1
+$endlist
+$component C113
+ SM*
+ C?
+ C1-1
+$endlist
+$component C108
+ SM*
+ C?
+ C1-1
+$endlist
+$component C107
+ SM*
+ C?
+ C1-1
+$endlist
+$component C110
+ SM*
+ C?
+ C1-1
+$endlist
+$component C111
+ SM*
+ C?
+ C1-1
+$endlist
+$component C109
+ SM*
+ C?
+ C1-1
+$endlist
+$component C112
+ SM*
+ C?
+ C1-1
+$endlist
+$component C97
+ SM*
+ C?
+ C1-1
+$endlist
+$component C94
+ SM*
+ C?
+ C1-1
+$endlist
+$component C96
+ SM*
+ C?
+ C1-1
+$endlist
+$component C95
+ SM*
+ C?
+ C1-1
+$endlist
+$component C92
+ SM*
+ C?
+ C1-1
+$endlist
+$component C93
+ SM*
+ C?
+ C1-1
+$endlist
+$component C91
+ SM*
+ C?
+ C1-1
+$endlist
+$component C90
+ SM*
+ C?
+ C1-1
+$endlist
+$component C89
+ SM*
+ C?
+ C1-1
+$endlist
+$component C74
+ SM*
+ C?
+ C1-1
+$endlist
+$component C75
+ SM*
+ C?
+ C1-1
+$endlist
+$component C77
+ SM*
+ C?
+ C1-1
+$endlist
+$component C76
+ SM*
+ C?
+ C1-1
+$endlist
+$component C79
+ SM*
+ C?
+ C1-1
+$endlist
+$component C80
+ SM*
+ C?
+ C1-1
+$endlist
+$component C78
+ SM*
+ C?
+ C1-1
+$endlist
+$component C81
+ SM*
+ C?
+ C1-1
+$endlist
+$component C68
+ SM*
+ C?
+ C1-1
+$endlist
+$component C64
+ SM*
+ C?
+ C1-1
+$endlist
+$component C66
+ SM*
+ C?
+ C1-1
+$endlist
+$component C67
+ SM*
+ C?
+ C1-1
+$endlist
+$component C65
+ SM*
+ C?
+ C1-1
+$endlist
+$component C63
+ SM*
+ C?
+ C1-1
+$endlist
+$component C62
+ SM*
+ C?
+ C1-1
+$endlist
+$component C59
+ SM*
+ C?
+ C1-1
+$endlist
+$component C60
+ SM*
+ C?
+ C1-1
+$endlist
+$component C58
+ SM*
+ C?
+ C1-1
+$endlist
+$component C56
+ CP*
+ SM*
+$endlist
+$component C57
+ SM*
+ C?
+ C1-1
+$endlist
+$component C53
+ CP*
+ SM*
+$endlist
+$component C54
+ CP*
+ SM*
+$endlist
+$component C55
+ CP*
+ SM*
+$endlist
+$component C51
+ CP*
+ SM*
+$endlist
+$component C52
+ CP*
+ SM*
+$endlist
+$component C48
+ SM*
+ C?
+ C1-1
+$endlist
+$component R34
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R35
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R33
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R32
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R38
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R36
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R37
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R31
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R174
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R29
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C45
+ SM*
+ C?
+ C1-1
+$endlist
+$component C44
+ SM*
+ C?
+ C1-1
+$endlist
+$component C43
+ SM*
+ C?
+ C1-1
+$endlist
+$component C42
+ SM*
+ C?
+ C1-1
+$endlist
+$component C41
+ SM*
+ C?
+ C1-1
+$endlist
+$component C40
+ SM*
+ C?
+ C1-1
+$endlist
+$component C39
+ SM*
+ C?
+ C1-1
+$endlist
+$component C37
+ SM*
+ C?
+ C1-1
+$endlist
+$component C38
+ SM*
+ C?
+ C1-1
+$endlist
+$component C46
+ SM*
+ C?
+ C1-1
+$endlist
+$component C47
+ SM*
+ C?
+ C1-1
+$endlist
+$component R232
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C188
+ SM*
+ C?
+ C1-1
+$endlist
+$component C288
+ SM*
+ C?
+ C1-1
+$endlist
+$component R143
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R235
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C135
+ SM*
+ C?
+ C1-1
+$endlist
+$component R156
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C190
+ SM*
+ C?
+ C1-1
+$endlist
+$component R149
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R150
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C180
+ SM*
+ C?
+ C1-1
+$endlist
+$component C181
+ SM*
+ C?
+ C1-1
+$endlist
+$component C182
+ SM*
+ C?
+ C1-1
+$endlist
+$component C183
+ SM*
+ C?
+ C1-1
+$endlist
+$component C184
+ SM*
+ C?
+ C1-1
+$endlist
+$component C185
+ SM*
+ C?
+ C1-1
+$endlist
+$component C187
+ SM*
+ C?
+ C1-1
+$endlist
+$component R141
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R142
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R146
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R145
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R144
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C179
+ CP*
+ SM*
+$endlist
+$component C186
+ SM*
+ C?
+ C1-1
+$endlist
+$component C189
+ SM*
+ C?
+ C1-1
+$endlist
+$component R147
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R148
+ R?
+ SM0603
+ SM0805
+$endlist
+$component D5
+ D?
+ SO*
+ SM*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R13
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component C14
+ SM*
+ C?
+ C1-1
+$endlist
+$component R25
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R20
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R21
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R24
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R23
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C18
+ SM*
+ C?
+ C1-1
+$endlist
+$component C20
+ SM*
+ C?
+ C1-1
+$endlist
+$component C36
+ SM*
+ C?
+ C1-1
+$endlist
+$component C35
+ SM*
+ C?
+ C1-1
+$endlist
+$component C32
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$component R233
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R231
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R17
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R18
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C21
+ SM*
+ C?
+ C1-1
+$endlist
+$component C19
+ SM*
+ C?
+ C1-1
+$endlist
+$component C22
+ SM*
+ C?
+ C1-1
+$endlist
+$component R27
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R26
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C23
+ SM*
+ C?
+ C1-1
+$endlist
+$component C25
+ SM*
+ C?
+ C1-1
+$endlist
+$component C30
+ SM*
+ C?
+ C1-1
+$endlist
+$component R230
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C29
+ SM*
+ C?
+ C1-1
+$endlist
+$component C31
+ SM*
+ C?
+ C1-1
+$endlist
+$component C34
+ CP*
+ SM*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C254
+ SM*
+ C?
+ C1-1
+$endlist
+$component C13
+ SM*
+ C?
+ C1-1
+$endlist
+$component C255
+ SM*
+ C?
+ C1-1
+$endlist
+$component C253
+ CP*
+ SM*
+$endlist
+$component C6
+ CP*
+ SM*
+$endlist
+$component C28
+ SM*
+ C?
+ C1-1
+$endlist
+$component R28
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R157
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R165
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R164
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R158
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R159
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R161
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R160
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R176
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R177
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R178
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R163
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R162
+ R?
+ SM0603
+ SM0805
+$endlist
+$component C233
+ SM*
+ C?
+ C1-1
+$endlist
+$component C149
+ SM*
+ C?
+ C1-1
+$endlist
+$component C273
+ SM*
+ C?
+ C1-1
+$endlist
+$component R234
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R185
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R30
+ R?
+ SM0603
+ SM0805
+$endlist
+$component R39
+ R?
+ SM0603
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "" ""
+ U1 34
+ C13 2
+Net 3 "" ""
+ U1 12
+ C1 1
+ U1 13
+Net 9 "" ""
+ C23 2
+ U1 39
+Net 11 "/AUDIO/LNLVLOUT_R" "LNLVLOUT_R"
+ J3 3
+ C25 1
+ V32 1
+ R26 1
+Net 12 "/AUDIO/LNLVLOUT_L" "LNLVLOUT_L"
+ V33 1
+ R27 1
+ J3 1
+ C23 1
+Net 14 "3V3" "3V3"
+ U18 11
+ L13 2
+ U31 1
+ U31 12
+ U22 AA15
+ R41 1
+ R229 1
+ U22 AA11
+ R164 2
+ U3 4
+ C120 1
+ C232 1
+ R158 1
+ U22 T9
+ U22 V8
+ U22 W5
+ SW2 1
+ J19 4
+ U22 AA19
+ U22 AA7
+ U22 V16
+ R40 1
+ U21 11
+ U21 4
+ C222 1
+ U21 29
+ C218 1
+ C219 1
+ L17 1
+ C216 1
+ C217 1
+ U30 12
+ U30 14
+ R157 1
+ J4 11
+ J4 9
+ J4 6
+ R149 1
+ J4 3
+ R29 1
+ U22 B15
+ C37 1
+ C39 1
+ U22 E17
+ U22 B19
+ R32 1
+ R33 1
+ R35 1
+ R34 1
+ U22 J18
+ C48 1
+ U22 L16
+ R147 1
+ U22 W21
+ U22 R21
+ U22 L21
+ U22 G21
+ U22 C21
+ C47 1
+ L4 1
+ U2 24
+ U2 7
+ C38 1
+ C92 1
+ C95 1
+ C96 1
+ C94 1
+ C97 1
+ C112 1
+ C109 1
+ C111 1
+ C110 1
+ C107 1
+ C108 1
+ C113 1
+ C119 1
+ C116 1
+ C118 1
+ C93 1
+ C87 1
+ C86 1
+ C88 1
+ C101 1
+ C102 1
+ C99 1
+ C100 1
+ U22 E13
+ U22 G14
+ U22 B7
+ U22 E19
+ U22 E9
+ U22 U18
+ U22 N18
+ C106 1
+ C104 1
+ C105 1
+ C117 1
+ C114 1
+ C115 1
+ C85 1
+ C98 1
+ C103 1
+ U22 B4
+ U22 G10
+ U22 B11
+ TP1 1
+ R233 1
+ R54 2
+ U6 8
+ R25 1
+ U9 31
+ C132 1
+ L7 2
+ J26 4
+ C36 1
+ C124 2
+ U5 8
+ R187 2
+ U17 12
+ R58 1
+ U4 8
+ C172 1
+ C173 1
+ C171 1
+ U16 1
+ C175 1
+ C176 1
+ R172 2
+ C123 2
+ R173 2
+ R169 2
+ R168 2
+ U16 12
+ U16 14
+ U1 9
+ R30 1
+ U9 37
+ U1 1
+ C30 1
+ J21 5
+ J21 6
+ R39 1
+ U25 5
+ U9 15
+ R185 1
+ U9 43
+ C130 1
+ R60 1
+ C127 1
+ C128 1
+ R61 1
+ R184 1
+ C129 1
+ R183 1
+ U9 9
+ J22 3
+ J22 4
+ C261 1
+ U27 1
+ R197 2
+ U28 1
+ U28 12
+ U28 14
+ C270 1
+ R196 2
+ C279 1
+ C280 1
+ C263 1
+ C262 1
+ C271 1
+ C272 1
+ C278 1
+ U27 12
+ U27 14
+ U30 1
+ U22 AA3
+ U31 14
+ U22 T13
+ C283 1
+ C282 1
+ U22 V12
+ C281 1
+ U17 1
+ U17 14
+ C174 1
+ R160 1
+ R186 2
+Net 15 "AC97_SIN" "AC97_SIN"
+ U22 C5
+ U1 8
+Net 16 "" ""
+ R28 2
+ C28 1
+ Y1 1
+ U1 2
+Net 18 "/AUDIO/AUDIO_AVDD" "AUDIO_AVDD"
+ C31 1
+ L2 2
+ C34 1
+ U1 25
+ U1 38
+ C32 1
+Net 22 "AC97_SOUT" "AC97_SOUT"
+ U1 5
+ U22 A4
+Net 24 "" ""
+ U1 14
+ C4 2
+Net 25 "" ""
+ C5 2
+ U1 15
+Net 26 "" ""
+ U1 17
+ C8 2
+Net 27 "" ""
+ C7 2
+ U1 16
+Net 28 "" ""
+ U1 22
+ C14 2
+Net 30 "/AUDIO/AUDIO_VREF" "AUDIO_VREF"
+ TP5 1
+ R13 2
+ C6 1
+ U1 28
+Net 31 "/AUDIO/CD_L" "CD_L"
+ R10 1
+ J23 2
+Net 32 "/AUDIO/SPDIF_ENABLE" "SPDIF_ENABLE"
+ J26 2
+ U1 44
+Net 33 "" ""
+ C10 1
+ V25 1
+ R11 2
+Net 34 "/AUDIO/CD_GND" "CD_GND"
+ J23 4
+ R11 1
+Net 35 "/AUDIO/CD_R" "CD_R"
+ J23 3
+ R12 1
+Net 36 "" ""
+ J2 5
+ R231 1
+ J2 4
+Net 37 "" ""
+ J2 2
+ R230 1
+Net 38 "" ""
+ C22 2
+ U1 37
+Net 39 "" ""
+ U1 35
+ C19 2
+Net 40 "" ""
+ C21 2
+ U1 36
+Net 41 "" ""
+ C18 2
+ U1 23
+Net 42 "" ""
+ R20 2
+ V28 1
+ R24 1
+ C18 1
+Net 43 "" ""
+ R21 1
+ J1 5
+Net 44 "" ""
+ R20 1
+ J1 2
+Net 45 "nAC97_RESET" "nAC97_RESET"
+ U1 11
+ TP7 1
+ U22 D6
+Net 46 "AC97_SYNC" "AC97_SYNC"
+ U1 10
+ TP8 1
+ U22 A5
+Net 47 "" ""
+ R28 1
+ U1 3
+ Y1 2
+ C29 1
+Net 48 "" ""
+ C20 2
+ U1 24
+Net 49 "/AUDIO/SPDIF_OUT" "SPDIF_OUT"
+ U1 48
+ J26 3
+Net 50 "4V3" "4V3"
+ L2 1
+ C237 1
+ L20 2
+ C35 1
+ TP26 1
+Net 51 "" ""
+ C12 1
+ MK1 1
+ R13 1
+Net 52 "" ""
+ C12 2
+ U1 21
+Net 53 "" ""
+ C11 2
+ U1 20
+Net 54 "" ""
+ C10 2
+ U1 19
+Net 55 "" ""
+ C9 2
+ U1 18
+Net 56 "" ""
+ V26 1
+ R10 2
+ C9 1
+Net 57 "" ""
+ C255 1
+ U1 33
+ C13 1
+Net 58 "AC97_CLK" "AC97_CLK"
+ U22 C11
+ TP6 1
+ U1 6
+Net 59 "" ""
+ R12 2
+ V24 1
+ C11 1
+Net 60 "" ""
+ C19 1
+ V29 1
+ R17 1
+ R230 2
+Net 61 "" ""
+ R231 2
+ R18 1
+ V30 1
+ C21 1
+Net 62 "LINEIN_DET" "LINEIN_DET"
+ U22 AB13
+ J1 3
+ R25 2
+Net 63 "" ""
+ R21 2
+ V27 1
+ C20 1
+ R23 1
+Net 64 "" ""
+ U1 41
+ C25 2
+Net 65 "" ""
+ U1 32
+ C253 1
+ C254 1
+Net 66 "" ""
+ U1 27
+ C2 1
+ C3 1
+Net 67 "LINEOUT_DET" "LINEOUT_DET"
+ U22 T5
+ J2 3
+ R233 2
+Net 68 "" ""
+ R142 2
+ U18 37
+Net 71 "/DVI-I/VGA_B2" "VGA_B2"
+ U22 B12
+ U18 18
+Net 72 "/DVI-I/VGA_B3" "VGA_B3"
+ U18 19
+ U22 A12
+Net 73 "nVGA_PSAVE" "nVGA_PSAVE"
+ U18 38
+ U22 B14
+Net 74 "/DVI-I/VGA_B6" "VGA_B6"
+ U18 22
+ U22 D14
+Net 75 "/DVI-I/VGA_R0" "VGA_R0"
+ U22 C6
+ U18 41
+Net 76 "/DVI-I/VGA_B5" "VGA_B5"
+ U22 A13
+ U18 21
+Net 77 "/DVI-I/VGA_B4" "VGA_B4"
+ U22 C13
+ U18 20
+Net 78 "/DVI-I/VGA_B1" "VGA_B1"
+ U18 17
+ U22 C12
+Net 79 "/DVI-I/VGA_R5" "VGA_R5"
+ U22 B8
+ U18 46
+Net 80 "/DVI-I/VGA_B0" "VGA_B0"
+ U18 16
+ U22 D11
+Net 81 "/DVI-I/VGA_R4" "VGA_R4"
+ U18 45
+ U22 A7
+Net 82 "/DVI-I/VGA_R3" "VGA_R3"
+ U22 C7
+ U18 44
+Net 83 "VGA_CLK" "VGA_CLK"
+ U22 A11
+ U18 24
+Net 84 "/DVI-I/VGA_R2" "VGA_R2"
+ U22 A6
+ U18 43
+Net 85 "/DVI-I/VGA_B7" "VGA_B7"
+ U18 23
+ U22 C14
+Net 86 "" ""
+ L13 1
+ C179 1
+ U18 29
+ C186 1
+ U18 13
+ R141 1
+ C185 1
+ C184 1
+ C183 1
+ C182 1
+ C181 1
+ C180 1
+ U18 30
+Net 87 "/DVI-I/VGA_R1" "VGA_R1"
+ U22 B6
+ U18 42
+Net 88 "/DVI-I/A_HSYNC" "A_HSYNC"
+ J17 C4
+ U19 4
+Net 89 "DVI-I_CLK_N" "DVI-I_CLK_N"
+ J17 24
+ U22 Y12
+ V18 2
+Net 90 "DVI-I_CLK_P" "DVI-I_CLK_P"
+ U22 W12
+ V19 1
+ J17 23
+Net 95 "" ""
+ U18 35
+ C186 2
+Net 96 "" ""
+ C188 1
+ J17 14
+ U32 5
+Net 97 "5V" "5V"
+ J24 1
+ J25 1
+ C286 1
+ C190 2
+ U24 3
+ C145 1
+ U11 3
+ C134 1
+ TP33 1
+ C138 1
+ C288 1
+ R143 1
+ R235 1
+ U10 3
+ U12 1
+ U20 5
+ U32 1
+ U12 3
+ U23 3
+ U23 1
+ C234 1
+ C287 1
+ C143 1
+ J24 2
+ L10 2
+ U11 2
+ C125 2
+ R57 1
+ R148 1
+ U7 5
+ R150 1
+ C189 2
+ U19 5
+Net 99 "" ""
+ U32 3
+ R235 2
+Net 100 "" ""
+ U32 4
+ R143 2
+Net 101 "/DVI-I/DDC_DATA" "DDC_DATA"
+ Q1 3
+ J17 7
+ R148 2
+Net 102 "/DVI-I/A_VSYNC" "A_VSYNC"
+ J17 8
+ U20 4
+Net 103 "DVI-I_B_N" "DVI-I_B_N"
+ J17 17
+ V16 2
+ U22 W15
+Net 104 "DVI-I_B_P" "DVI-I_B_P"
+ U22 Y16
+ V17 1
+ J17 18
+Net 105 "/DVI-I/DVI-I_SHIELD" "DVI-I_SHIELD"
+ R156 1
+ J17 25
+ J17 26
+ C135 1
+Net 106 "DVI-I_R_P" "DVI-I_R_P"
+ V13 1
+ U22 Y15
+ J17 2
+Net 107 "DVI-I_G_P" "DVI-I_G_P"
+ J17 10
+ U22 AA16
+ V15 1
+Net 108 "/DVI-I/HPD" "HPD"
+ J17 16
+ V31 1
+ Q4 1
+ R232 1
+Net 109 "DVI-I_HPD" "DVI-I_HPD"
+ U22 D17
+ Q4 3
+Net 110 "DVI-I_R_N" "DVI-I_R_N"
+ J17 1
+ U22 AB15
+ V12 2
+Net 111 "DVI-I_G_N" "DVI-I_G_N"
+ U22 AB16
+ J17 9
+ V14 2
+Net 112 "VGA_VSYNC" "VGA_VSYNC"
+ U20 2
+ U22 C15
+Net 113 "/DVI-I/DDC_CLK" "DDC_CLK"
+ J17 6
+ Q2 3
+ R150 2
+Net 114 "VGA_SCL" "VGA_SCL"
+ U22 D15
+ Q2 2
+Net 115 "" ""
+ R149 2
+ Q2 1
+Net 116 "VGA_HSYNC" "VGA_HSYNC"
+ U19 2
+ U22 A14
+Net 117 "/DVI-I/ANALOG_R" "ANALOG_R"
+ J17 C1
+ U18 34
+ R146 1
+Net 118 "/DVI-I/ANALOG_G" "ANALOG_G"
+ J17 C2
+ R145 1
+ U18 32
+Net 119 "/DVI-I/ANALOG_B" "ANALOG_B"
+ J17 C3
+ U18 28
+ R144 1
+Net 120 "" ""
+ TP10 1
+ U18 36
+ D5 2
+ C187 1
+ R141 2
+Net 122 "VGA_SDA" "VGA_SDA"
+ Q1 2
+ U22 A15
+Net 123 "" ""
+ Q1 1
+ R147 2
+Net 124 "" ""
+ R38 1
+ U2 26
+Net 128 "nETH_INT" "nETH_INT"
+ TP9 1
+ U22 L19
+ U2 25
+Net 133 "ETH_PLL1V8" "ETH_PLL1V8"
+ C45 1
+ U2 47
+ L6 2
+Net 134 "" ""
+ U2 37
+ R31 1
+Net 135 "ETH_CLK" "ETH_CLK"
+ U2 46
+ U22 M20
+Net 136 "nETH_RESET" "nETH_RESET"
+ U2 48
+ U22 R22
+ R174 1
+Net 137 "ETH_RXC" "ETH_RXC"
+ U2 10
+ U22 H22
+Net 138 "" ""
+ U2 40
+ J4 2
+ R34 2
+Net 139 "" ""
+ R32 2
+ U2 32
+ J4 8
+Net 140 "" ""
+ U2 27
+ R36 1
+Net 141 "/ETHERNET/ETHSHIELD" "ETHSHIELD"
+ C46 1
+ R37 1
+ J4 13
+ J4 14
+Net 142 "" ""
+ R38 2
+ J4 12
+Net 143 "ETH_TXC" "ETH_TXC"
+ U22 H21
+ U2 15
+Net 144 "ETH_RX0" "ETH_RX0"
+ U22 U22
+ U2 6
+Net 145 "" ""
+ U2 41
+ J4 1
+ R35 2
+Net 146 "" ""
+ J4 7
+ R33 2
+ U2 33
+Net 147 "" ""
+ J4 10
+ R36 2
+Net 148 "ETH_TX2" "ETH_TX2"
+ U22 P19
+ U2 19
+Net 149 "ETH_TX3" "ETH_TX3"
+ U22 P20
+ U2 20
+Net 150 "ETH_COL" "ETH_COL"
+ U2 21
+ U22 W20
+Net 151 "ETH_CRS" "ETH_CRS"
+ U22 W22
+ U2 22
+Net 152 "ETH_RX1" "ETH_RX1"
+ U22 U20
+ U2 5
+Net 153 "ETH_RX2" "ETH_RX2"
+ U22 T22
+ U2 4
+Net 154 "ETH_RX3" "ETH_RX3"
+ U22 T21
+ U2 3
+Net 155 "ETH_MDC" "ETH_MDC"
+ U2 2
+ U22 J20
+Net 156 "ETH_1V8" "ETH_1V8"
+ C43 1
+ C42 1
+ L5 1
+ U2 13
+Net 157 "ETH_RXDV" "ETH_RXDV"
+ U22 V21
+ U2 9
+Net 158 "ETH_RXER" "ETH_RXER"
+ U2 11
+ U22 V22
+Net 159 "ETH_TXER" "ETH_TXER"
+ U2 14
+ U22 M19
+Net 160 "ETH_TXEN" "ETH_TXEN"
+ U22 N19
+ U2 16
+Net 161 "ETH_TX0" "ETH_TX0"
+ U2 17
+ U22 M16
+Net 162 "ETH_TX1" "ETH_TX1"
+ U2 18
+ U22 L15
+Net 163 "ETH_A1V8" "ETH_A1V8"
+ C44 1
+ L6 1
+ L5 2
+ U2 31
+Net 164 "ETH_MDIO" "ETH_MDIO"
+ U2 1
+ R29 2
+ U22 J22
+Net 165 "ETH_A3V3" "ETH_A3V3"
+ L4 2
+ C41 1
+ C40 1
+ U2 38
+Net 166 "1V2" "1V2"
+ C68 1
+ C64 1
+ U22 J8
+ C58 1
+ C60 1
+ C59 1
+ C62 1
+ C63 1
+ C65 1
+ C67 1
+ C66 1
+ C52 1
+ C51 1
+ C55 1
+ C54 1
+ C53 1
+ C56 1
+ C57 1
+ U22 K13
+ U22 M13
+ U22 P13
+ U22 J14
+ U22 L14
+ U22 N14
+ U22 R14
+ U22 J12
+ U22 L12
+ U22 N12
+ TP4 1
+ C151 1
+ L12 2
+ U22 P11
+ U22 M11
+ U22 K11
+ U22 N10
+ C49 1
+ C50 1
+ C61 1
+ U22 L10
+ U22 J10
+ U22 P9
+ U22 M9
+ U22 K9
+Net 167 "2V5" "2V5"
+ C163 1
+ R178 1
+ L8 2
+ C137 1
+ U22 R10
+ U22 F11
+ U22 L2
+ U22 C2
+ C149 1
+ U15 1
+ U15 3
+ U15 15
+ U15 55
+ U15 18
+ U15 9
+ U15 61
+ U15 33
+ C164 1
+ R162 1
+ U22 V6
+ U22 R6
+ U22 D16
+ U22 M15
+ U22 K15
+ C240 1
+ C168 1
+ U22 W2
+ R113 1
+ R176 1
+ U22 U11
+ U22 L8
+ TP2 1
+ C162 1
+ U22 R2
+ C242 1
+ C243 1
+ C245 1
+ C244 1
+ U22 N8
+ U22 H9
+ C160 1
+ U22 G2
+ R177 1
+ C165 1
+ C156 1
+ C250 1
+ C251 1
+ C252 1
+ C248 1
+ U14 3
+ U14 9
+ U14 61
+ C167 1
+ R92 1
+ U14 1
+ C161 1
+ U14 18
+ U14 55
+ U14 15
+ U14 33
+ C159 1
+ C158 1
+ C157 1
+ C166 1
+ C91 1
+ C90 1
+ C89 1
+ C74 1
+ C75 1
+ C77 1
+ C76 1
+ C79 1
+ C80 1
+ C78 1
+ C81 1
+ U22 L7
+ U22 G12
+ U22 R12
+ C83 1
+ C84 1
+ C71 1
+ C70 1
+ C73 1
+ C72 1
+ C82 1
+ C69 1
+ J6 2
+ U22 H15
+ U22 J5
+ U22 N5
+ U22 U5
+ U22 F6
+ U22 F4
+Net 168 "LED_ROW2" "LED_ROW2"
+ U22 T20
+ D28 1
+ D40 1
+ D42 2
+ D35 2
+ D34 1
+ D29 2
+ D23 2
+ D22 1
+ TP41 1
+Net 169 "LED_ROW1" "LED_ROW1"
+ TP40 1
+ D26 1
+ D38 1
+ D39 2
+ D33 2
+ D32 1
+ U22 T19
+ D20 1
+ D21 2
+ D27 2
+Net 170 "BTN2" "BTN2"
+ R45 1
+ SW2 2
+ U22 AA4
+Net 171 "LED_COL0" "LED_COL0"
+ R200 1
+ U22 W13
+Net 172 "" ""
+ R41 2
+ D1 1
+Net 173 "" ""
+ D1 2
+ Q3 3
+Net 174 "" ""
+ D2 1
+ R42 2
+Net 175 "" ""
+ D37 1
+ D39 1
+ D38 2
+ TP38 1
+ D40 2
+ R203 2
+ D42 1
+ D36 2
+Net 176 "" ""
+ R202 2
+ TP32 1
+ D35 1
+ D34 2
+ D31 1
+ D30 2
+ D32 2
+ D33 1
+Net 177 "LED_ROW0" "LED_ROW0"
+ TP39 1
+ U22 N22
+ D25 2
+ D24 1
+ D36 1
+ D37 2
+ D31 2
+ D30 1
+ D19 2
+ D18 1
+Net 178 "LED_COL3" "LED_COL3"
+ R203 1
+ U22 V13
+Net 179 "LED_COL2" "LED_COL2"
+ R202 1
+ U22 R13
+Net 180 "LED_COL1" "LED_COL1"
+ U22 T14
+ R201 1
+Net 184 "CLK50" "CLK50"
+ U22 AB11
+ U3 3
+Net 185 "LED_PWR" "LED_PWR"
+ U22 A16
+ R229 2
+ Q3 1
+Net 186 "UART_RX" "UART_RX"
+ J5 3
+ U22 K18
+Net 187 "UART_TX" "UART_TX"
+ J5 2
+ U22 L17
+Net 188 "" ""
+ J5 1
+ C121 1
+ R40 2
+Net 189 "LED1" "LED1"
+ U22 B16
+ R42 1
+Net 190 "SD_DAT1" "SD_DAT1"
+ TP21 1
+ U22 E16
+ J19 8
+Net 191 "SD_DAT0" "SD_DAT0"
+ U22 A18
+ TP20 1
+ J19 7
+Net 192 "TDO" "TDO"
+ U22 A19
+ J6 8
+Net 193 "SD_CMD" "SD_CMD"
+ TP18 1
+ U22 B18
+ J19 3
+Net 194 "SD_CLK" "SD_CLK"
+ TP19 1
+ U22 A10
+ J19 5
+Net 195 "TCK" "TCK"
+ J6 6
+ U22 G15
+Net 196 "TMS" "TMS"
+ J6 4
+ U22 C18
+Net 197 "TDI" "TDI"
+ J6 10
+ U22 E18
+Net 198 "SD_DAT2" "SD_DAT2"
+ U22 C17
+ TP16 1
+ J19 1
+Net 199 "SD_DAT3" "SD_DAT3"
+ U22 A17
+ J19 2
+ TP17 1
+Net 200 "" ""
+ C122 1
+ SW2 3
+ R47 1
+ SW2 4
+Net 201 "" ""
+ D27 1
+ D24 2
+ D28 2
+ D29 1
+ D25 1
+ R201 2
+ D26 2
+Net 202 "" ""
+ R200 2
+ D18 2
+ D19 1
+ D21 1
+ D20 2
+ D23 1
+ D22 2
+Net 203 "" ""
+ R53 2
+ J8 3
+ R51 2
+Net 205 "" ""
+ J8 2
+ R49 2
+ R51 1
+Net 206 "DMXB_R" "DMXB_R"
+ U5 1
+ U22 Y19
+Net 207 "DMXB_D" "DMXB_D"
+ U22 W18
+ U5 4
+Net 210 "" ""
+ R48 1
+ D10 1
+ U4 7
+Net 211 "" ""
+ U4 6
+ R52 1
+ D6 1
+Net 212 "" ""
+ D11 3
+ D10 3
+Net 213 "" ""
+ D7 3
+ D6 3
+Net 216 "" ""
+ R57 2
+ J9 4
+Net 218 "DMXA_R" "DMXA_R"
+ U22 AB20
+ U4 1
+Net 219 "DMXA_D" "DMXA_D"
+ U22 T17
+ U4 4
+Net 220 "IR_RX" "IR_RX"
+ U22 C16
+ U8 1
+Net 224 "" ""
+ D4 2
+ R55 1
+ U6 2
+Net 228 "" ""
+ R56 2
+ J9 5
+Net 229 "MIDI_TX" "MIDI_TX"
+ U7 2
+ U22 AA21
+Net 232 "" ""
+ R55 2
+ J10 4
+Net 233 "DMXA_DE" "DMXA_DE"
+ U4 3
+ U4 2
+ U22 T18
+Net 234 "" ""
+ R50 1
+ J7 2
+ R48 2
+Net 235 "" ""
+ D9 3
+ D8 3
+Net 236 "" ""
+ D12 3
+ D13 3
+Net 237 "" ""
+ R49 1
+ D12 1
+ U5 7
+Net 238 "" ""
+ D8 1
+ R53 1
+ U5 6
+Net 239 "MIDI_RX" "MIDI_RX"
+ U6 6
+ TP31 1
+ U22 AB21
+ R54 1
+Net 240 "" ""
+ R56 1
+ V34 1
+ U7 4
+Net 241 "" ""
+ C126 1
+ U8 3
+ R58 2
+Net 242 "" ""
+ D4 1
+ J10 5
+ U6 3
+Net 243 "" ""
+ R52 2
+ J7 3
+ R50 2
+Net 244 "DMXB_DE" "DMXB_DE"
+ U22 AB19
+ U5 3
+ U5 2
+Net 245 "nFLASH_OE" "nFLASH_OE"
+ U22 M22
+ U9 54
+Net 246 "nFLASH_CE" "nFLASH_CE"
+ U9 14
+ R183 2
+ U22 M21
+Net 247 "nFLASH_RESET" "nFLASH_RESET"
+ U25 4
+ U9 16
+ R60 2
+ TP37 1
+Net 248 "FLASH_STS" "FLASH_STS"
+ U22 R20
+ R61 2
+ U9 53
+Net 249 "nFLASH_WE" "nFLASH_WE"
+ R184 2
+ U9 55
+ U22 N20
+Net 250 "" ""
+ U13 5
+ R70 1
+ R67 2
+ C153 1
+Net 251 "" ""
+ J13 1
+ C147 2
+ R66 1
+Net 252 "1V8" "1V8"
+ U21 23
+ C141 1
+ L9 2
+ TP3 1
+ U21 58
+ L18 1
+ C230 1
+ C208 1
+ C209 1
+ C210 1
+ C211 1
+Net 253 "" ""
+ R67 1
+ C153 2
+ C148 1
+ U13 4
+ L12 1
+ C150 1
+Net 254 "" ""
+ R62 1
+ U11 5
+Net 256 "" ""
+ D16 2
+ D17 2
+ C284 1
+ L21 1
+ F3 2
+Net 257 "USBEXT5V" "USBEXT5V"
+ U29 2
+ C265 1
+ C285 1
+ C178 1
+ C256 1
+ L21 2
+ U26 2
+Net 258 "" ""
+ C236 1
+ L20 1
+ R181 1
+ U23 5
+ C235 1
+Net 259 "" ""
+ R64 1
+ R63 2
+ U12 4
+Net 260 "" ""
+ R181 2
+ U23 4
+ R180 1
+Net 261 "" ""
+ J11 1
+ F2 1
+ F3 1
+Net 262 "" ""
+ C146 2
+ R65 1
+ J12 1
+Net 263 "" ""
+ F2 2
+ L10 1
+ C142 1
+ D15 2
+ D14 2
+Net 264 "" ""
+ C154 1
+ C139 1
+ C136 1
+ L8 1
+ U11 6
+ U13 2
+ U13 1
+Net 265 "" ""
+ R63 1
+ L9 1
+ C140 1
+ C144 1
+ U12 5
+Net 266 "" ""
+ J15 1
+ C155 2
+ R69 1
+Net 267 "" ""
+ J14 1
+ C152 2
+ R68 1
+Net 268 "" ""
+ C131 1
+ L7 1
+ C133 1
+ U10 1
+Net 269 "" ""
+ U14 16
+ R94 1
+Net 270 "" ""
+ U14 51
+ R93 1
+Net 271 "" ""
+ R101 1
+ U14 59
+Net 272 "" ""
+ R109 1
+ U14 7
+Net 273 "" ""
+ U14 5
+ R110 1
+Net 274 "" ""
+ U14 2
+ R112 1
+Net 275 "" ""
+ U14 4
+ R111 1
+Net 276 "" ""
+ U14 10
+ R107 1
+Net 277 "" ""
+ U14 8
+ R108 1
+Net 278 "" ""
+ R106 1
+ U14 11
+Net 279 "" ""
+ U14 13
+ R105 1
+Net 280 "" ""
+ R96 1
+ U14 20
+Net 281 "" ""
+ U14 47
+ R95 1
+Net 282 "" ""
+ R97 1
+ U14 65
+Net 283 "" ""
+ R98 1
+ U14 63
+Net 284 "" ""
+ R100 1
+ U14 60
+Net 285 "" ""
+ U14 62
+ R99 1
+Net 286 "" ""
+ U14 56
+ R103 1
+Net 287 "" ""
+ U14 54
+ R104 1
+Net 288 "" ""
+ R102 1
+ U14 57
+Net 289 "SDRAM_BA1" "SDRAM_BA1"
+ R85 2
+ U22 E6
+Net 290 "SDRAM_BA0" "SDRAM_BA0"
+ U22 A2
+ R84 2
+Net 291 "nSDRAM_RAS" "nSDRAM_RAS"
+ U22 E5
+ R86 2
+Net 292 "" ""
+ R114 1
+ U15 51
+Net 293 "" ""
+ R115 1
+ U15 16
+Net 294 "" ""
+ U15 20
+ R117 1
+Net 295 "" ""
+ U15 47
+ R116 1
+Net 296 "" ""
+ R118 1
+ U15 65
+Net 297 "" ""
+ U15 63
+ R119 1
+Net 298 "" ""
+ U15 4
+ R132 1
+Net 299 "" ""
+ R128 1
+ U15 10
+Net 300 "" ""
+ R129 1
+ U15 8
+Net 301 "" ""
+ U15 11
+ R127 1
+Net 302 "" ""
+ U15 13
+ R126 1
+Net 303 "nSDRAM_CK" "nSDRAM_CK"
+ U14 46
+ U15 46
+ U22 L4
+ R91 2
+Net 304 "SDRAM_CK" "SDRAM_CK"
+ U14 45
+ R91 1
+ U15 45
+ U22 M3
+Net 305 "SDRAM_CKE" "SDRAM_CKE"
+ R90 2
+ U22 G7
+Net 306 "nSDRAM_CS" "nSDRAM_CS"
+ R89 2
+ U22 F7
+Net 307 "nSDRAM_CAS" "nSDRAM_CAS"
+ U22 C4
+ R87 2
+Net 308 "nSDRAM_WE" "nSDRAM_WE"
+ U22 D3
+ R88 2
+Net 309 "" ""
+ R121 1
+ U15 60
+Net 310 "" ""
+ R120 1
+ U15 62
+Net 311 "" ""
+ R124 1
+ U15 56
+Net 312 "" ""
+ R125 1
+ U15 54
+Net 313 "" ""
+ R123 1
+ U15 57
+Net 314 "" ""
+ U15 59
+ R122 1
+Net 315 "" ""
+ U15 7
+ R130 1
+Net 316 "" ""
+ U15 5
+ R131 1
+Net 317 "" ""
+ U15 2
+ R133 1
+Net 318 "" ""
+ U14 49
+ R134 1
+ C169 1
+ C167 2
+ R92 2
+Net 319 "" ""
+ R135 1
+ C170 1
+ C168 2
+ R113 2
+ U15 49
+Net 320 "" ""
+ U14 28
+ R81 1
+ U15 28
+Net 321 "" ""
+ R80 1
+ U14 40
+ U15 40
+Net 322 "" ""
+ R79 1
+ U14 39
+ U15 39
+Net 323 "" ""
+ R78 1
+ U15 38
+ U14 38
+Net 324 "" ""
+ U15 37
+ R77 1
+ U14 37
+Net 325 "" ""
+ U15 36
+ R76 1
+ U14 36
+Net 326 "" ""
+ R75 1
+ U15 35
+ U14 35
+Net 327 "" ""
+ R74 1
+ U15 32
+ U14 32
+Net 328 "" ""
+ U15 31
+ R73 1
+ U14 31
+Net 329 "" ""
+ U15 30
+ R72 1
+ U14 30
+Net 330 "" ""
+ U14 29
+ U15 29
+ R71 1
+Net 331 "" ""
+ U15 44
+ U14 44
+ R90 1
+Net 332 "" ""
+ U14 24
+ R89 1
+ U15 24
+Net 333 "" ""
+ U14 21
+ U15 21
+ R88 1
+Net 334 "" ""
+ U14 22
+ R87 1
+ U15 22
+Net 335 "" ""
+ U14 23
+ R86 1
+ U15 23
+Net 336 "" ""
+ R85 1
+ U15 27
+ U14 27
+Net 337 "" ""
+ R84 1
+ U15 26
+ U14 26
+Net 338 "" ""
+ U15 42
+ R83 1
+ U14 42
+Net 339 "" ""
+ R82 1
+ U15 41
+ U14 41
+Net 340 "" ""
+ V1 1
+ J16 2
+ R169 1
+ R137 1
+ R167 2
+Net 341 "" ""
+ C257 1
+ C259 1
+ U26 7
+ J16 1
+Net 342 "" ""
+ R137 2
+ U16 10
+Net 343 "" ""
+ R136 2
+ U16 11
+Net 344 "nUSBA_OE" "nUSBA_OE"
+ U16 9
+ U22 Y6
+ TP28 1
+Net 345 "nUSBBPWR_FLG" "nUSBBPWR_FLG"
+ R187 1
+ U26 5
+ U22 V20
+Net 346 "USBSHIELD" "USBSHIELD"
+ J16 S1
+ J20 S1
+ J16 S2
+ J20 S2
+ J20 S3
+ J20 S4
+ C177 1
+ R139 2
+ J16 S4
+ J16 S3
+Net 347 "nUSBAPWR_FLG" "nUSBAPWR_FLG"
+ U26 8
+ R186 1
+ U22 U19
+Net 348 "USBB_VM" "USBB_VM"
+ U22 Y3
+ U17 5
+ TP24 1
+Net 349 "" ""
+ R140 2
+ U17 10
+Net 350 "" ""
+ U17 11
+ R138 2
+Net 351 "USBB_SPD" "USBB_SPD"
+ U17 2
+ U22 T7
+Net 352 "nUSBAPWR_EN" "nUSBAPWR_EN"
+ U26 3
+ U22 P17
+Net 353 "" ""
+ C258 1
+ C260 1
+ J16 5
+ U26 6
+Net 354 "nUSBBPWR_EN" "nUSBBPWR_EN"
+ U26 4
+ U22 N16
+Net 355 "" ""
+ R136 1
+ V2 1
+ J16 3
+ R166 2
+ R168 1
+Net 356 "USBA_SPD" "USBA_SPD"
+ U16 2
+ U22 Y5
+Net 357 "USBA_RCV" "USBA_RCV"
+ TP27 1
+ U16 3
+ U22 V5
+Net 358 "USBA_VP" "USBA_VP"
+ TP29 1
+ U22 U6
+ U16 4
+Net 359 "USBB_RCV" "USBB_RCV"
+ U17 3
+ U22 R9
+ TP23 1
+Net 360 "USBB_VP" "USBB_VP"
+ U17 4
+ U22 AB3
+ TP22 1
+Net 362 "" ""
+ J16 6
+ R173 1
+ V3 1
+ R171 2
+ R140 1
+Net 363 "nUSBB_OE" "nUSBB_OE"
+ U22 R8
+ TP25 1
+ U17 9
+Net 364 "" ""
+ R170 2
+ R172 1
+ J16 7
+ V4 1
+ R138 1
+Net 365 "USBA_VM" "USBA_VM"
+ U16 5
+ TP30 1
+ U22 R7
+Net 366 "" ""
+ J20 3
+ V9 1
+ R194 2
+ R188 1
+Net 367 "USBD_SPD" "USBD_SPD"
+ U28 2
+ U22 W11
+Net 368 "nUSBD_OE" "nUSBD_OE"
+ U22 AA10
+ U28 9
+Net 369 "USBD_VP" "USBD_VP"
+ U28 4
+ U22 R11
+Net 370 "USBD_VM" "USBD_VM"
+ U28 5
+ U22 T11
+Net 371 "" ""
+ R189 2
+ U27 10
+Net 372 "" ""
+ R188 2
+ U27 11
+Net 373 "USBC_VP" "USBC_VP"
+ U27 4
+ U22 AB9
+Net 374 "nUSBC_OE" "nUSBC_OE"
+ U27 9
+ U22 AB10
+Net 375 "USBC_RCV" "USBC_RCV"
+ U27 3
+ U22 W10
+Net 376 "nUSBDPWR_FLG" "nUSBDPWR_FLG"
+ U22 M18
+ U29 5
+ R197 1
+Net 377 "" ""
+ R195 2
+ V8 1
+ R189 1
+ J20 2
+Net 378 "USBD_RCV" "USBD_RCV"
+ U22 V11
+ U28 3
+Net 379 "" ""
+ U28 10
+ R191 2
+Net 380 "" ""
+ U28 11
+ R190 2
+Net 381 "nUSBCPWR_EN" "nUSBCPWR_EN"
+ U22 P18
+ U29 3
+Net 382 "" ""
+ C268 1
+ J20 5
+ C269 1
+ U29 6
+Net 383 "nUSBDPWR_EN" "nUSBDPWR_EN"
+ U22 R19
+ U29 4
+Net 384 "" ""
+ C266 1
+ U29 7
+ C267 1
+ J20 1
+Net 385 "USBC_VM" "USBC_VM"
+ U22 Y9
+ U27 5
+Net 386 "USBC_SPD" "USBC_SPD"
+ U22 AA8
+ U27 2
+Net 387 "" ""
+ J20 7
+ R198 2
+ V11 1
+ R190 1
+Net 388 "" ""
+ R199 2
+ V10 1
+ R191 1
+ J20 6
+Net 389 "nUSBCPWR_FLG" "nUSBCPWR_FLG"
+ U29 8
+ U22 M17
+ R196 1
+Net 390 "nUSBF_OE" "nUSBF_OE"
+ U22 W9
+ U31 9
+Net 391 "USBF_VP" "USBF_VP"
+ U22 W8
+ U31 4
+Net 392 "" ""
+ R224 2
+ U31 10
+Net 393 "" ""
+ R217 2
+ U30 11
+Net 394 "" ""
+ R218 2
+ U30 10
+Net 397 "USBF_SPD" "USBF_SPD"
+ U31 2
+ U22 Y8
+Net 398 "USBF_RCV" "USBF_RCV"
+ U22 V7
+ U31 3
+Net 399 "USBF_VM" "USBF_VM"
+ U22 AB8
+ U31 5
+Net 400 "" ""
+ U31 11
+ R223 2
+Net 401 "/USB_E/F/USBE_D-" "USBE_D-"
+ R218 1
+ J24 3
+ R222 2
+ V20 1
+Net 402 "/USB_E/F/USBF_D-" "USBF_D-"
+ J24 4
+ R224 1
+ V22 1
+ R228 2
+Net 403 "/USB_E/F/USBE_D+" "USBE_D+"
+ V21 1
+ J24 5
+ R217 1
+ R221 2
+Net 404 "/USB_E/F/USBF_D+" "USBF_D+"
+ J24 6
+ V23 1
+ R223 1
+ R227 2
+Net 405 "USBE_SPD" "USBE_SPD"
+ U22 V9
+ U30 2
+Net 406 "USBE_RCV" "USBE_RCV"
+ U30 3
+ U22 W6
+Net 407 "USBE_VP" "USBE_VP"
+ U22 U9
+ U30 4
+Net 408 "USBE_VM" "USBE_VM"
+ U22 AB7
+ U30 5
+Net 409 "nUSBE_OE" "nUSBE_OE"
+ U30 9
+ U22 Y10
+Net 412 "VIDEOIN_LLC" "VIDEOIN_LLC"
+ U22 Y11
+ U21 20
+Net 422 "/VIDEO_IN/CAPY2" "CAPY2"
+ C191 2
+ C199 1
+ C192 2
+ C196 1
+ C194 1
+ C198 1
+ C200 1
+ C193 2
+ U21 39
+Net 423 "/VIDEO_IN/CAPC2" "CAPC2"
+ U21 44
+ C200 2
+ C198 2
+ C199 2
+Net 424 "VIDEOIN_A1V8" "VIDEOIN_A1V8"
+ C229 1
+ U21 31
+ C228 1
+ C227 2
+ R155 2
+ L18 2
+ C231 1
+Net 425 "AUDIO_AGND" "AUDIO_AGND"
+ C110 2
+ C81 2
+ C68 2
+ C118 2
+ C116 2
+ C119 2
+ C113 2
+ C107 2
+ C108 2
+ C106 2
+ C100 2
+ C99 2
+ C102 2
+ C101 2
+ C88 2
+ C86 2
+ C87 2
+ C77 2
+ C76 2
+ C79 2
+ C80 2
+ C78 2
+ C92 2
+ C93 2
+ C91 2
+ C90 2
+ C89 2
+ C74 2
+ C75 2
+ C111 2
+ C109 2
+ C112 2
+ C97 2
+ C94 2
+ C96 2
+ C95 2
+ R146 2
+ R145 2
+ J17 3
+ C184 2
+ C185 2
+ R165 1
+ R142 1
+ C187 2
+ R159 2
+ R161 2
+ C190 1
+ V16 1
+ V18 1
+ V14 1
+ R232 2
+ Q4 2
+ C188 2
+ V31 2
+ V17 2
+ V19 2
+ V15 2
+ V13 2
+ C135 2
+ R156 2
+ J17 15
+ J17 C5
+ U18 33
+ U18 14
+ U18 15
+ U18 25
+ U18 26
+ U18 27
+ U18 1
+ U18 2
+ U18 40
+ U18 31
+ U18 12
+ C180 2
+ C181 2
+ C182 2
+ C183 2
+ C288 2
+ J17 19
+ U20 3
+ U32 2
+ V12 1
+ R144 2
+ C179 2
+ J17 11
+ J17 22
+ J22 2
+ J22 19
+ J22 20
+ J21 3
+ U24 1
+ U1 4
+ U1 7
+ V33 2
+ V32 2
+ R27 2
+ R26 2
+ U22 N15
+ U25 3
+ U1 26
+ U1 42
+ R234 1
+ C273 1
+ J21 19
+ J21 20
+ C30 2
+ C36 2
+ C35 2
+ C32 2
+ J1 4
+ V28 2
+ R24 2
+ V27 2
+ R23 2
+ R17 2
+ R18 2
+ V29 2
+ V30 2
+ C3 2
+ J2 1
+ V24 2
+ V25 2
+ V26 2
+ J3 2
+ C29 2
+ C31 2
+ C34 2
+ C2 2
+ C254 2
+ J26 1
+ C233 2
+ J23 1
+ R163 2
+ MK1 2
+ J1 1
+ C1 2
+ C255 2
+ C253 2
+ C6 2
+ C28 2
+ U22 J13
+ U22 L13
+ U22 N13
+ C54 2
+ C53 2
+ C57 2
+ C56 2
+ U22 AA17
+ U22 V14
+ U22 E15
+ U22 J15
+ U22 AA5
+ U22 W16
+ U22 B17
+ U22 N17
+ U22 K14
+ U22 M14
+ U22 P14
+ U22 U21
+ U22 AB1
+ U22 K12
+ U22 M12
+ U22 P12
+ U22 A22
+ U22 B13
+ U22 W19
+ U22 AA9
+ U22 AB22
+ U22 AA13
+ C103 2
+ U22 A3
+ C72 2
+ C104 2
+ C105 2
+ C49 2
+ C50 2
+ C61 2
+ C117 2
+ C114 2
+ C115 2
+ C69 2
+ C82 2
+ C85 2
+ C98 2
+ C58 2
+ C60 2
+ C59 2
+ C62 2
+ C63 2
+ C65 2
+ C67 2
+ C66 2
+ C64 2
+ C52 2
+ C51 2
+ C55 2
+ C73 2
+ C70 2
+ C71 2
+ C84 2
+ C83 2
+ U19 3
+ U18 39
+ C189 1
+ D5 1
+ C40 2
+ C41 2
+ C42 2
+ C43 2
+ C44 2
+ C45 2
+ U22 A1
+ U22 E2
+ U22 J2
+ R37 2
+ U22 P10
+ U22 V10
+ U22 E11
+ U22 J11
+ U22 L11
+ U22 N11
+ U22 D18
+ U22 G18
+ U22 L18
+ U22 R18
+ U22 N2
+ U22 U2
+ U22 D4
+ U22 V4
+ U22 B5
+ U22 G5
+ U22 L5
+ U22 R5
+ U22 E7
+ U22 H7
+ U22 U7
+ U22 W7
+ J4 5
+ J4 4
+ C37 2
+ C39 2
+ C46 2
+ U2 23
+ U2 12
+ U2 8
+ C38 2
+ U2 39
+ U2 44
+ U2 35
+ U2 36
+ C48 2
+ U22 E21
+ U22 J21
+ U22 N21
+ R174 2
+ U22 B9
+ U22 J9
+ U22 L9
+ U22 N9
+ R31 2
+ U22 K10
+ U22 M10
+ C47 2
+ U14 58
+ J7 1
+ J9 2
+ J8 1
+ U6 5
+ U14 48
+ U14 66
+ C126 2
+ U14 64
+ U14 34
+ U4 5
+ V2 2
+ C172 2
+ C173 2
+ C171 2
+ V1 2
+ C175 2
+ V34 2
+ C176 2
+ R170 1
+ R171 1
+ U8 2
+ D7 1
+ D11 1
+ C170 2
+ R135 2
+ C250 2
+ C156 2
+ C165 2
+ C166 2
+ C164 2
+ C163 2
+ C162 2
+ C242 2
+ C243 2
+ C245 2
+ C244 2
+ C240 2
+ C125 1
+ R195 1
+ C262 2
+ V9 2
+ V11 2
+ C271 2
+ C272 2
+ R198 1
+ C263 2
+ R194 1
+ U16 7
+ U16 8
+ C124 1
+ U5 5
+ C260 2
+ C258 2
+ J16 4
+ J16 8
+ R139 1
+ C177 2
+ C123 1
+ U7 3
+ R167 1
+ R166 1
+ C256 2
+ U26 1
+ C257 2
+ C259 2
+ C178 2
+ U17 7
+ U17 8
+ V3 2
+ C174 2
+ V4 2
+ C134 2
+ C133 2
+ U11 1
+ U9 2
+ C142 2
+ C143 2
+ D15 1
+ D14 1
+ C234 2
+ C235 2
+ C137 2
+ C136 2
+ U13 DAP
+ C140 2
+ C141 2
+ R64 2
+ R70 2
+ C148 2
+ U23 2
+ J11 2
+ J11 3
+ D16 1
+ D17 1
+ C285 2
+ C284 2
+ C127 2
+ C128 2
+ C129 2
+ C130 2
+ C150 2
+ C151 2
+ U9 29
+ U9 48
+ U12 2
+ U10 4
+ C132 2
+ U9 32
+ U9 42
+ R65 2
+ C144 2
+ C154 2
+ C131 2
+ R62 2
+ C146 1
+ C138 2
+ TP34 1
+ C139 2
+ U13 3
+ C147 1
+ R66 2
+ R69 2
+ C155 1
+ C152 1
+ R68 2
+ U9 21
+ U15 12
+ U14 12
+ U14 6
+ C157 2
+ C158 2
+ C159 2
+ C161 2
+ C160 2
+ C248 2
+ C252 2
+ C251 2
+ U15 52
+ U15 34
+ U15 58
+ U15 48
+ U15 66
+ U15 64
+ U15 6
+ C169 2
+ R134 2
+ U14 52
+ R180 2
+ C237 2
+ C236 2
+ C145 2
+ D13 1
+ D9 1
+ J6 3
+ U30 8
+ U30 7
+ J6 5
+ J6 7
+ J6 9
+ J6 11
+ U21 55
+ U21 10
+ R45 2
+ U21 32
+ U21 52
+ Q3 2
+ J6 1
+ J24 8
+ J24 7
+ U31 8
+ U31 7
+ C287 2
+ J5 4
+ C121 2
+ J19 6
+ D2 2
+ C232 2
+ V21 2
+ J6 13
+ C120 2
+ U3 2
+ C223 2
+ C226 2
+ C208 2
+ C209 2
+ C210 2
+ C211 2
+ C219 2
+ C218 2
+ J18 3
+ J18 5
+ V5 2
+ V6 2
+ R153 1
+ R152 1
+ R151 1
+ J18 1
+ C215 2
+ C213 2
+ C212 2
+ C217 2
+ C216 2
+ C220 2
+ C221 2
+ C222 2
+ C122 2
+ C196 2
+ C194 2
+ U21 3
+ C229 2
+ C228 2
+ C231 2
+ C230 2
+ U21 43
+ U21 24
+ U21 34
+ U21 35
+ C214 2
+ R175 2
+ C225 2
+ V7 2
+ U21 36
+ U21 46
+ U21 56
+ U21 37
+ U21 57
+ R47 2
+ J20 4
+ C261 2
+ V8 2
+ U27 7
+ U27 8
+ C268 2
+ J20 8
+ C266 2
+ C267 2
+ C269 2
+ U28 7
+ U28 8
+ V10 2
+ C270 2
+ C265 2
+ U29 1
+ R199 1
+ R228 1
+ R227 1
+ C283 2
+ C282 2
+ V23 2
+ C279 2
+ C280 2
+ R221 1
+ R222 1
+ C286 2
+ C278 2
+ V20 2
+ C281 2
+ V22 2
+Net 426 "/VIDEO_IN/AIN6" "AIN6"
+ U21 49
+ C195 1
+Net 432 "/VIDEO_IN/XTAL" "XTAL"
+ Y2 1
+ R154 2
+ C225 1
+ U21 22
+Net 433 "nVIDEOIN_INTRQ" "nVIDEOIN_INTRQ"
+ U22 R15
+ U21 1
+Net 434 "VIDEOIN_HS" "VIDEOIN_HS"
+ U21 2
+ U22 V17
+Net 435 "/VIDEO_IN/AIN5" "AIN5"
+ U21 48
+ C197 1
+Net 436 "/VIDEO_IN/AIN4" "AIN4"
+ C201 1
+ U21 47
+Net 437 "" ""
+ C195 2
+ R153 2
+ V7 1
+ J18 6
+Net 438 "" ""
+ U21 30
+ C224 1
+ C227 1
+Net 439 "" ""
+ R155 1
+ C224 2
+Net 440 "" ""
+ U21 42
+ C215 1
+ C213 1
+Net 441 "" ""
+ J18 2
+ R151 2
+ C201 2
+ V5 1
+Net 442 "/VIDEO_IN/XTAL1" "XTAL1"
+ U21 21
+ C226 1
+ R154 1
+ Y2 2
+Net 443 "" ""
+ U21 41
+ C212 1
+ C214 1
+Net 444 "VIDEOIN_A3V3" "VIDEOIN_A3V3"
+ C223 1
+ C220 1
+ C221 1
+ L17 2
+ U21 40
+Net 445 "VIDEOIN_VS" "VIDEOIN_VS"
+ U21 64
+ U22 Y17
+ TP12 1
+Net 446 "VIDEOIN_SDA" "VIDEOIN_SDA"
+ TP15 1
+ U22 AB17
+ U21 53
+Net 447 "nVIDEOIN_RST" "nVIDEOIN_RST"
+ U22 W17
+ U21 51
+ R175 1
+Net 448 "VIDEOIN_FIELD" "VIDEOIN_FIELD"
+ U21 63
+ TP13 1
+ U22 AB14
+Net 449 "VIDEOIN_SDC" "VIDEOIN_SDC"
+ U22 AA14
+ TP14 1
+ U21 54
+Net 450 "" ""
+ J18 4
+ C197 2
+ V6 1
+ R152 2
+Net 451 "/VIDEO_IN/CAPY1" "CAPY1"
+ C193 1
+ C192 1
+ C191 1
+ U21 38
+Net 477 "/DVI-I/VGA_R6" "VGA_R6"
+ U18 47
+ U22 A8
+Net 478 "/DVI-I/VGA_R7" "VGA_R7"
+ U22 D9
+ U18 48
+Net 479 "/DVI-I/VGA_G3" "VGA_G3"
+ U22 D7
+ U18 6
+Net 480 "/DVI-I/VGA_G2" "VGA_G2"
+ U18 5
+ U22 A9
+Net 481 "/DVI-I/VGA_G0" "VGA_G0"
+ U22 C8
+ U18 3
+Net 482 "/DVI-I/VGA_G1" "VGA_G1"
+ U18 4
+ U22 C9
+Net 483 "/DVI-I/VGA_G5" "VGA_G5"
+ U18 8
+ U22 D10
+Net 484 "/DVI-I/VGA_G4" "VGA_G4"
+ U22 D8
+ U18 7
+Net 485 "/DVI-I/VGA_G6" "VGA_G6"
+ U18 9
+ U22 C10
+Net 486 "/DVI-I/VGA_G7" "VGA_G7"
+ U18 10
+ U22 B10
+Net 487 "IO_L28P_1" "IO_L28P_1"
+ U22 H16
+ J21 12
+Net 488 "IO_L21N_1" "IO_L21N_1"
+ J21 16
+ U22 J16
+Net 489 "IO_L21P_1" "IO_L21P_1"
+ J21 18
+ U22 K16
+Net 490 "IO_L28N_VREF_1" "IO_L28N_VREF_1"
+ U22 H17
+ J21 14
+Net 491 "IO_L1P_A25_1" "IO_L1P_A25_1"
+ J22 5
+ U22 C19
+Net 492 "IO_L1N_A24_VREF_1" "IO_L1N_A24_VREF_1"
+ J22 7
+ U22 B20
+Net 493 "IO_L9P_1" "IO_L9P_1"
+ U22 G16
+ J21 15
+Net 494 "IO_L9N_1" "IO_L9N_1"
+ J21 17
+ U22 G17
+Net 495 "IO_L10P_1" "IO_L10P_1"
+ U22 F16
+ J21 8
+Net 496 "IO_L10N_1" "IO_L10N_1"
+ U22 F17
+ J21 10
+Net 497 "IO_L19P_1" "IO_L19P_1"
+ J21 11
+ U22 B21
+Net 498 "IO_L19N_1" "IO_L19N_1"
+ U22 B22
+ J21 13
+Net 499 "IO_L20P_1" "IO_L20P_1"
+ J21 7
+ U22 A20
+Net 500 "IO_L20N_1" "IO_L20N_1"
+ U22 A21
+ J21 9
+Net 501 "nSW_RESET" "nSW_RESET"
+ R185 2
+ U22 P22
+ U25 1
+Net 502 "IO_L40N_GCLK10_M1A6_1" "IO_L40N_GCLK10_M1A6_1"
+ J22 18
+ U22 K19
+Net 503 "IO_L40P_GCLK11_M1A5_1" "IO_L40P_GCLK11_M1A5_1"
+ U22 K20
+ J22 17
+Net 504 "IO_L39N_M1ODT_1" "IO_L39N_M1ODT_1"
+ U22 G22
+ J22 15
+Net 505 "IO_L39P_M1A3_1" "IO_L39P_M1A3_1"
+ J22 13
+ U22 G20
+Net 506 "/FPGA_BANK1/FLASH_A3" "FLASH_A3"
+ U22 K21
+ U9 25
+Net 507 "/FPGA_BANK1/FLASH_A2" "FLASH_A2"
+ U9 26
+ U22 K22
+Net 508 "/FPGA_BANK1/FLASH_A0" "FLASH_A0"
+ U22 L22
+ U9 28
+Net 509 "/FPGA_BANK1/FLASH_A1" "FLASH_A1"
+ U22 L20
+ U9 27
+Net 511 "/FPGA_BANK1/FLASH_A4" "FLASH_A4"
+ U9 24
+ U22 J19
+Net 512 "/FPGA_BANK1/FLASH_A5" "FLASH_A5"
+ U22 H20
+ U9 23
+Net 513 "/FPGA_BANK1/FLASH_A6" "FLASH_A6"
+ U22 F22
+ U9 22
+Net 514 "/FPGA_BANK1/FLASH_A9" "FLASH_A9"
+ U22 J17
+ U9 18
+Net 515 "/FPGA_BANK1/FLASH_A8" "FLASH_A8"
+ U9 19
+ U22 K17
+Net 516 "/FPGA_BANK1/FLASH_A7" "FLASH_A7"
+ U22 F21
+ U9 20
+Net 517 "/FPGA_BANK1/FLASH_A13" "FLASH_A13"
+ U9 11
+ U22 H19
+Net 518 "/FPGA_BANK1/FLASH_A14" "FLASH_A14"
+ U22 F20
+ U9 10
+Net 519 "/FPGA_BANK1/FLASH_A15" "FLASH_A15"
+ U22 G19
+ U9 8
+Net 520 "/FPGA_BANK1/FLASH_A12" "FLASH_A12"
+ U9 12
+ U22 H18
+Net 521 "/FPGA_BANK1/FLASH_A11" "FLASH_A11"
+ U22 E20
+ U9 13
+Net 522 "/FPGA_BANK1/FLASH_A10" "FLASH_A10"
+ U9 17
+ U22 E22
+Net 523 "/FPGA_BANK1/FLASH_A18" "FLASH_A18"
+ U22 D22
+ U9 5
+Net 524 "/FPGA_BANK1/FLASH_A19" "FLASH_A19"
+ U22 D21
+ U9 4
+Net 525 "/FPGA_BANK1/FLASH_A20" "FLASH_A20"
+ U22 F19
+ U9 3
+Net 526 "/FPGA_BANK1/FLASH_A23" "FLASH_A23"
+ U9 56
+ U22 D19
+Net 527 "/FPGA_BANK1/FLASH_A22" "FLASH_A22"
+ U22 D20
+ U9 30
+Net 528 "/FPGA_BANK1/FLASH_A21" "FLASH_A21"
+ U9 1
+ U22 F18
+Net 529 "/FPGA_BANK1/FLASH_A16" "FLASH_A16"
+ U22 C22
+ U9 7
+Net 530 "/FPGA_BANK1/FLASH_A17" "FLASH_A17"
+ U9 6
+ U22 C20
+Net 531 "IO_L20N_2" "IO_L20N_2"
+ U22 Y14
+ J22 11
+Net 532 "IO_L22N_2" "IO_L22N_2"
+ J22 8
+ U22 U12
+Net 533 "/FPGA_BANK2/FPGA_M1" "FPGA_M1"
+ U22 U15
+ R159 1
+ R158 2
+Net 534 "/FPGA_BANK2/FLASH_D15" "FLASH_D15"
+ U22 AB12
+ U9 52
+Net 535 "IO_L51P_2" "IO_L51P_2"
+ U22 T8
+ J22 10
+Net 536 "IO_L52P_2" "IO_L52P_2"
+ U22 T10
+ J22 14
+Net 537 "/FPGA_BANK2/FLASH_D14" "FLASH_D14"
+ U22 AA12
+ U9 50
+Net 538 "" ""
+ U22 T6
+ R157 2
+Net 539 "" ""
+ U22 Y21
+ R164 1
+ R165 2
+Net 540 "/FPGA_BANK2/FPGA_M0" "FPGA_M0"
+ R160 2
+ R161 1
+ U22 AA22
+Net 541 "IO_L20P_2" "IO_L20P_2"
+ J22 9
+ U22 W14
+Net 542 "IO_L52N_2" "IO_L52N_2"
+ U22 U10
+ J22 16
+Net 543 "IO_L51N_2" "IO_L51N_2"
+ U22 U8
+ J22 12
+Net 544 "IO_L22P_2" "IO_L22P_2"
+ J22 6
+ U22 T12
+Net 547 "/FPGA_BANK2/VIDEOIN_P0" "VIDEOIN_P0"
+ U21 8
+ U22 Y18
+Net 548 "/FPGA_BANK2/VIDEOIN_P1" "VIDEOIN_P1"
+ U21 7
+ U22 T16
+Net 549 "/FPGA_BANK2/VIDEOIN_P3" "VIDEOIN_P3"
+ U22 U17
+ U21 5
+Net 550 "/FPGA_BANK2/VIDEOIN_P2" "VIDEOIN_P2"
+ U22 T15
+ U21 6
+Net 551 "/FPGA_BANK2/VIDEOIN_P6" "VIDEOIN_P6"
+ U21 60
+ U22 V18
+Net 552 "/FPGA_BANK2/VIDEOIN_P7" "VIDEOIN_P7"
+ U21 59
+ U22 R16
+Net 553 "/FPGA_BANK2/VIDEOIN_P5" "VIDEOIN_P5"
+ U21 61
+ U22 V19
+Net 554 "/FPGA_BANK2/VIDEOIN_P4" "VIDEOIN_P4"
+ U21 62
+ U22 U16
+Net 555 "/FPGA_BANK2/FLASH_D9" "FLASH_D9"
+ U22 AB2
+ U9 36
+Net 556 "/FPGA_BANK2/FLASH_D8" "FLASH_D8"
+ U9 34
+ U22 AA2
+Net 557 "/FPGA_BANK2/FLASH_D6" "FLASH_D6"
+ U22 Y4
+ U9 49
+Net 558 "/FPGA_BANK2/FLASH_D5" "FLASH_D5"
+ U22 W4
+ U9 46
+Net 559 "/FPGA_BANK2/FLASH_D4" "FLASH_D4"
+ U22 AB6
+ U9 44
+Net 560 "/FPGA_BANK2/FLASH_D3" "FLASH_D3"
+ U9 40
+ U22 AA6
+Net 561 "/FPGA_BANK2/FLASH_D7" "FLASH_D7"
+ U22 Y7
+ U9 51
+Net 562 "/FPGA_BANK2/FLASH_D13" "FLASH_D13"
+ U22 Y13
+ U9 47
+Net 563 "/FPGA_BANK2/FLASH_D12" "FLASH_D12"
+ U22 AB18
+ U9 45
+Net 564 "/FPGA_BANK2/FLASH_D11" "FLASH_D11"
+ U22 AA18
+ U9 41
+Net 565 "/FPGA_BANK2/FLASH_D10" "FLASH_D10"
+ U9 39
+ U22 V15
+Net 566 "/FPGA_BANK2/FLASH_D2" "FLASH_D2"
+ U9 38
+ U22 U13
+Net 567 "/FPGA_BANK2/FLASH_D1" "FLASH_D1"
+ U22 U14
+ U9 35
+Net 568 "/FPGA_BANK2/FLASH_D0" "FLASH_D0"
+ U22 AA20
+ U9 33
+Net 569 "/FPGA_BANK3/HW_VER_0" "HW_VER_0"
+ R176 2
+ U22 G1
+Net 570 "/FPGA_BANK3/HW_VER_2" "HW_VER_2"
+ R178 2
+ U22 H1
+Net 571 "/DRAM/SDRAM_DQS0" "SDRAM_DQS0"
+ U22 F1
+ R115 2
+Net 583 "/FPGA_BANK3/HW_VER_1" "HW_VER_1"
+ U22 G3
+ R177 2
+Net 584 "/FPGA_BANK3/FPGA_VREF" "FPGA_VREF"
+ R163 1
+ U22 M4
+ U22 K8
+ R162 2
+ U22 B3
+ U22 Y1
+ C233 1
+ C149 2
+Net 585 "/DRAM/SDRAM_DQ10" "SDRAM_DQ10"
+ U22 V3
+ R123 2
+Net 586 "/DRAM/SDRAM_DQ9" "SDRAM_DQ9"
+ R124 2
+ U22 U4
+Net 587 "/DRAM/SDRAM_DQ6" "SDRAM_DQ6"
+ R127 2
+ U22 P5
+Net 588 "/DRAM/SDRAM_DQ7" "SDRAM_DQ7"
+ R126 2
+ U22 T4
+Net 589 "/DRAM/SDRAM_DQ8" "SDRAM_DQ8"
+ R125 2
+ U22 T3
+Net 590 "/DRAM/SDRAM_DQ4" "SDRAM_DQ4"
+ R129 2
+ U22 P7
+Net 591 "/DRAM/SDRAM_DQ3" "SDRAM_DQ3"
+ R130 2
+ U22 P8
+Net 592 "/DRAM/SDRAM_DQ2" "SDRAM_DQ2"
+ R131 2
+ U22 W1
+Net 593 "/DRAM/SDRAM_DQ5" "SDRAM_DQ5"
+ U22 P6
+ R128 2
+Net 594 "/DRAM/SDRAM_DQ0" "SDRAM_DQ0"
+ U22 Y2
+ R133 2
+Net 595 "/DRAM/SDRAM_DQ1" "SDRAM_DQ1"
+ R132 2
+ U22 W3
+Net 596 "/DRAM/SDRAM_A0" "SDRAM_A0"
+ R71 2
+ U22 B1
+Net 597 "/DRAM/SDRAM_A1" "SDRAM_A1"
+ U22 B2
+ R72 2
+Net 598 "/DRAM/SDRAM_A3" "SDRAM_A3"
+ U22 J7
+ R74 2
+Net 599 "/DRAM/SDRAM_A2" "SDRAM_A2"
+ U22 H8
+ R73 2
+Net 602 "/DRAM/SDRAM_DQ31" "SDRAM_DQ31"
+ R97 2
+ U22 P1
+Net 603 "/DRAM/SDRAM_DQ30" "SDRAM_DQ30"
+ U22 P2
+ R98 2
+Net 604 "/DRAM/SDRAM_DQ29" "SDRAM_DQ29"
+ R99 2
+ U22 R1
+Net 605 "/DRAM/SDRAM_DQ26" "SDRAM_DQ26"
+ U22 T2
+ R102 2
+Net 606 "/DRAM/SDRAM_DQ27" "SDRAM_DQ27"
+ R101 2
+ U22 T1
+Net 607 "/DRAM/SDRAM_DQ28" "SDRAM_DQ28"
+ R100 2
+ U22 R3
+Net 608 "/DRAM/SDRAM_DQ24" "SDRAM_DQ24"
+ U22 U3
+ R104 2
+Net 609 "/DRAM/SDRAM_DQ23" "SDRAM_DQ23"
+ R105 2
+ U22 V1
+Net 610 "/DRAM/SDRAM_DQ22" "SDRAM_DQ22"
+ R106 2
+ U22 V2
+Net 611 "/DRAM/SDRAM_DQ25" "SDRAM_DQ25"
+ R103 2
+ U22 U1
+Net 612 "/DRAM/SDRAM_DQ15" "SDRAM_DQ15"
+ U22 R4
+ R118 2
+Net 613 "/DRAM/SDRAM_DQ12" "SDRAM_DQ12"
+ U22 N7
+ R121 2
+Net 614 "/DRAM/SDRAM_DQ13" "SDRAM_DQ13"
+ U22 M7
+ R120 2
+Net 615 "/DRAM/SDRAM_DQ14" "SDRAM_DQ14"
+ U22 M8
+ R119 2
+Net 616 "/DRAM/SDRAM_DQ18" "SDRAM_DQ18"
+ R110 2
+ U22 L6
+Net 617 "/DRAM/SDRAM_DQ17" "SDRAM_DQ17"
+ R111 2
+ U22 M6
+Net 618 "/DRAM/SDRAM_DQ16" "SDRAM_DQ16"
+ U22 P4
+ R112 2
+Net 619 "/DRAM/SDRAM_DQ19" "SDRAM_DQ19"
+ U22 P3
+ R109 2
+Net 620 "/DRAM/SDRAM_DQ20" "SDRAM_DQ20"
+ U22 N4
+ R108 2
+Net 621 "/DRAM/SDRAM_DQ21" "SDRAM_DQ21"
+ U22 M5
+ R107 2
+Net 622 "/DRAM/SDRAM_DQ11" "SDRAM_DQ11"
+ U22 N6
+ R122 2
+Net 624 "/DRAM/SDRAM_A6" "SDRAM_A6"
+ U22 K7
+ R77 2
+Net 625 "/DRAM/SDRAM_A5" "SDRAM_A5"
+ U22 D5
+ R76 2
+Net 626 "/DRAM/SDRAM_A4" "SDRAM_A4"
+ R75 2
+ U22 E4
+Net 627 "/DRAM/SDRAM_A8" "SDRAM_A8"
+ R79 2
+ U22 G6
+Net 628 "/DRAM/SDRAM_A9" "SDRAM_A9"
+ U22 C1
+ R80 2
+Net 629 "/DRAM/SDRAM_A11" "SDRAM_A11"
+ R82 2
+ U22 D1
+Net 630 "/DRAM/SDRAM_A10" "SDRAM_A10"
+ U22 C3
+ R81 2
+Net 631 "/DRAM/SDRAM_A7" "SDRAM_A7"
+ U22 F5
+ R78 2
+Net 632 "/DRAM/SDRAM_A12" "SDRAM_A12"
+ U22 D2
+ R83 2
+Net 633 "/DRAM/SDRAM_DQM0" "SDRAM_DQM0"
+ R117 2
+ U22 E1
+Net 634 "/DRAM/SDRAM_DQM1" "SDRAM_DQM1"
+ U22 E3
+ R116 2
+Net 635 "/DRAM/SDRAM_DQM3" "SDRAM_DQM3"
+ R95 2
+ U22 G4
+Net 636 "/DRAM/SDRAM_DQM2" "SDRAM_DQM2"
+ U22 F3
+ R96 2
+Net 637 "/DRAM/SDRAM_DQS1" "SDRAM_DQS1"
+ U22 F2
+ R114 2
+Net 638 "/DRAM/SDRAM_DQS3" "SDRAM_DQS3"
+ U22 H6
+ R93 2
+Net 639 "/DRAM/SDRAM_DQS2" "SDRAM_DQS2"
+ U22 H5
+ R94 2
+Net 645 "" ""
+ U22 Y22
+ TP35 1
+ R39 2
+Net 646 "" ""
+ U22 AA1
+ U25 2
+ R30 2
+ TP36 1
+ U24 2
+Net 649 "" ""
+ J21 1
+ J25 2
+ J21 2
+Net 650 "" ""
+ C273 2
+ J27 1
+ R234 2
+}
+#End

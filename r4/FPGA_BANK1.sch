@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年05月17日 (週四) 10時56分55秒
+EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -57,7 +57,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 16 19
 Title "Milkymist One - FPGA_BANK1 Sheet"
-Date "17 may 2012"
+Date "19 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -112,10 +112,10 @@ ETH_CLK
 Text GLabel 11650 8250 2    60   Output ~ 0
 ETH_TXC
 $Comp
-L 3V3 #PWR0337
+L 3V3 #PWR0335
 U 1 1 4F8FC977
 P 7050 8850
-F 0 "#PWR0337" H 7050 8810 30  0001 C CNN
+F 0 "#PWR0335" H 7050 8810 30  0001 C CNN
 F 1 "3V3" H 7050 9000 60  0000 C CNN
 	1    7050 8850
 	1    0    0    -1  
@@ -207,6 +207,7 @@ U 2 1 4F8EB396
 P 8200 5800
 F 0 "U22" H 7170 8720 60  0000 C CNN
 F 1 "XC6SLX45-2FGG484C" H 7550 8600 60  0000 C CNN
+F 2 "BGA-484" H 7550 8700 60  0001 C CNN
 	2    8200 5800
 	1    0    0    -1  
 $EndComp
