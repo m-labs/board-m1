@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月21日 (週四) 16時26分49秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 5 19
+Sheet 5 20
 Title "Milkymist One - External USB ports A/B Sheet"
-Date "19 jun 2012"
+Date "21 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -845,10 +846,50 @@ F 1 "GND" H 10900 8930 30  0001 C CNN
 $EndComp
 Text Notes 6950 9750 0    60   ~ 0
 V[1..4]: P/N - V0402MHS03\n\n3pF, 42Vdc
-Text Notes 8250 2600 0    60   ~ 0
-FULL SPEED: mount R168\n\nLOW SPEED: mount R169
-Text Notes 8200 6400 0    60   ~ 0
-FULL SPEED: mount R172\n\nLOW SPEED: mount R173
+Text Notes 3400 2500 0    60   ~ 0
+Full-speed USB Device\n
+Text Notes 11850 10050 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
+Text Notes 3400 2200 0    60   ~ 0
+Pull up/down \nconfiguration
+Text Notes 3400 2400 0    60   ~ 0
+USB Host
+Text Notes 3400 2600 0    60   ~ 0
+Low-speed USB Device\n
+Text Notes 5400 2300 0    60   ~ 0
+R168
+Text Notes 5800 2300 0    60   ~ 0
+R169
+Text Notes 5400 2400 0    60   ~ 0
+DNP
+Text Notes 5800 2400 0    60   ~ 0
+DNP
+Text Notes 5400 2500 0    60   ~ 0
+MOUNT
+Text Notes 5800 2500 0    60   ~ 0
+DNP
+Text Notes 5400 2600 0    60   ~ 0
+DNP
+Text Notes 5800 2600 0    60   ~ 0
+MOUNT
+Text Notes 3400 2100 0    60   ~ 0
+USB A PORT
+Text Notes 4600 2300 0    60   ~ 0
+R166
+Text Notes 5000 2300 0    60   ~ 0
+R167
+Text Notes 4600 2400 0    60   ~ 0
+MOUNT
+Text Notes 5000 2400 0    60   ~ 0
+MOUNT
+Text Notes 4600 2500 0    60   ~ 0
+DNP
+Text Notes 5000 2500 0    60   ~ 0
+DNP
+Text Notes 4600 2600 0    60   ~ 0
+DNP
+Text Notes 5000 2600 0    60   ~ 0
+DNP
 Connection ~ 13650 7700
 Wire Wire Line
 	12950 7700 14000 7700
@@ -1259,6 +1300,78 @@ Wire Wire Line
 	13100 5050 10150 5050
 Connection ~ 12700 6100
 Connection ~ 12300 6100
-Text Notes 11850 10050 0    60   ~ 0
-Notes:\n1. Tolerance about resistors is 1% in default.
+Wire Notes Line
+	3350 2300 6150 2300
+Wire Notes Line
+	3350 2400 6150 2400
+Wire Notes Line
+	3350 2500 6150 2500
+Wire Notes Line
+	3350 2100 6150 2100
+Wire Notes Line
+	4550 2600 4550 2100
+Wire Notes Line
+	3350 2600 6150 2600
+Wire Notes Line
+	6150 2600 6150 2100
+Wire Notes Line
+	3350 2100 3350 2600
+Text Notes 3400 6450 0    60   ~ 0
+Full-speed USB Device\n
+Text Notes 3400 6150 0    60   ~ 0
+Pull up/down \nconfiguration
+Text Notes 3400 6350 0    60   ~ 0
+USB Host
+Text Notes 3400 6550 0    60   ~ 0
+Low-speed USB Device\n
+Text Notes 5400 6250 0    60   ~ 0
+R172
+Text Notes 5800 6250 0    60   ~ 0
+R173
+Text Notes 5400 6350 0    60   ~ 0
+DNP
+Text Notes 5800 6350 0    60   ~ 0
+DNP
+Text Notes 5400 6450 0    60   ~ 0
+MOUNT
+Text Notes 5800 6450 0    60   ~ 0
+DNP
+Text Notes 5400 6550 0    60   ~ 0
+DNP
+Text Notes 5800 6550 0    60   ~ 0
+MOUNT
+Text Notes 3400 6050 0    60   ~ 0
+USB B PORT
+Text Notes 4600 6250 0    60   ~ 0
+R170
+Text Notes 5000 6250 0    60   ~ 0
+R171
+Text Notes 4600 6350 0    60   ~ 0
+MOUNT
+Text Notes 5000 6350 0    60   ~ 0
+MOUNT
+Text Notes 4600 6450 0    60   ~ 0
+DNP
+Text Notes 5000 6450 0    60   ~ 0
+DNP
+Text Notes 4600 6550 0    60   ~ 0
+DNP
+Text Notes 5000 6550 0    60   ~ 0
+DNP
+Wire Notes Line
+	3350 6250 6150 6250
+Wire Notes Line
+	3350 6350 6150 6350
+Wire Notes Line
+	3350 6450 6150 6450
+Wire Notes Line
+	3350 6050 6150 6050
+Wire Notes Line
+	4550 6550 4550 6050
+Wire Notes Line
+	3350 6550 6150 6550
+Wire Notes Line
+	6150 6550 6150 6050
+Wire Notes Line
+	3350 6050 3350 6550
 $EndSCHEMATC
