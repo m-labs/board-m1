@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月21日 (週四) 17時17分42秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 17 19
+Sheet 17 20
 Title "Milkymist One - FPGA_BANK2 Sheet"
-Date "19 jun 2012"
+Date "21 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -480,6 +481,36 @@ Entry Wire Line
 	13800 9000 13900 9100
 Entry Wire Line
 	13800 9150 13900 9250
+Text Label 10050 9000 0    60   ~ 0
+FLASH_D15
+Text Label 10050 9150 0    60   ~ 0
+FLASH_D14
+Text Notes 11900 9750 0    60   ~ 0
+Notes:\n1. Tolerance about resistors is 1% in default.
+Text Notes 9350 1050 0    60   ~ 0
+Configuration Mode
+Text Notes 10550 1050 0    60   ~ 0
+FPGA_M[1:0]
+Text Notes 9350 1200 0    60   ~ 0
+Master Serial/SPI
+Text Notes 9350 1300 0    60   ~ 0
+Master SelectMAP/BPI
+Text Notes 9350 1400 0    60   ~ 0
+JTAG
+Text Notes 9350 1500 0    60   ~ 0
+Slave SelectMAP
+Text Notes 9350 1600 0    60   ~ 0
+Slave Serial
+Text Notes 10550 1200 0    60   ~ 0
+01
+Text Notes 10550 1300 0    60   ~ 0
+00
+Text Notes 10550 1400 0    60   ~ 0
+xx
+Text Notes 10550 1500 0    60   ~ 0
+10
+Text Notes 10550 1600 0    60   ~ 0
+11
 Wire Wire Line
 	9650 3250 11000 3250
 Wire Wire Line
@@ -1095,10 +1126,26 @@ Wire Bus Line
 	13900 9100 13900 9350
 Wire Bus Line
 	13900 9350 14050 9350
-Text Label 10050 9000 0    60   ~ 0
-FLASH_D15
-Text Label 10050 9150 0    60   ~ 0
-FLASH_D14
-Text Notes 11900 9750 0    60   ~ 0
-Notes:\n1. Tolerance about resistors is 1% in default.
+Wire Notes Line
+	9300 1100 11200 1100
+Wire Notes Line
+	9300 1200 11200 1200
+Wire Notes Line
+	9300 1300 11200 1300
+Wire Notes Line
+	9300 1400 11200 1400
+Wire Notes Line
+	9300 1500 11200 1500
+Wire Notes Line
+	10450 900  10450 1600
+Wire Notes Line
+	11200 1600 9300 1600
+Wire Notes Line
+	9300 1600 9300 900 
+Wire Notes Line
+	11200 900  11200 1600
+Wire Notes Line
+	9300 900  11200 900 
+Text Notes 9300 1700 0    60   ~ 0
+Go Xilinx web for more details.
 $EndSCHEMATC
