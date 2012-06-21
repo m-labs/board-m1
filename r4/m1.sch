@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月20日 (週三) 09時53分19秒
+EESchema Schematic File Version 2  date 2012年06月21日 (週四) 11時13分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -56,9 +56,9 @@ EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 1 19
+Sheet 1 20
 Title "Milkymist One - Hierarchical Sheet"
-Date "20 jun 2012"
+Date "21 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -221,5 +221,5 @@ F0 "PowerTree" 60
 F1 "Power_Tree.sch" 60
 $EndSheet
 Text Notes 1400 2100 0    200  ~ 40
-Power Tree
+Power Tree\nfor routes
 $EndSCHEMATC
