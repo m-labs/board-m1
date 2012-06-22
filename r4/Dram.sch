@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時52分30秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 6 19
+Sheet 6 20
 Title "Milkymist One - DRAM Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -1089,9 +1090,12 @@ $Comp
 L MT46V32M16P U15
 U 1 1 4FA21B57
 P 13750 5300
-F 0 "U15" H 12750 5350 60  0000 C CNN
-F 1 "MT46V32M16P" H 14150 5350 60  0000 C CNN
+F 0 "U15" H 13500 5540 60  0000 C CNN
+F 1 "MT46V32M16P" H 13730 5270 60  0000 C CNN
 F 2 "TSOP-66" H 14150 5450 60  0001 C CNN
+F 3 "http://download.micron.com/pdf/datasheets/dram/ddr/512MBDDRx4x8x16.pdf" H 13750 5300 60  0001 C CNN
+F 4 "MICRON" H 13580 5450 60  0000 C CNN "brand"
+F 5 "DDR SDRAM" H 13670 5360 60  0000 C CNN "Field5"
 	1    13750 5300
 	1    0    0    -1  
 $EndComp
@@ -1484,9 +1488,12 @@ $Comp
 L MT46V32M16P U14
 U 1 1 4FA26A3B
 P 8450 5300
-F 0 "U14" H 7450 5350 60  0000 C CNN
-F 1 "MT46V32M16P" H 8850 5350 60  0000 C CNN
+F 0 "U14" H 8220 5530 60  0000 C CNN
+F 1 "MT46V32M16P" H 8450 5250 60  0000 C CNN
 F 2 "TSOP-66" H 8850 5450 60  0001 C CNN
+F 3 "http://download.micron.com/pdf/datasheets/dram/ddr/512MBDDRx4x8x16.pdf" H 8450 5300 60  0001 C CNN
+F 4 "MICRON" H 8300 5430 60  0000 C CNN "brand"
+F 5 "DDR SDRAM" H 8390 5340 60  0000 C CNN "Field5"
 	1    8450 5300
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時54分31秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 14 19
+Sheet 14 20
 Title "Milkymist One - Audio Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -860,9 +861,12 @@ $Comp
 L WM9707SCFT/V U1
 U 1 1 4F8D6745
 P 8300 5950
-F 0 "U1" H 7600 7900 60  0000 C CNN
-F 1 "WM9707SCFT/V" H 8700 7900 60  0000 C CNN
+F 0 "U1" H 7600 8150 60  0000 C CNN
+F 1 "WM9707SCFT/V" H 7890 7890 60  0000 C CNN
 F 2 "QFP48" H 8700 8000 60  0001 C CNN
+F 3 "http://www.wolfsonmicro.com/documents/uploads/data_sheets/en/WM9707.pdf" H 8300 5950 60  0001 C CNN
+F 4 "WOLFSON " H 7770 8060 60  0000 C CNN "brand"
+F 5 "Audio CODEC" H 7840 7970 60  0000 C CNN "Field5"
 	1    8300 5950
 	1    0    0    -1  
 $EndComp

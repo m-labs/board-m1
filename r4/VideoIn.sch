@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時18分06秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 19
+Sheet 2 20
 Title "Milkymist One - Video-In Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -863,9 +864,12 @@ $Comp
 L ADV7181C U21
 U 1 1 4F8BBFDD
 P 9200 6500
-F 0 "U21" H 8050 7400 60  0000 C CNN
-F 1 "ADV7181C" H 9200 6500 60  0000 C CNN
+F 0 "U21" H 8940 6670 60  0000 C CNN
+F 1 "ADV7181C" H 9080 6360 60  0000 C CNN
 F 2 "QFP64" H 9200 6600 60  0001 C CNN
+F 3 "http://www.analog.com/static/imported-files/data_sheets/ADV7181C.pdf" H 9200 6500 60  0001 C CNN
+F 4 "Analog Devices" H 9200 6570 60  0000 C CNN "brand"
+F 5 "Video Decoder" H 9180 6460 60  0000 C CNN "Field5"
 	1    9200 6500
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時47分22秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 3 19
+Sheet 3 20
 Title "Milkymist One - Internal USB ports E/F Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -221,11 +222,12 @@ $Comp
 L MIC2550AYTS U31
 U 1 1 4F87F5B4
 P 5400 7300
-F 0 "U31" H 5050 7700 60  0000 C CNN
-F 1 "MIC2550AYTS" H 5500 7700 60  0000 C CNN
+F 0 "U31" H 5080 7860 60  0000 C CNN
+F 1 "MIC2550AYTS" H 5290 7700 60  0000 C CNN
 F 2 "TSSOP-14" H 5500 7800 60  0001 C CNN
 F 3 "http://www.micrel.com/_PDF/mic2550a.pdf" H 5400 7300 60  0001 C CNN
 F 4 "MIC2550AYTS" H 5400 7300 60  0001 C CNN "P/N"
+F 5 "MICREL" H 5150 7780 60  0000 C CNN "brand"
 	1    5400 7300
 	1    0    0    -1  
 $EndComp
@@ -553,11 +555,12 @@ $Comp
 L MIC2550AYTS U30
 U 1 1 4F87EB3A
 P 5400 4050
-F 0 "U30" H 5050 4450 60  0000 C CNN
-F 1 "MIC2550AYTS" H 5500 4450 60  0000 C CNN
+F 0 "U30" H 5080 4620 60  0000 C CNN
+F 1 "MIC2550AYTS" H 5290 4440 60  0000 C CNN
 F 2 "TSSOP-14" H 5500 4550 60  0001 C CNN
 F 3 "http://www.micrel.com/_PDF/mic2550a.pdf" H 5400 4050 60  0001 C CNN
 F 4 "MIC2550AYTS" H 5400 4050 60  0001 C CNN "P/N"
+F 5 "MICREL" H 5150 4530 60  0000 C CNN "brand"
 	1    5400 4050
 	1    0    0    -1  
 $EndComp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時14分39秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 12 19
+Sheet 12 20
 Title "Milkymist One - Ethernet Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -456,9 +457,12 @@ $Comp
 L KSZ8001L U2
 U 1 1 4F8CCC27
 P 11100 6100
-F 0 "U2" H 10400 7800 60  0000 C CNN
-F 1 "KSZ8001L" H 11500 7800 60  0000 C CNN
+F 0 "U2" H 10410 8070 60  0000 C CNN
+F 1 "KSZ8001L" H 10580 7800 60  0000 C CNN
 F 2 "QFP48" H 11500 7900 60  0001 C CNN
+F 3 "http://www.micrel.com/_PDF/Ethernet/datasheets/KS8001-ds.pdf" H 11100 6100 60  0001 C CNN
+F 4 "MICREL" H 10510 7980 60  0000 C CNN "brand"
+F 5 "Ethernet Transceiver" H 10810 7890 60  0000 C CNN "Field5"
 	1    11100 6100
 	1    0    0    -1  
 $EndComp

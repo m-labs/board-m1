@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 11時15分35秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 15 19
+Sheet 15 20
 Title "Milkymist One - FPGA_BANK0 Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -283,9 +284,12 @@ $Comp
 L XC6SLX45-2FGG484C U22
 U 1 1 4F8EB38B
 P 10550 6000
-F 0 "U22" H 9475 7950 60  0000 C CNN
+F 0 "U22" H 9460 8120 60  0000 C CNN
 F 1 "XC6SLX45-2FGG484C" H 9850 7850 60  0000 C CNN
 F 2 "BGA-484" H 9850 7950 60  0001 C CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds160.pdf" H 10550 6000 60  0001 C CNN
+F 4 "XILINX" H 9490 8030 60  0000 C CNN "brand"
+F 5 "Spartan-6 FPGA" H 9720 7940 60  0000 C CNN "Field5"
 	1    10550 6000
 	1    0    0    -1  
 $EndComp
@@ -293,9 +297,12 @@ $Comp
 L XC6SLX45-2FGG484C U22
 U 5 1 4F8EB35F
 P 3200 5800
-F 0 "U22" H 2225 9000 60  0000 C CNN
-F 1 "XC6SLX45-2FGG484C" H 2600 8900 60  0000 C CNN
+F 0 "U22" H 2200 9170 60  0000 C CNN
+F 1 "XC6SLX45-2FGG484C" H 2580 8900 60  0000 C CNN
 F 2 "BGA-484" H 2600 9000 60  0001 C CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds160.pdf" H 3200 5800 60  0001 C CNN
+F 4 "XILINX" H 2230 9070 60  0000 C CNN "brand"
+F 5 "Spartan-6 FPGA" H 2460 8990 60  0000 C CNN "Field5"
 	5    3200 5800
 	1    0    0    -1  
 $EndComp

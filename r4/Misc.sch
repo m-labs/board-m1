@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時32分04秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 10 19
+Sheet 10 20
 Title "Milkymist One - Misc. Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -178,10 +179,12 @@ $Comp
 L 2N7002MTF Q3
 U 1 1 4F9125D8
 P 5900 6700
-F 0 "Q3" H 6200 6800 60  0000 R CNN
-F 1 "2N7002MTF" H 6600 6700 60  0000 R CNN
+F 0 "Q3" H 6210 6800 60  0000 R CNN
+F 1 "2N7002MTF" H 6610 6520 60  0000 R CNN
 F 2 "SOT23" H 6600 6800 60  0001 C CNN
 F 3 "http://www.fairchildsemi.com/ds/2N%2F2N7002MTF.pdf" H 5900 6700 60  0001 C CNN
+F 4 "FAIRCHILD " H 6340 6700 60  0000 C CNN "brand"
+F 5 "N-MOSFET" H 6330 6610 60  0000 C CNN "Field5"
 	1    5900 6700
 	1    0    0    -1  
 $EndComp

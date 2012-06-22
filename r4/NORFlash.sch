@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月19日 (週二) 15時33分20秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時20分37秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -51,13 +51,14 @@ LIBS:hole
 LIBS:diode
 LIBS:powered
 LIBS:r4-specific
+LIBS:m1-cache
 EELAYER 25  0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 8 19
+Sheet 8 20
 Title "Milkymist One - NOR Flash Sheet"
-Date "19 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -334,11 +335,12 @@ $Comp
 L JS28F256J3F105 U9
 U 1 1 4F854F58
 P 8050 4950
-F 0 "U9" H 7350 6800 60  0000 C CNN
-F 1 "JS28F256J3F105" H 8450 6800 60  0000 C CNN
+F 0 "U9" H 7350 7100 60  0000 C CNN
+F 1 "JS28F256J3F105" H 7670 6810 60  0000 C CNN
 F 2 "TSOP-56" H 8450 6900 60  0001 C CNN
 F 3 "http://www.micron.com/parts/nor-flash/parallel-nor-flash/~/media/Documents/Products/Data%20Sheet/NOR%20Flash/6062319942_J3_65_256M_MLC_DS.ashx" H 8050 4950 60  0001 C CNN
-F 4 "JS28F256J3F105" H 8050 4950 60  0001 C CNN "P/N"
+F 4 "NUMONYX " H 7530 7000 60  0000 C CNN "brand"
+F 5 "FLASH" H 7430 6900 60  0000 C CNN "Field5"
 	1    8050 4950
 	1    0    0    -1  
 $EndComp

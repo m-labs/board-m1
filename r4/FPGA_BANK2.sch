@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月21日 (週四) 17時17分42秒
+EESchema Schematic File Version 2  date 2012年06月22日 (週五) 11時19分19秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 17 20
 Title "Milkymist One - FPGA_BANK2 Sheet"
-Date "21 jun 2012"
+Date "22 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -405,9 +405,12 @@ $Comp
 L XC6SLX45-2FGG484C U22
 U 3 1 4F8EB37D
 P 8200 5800
-F 0 "U22" H 7125 8900 60  0000 C CNN
-F 1 "XC6SLX45-2FGG484C" H 7500 8800 60  0000 C CNN
+F 0 "U22" H 7880 3330 60  0000 C CNN
+F 1 "XC6SLX45-2FGG484C" H 8260 3040 60  0000 C CNN
 F 2 "BGA-484" H 7500 8900 60  0001 C CNN
+F 3 "http://www.xilinx.com/support/documentation/data_sheets/ds160.pdf" H 8200 5800 60  0001 C CNN
+F 4 "XILINX" H 7910 3230 60  0000 C CNN "brand"
+F 5 "Spartan-6 FPGA" H 8140 3140 60  0000 C CNN "Field5"
 	3    8200 5800
 	1    0    0    -1  
 $EndComp
