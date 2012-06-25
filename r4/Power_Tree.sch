@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月22日 (週五) 15時50分58秒
+EESchema Schematic File Version 2  date 2012年06月25日 (週一) 10時40分51秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 20 20
 Title "Milkymist One - Power Tree Sheet"
-Date "22 jun 2012"
+Date "25 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -560,4 +560,8 @@ Wire Notes Line
 	11000 7050 11000 6250
 Text Notes 8850 7250 0    60   ~ 0
 Iin 10mA, Maximum current through pin using PCI I/O standard\nwhen forward biasing the clamp diode.\nIFS 40mA, VFS supply current while in eFUSE Programming Conditions.\n\nFor more information, go Xilinx web to see:\n"Spartan-6 FPGA Data Sheet: DC and Switching Characteristics"\n"Spartan-6 FPGA PCB Design and Pin Planning Guide"
+Text Notes 1600 2200 0    60   Italic 12
+TBD
+Text Notes 3400 2200 0    60   Italic 12
+2A(Typ.)
 $EndSCHEMATC
