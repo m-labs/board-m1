@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-04-08 BZR 3494)-testing date = 2012年06月19日 (週二) 14時32分26秒
+Cmp-Mod V01 Created by CvPcb (2012-04-08 BZR 3494)-testing date = 2012年06月27日 (週三) 11時22分26秒
 
 BeginCmp
 TimeStamp = /4F7EEB07/4F8E64C3;
@@ -2752,20 +2752,6 @@ IdModule  = 0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F7EEC62/4F858933;
-Reference = R60;
-ValeurCmp = 10k;
-IdModule  = 0402;
-EndCmp
-
-BeginCmp
-TimeStamp = /4F7EEC62/4F87C441;
-Reference = R61;
-ValeurCmp = 10k;
-IdModule  = 0402;
-EndCmp
-
-BeginCmp
 TimeStamp = /4F7EEC7D/4F8BFABB;
 Reference = R62;
 ValeurCmp = 2k32;
@@ -4194,7 +4180,7 @@ IdModule  = TO-252;
 EndCmp
 
 BeginCmp
-TimeStamp = /4F7EEC7D/4F8D0916;
+TimeStamp = /4F7EEC7D/4FE3F28E;
 Reference = U11;
 ValeurCmp = PTH04000WAH;
 IdModule  = EUS;

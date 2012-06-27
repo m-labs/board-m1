@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2012年06月22日 (週五) 10時20分37秒
+EESchema Schematic File Version 2  date 2012年06月27日 (週三) 11時26分01秒
 LIBS:js28f256j3f105
 LIBS:8_10-card
 LIBS:74x1g00_5
@@ -58,7 +58,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 8 20
 Title "Milkymist One - NOR Flash Sheet"
-Date "22 jun 2012"
+Date "27 jun 2012"
 Rev "R4"
 Comp ""
 Comment1 ""
@@ -158,19 +158,6 @@ F 4 "RC0402FR-074K7L" H 12200 6600 60  0001 C CNN "P/N"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R61
-U 1 1 4F87C441
-P 11750 6600
-F 0 "R61" H 11900 6700 60  0000 C CNN
-F 1 "10k" H 11900 6600 60  0000 C CNN
-F 2 "0402" H 11900 6700 60  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11750 6600 60  0001 C CNN
-F 4 "RC0402FR-0710KL" H 11750 6600 60  0001 C CNN "P/N"
-F 5 "DNP" H 11900 6500 60  0000 C CNN "Smt"
-	1    11750 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR0187
 U 1 1 4F858B20
 P 7350 9350
@@ -201,19 +188,6 @@ F 2 "0402" H 7400 8950 60  0001 C CNN
 F 3 "http://www.mouser.com/catalog/specsheets/cseries.pdf" H 7350 8950 60  0001 C CNN
 F 4 "C1005X5R0J105KT" H 7350 8950 60  0001 C CNN "P/N"
 	1    7350 8950
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R60
-U 1 1 4F858933
-P 11300 6600
-F 0 "R60" H 11450 6700 60  0000 C CNN
-F 1 "10k" H 11450 6600 60  0000 C CNN
-F 2 "0402" H 11450 6700 60  0001 C CNN
-F 3 "http://www.yageo.com/documents/recent/PYu-RC0402_51_RoHS_L_6.pdf" H 11300 6600 60  0001 C CNN
-F 4 "RC0402FR-0710KL" H 11300 6600 60  0001 C CNN "P/N"
-F 5 "DNP" H 11450 6500 60  0000 C CNN "Smt"
-	1    11300 6600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -393,10 +367,10 @@ $EndComp
 $Comp
 L 3V3 #PWR0193
 U 1 1 4F9AB1BB
-P 11300 5950
-F 0 "#PWR0193" H 11300 5910 30  0001 C CNN
-F 1 "3V3" H 11300 6100 60  0000 C CNN
-	1    11300 5950
+P 12200 6150
+F 0 "#PWR0193" H 12200 6110 30  0001 C CNN
+F 1 "3V3" H 12200 6300 60  0000 C CNN
+	1    12200 6150
 	1    0    0    -1  
 $EndComp
 Text Label 6050 3350 0    60   ~ 0
@@ -449,14 +423,8 @@ Wire Wire Line
 	8800 8650 8800 8750
 Wire Wire Line
 	9500 6350 9100 6350
-Connection ~ 11300 6150
 Wire Wire Line
-	11300 5950 11300 6350
-Connection ~ 11750 6150
-Wire Wire Line
-	11750 6350 11750 6150
-Wire Wire Line
-	11300 6150 12200 6150
+	12200 6150 12200 6150
 Wire Wire Line
 	7350 9250 8800 9250
 Wire Wire Line
@@ -599,12 +567,6 @@ Wire Wire Line
 	10000 7300 12950 7300
 Connection ~ 10550 7300
 Wire Wire Line
-	11300 6850 11300 7300
-Connection ~ 11300 7300
-Wire Wire Line
-	11750 6850 11750 7750
-Connection ~ 11750 7750
-Wire Wire Line
 	12200 6850 12200 7450
 Connection ~ 12200 7450
 Wire Wire Line
@@ -640,7 +602,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 5150 10700 5150
 Wire Bus Line
-	10800 5050 10800 3200
+	10800 3200 10800 5050
 Wire Bus Line
 	10800 3200 11500 3200
 Text Notes 11850 10050 0    60   ~ 0
